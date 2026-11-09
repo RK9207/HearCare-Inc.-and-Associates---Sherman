@@ -10,6 +10,16 @@
 > No keyword list, ad copy, search-terms report or Keyword Planner data was supplied. Nothing here is a verified Google Ads target, and no search volume, CPC, competition, ranking or conversion figure is claimed or implied. "High / Medium / Low" priority is a qualitative judgment about how closely a search resembles a booking request.
 > RESEARCH.md correctly keeps Primary/Secondary Keywords as **[NOT PROVIDED]**. That remains true; this file lists AI suggestions separately.
 
+## Approved direction — November 10, 2026
+
+The user approved **“Hearing tests and hearing aids in Sherman, TX”** as the landing-page search-intent theme and **Direction A with the integrated structure**: everyday connection first, owners and patient proof early, a clear test-first care explanation, suitable options, payment reassurance, focused FAQ, and Sherman location/final contact actions. PAGE_STRATEGY.md, CONTENT_DIRECTION.md, and DESIGN_SYSTEM.md capture the agreed direction.
+
+**Temporary phone decision:** the user instructed us to use the website's Sherman number **903-206-2442** for now, replacing it when CSMs provide campaign tracking numbers. Use `tel:+19032062442` and `sms:+19032062442`; update visible copy and action destinations consistently when replacements arrive. This decision supersedes the original brief's 903-206-1692 and historical recommendations below for this page. The old number/conflict remains documented as source history, not the current implementation instruction.
+
+Approval establishes the strategic theme, not measured keyword validity. All candidate phrases remain **AI CANDIDATE – UNVALIDATED**; actual campaign keywords, ad copy, search-term data, geography, and metrics remain **NOT PROVIDED**. No trial, free test, rating/count, or unsupported provider credentials were approved. Keep repair, tinnitus, hearing protection, and Gainesville as separate-intent destinations if targeted; brand/style and payment themes support the approved page.
+
+The Step 2B stop note and unresolved-phone requests below are historical. The strategic theme and temporary phone are now resolved by this approval. Builder selection is still a separate gate; no page build or publication is authorized by this note. RESEARCH.md and the original brief remain unchanged.
+
 ---
 
 ## EXECUTIVE HANDOFF

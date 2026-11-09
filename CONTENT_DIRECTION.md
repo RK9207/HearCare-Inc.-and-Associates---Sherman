@@ -1,0 +1,132 @@
+# Content direction — HearCare, Sherman
+
+Approved strategy: November 10, 2026. Companion to PAGE_STRATEGY.md and DESIGN_SYSTEM.md. This is writing guidance, not finished page copy.
+
+## Controlling decisions and evidence
+
+Use the approved everyday-connection narrative with owners early and a clear test-first explanation. Primary theme: **Hearing tests and hearing aids in Sherman, TX**. Temporary approved website contact: **903-206-2442** (`tel:+19032062442`, `sms:+19032062442`), pending CSM tracking numbers. This user decision supersedes the original brief's contact number for the new page.
+
+Source IDs refer to RESEARCH.md: S1 homepage; S2 Sherman; S4 hearing aids; S5 tests; S6 fittings; S7 payment; S10–S12 owners; S15 support; S16 repair. Use source-backed facts, not third-party or legacy assertions. The source research has not been reverified live in this strategy step. User-approved targeting does not verify any keyword, audience assumption, ad promise, or performance metric.
+
+## Value proposition and message hierarchy
+
+Primary value proposition: personalized hearing assessment and guidance in Sherman, with suitable hearing-aid options, fitting education, and ongoing support when appropriate.
+
+Primary visitor outcome: the possibility of clearer conversations and staying engaged with the people and activities that matter. Never guarantee hearing improvement or imply that all hearing difficulty is solved by hearing aids.
+
+| Priority | Message | Where it belongs |
+|---|---|---|
+| Headline | Hearing tests and hearing aids in Sherman | Hero H1; explicit service/location relevance |
+| Hero support | Understand your hearing and appropriate next steps toward clearer everyday conversations | Short subhead; no vague technology slogan |
+| Early trust | Real licensed owners and genuine patient evidence | Owner introduction and dedicated reviews subsection |
+| Section emphasis | Testing informs recommendations; fitting and education make options understandable | Process and options headings |
+| Practical reassurance | Help checking benefits and discussing payment | Payment heading and concise supporting copy |
+| Supporting detail | Brands, discreet styles subject to suitability, compatible phone features, adjustments | Short explanations or selective benefit rows |
+| FAQ detail | Individual suitability, device visibility, insurance uncertainty, support | Six focused answers; avoid a second service catalog |
+| Action | Call, Text, or Request Appointment | Clear contact moments; call remains primary |
+
+Owner-operation, multiple brands, personalized recommendations, and insurance assistance are meaningful reasons to consider the practice. Do not call them unique, best, unbiased, or superior without comparative evidence. Do not promise that the visitor will see an owner.
+
+## Benefit and outcome translation
+
+| Capability / evidence | Practical benefit | Meaningful visitor outcome / boundary |
+|---|---|---|
+| Assessment and results discussion (S4, S5, S7) | Understand findings before considering options | More informed next steps; no implied diagnosis of unrelated disease |
+| Choice across eight brands and several styles (S4) | Recommendations can consider needs, lifestyle, and budget | Explore suitable choices; variety is not proof of an unbiased recommendation |
+| Custom fitting/settings and impressions when needed (S6) | Fit and sound settings personalized to the wearer | Support comfortable use and clearer listening; results vary |
+| Bluetooth/streaming guidance (S4, S6) | Help using compatible device features | More accessible calls/audio where compatible; not every model or phone is supported |
+| Education and adjustments (S6, S15) | Help learning to use and maintain devices | Less technology uncertainty and support as needs change; do not imply unlimited free service |
+| Insurance-benefit check (S7) | Practice helps with insurer enquiries | Less administrative burden and a clearer payment discussion; coverage is not assured |
+| CareCredit/payment options (S7) | More ways to discuss paying for care | Ability to consider available options; no guaranteed approval or invented rates |
+
+Every benefit should answer “Why should I care?” Prefer an everyday listening example to a technical feature list. Avoid fear about dementia, falls, decline, or isolation as a booking mechanism; these claims are unnecessary to the approved narrative.
+
+## Tone and writing rules
+
+- Warm, respectful, direct, and specific. Address the patient as an adult with agency; family members should also find the wording useful.
+- Combine emotional relevance with a factual explanation. Hope should come from an understandable next step and credible evidence.
+- Use plain language: hearing test, hearing aids, results, fitting, hearing care, hearing instrument specialists. Explain technical test names only when they answer a visitor question.
+- Short paragraphs, descriptive headings, and useful bullets. Roughly 900–1,250 authored words excluding reviews and embeds; do not pad to reach a count.
+- Keep paragraphs to one idea. Avoid superlatives, “life-changing” guarantees, “cutting-edge” filler, and statements that assume a patient needs to buy.
+- No fabricated quotations, patient stories, outcome statistics, awards, provider experience figures, or scarcity.
+
+## Search intent and ad continuity
+
+Supplied primary/supporting campaign terms and ad copy remain **NOT PROVIDED**. The approved theme is strategic; candidate phrases such as “hearing aids Sherman TX” and “hearing test Sherman TX” remain **AI CANDIDATE — UNVALIDATED**. Natural alternatives include hearing evaluation, hearing aid fitting, and hearing care; do not repeat exact matches mechanically or treat screening as interchangeable with a full evaluation.
+
+Hero H1 direction: **Hearing Tests & Hearing Aids in Sherman, TX**. Supporting copy should explain that assessment helps determine whether hearing aids are appropriate and that recommendations consider the visitor's needs, lifestyle, and budget. The headline names the service; the support explains the human value and first step.
+
+No promoted offer is supplied. Do not headline the unconfirmed two-week trial. Do not promise a free test or mirror “audiologist” terminology based on an ad. Compare actual ads against services, geography, pricing, offer, credentials, and action when they arrive; escalate mismatches rather than rewriting facts to fit ads.
+
+Keep brand/style and payment themes supportive. Do not turn the page into a repair, tinnitus, hearing-protection, Gainesville, or urgent-medical landing page. Do not imply competitive rankings from keyword research.
+
+## Section writing directions
+
+### Hero
+
+Use the service/location H1 above as the drafting anchor. Follow with a short statement connecting personalized assessment and suitable options to clearer everyday conversations. Add a concise test-first explanation if the subhead does not already communicate it. The first screen should answer what, where, why care, and how to act.
+
+Trust microcopy: owner-operated practice led by licensed hearing instrument specialists; exact legal credentials appear in the owner section. Show the Sherman address and hours compactly. Add the Google badge only with verified rating/count. Avoid a crowded row of unsupported badges.
+
+CTA labels: **Call 903-206-2442**, **Text Us**, **Request Appointment**. If the desktop phone label says “Call or Text,” provide distinct operable links; a single tel link does not offer both actions.
+
+### Everyday difficulty
+
+Headline direction: acknowledge everyday conversations becoming harder, without diagnosing the reader. Three concise examples: missed words, background-noise difficulty, and higher TV volume (S4, S5, S13). Finish with a bridge to having hearing evaluated. Do not imply these symptoms always mean hearing loss or require hearing aids.
+
+### Owners and patient proof
+
+Headline direction: introduce the people behind the care, rather than claim “Sherman's most trusted.” Name Kenneth M. Sheppard, Jr. and Jill A. Sheppard. Both are **Licensed Fitters and Dispensers of Hearing Instruments**. Jill's B.S. in Speech-Language Pathology and Audiology is a degree, not evidence of an audiologist license or doctorate. Kenneth's documented IHS coursework is not an association membership or invented certification.
+
+Use one brief paragraph connecting their practice approach to learning about the visitor's hearing challenges. Do not use stale years-of-experience figures, “see the owners at every visit,” or a fabricated care guarantee.
+
+Give Google reviews a dedicated subsection. Use genuine supplied quotations/screenshots, reviewer attribution as supplied, verified rating/count, and **Read all our Google reviews** linked to the brief's Google destination. Preserve meaning; do not recast a review as proof of medical efficacy. Do not use the third-party 4.8/70 figure as Google evidence. Pending reviews are a missing input, not permission to fabricate or publish an empty proof section.
+
+### What happens next
+
+Headline direction: make the first step understandable. Four stages: test; discuss results; explore appropriate options; fit/learn/receive support if devices are suitable. Use a sentence per stage, with a little more detail on testing: quiet room, headphones with tones and speech, results discussion (S5). Avoid implying every appointment follows an identical test battery or ends in a purchase.
+
+Explain what stages enable, not just what staff do. Test → understand findings; discussion → informed next steps; fitting/education → help using appropriate technology in daily life. No appointment length, painless-test claim, no-referral claim, or guaranteed outcome without evidence.
+
+### Options fitted to everyday needs
+
+Headline direction: connect choice and fitting to daily listening needs. Use two or three explanatory passages rather than a full style taxonomy: discreet options where suitable, personalized settings/fit, and help with compatible phone features and adjustments.
+
+Supporting brand list: Widex, Starkey, Unitron, Signia, Oticon, ReSound, Rexton, Phonak (S4). Do not imply authorized/preferred status or manufacturer endorsement. “Virtually invisible” styles require suitability qualifications and should not imply all devices are invisible. Avoid rechargeable availability and waterproof claims unless confirmed.
+
+### Payment and insurance help
+
+Headline direction: lead with help understanding benefits and payment options. Explain the practice's insurance enquiry assistance; mention CareCredit, major credit cards, and financing without inventing terms. Good Faith Estimate information may support transparency (S7).
+
+Do not imply every plan covers devices, that test coverage follows hearing-aid coverage, or that payment plans make treatment affordable for everyone. No specific insurers, Medicare/VA participation, prices, “from” offers, or guaranteed credit approval. Invite contact to discuss questions instead of disguising missing prices as a discount.
+
+### Focused FAQ
+
+Use approximately six questions, keeping answers brief and source-backed. Recommended core set:
+
+1. **How do I know whether I need hearing aids?** Explain that evaluation helps determine hearing needs and appropriate recommendations; symptoms alone do not establish candidacy (S4, S7).
+2. **What happens during a hearing test?** Summarize the setting, listening tasks, and results discussion (S5). No invented duration or cost.
+3. **Will people notice my hearing aids?** Styles vary; discreet options may suit some hearing profiles, not everyone (S4).
+4. **Can hearing aids connect to my phone?** Many models offer Bluetooth; compatibility and suitable options are discussed, with pairing guidance at fitting (S4, S6).
+5. **Can you help me check insurance benefits?** Explain assistance and coverage uncertainty (S7); avoid a guarantee.
+6. **What support is available after fitting?** Explain education, follow-up, and adjustments (S6, S15), without implying lifetime free care or warranties.
+
+If actual campaign data makes cost the dominant objection, replace a lower-priority FAQ with a factual cost-enquiry answer; do not invent prices. Location/hours remain visible in the location section. The page should never require FAQ expansion to discover core services or the next action.
+
+### Location and final CTA
+
+Use the exact Sherman details from PAGE_STRATEGY.md. Encourage contacting the practice as a manageable next step; keep the desired outcome linked to understanding hearing and suitable care. Do not guilt the visitor about delaying, promise appointment availability, or imply a specific owner is assigned.
+
+Final CTA priority remains Call, Text alternative, and Request Appointment. No guide downloads, online screening funnel, newsletter, or competing primary goal.
+
+### Appointment popup and footer
+
+Popup heading: **Request an Appointment**. Short reassurance should accurately distinguish a request from a confirmed booking. Do not promise callback speed or availability. Preserve the actual form fields, consent language, destination, and provider's submission behavior. Do not describe submission as reserving a slot unless that behavior is verified.
+
+If the form fails, offer the approved phone contact. Error/success copy must reflect observable submission states, not a simulated success. Do not invent HIPAA/security certifications or request additional clinical details outside the supplied form.
+
+Footer: **Privacy Policy** → https://hearcareinc.com/privacy-policy/; **Visit Our Website** → https://hearcareinc.com/; local contact; copyright per the brief. Use `{{right_now.year}}` and `{{location.name}}` in a host that supports them; otherwise render the current year and approved practice name without exposing unresolved template tokens.
+
+## Final editorial review
+
+Check each major claim against RESEARCH.md source IDs; flag missing support rather than inventing it. Confirm the approved temporary number and all destinations agree. Read headlines alone for service, outcome, trust, process, payment, and action continuity. Preserve candidate/verified distinctions and record unresolved reviews, assets, ad inputs, and form behavior. Writing the first draft and selecting a builder remain a separate approval gate.
