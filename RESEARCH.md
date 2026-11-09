@@ -4,6 +4,8 @@
 **Research date:** November 10, 2026
 **Prepared for:** Codex (strategy & build), Step 2B (keyword discovery), Step 3 (intent review)
 
+**Review evidence update — November 10, 2026:** Seven user-supplied Google review screenshots show **4.8/5 from 94 reviews** for the listing at 1800 N Travis St, Sherman. Section 3A records the screenshot evidence, transcriptions, shortlist, and limitations. These are screenshot-observed values, not a fresh live Google lookup; capture dates are not supplied. Earlier pending-review statements elsewhere in project strategy documents are superseded by this evidence update.
+
 ---
 
 ## 0. SOURCE REGISTER (provenance key)
@@ -55,6 +57,22 @@ Every fact below is tagged with a source ID. Codex should treat **S-sources** as
 | ID | Item |
 |---|---|
 | B | PROJECT_BRIEF (phone, CTAs, brand colors/fonts, logo, GHL form embed, map embed, Google Reviews link, footer requirements) |
+
+### User-supplied Google review evidence — received November 10, 2026
+
+**U1:** Seven screenshots attached by the user in this chat, numbered in attachment order. Each shows the Google reviews dialog for **HearCare Inc & Associates**, **1800 N Travis St, Sherman, TX 75092, United States**, with **4.8** and **94 reviews**. Original image files are supplied in chat; no standalone screenshot files have been added to this repository. The dated receipt records when this evidence was provided, not an inferred screenshot capture date.
+
+| Source | Visible review anchors |
+|---|---|
+| U1-1 | garey gaston; James Poindexter |
+| U1-2 | Sharon Jordan; joanne bouldin |
+| U1-3 | John Roach; Vancy Smith; stefani dobie-McKinley |
+| U1-4 | Reviewer name cropped; Terry Patton; John Roach repeated |
+| U1-5 | Terry Schuck; Sandra Walker |
+| U1-6 | Karyn Feltner; Catherine Lopez-Moore; Terry Hayden header only |
+| U1-7 | Kent Larson; Lois Wright header/rating only |
+
+U1 is evidence for attributed patient opinions and the displayed Google aggregate. It does not independently verify clinical outcomes, professional titles, staffing, prices, or the branch visited by each reviewer. The historical Birdeye value in T5 remains a separate third-party observation and must not be substituted for Google's 94-review count.
 
 ### Pages linked in site navigation but NOT fetched in this step
 Audiometry, Tympanometry, Otoacoustic Emissions Testing (sub-pages), Hearing Protection, Brain Training, individual brand pages (Widex, Starkey, Unitron, Signia, Oticon, ReSound, Rexton, Phonak), No Surprises Act, Patient Intake Form, Free Hearing Aid Guide, Hearing Tips, Privacy Policy, Online Hearing Screener (external: shoeboxonline.com/hearcareincandassociates/). The parent pages S4 and S5 already summarize the brand and test-type content relevant to this landing page.
@@ -268,8 +286,8 @@ Audiometry, Tympanometry, Otoacoustic Emissions Testing (sub-pages), Hearing Pro
 | Credentials — Jill | B.S. Speech-Language Pathology & Audiology, UT Dallas; Licensed Fitter and Dispenser of Hearing Instruments (Texas) | S11 | ✅ |
 | Owner-operated | Both are listed as Owner | S10–S12 | ✅ |
 | Certifications / awards / associations | None stated on client site (IHS coursework ≠ membership) | — | NOT PROVIDED |
-| Google review rating | **NOT PROVIDED.** Site review widget did not render in fetch. T5 shows 4.8 / 70 (unverified) | Brief says screenshots to be supplied | ⏳ Await screenshots |
-| Google review count | **NOT PROVIDED** | Same | ⏳ Await screenshots |
+| Google review rating | **4.8/5**, visible in all seven supplied screenshots | U1; Sherman-addressed Google listing, received Nov 10, 2026; capture date unknown | ✅ Screenshot-supported; not live-rechecked |
+| Google review count | **94 reviews**, visible in all seven supplied screenshots | U1; distinct from historical Birdeye 70 count | ✅ Screenshot-supported; refresh before publication if needed |
 | Technology | Pure-tone audiometry, tympanometry, OAE testing; "state-of-the-art technology" (S1); Bluetooth/streaming setup (S6) | S1, S5, S6 | ✅ |
 | Brands | Widex, Starkey, Unitron, Signia, Oticon, ReSound, Rexton, Phonak | S4 | ✅ (logos are manufacturer IP — confirm usage) |
 | Widex provider listing | Listed in Widex shop finder for both offices | T1 | ⚠️ Context only; S4/S8/S14 independently show Widex featured |
@@ -285,6 +303,144 @@ Audiometry, Tympanometry, Otoacoustic Emissions Testing (sub-pages), Hearing Pro
 | Lifelong support | Ongoing follow-ups and adjustments | S15 | ✅ |
 | Values | Expertise • Integrity • Good Humor • Compassion | S1 | ✅ |
 | Founder endorsement | Dr. Emilee Collins, Au.D. endorsement quote | L2 (legacy only) | ❌ Not on current site — do not use |
+
+---
+
+## 3A. GOOGLE REVIEWS — SCREENSHOT TRANSCRIPTIONS AND PAGE USE
+
+### Evidence scope and transcription rules
+
+- Aggregate: **4.8 out of 5, based on 94 Google reviews**, as displayed in U1. All seven screenshots show the same aggregate; do not add their counts together or treat the selected reviews as the full review population.
+- Thirteen distinct named reviews have complete visible bodies. One additional body has its reviewer name cropped. Two more reviewer headers are visible without bodies. John Roach appears twice and is counted once.
+- Each complete named review below shows five stars. Lois Wright also shows five stars; Terry Hayden's stars are not visible. The selected five-star reviews do not change the aggregate to 5.0.
+- Quotations preserve visible wording, capitalization, and unusual spelling; display line wrapping is normalized. Relative age labels are recorded exactly as shown. No exact posting or editing dates are inferred from them.
+- Patient opinions are not independent evidence of clinical efficacy, affordability, provider credentials, or that a named employee currently works at Sherman. Owner replies are separate statements, not part of the patient's review; they are not transcribed below.
+- Use attributed quotations, not rewritten testimonials. Mark shortened passages as excerpts and preserve context. Do not silently correct a reviewer title or remove a location reference to make a review fit the page.
+
+### Full visible, attributed review text
+
+#### R1 — garey gaston
+
+Source: U1-1. **5 stars.** Displayed age: **a year ago**.
+
+> Great technical knowledge, product options. Nice people, well established. I'm now much more confident in my choice of hearing aids.
+
+Use: knowledge, choice, and confidence in a device decision. “Well established” is the reviewer's opinion, not a verified founding date.
+
+#### R2 — James Poindexter
+
+Source: U1-1. **5 stars.** Displayed age: **a year ago**.
+
+> I’ve been a super satisfied patient/customer of Hearcare for several years. They are continually on top of each upgrade or problem that I have encountered.
+
+Use: ongoing assistance and repeat care; not evidence of a warranty or unlimited free upgrades.
+
+#### R3 — Sharon Jordan
+
+Source: U1-2. **5 stars.** Displayed age: **a year ago**.
+
+> Prompt and respectful customer care and service!!!
+
+Use: respectful service; do not convert “prompt” into a guaranteed response time.
+
+#### R4 — joanne bouldin
+
+Source: U1-2. **5 stars.** Displayed age: **Edited a year ago**.
+
+> We walked in and had a friendly greeting, our hearing aids were taken to be clean. Jill called us back to her office and thoroughly checked our hearing and reset each aid. She stressed the importance of wearing hearing aids each day and how hearing sounds regresses in a persons brain if hearing aids are not worn. Thank you Jill, all hearing aids at our house are in ears each day and one pair not in the charger all day long every day now.
+
+Use with caution: patient account of device care. The brain-regression statement is not independently validated clinical evidence. Do not turn this review into practice medical guidance, proof of walk-in availability, or evidence that all available models are rechargeable. Prefer other reviews for this landing page.
+
+#### R5 — John Roach
+
+Source: U1-3, repeated in U1-4. **5 stars.** Displayed age: **11 months ago**.
+
+> I’m excited to begin this program. It was very well explained, and I have high hopes for success. I will let you know!
+
+Use with caution: program unspecified; describes expectations at the beginning, not a successful treatment outcome. Not a lead testimonial for the approved testing/hearing-aid theme.
+
+#### R6 — Vancy Smith
+
+Source: U1-3. **5 stars.** Displayed age: **11 months ago**.
+
+> Mildred adjusted my hearing aids so they fix more comfortably. She also hooked them us to my Widex app on my phone. She was so kind and helpful!
+
+Use: attributed account of adjustment, app help, and kindness. Preserve “fix” and “us” as shown; do not silently rewrite them to “fit” and “up.” This does not establish current Sherman staffing or compatibility for every device/phone.
+
+#### R7 — stefani dobie-McKinley
+
+Source: U1-3. **5 stars.** Displayed age: **Edited 11 months ago**.
+
+> We are a new client with HearCare and what a lovely experience.. Shaniqua at the front desk is an angel -I Do Not know what I would do without her-so pleasant and helpful and that smile makes you feel like family
+
+Use: welcoming service; branch and current staffing are not specified.
+
+#### R8 — Terry Patton
+
+Source: U1-4. **5 stars.** Displayed age: **11 months ago**.
+
+> I’ve already forgot her name D’Lanie she’s very smiling very friendly but also very efficient. Very helpful. Very understanding made things very simple for me for this old man and I would give her a what’s the top rating five I’ll give her at nine and Jill I’ll give her an eight so just cause she ain’t here. She’ll hear it but she can’t smack me OK and I like to program I think I’ll let you know later but as far as the training and helping this and getting started, they are very efficient. They are well caring, and they did a good job at hearing aids, which was actually my wife who I lost two months ago so it’s been a little difficult with this, but they’re helping me work with that too so that’s good report and that’s all I’m gonna say today bye
+
+Use with caution: long, conversational wording, personal bereavement, and an unspecified program. Not recommended for the initial page shortlist. Do not infer a specific program or office from this text.
+
+#### R9 — Terry Schuck
+
+Source: U1-5. **5 stars.** Displayed age: **6 months ago**.
+
+> Ken, Jill, and their staff have always been very accommodating and professional and kept their promises. A great value if you comprehend that concept.
+>
+> I whole hartedly recommend them.
+
+Use: professionalism and accommodation as patient opinion. “Great value” is not a price guarantee. Preserve “hartedly” in a full quotation.
+
+#### R10 — Sandra Walker
+
+Source: U1-5. **5 stars.** Displayed age: **8 months ago**.
+
+> Jill and her team provided excellent customer service to my Mom and myself! It is rare to find people/companies that care enough to go the extra mile when you have a difficult situation. They are also knowledgeable and professional.
+
+Use: family-member perspective, service, knowledge, and professionalism. No guaranteed appointment with Jill is implied.
+
+#### R11 — Karyn Feltner
+
+Source: U1-6. **5 stars.** Displayed age: **Edited 2 weeks ago**.
+
+> The folks here have helped me be able to participate in life more fully again. I can participate in conversations and feel confident that these hearing aids will stay put where they belong.
+
+Use: strongest fit for the approved everyday-connection narrative, with a personal account of conversations and fit confidence. Keep attributed; do not present this individual's experience as an expected or guaranteed result for everyone.
+
+#### R12 — Catherine Lopez-Moore
+
+Source: U1-6. **5 stars.** Displayed age: **2 months ago**.
+
+> Friendly; thorough; legit on product and pricing!! I have seen three other hearing specialist, hear.com is by far the biggest bang for your buck!!
+
+Use with caution: despite appearing in this listing, the body names **hear.com**. Preserve that wording and exclude from the landing-page shortlist until the intended provider is clarified. Do not silently replace it with HearCare or use the comparison as an objective pricing claim.
+
+#### R13 — Kent Larson
+
+Source: U1-7. **5 stars.** Displayed age: **3 hours ago**, with a **New** label.
+
+> Dr. Jill Sheppard started me on Lace Pro and it really changed my life. I thought I was having early onset of dementia. I couldn’t remember hardly anything. When people spoke I heard different words than what was actually being said. But after doing this program the last 90 days I can already see the benefit it has done on my memory and hearing the correct words. It wasn’t my hearing it was all related to what my brain thought was being said. I thank Dr. Sheppard for getting me started on this program. Like I said earlier it has changed my life. The program only takes 10-15 minutes per day but well worth it! I will continue with this program and can’t wait for the results that it will bring I highly recommend the program and Dr. Jill Sheppard. Thank you so much.
+
+Do not use on this page: Lace Pro is outside the approved hearing-test/hearing-aid narrative; dementia, memory, and treatment statements are personal reports, not validated clinical outcomes. The review's “Dr.” title does not establish a doctorate or audiologist license and must not override S10–S12 credentials. Its program duration is not a hearing-test duration.
+
+### Cropped and incomplete entries
+
+- **U1-4, reviewer name cropped:** Five stars; **11 months ago**. Visible body: “D’Lanie and Shanika in the Gainesville office have been wonderful. They know what they are doing, and Jill keeps my hearing aid programmed regular. Highly recommend them for your hearing health.” Do not invent attribution. Exclude from the Sherman page: it explicitly describes Gainesville, even though displayed in the Sherman-addressed listing.
+- **Terry Hayden, U1-6:** Name and **5 reviews** contributor metadata visible; review body, age, and star rating are below the crop. “5 reviews” is the contributor's review count, not a star rating. No quote can be extracted.
+- **Lois Wright, U1-7:** Name, **5 stars**, **2 weeks ago**, **New**, and **1 review** contributor metadata visible. Body is below the crop; no quote can be extracted.
+- Do not use the small cropped fragment above Sharon Jordan in U1-2 as a separate review. Do not count John Roach twice.
+
+### Recommended landing-page shortlist and aggregate usage
+
+Recommended initial **three**: **Karyn Feltner** (conversation participation/fit confidence), **garey gaston** (knowledge/choice confidence), and **Sandra Walker** (family perspective/professional care). These align with outcome, decision reassurance, and service trust without relying on an unrelated program or comparative pricing claim.
+
+Optional desktop additions, up to the brief's **six total**: **James Poindexter** (ongoing help), **Sharon Jordan** (respectful service), and **Terry Schuck** (professionalism). Use no more than three visible reviews on mobile. These are editorial recommendations, not a new user-approved selection. Vancy Smith is an alternative for app/fitting support if original wording and context are retained.
+
+Keep the label **Google reviews**, the screenshot-observed **4.8/5** and **94 reviews**, and the brief's **Read all our Google reviews** link consistent between hero badge and review section. A badge is a designed component using supplied evidence, not an already supplied standalone image. Represent the aggregate accurately rather than displaying five fully filled stars as if the average were 5.0. Do not show relative dates as if they update automatically; prefer omitting dates or recording their screenshot context unless fresh dates are obtained.
+
+The screenshots establish which listing was displayed, not the branch attended by every reviewer. Introduce these as reviews on the practice's Sherman-addressed Google listing, without claiming all authors visited Sherman. Do not repurpose reviews mentioning another branch as Sherman-specific care evidence. Source screenshots include unrelated browser/account UI; use faithful text quotations or review-only crops rather than publishing whole desktop captures.
 
 ---
 
@@ -340,7 +496,7 @@ Audiometry, Tympanometry, Otoacoustic Emissions Testing (sub-pages), Hearing Pro
 | **Comfort** | Custom fitting, custom ear impressions when needed (S6) | — |
 | **Technology overwhelm** | Device education: battery care, charging, phone connectivity (S6); pairing guided at fitting (S4) | — |
 | **Process uncertainty** | 3-step test explanation, 4-step fitting explanation; audiogram explained (S5, S6) | Test duration not stated |
-| **Trust / expertise** | Two licensed owner-specialists; IHS coursework; UT Dallas degree (S11, S12) | No review rating yet |
+| **Trust / expertise** | Two licensed owner-specialists; IHS coursework; UT Dallas degree (S11, S12); screenshot-observed Google 4.8/5 from 94 reviews (U1) | Individual review opinions do not establish clinical outcomes or credentials; see §3A |
 | **Brand bias** | 8 brands carried; "The right hearing aid brand depends on your unique hearing profile and lifestyle" (S4) | — |
 | **Delay / denial** | "A hearing test helps us… detect changes often before you notice them" (S5); early treatment benefits (S13) | — |
 | **After-sale support** | Lifelong follow-ups/adjustments (S15); annual maintenance (S4); in-office repairs (S16) | Warranty not stated |
@@ -414,7 +570,7 @@ Audiometry, Tympanometry, Otoacoustic Emissions Testing (sub-pages), Hearing Pro
 | **Process / how it works** | 3-step test + 4-step fitting; "first step is a comprehensive hearing test" | S5, S6, S7 |
 | **Technology** | Audiometry, tympanometry, OAE; Bluetooth, streaming, environment presets; ML sound balancing; Widex SmartRIC | S5, S6, S13, S14 |
 | **Why choose us** | Comprehensive Expertise / Personalized Care / Advanced Technology / Lifelong Support | S15 |
-| **Testimonials / reviews** | None captured (widget didn't render). Awaiting Google review screenshots per brief | B |
+| **Testimonials / reviews** | Seven supplied screenshots; Google 4.8/5 from 94 reviews; 13 complete named review bodies, one unattributed body, two incomplete entries; shortlist in §3A | U1 |
 | **Payment / pricing** | Insurance (we check for you), credit cards, CareCredit®, financing, Good Faith Estimate | S7 |
 | **Offer** | 2-week in-home trial of premium aids (confirm) | S8 |
 | **FAQs** | 8 existing hearing aid FAQs (S4), 5 tinnitus FAQs (S17), plus §6 | S4, S17 |
@@ -466,8 +622,8 @@ Audiometry, Tympanometry, Otoacoustic Emissions Testing (sub-pages), Hearing Pro
 | Clinic exterior / interior / equipment / treatment rooms | **NOT AVAILABLE** | None found on site |
 | Local Sherman photography | **NOT AVAILABLE** | |
 | GBP photos | **NOT SUPPLIED** | |
-| Google Reviews screenshots | **PENDING** (brief: "will be supplied separately") | |
-| Google rating badge | **PENDING** rating/count values | |
+| Google Reviews screenshots | **SUPPLIED** — seven screenshots in chat; transcription and source index in §3A | U1; no standalone image files added to repo |
+| Google rating badge | Values now supplied: **4.8/5, 94 Google reviews**; badge itself still to be designed | U1; snapshot evidence, not live lookup |
 
 ---
 
@@ -490,7 +646,7 @@ Audiometry, Tympanometry, Otoacoustic Emissions Testing (sub-pages), Hearing Pro
 ### Keyword-to-Evidence Mapping Table
 | Keyword / ad-group theme | Visitor need | Source-backed answer | Gap / caveat |
 |---|---|---|---|
-| [NOT PROVIDED] — brief topic theme: **Hearing Aid** (Sherman) | [INFERRED] Find a local provider to buy/upgrade hearing aids; compare options; understand cost | 8 brands (S4); styles incl. near-invisible (S4); personalized recommendation after assessment (S4); custom fitting (S6); financing/insurance help (S7); 2-week in-home trial (S8); lifelong support (S15) | No pricing; trial terms unconfirmed; no review rating yet; "audiologist" wording risk |
+| [NOT PROVIDED] — brief topic theme: **Hearing Aid** (Sherman) | [INFERRED] Find a local provider to buy/upgrade hearing aids; compare options; understand cost | 8 brands (S4); styles incl. near-invisible (S4); personalized recommendation after assessment (S4); custom fitting (S6); financing/insurance help (S7); 2-week in-home trial (S8); lifelong support (S15); supplied Google reviews (U1, §3A) | No pricing; trial terms unconfirmed; screenshot review evidence has attribution/location limits; "audiologist" wording risk |
 | [NOT PROVIDED] — brief topic theme: **Hearing Test** (Sherman) | [INFERRED] Get hearing checked locally; understand what's involved; worried about symptoms | 3-step process; audiometry/tympanometry/OAE; audiogram explained; five reasons to test (S5); symptom list (S13) | Test cost & duration NOT PROVIDED — never claim "free"; who performs test NOT stated |
 | [NOT PROVIDED] — implied local modifier: **Sherman** | [INFERRED] Proximity, hours, ease of booking | Address, Mon–Thu 9–5 / Fri by appt (S2); call or text; map + directions (B) | **Phone conflict** (§4); nearby areas NOT PROVIDED |
 | [NOT PROVIDED] — possible adjacent intents the campaign may attract | [INFERRED] Hearing aid repair seekers; tinnitus sufferers; OTC-vs-prescription researchers | Repair any brand/any source (S16); tinnitus features in aids (S4, S17); prescription vs OTC (S4) | Off-topic intents could dilute the page — keep as supporting FAQ only |
@@ -521,7 +677,7 @@ Audiometry, Tympanometry, Otoacoustic Emissions Testing (sub-pages), Hearing Pro
 - Is the hearing test free or paid? How long is the appointment?
 - Which provider(s) see patients at Sherman?
 - Current years in practice (Jill's "18+" figure age; company founding year)?
-- Google rating & review count (screenshots pending)
+- Google rating & review count now supplied in screenshots (U1: 4.8/5, 94 reviews); capture date and fresh live count remain unverified
 - Insurance plans/Medicare accepted? Any warranty info?
 - Actual keywords and ad copy (to confirm message match)
 
@@ -534,9 +690,9 @@ Audiometry, Tympanometry, Otoacoustic Emissions Testing (sub-pages), Hearing Pro
 | Primary/secondary keywords, ad group, campaign name, ad headlines/descriptions | NOT PROVIDED (Step 2B activated) |
 | Promoted offer / promise | NOT PROVIDED (candidate: 2-week trial, S8 — unconfirmed) |
 | Correct Sherman campaign phone number | ⚠️ CONFLICT — confirm 903-206-1692 vs 903-206-2442 |
-| Google rating | NOT PROVIDED — awaiting screenshots |
-| Google review count | NOT PROVIDED — awaiting screenshots |
-| Google review texts (up to 6) | NOT PROVIDED — awaiting screenshots |
+| Google rating | SUPPLIED — **4.8/5** in U1; screenshot capture date unknown, not live-rechecked |
+| Google review count | SUPPLIED — **94 reviews** in U1; separate from Birdeye's historical 70 |
+| Google review texts (up to 6) | SUPPLIED — transcriptions and recommended three/six selection in §3A; incomplete/mismatched entries flagged |
 | Hearing test price / whether free | NOT PROVIDED |
 | Hearing test duration | NOT PROVIDED |
 | Hearing aid pricing | NOT PROVIDED |
