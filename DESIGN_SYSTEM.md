@@ -169,3 +169,7 @@ During Step 4/5, inspect actual rendering rather than relying on code or open po
 ## Approved hierarchy and button refinement
 
 The user requested improved visual hierarchy, removal of the break after “Personalized,” and button alignment fixes. Keep “Personalized Hearing” together, allow the remaining headline to wrap responsively, and make the local phrase smaller/lighter than the primary message. Place the existing conversation benefit before the longer test-first explanation, preserving all approved wording. Use equal-width/equal-height Hero action columns on desktop, a single column on mobile, and consistent centered icon/label groups in Hero/header buttons. These refinements remain pending rendered approval; no section is locked. Preserve all destinations and integration hooks.
+
+## Subsequent headline correction
+
+User requested uniform color and font size throughout the entire headline and TX after Sherman. The current H1 is “Personalized Hearing Care, Right Here in Sherman, TX.” Both lines inherit the same white color, responsive font size and weight; the earlier smaller/lighter location treatment is superseded. Keep Sherman and TX together when wrapping. Other layout, copy and actions remain unchanged. Pending rendered approval.

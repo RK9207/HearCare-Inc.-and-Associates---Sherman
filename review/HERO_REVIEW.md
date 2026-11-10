@@ -50,3 +50,7 @@ Ask the user to approve the rendered Hero, request adjustments, or try another d
 ## Subsequent hierarchy refinement
 
 User requested removal of the break after Personalized, improved hierarchy and button alignment. The primary phrase now stays together; desktop sizing accommodates the full primary headline when space allows. Local emphasis is subordinate; the existing conversation benefit precedes the detailed test-first explanation. Hero action buttons use matching grid columns and equal height, with consistent icon/label centering in Hero/header controls. Copy, evidence, destinations and integration scripts are preserved. Latest screenshots and portable HTML reflect this refinement. Still awaiting rendered approval.
+
+## Latest headline correction
+
+The user requested one uniform headline color and font size, plus TX after Sherman. The current headline uses the same white, responsive size and weight throughout, reading “Personalized Hearing Care, Right Here in Sherman, TX.” Earlier notes about smaller/lighter location text are superseded. Seven-width Hero checks passed after this correction.
