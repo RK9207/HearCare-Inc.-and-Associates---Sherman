@@ -31,3 +31,11 @@ Native details/summary controls remain independently expandable, initially close
 - [Mobile transition](faq-transition-mobile.png)
 
 Review the GHL rendering before locking. No deployment or merge performed.
+
+
+## User-requested scroll-following left column
+
+User requested that the FAQ left column slide downward with scroll like parallax. Use native CSS sticky positioning at widths >=768px and viewport heights >=600px, offset below the fixed header by 32px and constrained to the FAQ grid. The intro follows the questions and stops at the section boundary, without custom scroll listeners or moving accordion controls. Keep static positioning on mobile, short viewports and reduced-motion preferences. No wording, typography, other section or integration changes. Awaiting rendered review.
+
+
+Scroll verification: at 768, 1024, 1440 and 1920px, the intro holds its configured offset while scrolling and remains constrained by its FAQ parent. At 320, 390 and 500px it remains static. Emulated reduced-motion settings restore static position on all checked desktop/tablet widths. Repeated 49 item/viewport keyboard checks and overflow checks passed. The CSS uses no transforms, animations or custom scroll handlers.

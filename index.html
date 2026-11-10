@@ -631,6 +631,10 @@ a:hover{ color:var(--hc-navy); }
 .hc-faq__a p + p,.hc-faq__a p + ul,.hc-faq__a ul + p{ margin-top:12px; }
 .hc-faq__a ul{ margin:0; padding-left:22px; }
 .hc-faq__a li + li{ margin-top:8px; }
+/* Scroll-following intro stays below the header and within the FAQ. */
+@media(min-width:768px) and (min-height:600px) and (prefers-reduced-motion:no-preference){
+ .hc-faq .hc-section__head{ position:sticky; top:calc(var(--hc-header-h) + 32px); align-self:start; }
+}
 @media(max-width:1023px){ .hc-faq{ grid-template-columns:minmax(0,4fr) minmax(0,7fr); gap:28px; } }
 @media(max-width:767px){
  #faq{ padding:40px 0; }
