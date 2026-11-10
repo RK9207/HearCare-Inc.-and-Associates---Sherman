@@ -177,3 +177,5 @@ Mobile stacks introduction/family context, observations, then reassurance/link. 
 ## Space-utilization refinement requested by user
 
 The user requested better use of the available section width. Supersede the asymmetric split with a full-width heading/introduction and one continuous white surface containing three aligned editorial columns on desktop. This is a shared panel with separators, not separate repeated cards. Consolidate family acknowledgement, diagnostic reassurance and visit link in the compact closing area. On mobile, stack the icon-led examples within the shared panel, followed by closing context. Preserve all section wording, existing service link, locked Hero, header and integrations; no section reorder or removal. Implementation remains pending rendered approval.
+
+Latest user correction: normalize the section’s closing family acknowledgement, reassurance and visit link to 18px (1.125rem), matching the main body copy. Preserve wording, emphasis and layout; supersede the smaller 16/17px closing sizes. No Hero change.

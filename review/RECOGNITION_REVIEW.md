@@ -27,3 +27,5 @@ PAGE_STRATEGY.md, CONTENT_DIRECTION.md, DESIGN_SYSTEM.md and IMAGE_PROMPTS.md re
 ## Latest space-use refinement
 
 User requested better use of section space. Replaced the asymmetric split with a full-width heading/introduction, one continuous white panel with three aligned desktop examples, and a compact shared closing area containing the family acknowledgement, reassurance and existing visit link. All wording and icons are retained. Mobile stacks examples with descriptions spanning the full panel width rather than leaving unused space beneath icons. Desktop section height is approximately 526px versus 612px for the preceding version. The locked Hero and all other sections remain unchanged. Latest screenshots and complete HTML reflect this revision; still awaiting rendered approval.
+
+Latest user correction: normalize the section’s closing family acknowledgement, reassurance and visit link to 18px (1.125rem), matching the main body copy. Preserve wording, emphasis and layout; supersede the smaller 16/17px closing sizes. No Hero change.
