@@ -208,3 +208,5 @@ User-requested restoration returns the photo frame/crop to b132802: 140px upper-
 Google proof now sits below the Hero actions as a compact inline row, not over the photograph. No badge exclusion zone is needed on the photo. Existing hosted image and crop remain unchanged.
 
 Everyday-difficulty section rebuilt under user approval as an image-free asymmetric editorial section. Small functional line icons represent the three listening situations; no photo slot or new image generation is needed. IMG-HERO-01 and its locked implementation are unchanged.
+
+Owner/proof Layout A approved: IMG-PROVIDER-01 remains the authentic 411×411 joint portrait, shown at up to 300px desktop / 280px mobile with both owners retained and no AI alteration. It now follows the introductory heading/copy on mobile. No new image or replacement likeness is used. Source URL unchanged; actual image rendering remains to be reviewed in GHL because local access failed.
