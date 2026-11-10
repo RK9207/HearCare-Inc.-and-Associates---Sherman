@@ -1,4 +1,4 @@
-# Hero rebuild — awaiting visual approval
+# Hero — approved and locked
 
 Approved in chat: Option A navy split layout; Headline 4, “Personalized Hearing Care, Right Here in Sherman”; recommended test-first supporting copy and everyday-conversation benefit; recommended kitchen-table image concept. The overall creative direction and website-review additions were also approved. This implementation is ready for review, not locked or launched.
 
@@ -74,3 +74,7 @@ Latest correction removes only the forced mobile break after Care. The restored 
 Latest user-approved review display: show “90+ Google reviews” in the Hero badge, accessible aggregate label and reviews section. The rating remains 4.8/5. This is conservative display wording based on the recorded 94-review screenshot evidence; preserve the historical source count in RESEARCH.md rather than rewriting that evidence.
 
 Latest badge update matches the supplied compact reference: multicolor Google icon, white 4.8 score, gold stars and 90+ Google reviews on the navy background, below Hero contact actions in both visual and DOM order. The existing review link and accessible label are retained. Screenshot brand names, rating 5.0 and unrelated claims were not copied. Seven-width overflow/contact checks passed.
+
+## Final user approval
+
+The user explicitly approved the current Hero and requested moving on. Hero implementation in commit 6a890ab is APPROVED / LOCKED, superseding earlier pending-review notes. Preserve it unless the user authorizes a specific later change. Next proposed section: existing everyday difficulty, pending its current desktop/mobile screenshots before assessment. No page code changed in this approval record.
