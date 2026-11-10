@@ -206,3 +206,5 @@ User authorized simplification and specifically requested no forced mobile break
 ## User-requested return to previous visual design
 
 The user preferred the prior design and requested its restoration, plus a smaller mobile headline. Restore the visual implementation from b132802 (service capsule, benefit rule, trust dot, framed photograph and location panel). Supersede the subsequent restrained-refinement direction. Preserve the original uniform white headline, wording including Sherman, TX, hosted GHL image and all actions. Only mobile headline sizing differs from that prior design: clamp(1.375rem, 7.2vw, 2.125rem), approximately 28px at 390px versus the prior 32px. Desktop sizing remains unchanged. Still awaiting rendered approval.
+
+Latest user correction: remove the forced mobile break after “Care,” by rendering H1 segments inline below 640px. Preserve the restored visual design, smaller mobile font size, desktop headline, all wording and integrations. Natural line wrapping remains responsive.

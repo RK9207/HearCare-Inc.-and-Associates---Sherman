@@ -68,3 +68,5 @@ User approved simplification and requested removal of the mobile break after Car
 ## Latest: previous design restored
 
 User preferred the previous design. Restored the b132802 visual design exactly, with only a smaller mobile H1 clamp (22px minimum, 7.2vw fluid, 34px maximum; approximately 28px at 390px). Desktop H1 and all body markup, wording, GHL image source, contact links and integrations match that previous design. The simplified treatment is superseded. Awaiting rendered approval.
+
+Latest correction removes only the forced mobile break after Care. The restored styling and smaller mobile H1 remain intact; seven-width overflow/contact checks passed.
