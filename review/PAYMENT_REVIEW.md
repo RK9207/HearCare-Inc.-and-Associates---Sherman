@@ -26,3 +26,8 @@ All four original topics remain: insurer enquiries, CareCredit, major cards/fina
 - [Mobile transition](payment-transition-mobile.png)
 
 Please review in GHL before locking. No deployment or merge performed.
+
+
+## Payment final approval
+
+User: “Looks good, next move to the next one, i approve this section.” Payment section in 035c4e7 is APPROVED / LOCKED, including insurance assistance, payment methods, estimate note and responsive contact actions. Preserve without further user authorization. Next proposed section is the existing FAQ: resolve remaining practical objections before location and final contact. Request its complete current desktop/mobile screenshots, including at least one expanded answer, and wait before individual review or editing. No HTML/CSS changes accompany this approval record.

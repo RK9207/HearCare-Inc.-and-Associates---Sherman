@@ -289,3 +289,8 @@ User: “Looks good, i approve this and lets move to next section.” Hearing-ai
 ## Approved payment rebuild — Layout A, headline 1
 
 User approved the recommendation with “Yes please.” H2: “Understand your benefits and payment options.” Desktop places heading/introduction/contact left and a prominent insurer-help panel plus compact payment-method rows right; full-width Good Faith Estimate note below. Mobile order: introduction, insurance assistance, CareCredit and credit-card/financing choices, estimate note, then Call/Text contact actions. Use a calm blue surface, bordered white panels, consistent rounded borders/buttons and full-width 18px descriptions. Insurance coverage varies by plan; no implication of test coverage, guaranteed benefits, pricing or credit approval. Preserve all original payment topics and contact destinations/hooks. No photo is needed. Other sections and integrations remain unchanged. Implemented for rendered review, not locked.
+
+
+## Payment final approval
+
+User: “Looks good, next move to the next one, i approve this section.” Payment section in 035c4e7 is APPROVED / LOCKED, including insurance assistance, payment methods, estimate note and responsive contact actions. Preserve without further user authorization. Next proposed section is the existing FAQ: resolve remaining practical objections before location and final contact. Request its complete current desktop/mobile screenshots, including at least one expanded answer, and wait before individual review or editing. No HTML/CSS changes accompany this approval record.
