@@ -499,22 +499,47 @@ a:hover{ color:var(--hc-navy); }
 .hc-section-cta{ margin-top:clamp(36px, 4vw, 52px); display:flex; flex-wrap:wrap; align-items:center; gap:16px 28px; }
 .hc-section-cta > p{ font-family:var(--hc-head); font-weight:600; font-size:1.25rem; color:var(--hc-navy); }
 
-/* ---------- Options ---------- */
-.hc-options{ display:grid; grid-template-columns:minmax(0, 5fr) minmax(0, 7fr); gap:clamp(32px, 5vw, 72px); align-items:start; }
-.hc-options__media{ position:sticky; top:calc(var(--hc-header-h) + 32px); }
-.hc-feature + .hc-feature{ margin-top:28px; padding-top:28px; border-top:1px solid var(--hc-border); }
-.hc-feature h3{ margin-bottom:10px; }
-.hc-feature p + p{ margin-top:10px; }
-.hc-feature__note{ font-size:1rem; color:var(--hc-muted); }
-.hc-brands{ margin-top:36px; }
-.hc-brands h3{ font-size:1.0625rem; font-family:var(--hc-body); font-weight:600; color:var(--hc-ink); margin-bottom:12px; }
-.hc-brands ul{ list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:8px; }
-.hc-brands li{ padding:6px 14px; border:1px solid var(--hc-border); border-radius:999px; font-weight:500; font-size:1rem; color:var(--hc-navy); background:var(--hc-white); }
-.hc-brands p{ margin-top:12px; font-size:.9375rem; color:var(--hc-muted); }
-.hc-options .hc-more{ margin-top:28px; }
-@media (max-width:1023px){
-  .hc-options{ grid-template-columns:1fr; }
-  .hc-options__media{ position:static; max-width:560px; }
+/* ---------- Options: image-led introduction and three benefits ---------- */
+#options{ background:var(--hc-surface); padding:60px 0; }
+.hc-options__intro{ display:grid; grid-template-columns:minmax(0,7fr) minmax(0,5fr); gap:56px; align-items:center; }
+.hc-options__intro h2{ max-width:650px; }
+.hc-options__intro p{ margin-top:18px; font-size:1.125rem; line-height:1.6; color:var(--hc-muted); max-width:620px; }
+.hc-options__media{ margin:0; padding:26px; border:1px solid var(--hc-border); border-radius:26px 26px 26px 70px; background:var(--hc-white); text-align:center; }
+.hc-options__photo{ min-height:253px; display:flex; justify-content:center; align-items:center; }
+.hc-options__photo img{ width:232px; height:253px; max-width:100%; object-fit:contain; color:var(--hc-navy); font-size:1rem; }
+.hc-options__media figcaption{ margin-top:12px; font-size:1rem; line-height:1.5; color:var(--hc-muted); }
+.hc-options__benefits{ display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:30px; margin-top:40px; }
+.hc-options .hc-feature{ border-top:2px solid #a8cfe6; padding-top:22px; }
+.hc-options .hc-feature h3{ margin:14px 0 12px; font-size:1.375rem; line-height:1.35; }
+.hc-options .hc-feature p{ font-size:1.125rem; line-height:1.6; color:var(--hc-muted); }
+.hc-options .hc-feature p + p{ margin-top:12px; }
+.hc-options__icon{ display:flex; align-items:center; justify-content:center; width:44px; height:44px; color:var(--hc-navy); background:#e0f0fa; border-radius:50%; }
+.hc-options__icon svg{ width:24px; height:24px; }
+.hc-options__support{ display:grid; grid-template-columns:minmax(0,7fr) minmax(0,5fr); gap:40px; align-items:start; margin-top:34px; padding-top:28px; border-top:1px solid var(--hc-border); }
+.hc-options .hc-brands h3{ font-size:1.125rem; font-family:var(--hc-body); font-weight:600; color:var(--hc-navy); margin-bottom:12px; }
+.hc-options .hc-brands ul{ list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:8px; }
+.hc-options .hc-brands li{ padding:5px 13px; border:1px solid var(--hc-border); border-radius:999px; font-weight:500; font-size:1rem; color:var(--hc-navy); background:var(--hc-white); }
+.hc-options .hc-brands p{ margin-top:12px; font-size:1.125rem; line-height:1.6; color:var(--hc-muted); }
+.hc-options .hc-more summary,.hc-options .hc-more__body,.hc-options .hc-more__body > p{ font-size:1.125rem; line-height:1.6; }
+@media(max-width:1023px){
+ .hc-options__intro{ gap:30px; grid-template-columns:minmax(0,3fr) minmax(0,2fr); }
+ .hc-options__media{ padding:20px; }
+ .hc-options__benefits{ gap:22px; }
+ .hc-options__support{ grid-template-columns:1fr; gap:22px; }
+}
+@media(max-width:767px){
+ #options{ padding:40px 0; }
+ .hc-options__intro{ grid-template-columns:1fr; gap:24px; }
+ .hc-options__intro p{ margin-top:14px; }
+ .hc-options__media{ width:100%; max-width:440px; justify-self:center; border-radius:22px 22px 22px 50px; }
+ .hc-options__photo{ min-height:220px; }
+ .hc-options__photo img{ width:202px; height:220px; }
+ .hc-options__benefits{ grid-template-columns:1fr; margin-top:28px; gap:24px; }
+ .hc-options .hc-feature{ display:grid; grid-template-columns:44px minmax(0,1fr); gap:12px; align-items:center; padding-top:22px; }
+ .hc-options .hc-feature h3{ margin:0; font-size:1.25rem; }
+ .hc-options .hc-feature p{ grid-column:1 / -1; }
+ .hc-options .hc-feature p + p{ margin-top:0; }
+ .hc-options__support{ margin-top:26px; padding-top:24px; }
 }
 
 /* ---------- Payment ---------- */
@@ -921,48 +946,42 @@ a:hover{ color:var(--hc-navy); }
 <!-- ===================== 5. OPTIONS ===================== -->
 <section class="hc-section" id="options" aria-labelledby="options-title">
   <div class="hc-wrap hc-options">
-    <div class="hc-options__media">
-      <!-- IMG-PRODUCT-01: one purposeful hearing-aid visual. Avoid manufacturer co-op banners with their own text. -->
-      <div class="hc-ph hc-ph--product" data-img-id="IMG-PRODUCT-01" role="img" aria-label="Image placeholder IMG-PRODUCT-01">
-        <div class="hc-ph__inner">
-          <svg class="hc-icon" aria-hidden="true"><use href="#i-image"/></svg>
-          <span class="hc-ph__id">IMG-PRODUCT-01</span>
-          <span>A modern receiver-in-canal hearing aid held in a hand or shown at true scale on a soft neutral background. No brand logos or ad text.</span>
-          <span class="hc-ph__spec">4:3 landscape, min 1200×900.</span>
-        </div>
+    <div class="hc-options__intro">
+      <div>
+        <h2 id="options-title">Hearing aids chosen around your life</h2>
+        <p>If hearing aids are appropriate, your hearing needs, daily life and budget guide the choice. Explore styles, a personalized fit and compatible features with help understanding what suits you.</p>
+      </div>
+      <figure class="hc-options__media">
+        <div class="hc-options__photo"><img src="https://hearcareinc.com/wp-content/uploads/2026/08/widexsmartric.jpg" width="232" height="253" loading="lazy" decoding="async" alt="Widex SmartRIC hearing aid — one example of the available styles"></div>
+        <figcaption>Widex SmartRIC shown as one example. Styles vary.</figcaption>
+      </figure>
+    </div>
+    <div class="hc-options__benefits">
+      <div class="hc-feature">
+        <span class="hc-options__icon" aria-hidden="true"><svg class="hc-icon"><path d="M8 8a4 4 0 0 1 8 0c0 3-2 4-3 5s-1 3-3 3a2 2 0 0 1-2-2M5 8a7 7 0 0 1 14 0c0 5-3 7-5 9-1 1-1 4-4 4a5 5 0 0 1-5-5"/></svg></span>
+        <h3>Discreet styles, where suitable</h3>
+        <p>Options include behind-the-ear, receiver-in-canal and custom in-ear styles. Some of the smallest are virtually invisible.</p>
+        <p>The smallest styles are generally suited to mild to moderate hearing loss. Your results help guide which options suit you.</p>
+      </div>
+      <div class="hc-feature">
+        <span class="hc-options__icon" aria-hidden="true"><svg class="hc-icon"><path d="M4 7h7m4 0h5M4 17h3m4 0h9"/><circle cx="13" cy="7" r="2"/><circle cx="9" cy="17" r="2"/></svg></span>
+        <h3>A fit and sound set for you</h3>
+        <p>Settings are adjusted to your hearing, with custom ear impressions when needed for a snug, comfortable fit.</p>
+        <p>A comfortable fit can make it easier to wear your hearing aids for more of the day.</p>
+      </div>
+      <div class="hc-feature">
+        <span class="hc-options__icon" aria-hidden="true"><svg class="hc-icon"><use href="#i-phone"/></svg></span>
+        <h3>Help with everyday technology</h3>
+        <p>Many hearing aids stream calls and music from compatible smartphones. Get help with pairing, streaming and environment presets at your fitting.</p>
+        <p>Connectivity varies by model and phone.</p>
       </div>
     </div>
-
-    <div>
-      <div class="hc-section__head" style="margin-bottom:32px">
-        <h2 id="options-title">Hearing aids fitted to your everyday life</h2>
-        <p>The right hearing aid depends on your hearing profile, how you spend your days and your budget. With eight manufacturers to choose from, there’s room to find options that fit you.</p>
-      </div>
-
-      <div class="hc-feature">
-        <h3>Discreet styles, where they suit your hearing</h3>
-        <p>Styles range from behind-the-ear and sleek receiver-in-canal models to custom designs that sit in the ear canal. Some of the smallest are virtually invisible.</p>
-        <p class="hc-feature__note">The smallest styles are generally suited to mild to moderate hearing loss, so your results guide which options are realistic for you.</p>
-      </div>
-      <div class="hc-feature">
-        <h3>A fit and sound set for you</h3>
-        <p>Custom ear impressions are taken when needed for a snug, comfortable fit, and settings are adjusted to your hearing so sound is balanced and clear. A comfortable fit can make it easier to wear your hearing aids for more of the day.</p>
-      </div>
-      <div class="hc-feature">
-        <h3>Help with your phone and everyday technology</h3>
-        <p>Most hearing aids are Bluetooth-enabled and can stream calls and music from compatible smartphones. We set up streaming and environment presets and guide you through pairing at your fitting, so the features are ready to use.</p>
-        <p class="hc-feature__note">Connectivity varies by model and phone.</p>
-      </div>
-
+    <div class="hc-options__support">
       <div class="hc-brands">
         <h3>Manufacturers we work with</h3>
-        <ul>
-          <li>Widex</li><li>Starkey</li><li>Unitron</li><li>Signia</li>
-          <li>Oticon</li><li>ReSound</li><li>Rexton</li><li>Phonak</li>
-        </ul>
-        <p>The right brand depends on your unique hearing profile and lifestyle.</p>
+        <ul><li>Widex</li><li>Starkey</li><li>Unitron</li><li>Signia</li><li>Oticon</li><li>ReSound</li><li>Rexton</li><li>Phonak</li></ul>
+        <p>The right brand depends on your hearing profile and lifestyle.</p>
       </div>
-
       <details class="hc-more">
         <summary>Hearing aid styles at a glance<svg class="hc-icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
         <div class="hc-more__body">

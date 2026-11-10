@@ -234,3 +234,10 @@ The supplied desktop/mobile screenshots and current code were assessed before ed
 ## Process visual refinement after GHL screenshot
 
 User requested a better design of the current unlocked process section. Preserve Layout A, headline 4 and all copy/integrations. Strengthen phase hierarchy with a navy first-phase header and pale-blue conditional header, white equal-height panels, outlined step numbers and internal dividers. Use a restrained heading accent and a medical-note rule. Replace the heavy navy contact block with a lighter surface and align Call, Appointment and Text on one desktop row; stack at mobile widths. Keep 18px body text and full-width mobile descriptions. All previously locked sections remain unchanged. Pending rendered approval.
+
+
+## Options rebuild — Layout A, headline 1
+
+User approved Layout A and “Hearing aids chosen around your life.” Use an image-led introduction with heading/copy left and product visual right; three balanced benefits below cover appropriate discreet styles, personalized fit/settings, and compatible phone features. A compact eight-manufacturer list and original expandable style guide finish the section. Mobile reading order: headline, introduction, image, full-width stacked benefits, brands and style guide. Main text and qualifications remain 18px. A tinted canvas changes rhythm after the white process section; no extra large CTA is needed. Preserve suitability/compatibility qualifications and avoid promises of universal invisibility or outcomes. All other sections are unchanged. Process approval has not been explicitly recorded; preserve its latest implementation. Options implemented for review, not locked.
+
+Imagery: authentic in-hand photo remains preferred but is not available. Use the research-recorded clinic-hosted Widex SmartRIC image at its native 232×253 dimensions as a labelled model example, not as a universal device or feature promise. Local network fetch is blocked, so actual image loading/appearance needs GHL review. No generated device or stock source with unverified licensing is used.

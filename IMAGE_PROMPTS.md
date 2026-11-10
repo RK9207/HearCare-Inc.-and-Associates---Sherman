@@ -216,3 +216,8 @@ User-supplied portrait hosting update: IMG-PROVIDER-01 now uses https://files.le
 Mobile optimization: authentic GHL portrait is up to 140px beside license text at 380–639px, and up to 160px stacked below 380px. Both faces remain intact via unchanged contain rendering. Duplicate mobile caption is hidden; the full names remain visible in profiles. Desktop portrait unchanged.
 
 User rejected the small side-by-side mobile portrait. IMG-PROVIDER-01 now remains centered above full-width credentials: 220px maximum, 200px on screens below 380px, with original contain rendering and unchanged GHL source. No new image or crop.
+
+
+## Options Layout A implementation update
+
+User approved Layout A + headline 1. This supersedes the old sticky image/above-heading mobile positioning: introduction left/image right, then three benefits across the full desktop width; headline before image on mobile. An authentic in-hand photograph is preferred. Pending that asset, the research-recorded clinic product URL https://hearcareinc.com/wp-content/uploads/2026/08/widexsmartric.jpg is used as a labelled Widex SmartRIC example, at native 232×253 resolution without magnification. Do not infer other models or capabilities from the image. Local network blocks retrieval; image appearance and availability require GHL review. No generated product is used.
