@@ -206,3 +206,5 @@ Restrained refinement supersedes the prior frame note: no offset outline; softer
 User-requested restoration returns the photo frame/crop to b132802: 140px upper-left desktop corner, subtle offset outline, desktop position 51% / 75%, mobile/tablet 50% / 46%. The same GHL-hosted image is retained. This supersedes the restrained-refinement frame note.
 
 Google proof now sits below the Hero actions as a compact inline row, not over the photograph. No badge exclusion zone is needed on the photo. Existing hosted image and crop remain unchanged.
+
+Everyday-difficulty section rebuilt under user approval as an image-free asymmetric editorial section. Small functional line icons represent the three listening situations; no photo slot or new image generation is needed. IMG-HERO-01 and its locked implementation are unchanged.
