@@ -4,7 +4,7 @@ Direction approved November 10, 2026: warm editorial healthcare; everyday connec
 
 ## Approved Step 5 Hero pattern — November 10, 2026
 
-User-selected Option A controls the Hero only. Implemented for rendered review; not locked. Preserve other section styling and the existing header/mobile Call until independently approved.
+User-selected Option A controls the Hero only. Implemented for rendered review; not locked. Preserve other section styling and mobile Call until independently approved. The header was subsequently independently approved as recorded below.
 
 - Full-width navy/deep-navy Hero surface, with white primary copy, sky-blue headline emphasis and a substantial adjacent lifestyle photograph. A restrained offset outline frames the photograph; no background photograph behind text.
 - Use the user-selected personalized/local H1 with the prominent service/location line and concise test-first explanation from CONTENT_DIRECTION.md.
@@ -61,7 +61,9 @@ Primary sky buttons use Ink, not white. Navy backgrounds use white body text wit
 
 ### Header and navigation
 
-Sticky, compact, opaque white header with subtle separator. Logo left, balanced in-page navigation in the middle, contact/appointment actions right. Suggested anchor labels: Care, Our Practice, FAQs, Location. Anchor scroll positions must account for the sticky header.
+Step 5 header direction explicitly approved in chat: integrated navy (#004a69) sticky header with the original supplied wordmark blending into its brand surface, white navigation, sky/Ink Call pill and white-outline Request Appointment pill. Preserve logo identity and original links. Align to the same 1,200px content container as the Hero; use a restrained sky-tinted bottom separator rather than a disconnected white band. Keep Care, Our Practice, FAQs and Location anchors; add subtle hover/focus underlines.
+
+Working heights: 88px wide desktop, 80px below 1,200px, 76px below 640px, allowing content to grow where needed. Update the shared header-height offset for sticky anchors and existing sticky-content positioning. Hide full navigation below 1,200px before it crowds the logo/actions; hide header Call below 900px, preserving Hero Call and the existing mobile Call action. Below 640px, preserve full Request Appointment wording with natural two-line wrapping on the narrowest screens. Keep targets at least 44px; do not clip the logo or alter its colors. Header changes are implemented for rendered review, not locked.
 
 Mobile: logo plus Request Appointment; do not squeeze desktop navigation into the row. Include a skip link and semantic navigation. Use the supplied logo linked to https://hearcareinc.com/. Verify its color variant and resolution before choosing the surface. Do not recolor or distort it arbitrarily; use the documented white variant only on a suitable dark surface.
 

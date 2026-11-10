@@ -2,6 +2,10 @@
 
 Approved in chat: Option A navy split layout; Headline 4, “Personalized Hearing Care, Right Here in Sherman”; recommended test-first supporting copy and everyday-conversation benefit; recommended kitchen-table image concept. The overall creative direction and website-review additions were also approved. This implementation is ready for review, not locked or launched.
 
+## Subsequent header update
+
+The user separately approved the integrated navy header. The current full-page HTML review copy includes this update. See [Header review](HEADER_REVIEW.md) for scope, screenshots, verification and the local logo-fetch limitation. The original Hero-only screenshots and notes below document the preceding Hero rebuild.
+
 ## Review the result
 
 - [Desktop Hero](hero-desktop.png), 1440px viewport.
@@ -22,7 +26,7 @@ Screenshots show the Hero without the unchanged header. The fixed mobile Call ba
 - Preserved Call as primary, Request Appointment as secondary, separate Text action, contact data hooks, address and hours.
 - Synchronized PAGE_STRATEGY.md, CONTENT_DIRECTION.md, DESIGN_SYSTEM.md and IMAGE_PROMPTS.md, including an approval record and current section tracker.
 
-No other section, header, form embed, integration script, footer or mobile Call source was changed. No sections were removed, merged, added or reordered.
+In the preceding Hero rebuild, no other section, header, form embed, integration script, footer or mobile Call source was changed. The subsequent separately authorized header update is documented above. No sections were removed, merged, added or reordered.
 
 ## Focused checks
 

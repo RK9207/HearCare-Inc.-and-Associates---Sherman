@@ -66,12 +66,13 @@ footer merge fields are GHL custom values and render only inside GHL.
   --hc-border:#d5e2ea;
   --hc-head:"Montserrat", Arial, sans-serif;
   --hc-body:"Hind", Arial, sans-serif;
-  --hc-header-h:76px;
+  --hc-header-h:88px;
   --hc-gutter:20px;
 }
 @media (min-width:640px){ :root{ --hc-gutter:32px; } }
 @media (min-width:1024px){ :root{ --hc-gutter:44px; } }
-@media (max-width:1023px){ :root{ --hc-header-h:68px; } }
+@media (max-width:1199px){ :root{ --hc-header-h:80px; } }
+@media (max-width:639px){ :root{ --hc-header-h:76px; } }
 
 *,*::before,*::after{ box-sizing:border-box; }
 [hidden]{ display:none !important; }
@@ -134,26 +135,38 @@ a:hover{ color:var(--hc-navy); }
   .hc-cta .hc-btn{ width:100%; }
 }
 
-/* ---------- Header ---------- */
-.hc-header{ position:sticky; top:0; z-index:100; background:var(--hc-white); border-bottom:1px solid var(--hc-border); }
-.hc-header__row{ display:grid; grid-template-columns:auto 1fr auto; align-items:center; gap:24px; min-height:var(--hc-header-h); }
-.hc-logo{ display:inline-flex; align-items:center; }
-.hc-logo img{ height:52px; width:auto; }
-.hc-nav ul{ list-style:none; margin:0; padding:0; display:flex; justify-content:center; gap:clamp(16px, 2.4vw, 36px); }
-.hc-nav a{ display:inline-flex; align-items:center; min-height:44px; font-weight:500; color:var(--hc-ink); text-decoration:none; border-bottom:2px solid transparent; }
-.hc-nav a:hover{ color:var(--hc-navy); border-bottom-color:var(--hc-sky); }
-.hc-header__actions{ display:flex; align-items:center; gap:12px; }
-.hc-header .hc-btn{ min-height:46px; padding:10px 18px; }
-@media (max-width:1023px){
+/* ---------- Header: approved integrated navy treatment ---------- */
+.hc-header{ position:sticky; top:0; z-index:100; background:var(--hc-navy); border-bottom:1px solid rgba(120,187,233,.25); color:var(--hc-white); }
+.hc-header__row{ display:grid; grid-template-columns:minmax(220px,300px) minmax(0,1fr) auto; align-items:center; gap:28px; min-height:var(--hc-header-h); padding-block:12px; }
+.hc-header .hc-logo{ display:flex; align-items:center; min-width:0; min-height:44px; width:100%; color:var(--hc-white); text-decoration:none; }
+.hc-header .hc-logo img{ display:block; width:100%; height:auto; max-height:52px; object-fit:contain; object-position:left center; }
+.hc-nav ul{ list-style:none; margin:0; padding:0; display:flex; justify-content:center; align-items:center; gap:clamp(18px,1.7vw,28px); }
+.hc-nav a{ position:relative; display:inline-flex; align-items:center; min-height:44px; font-size:1rem; font-weight:500; color:var(--hc-white); text-decoration:none; white-space:nowrap; }
+.hc-nav a::after{ content:""; position:absolute; bottom:4px; left:0; right:0; height:2px; background:var(--hc-sky); transform:scaleX(0); transform-origin:left; transition:transform .15s; }
+.hc-nav a:hover{ color:var(--hc-sky); }
+.hc-nav a:hover::after,.hc-nav a:focus-visible::after{ transform:scaleX(1); }
+.hc-header__actions{ display:flex; align-items:center; justify-content:flex-end; gap:12px; }
+.hc-header .hc-btn{ min-height:48px; padding:11px 18px; border-radius:999px; font-size:1rem; line-height:1.2; gap:8px; }
+.hc-header .hc-btn .hc-icon{ width:18px; height:18px; }
+.hc-header .hc-btn--appt{ background:transparent; color:var(--hc-white); border-color:var(--hc-white); }
+.hc-header .hc-btn--appt:hover{ background:var(--hc-white); color:var(--hc-navy); }
+@media (max-width:1279px) and (min-width:1200px){
+  .hc-header__row{ grid-template-columns:minmax(220px,276px) minmax(0,1fr) auto; gap:20px; }
+  .hc-header .hc-btn{ padding-inline:15px; }
+}
+@media (max-width:1199px){
   .hc-nav{ display:none; }
-  .hc-header__row{ grid-template-columns:auto 1fr; }
-  .hc-header__actions{ justify-content:flex-end; }
-  .hc-logo img{ height:44px; }
+  .hc-header__row{ grid-template-columns:minmax(0,280px) auto; justify-content:space-between; gap:24px; }
+}
+@media (max-width:899px){
+  .hc-header__call{ display:none; }
+  .hc-header__row{ grid-template-columns:minmax(0,250px) auto; }
 }
 @media (max-width:639px){
-  .hc-header__call{ display:none; }
-  .hc-logo img{ height:40px; }
-  .hc-header .hc-btn{ padding:10px 14px; font-size:1rem; }
+  .hc-header__row{ grid-template-columns:minmax(0,1fr) auto; gap:12px; padding-block:10px; }
+  .hc-header .hc-logo{ max-width:212px; }
+  .hc-header .hc-btn--appt{ width:clamp(132px,38vw,170px); padding:8px 12px; line-height:1.1; white-space:normal; text-align:center; }
+  .hc-header .hc-btn--appt .hc-icon{ display:none; }
 }
 
 /* ---------- Hero: approved Step 5 split composition ---------- */
@@ -468,10 +481,10 @@ a:hover{ color:var(--hc-navy); }
 <a class="hc-skip" href="#main">Skip to main content</a>
 
 <!-- ===================== 0. HEADER ===================== -->
-<header class="hc-header">
+<header class="hc-header hc-dark">
   <div class="hc-wrap hc-header__row">
     <a class="hc-logo" href="https://hearcareinc.com/" aria-label="HearCare, Inc. and Associates home">
-      <img src="https://assets.cdn.filesafe.space/EMRBqQhzoUkKgjjbAzEz/media/6af1f80512958b0af36f1271.png" alt="HearCare, Inc. and Associates" height="52">
+      <img src="https://assets.cdn.filesafe.space/EMRBqQhzoUkKgjjbAzEz/media/6af1f80512958b0af36f1271.png" alt="HearCare, Inc. and Associates" width="333" height="52">
     </a>
     <nav class="hc-nav" aria-label="Page sections">
       <ul>
@@ -484,9 +497,12 @@ a:hover{ color:var(--hc-navy); }
     <div class="hc-header__actions">
       <a class="hc-btn hc-btn--call hc-header__call" href="tel:+19032062442" data-contact-tel aria-label="Call 903-206-2442">
         <svg class="hc-icon" aria-hidden="true"><use href="#i-phone"/></svg>
-        <span data-contact-display>903-206-2442</span>
+        <span>Call <span data-contact-display>903-206-2442</span></span>
       </a>
-      <a class="hc-btn hc-btn--appt" href="https://api.onspirepulse.com/widget/form/8wW1RhQrj7egDZ93IJlJ" data-open-appointment>Request Appointment</a>
+      <a class="hc-btn hc-btn--appt" href="https://api.onspirepulse.com/widget/form/8wW1RhQrj7egDZ93IJlJ" data-open-appointment>
+        <svg class="hc-icon" aria-hidden="true"><use href="#i-calendar"/></svg>
+        <span>Request Appointment</span>
+      </a>
     </div>
   </div>
 </header>

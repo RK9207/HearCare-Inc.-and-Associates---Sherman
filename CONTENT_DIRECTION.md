@@ -17,6 +17,10 @@ The user approved the whole-page direction and specifically selected Option A la
 
 Where the historical Hero recommendations below differ, this explicitly approved Hero direction controls. Campaign terms and ad copy remain NOT PROVIDED.
 
+## Step 5 header approval
+
+The user approved the recommended integrated navy header. Preserve the original logo/home destination and Care, Our Practice, FAQs and Location links. Desktop Call now explicitly reads “Call 903-206-2442”; Request Appointment retains its wording, destination and existing data hook. On narrow screens keep logo and Request Appointment, wrapping the label naturally when needed; primary Call remains accessible in the Hero/mobile sticky action. No new business or availability claim is added. Header is implemented for review, not locked.
+
 ## Controlling decisions and evidence
 
 Use the approved everyday-connection narrative with owners early and a clear test-first explanation. Primary theme: **Hearing tests and hearing aids in Sherman, TX**. Temporary approved website contact: **903-206-2442** (`tel:+19032062442`, `sms:+19032062442`), pending CSM tracking numbers. This user decision supersedes the original brief's contact number for the new page.

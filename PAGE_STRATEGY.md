@@ -16,8 +16,9 @@ Read alongside CONTENT_DIRECTION.md, DESIGN_SYSTEM.md, RESEARCH.md, and KEYWORD_
 |---|---|---|---|---|
 | Whole-page direction | Establish design/content direction | Carry forward the supplied HearCare visual standard, reduce repetition, prioritize genuine proof, and clarify assessment versus subsequent care | User: “I approve your overall direction with the additions you suggest” | Governing guidance; implementation remains section-gated |
 | Hero | Rebuild only | Navy split composition; explicit service line; Headline 4; shorter test-first explanation; everyday-conversation benefit; kitchen-table lifestyle image | User: “Layout - Option A, Copy:- Headline 4 with recommended supporting copy direction and benefits, Imagery:- your recommended” | index.html, assets/hearcare-kitchen-conversation*.webp, PAGE_STRATEGY.md, CONTENT_DIRECTION.md, DESIGN_SYSTEM.md, IMAGE_PROMPTS.md |
+| Header | Rebuild only | Integrate navy brand surface with the Hero; blend the existing logo; white navigation; consistent pill Call and appointment actions; responsive fit | User approved the recommended integrated navy direction: “okay, please make the changes” | index.html, PAGE_STRATEGY.md, CONTENT_DIRECTION.md, DESIGN_SYSTEM.md, review artifacts |
 
-Current tracker: **locked final sequence: none**. Hero is implemented and awaiting the user's rendered desktop/mobile review. Header/mobile Call, everyday difficulty, owners/reviews, process, options, payment, FAQ, location, final invitation, popup and footer remain existing first-draft sections awaiting their own review. No section has been removed, merged, added or reordered. Recognition compression is a direction for later review, not an implemented change. Historical Step 3 builder gates below do not revoke the subsequent explicit Hero authorization.
+Current tracker: **locked final sequence: none**. Hero and header are implemented and awaiting the user's rendered review. Mobile Call, everyday difficulty, owners/reviews, process, options, payment, FAQ, location, final invitation, popup and footer remain existing first-draft sections awaiting their own review. No section has been removed, merged, added or reordered. Recognition compression is a direction for later review, not an implemented change. Historical Step 3 builder gates below do not revoke the subsequent explicit Hero authorization.
 
 ## Objective, visitor, and offer
 
@@ -53,7 +54,7 @@ Use a medium-length, scannable page. Target roughly 900–1,250 authored words e
 - Conversion purpose / visitor question: “How can I contact them now?”
 - Main message / key content: logo linked to https://hearcareinc.com/; desktop in-page navigation to Care, Our Practice, FAQs, and Location; temporary Sherman number; Request Appointment. Mobile shows logo and appointment action, with the Call action at the bottom.
 - Emotional / trust role: orientation and immediate access to a real local practice.
-- Visual role / treatment: restrained sticky header; clear actions without consuming the first screen.
+- Visual role / treatment: approved integrated navy sticky header, original logo on its matching brand surface, white navigation and rounded Call/appointment controls; subtle separator and alignment with Hero container. On small screens, retain logo plus Request Appointment, allowing its label to wrap without truncation. Desktop navigation collapses before crowding.
 - CTA: Call as the primary conversion, explicit Text alternative near contact details, Request Appointment as secondary. See design specifications for hierarchy.
 - Previous / next relationship: available throughout; leads into the service/location answer in the hero.
 
