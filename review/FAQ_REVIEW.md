@@ -39,3 +39,11 @@ User requested that the FAQ left column slide downward with scroll like parallax
 
 
 Scroll verification: at 768, 1024, 1440 and 1920px, the intro holds its configured offset while scrolling and remains constrained by its FAQ parent. At 320, 390 and 500px it remains static. Emulated reduced-motion settings restore static position on all checked desktop/tablet widths. Repeated 49 item/viewport keyboard checks and overflow checks passed. The CSS uses no transforms, animations or custom scroll handlers.
+
+
+## Approved preparation FAQ addition
+
+User requested implementing the source-backed recommendation with “please do it.” Add an eighth FAQ, “How should I prepare for my hearing test?” Answer: note difficult listening situations, be ready to discuss medical history/current medications, and optionally bring a friend or family member. Source S19 in RESEARCH.md is the clinic’s preparation article. Do not imply a required-items checklist or promise a duration/fee. Existing seven answers, styling, sticky introduction, contact integrations and other sections remain unchanged. FAQ remains pending rendered approval.
+
+
+Preparation follow-up validation: eight questions at all seven widths; all 56 keyboard item/viewport open/close checks passed, no collapsed/expanded overflow, answer text remains 18px, and desktop scroll-follow/boundary/reduced-motion checks still pass. Exact page-source comparison confirms only the eighth details element was added.

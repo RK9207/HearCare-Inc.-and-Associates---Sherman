@@ -235,3 +235,8 @@ User: “Looks good, next move to the next one, i approve this section.” Payme
 ## Approved FAQ rebuild — Layout A, headline 1
 
 User approved Layout A + “Questions before your visit?” after desktop/mobile and expanded-answer screenshot review. Desktop: short introduction left, wider bordered accordion right. Mobile: introduction then full-width question/answer panels. Keep all seven topics; distinguish signs that suggest testing from whether a test implies hearing aids. Tighten answers while retaining suitability, medical-treatment, coverage, connectivity, support/lifespan and accurate credentials/staffing limitations. Rounded borders, circular chevrons, pale-blue open headers and padded white answers; preserve native keyboard-operable details and visible inset focus. Main prose remains 18px. All items initially closed; allow independent expansion without custom scripts. No image or additional CTA needed. Other sections and integrations unchanged. Implemented for rendered review, NOT LOCKED.
+
+
+## Approved preparation FAQ addition
+
+User requested implementing the source-backed recommendation with “please do it.” Add an eighth FAQ, “How should I prepare for my hearing test?” Answer: note difficult listening situations, be ready to discuss medical history/current medications, and optionally bring a friend or family member. Source S19 in RESEARCH.md is the clinic’s preparation article. Do not imply a required-items checklist or promise a duration/fee. Existing seven answers, styling, sticky introduction, contact integrations and other sections remain unchanged. FAQ remains pending rendered approval.
