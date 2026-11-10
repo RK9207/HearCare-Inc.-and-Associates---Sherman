@@ -561,16 +561,55 @@ a:hover{ color:var(--hc-navy); }
  .hc-options__guide-title{ font-size:1.125rem; }
 }
 
-/* ---------- Payment ---------- */
-.hc-pay{ background:var(--hc-white); border:1px solid var(--hc-border); border-radius:12px; padding:clamp(24px, 4vw, 44px); }
-.hc-pay__grid{ list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:28px 40px; }
-.hc-pay__item{ display:grid; grid-template-columns:44px 1fr; gap:4px 16px; }
-.hc-pay__icon{ grid-row:span 2; display:flex; align-items:center; justify-content:center; width:44px; height:44px; border-radius:50%; background:var(--hc-surface); color:var(--hc-navy); }
-.hc-pay__item h3{ font-size:1.1875rem; }
-.hc-pay__item p{ font-size:1.0625rem; color:var(--hc-muted); }
-.hc-pay__foot{ margin-top:32px; padding-top:24px; border-top:1px solid var(--hc-border); display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:16px 28px; }
-.hc-pay__foot p{ font-weight:600; color:var(--hc-navy); font-size:1.125rem; }
-@media (max-width:767px){ .hc-pay__grid{ grid-template-columns:1fr; } }
+/* ---------- Payment: insurance assistance first ---------- */
+#payment{ padding:60px 0; }
+.hc-pay{ display:grid; grid-template-columns:minmax(0,5fr) minmax(0,7fr); grid-template-areas:"intro help" "contact help" "estimate estimate"; grid-template-rows:auto 1fr auto; gap:28px 56px; align-items:start; }
+.hc-pay__intro{ grid-area:intro; }
+.hc-pay__intro h2{ max-width:500px; }
+.hc-pay__intro > p{ margin-top:18px; font-size:1.125rem; line-height:1.6; color:var(--hc-muted); }
+.hc-pay__help{ grid-area:help; }
+.hc-pay__insurance{ padding:28px; border:1px solid #b8cfdd; border-top:4px solid var(--hc-navy); border-radius:16px; background:var(--hc-white); }
+.hc-pay__insurance-head{ display:flex; gap:14px; align-items:center; margin-bottom:16px; }
+.hc-pay__icon{ display:flex; align-items:center; justify-content:center; flex:none; width:46px; height:46px; border-radius:50%; background:#e0f0fa; color:var(--hc-navy); }
+.hc-pay__insurance h3{ font-size:1.375rem; line-height:1.35; }
+.hc-pay__insurance p{ font-size:1.125rem; line-height:1.6; color:var(--hc-muted); }
+.hc-pay__insurance .hc-pay__qualification{ margin-top:14px; padding-top:14px; border-top:1px solid var(--hc-border); font-weight:600; color:var(--hc-navy); }
+.hc-pay__methods{ margin-top:18px; padding:24px 28px; border:1px solid #b8cfdd; border-radius:16px; background:var(--hc-white); }
+.hc-pay__method + .hc-pay__method{ margin-top:20px; padding-top:20px; border-top:1px solid var(--hc-border); }
+.hc-pay__method h3{ margin-bottom:8px; font-size:1.25rem; line-height:1.4; }
+.hc-pay__method p{ font-size:1.125rem; line-height:1.6; color:var(--hc-muted); }
+.hc-pay__contact{ grid-area:contact; padding-top:24px; border-top:1px solid #b8cfdd; }
+.hc-pay__contact > p{ margin-bottom:18px; font-size:1.125rem; line-height:1.6; color:var(--hc-navy); font-weight:600; }
+.hc-pay__contact .hc-cta{ display:flex; flex-direction:column; align-items:flex-start; gap:16px; }
+.hc-pay__contact .hc-btn{ min-height:52px; border-radius:999px; gap:8px; }
+.hc-pay__contact .hc-btn > span{ display:block; line-height:1.25; }
+.hc-pay__estimate{ grid-area:estimate; display:grid; grid-template-columns:42px minmax(0,1fr); gap:12px 18px; align-items:start; padding:24px 28px; border:1px solid #b8cfdd; border-radius:16px; background:var(--hc-white); }
+.hc-pay__estimate > .hc-icon{ width:30px; height:30px; color:var(--hc-navy); margin-top:2px; }
+.hc-pay__estimate h3{ margin-bottom:6px; font-size:1.25rem; line-height:1.4; }
+.hc-pay__estimate p{ font-size:1.125rem; line-height:1.6; color:var(--hc-muted); }
+@media(max-width:1023px){
+ .hc-pay{ gap:26px 28px; }
+ .hc-pay__insurance,.hc-pay__methods{ padding:24px; }
+ .hc-pay__insurance-head{ display:block; }
+ .hc-pay__insurance-head .hc-pay__icon{ margin-bottom:14px; }
+}
+@media(max-width:767px){
+ #payment{ padding:40px 0; }
+ .hc-pay{ grid-template-columns:minmax(0,1fr); grid-template-areas:"intro" "help" "estimate" "contact"; gap:24px; }
+ .hc-pay__intro > p{ margin-top:14px; }
+ .hc-pay__insurance,.hc-pay__methods{ padding:22px 20px; }
+ .hc-pay__insurance-head{ display:flex; gap:12px; }
+ .hc-pay__insurance-head .hc-pay__icon{ margin-bottom:0; width:40px; height:40px; }
+ .hc-pay__insurance h3{ font-size:1.25rem; }
+ .hc-pay__estimate{ grid-template-columns:30px minmax(0,1fr); padding:22px 20px; gap:12px; }
+ .hc-pay__estimate p{ grid-column:1 / -1; }
+ .hc-pay__estimate > div{ display:contents; }
+ .hc-pay__estimate h3{ align-self:center; margin:0; }
+ .hc-pay__contact{ padding-top:22px; }
+ .hc-pay__contact .hc-cta{ align-items:stretch; }
+ .hc-pay__contact .hc-btn{ width:100%; justify-content:center; white-space:normal; text-align:center; }
+ .hc-pay__contact .hc-textlink{ align-self:center; }
+}
 
 /* ---------- FAQ ---------- */
 .hc-faq{ max-width:800px; }
@@ -1017,48 +1056,40 @@ a:hover{ color:var(--hc-navy); }
 
 <!-- ===================== 6. PAYMENT ===================== -->
 <section class="hc-section hc-section--tint" id="payment" aria-labelledby="pay-title">
-  <div class="hc-wrap">
-    <div class="hc-section__head">
-      <h2 id="pay-title">Help with paying for hearing care</h2>
-      <p>Hearing aid costs depend on your needs and the technology that suits you. We’ll talk through your options and help you understand what may be covered.</p>
+  <div class="hc-wrap hc-pay">
+    <div class="hc-pay__intro">
+      <h2 id="pay-title">Understand your benefits and payment options</h2>
+      <p>Hearing aid costs depend on your needs and the technology you choose. Our team can check for hearing aid insurance benefits and explain the payment options available.</p>
     </div>
-
-    <div class="hc-pay">
-      <ul class="hc-pay__grid">
-        <li class="hc-pay__item">
+    <div class="hc-pay__help">
+      <div class="hc-pay__insurance">
+        <div class="hc-pay__insurance-head">
           <span class="hc-pay__icon" aria-hidden="true"><svg class="hc-icon"><use href="#i-shield"/></svg></span>
-          <h3>We check your benefits for you</h3>
-          <p>If you have health insurance, we work with many providers and will spend the time on hold to find out whether you have hearing aid benefits, so you don’t have to. Coverage varies by plan.</p>
-        </li>
-        <li class="hc-pay__item">
-          <span class="hc-pay__icon" aria-hidden="true"><svg class="hc-icon"><use href="#i-heart"/></svg></span>
-          <h3>CareCredit®</h3>
-          <p>A health credit card with special financing for expenses not covered by insurance. Ask us how it works.</p>
-        </li>
-        <li class="hc-pay__item">
-          <span class="hc-pay__icon" aria-hidden="true"><svg class="hc-icon"><use href="#i-card"/></svg></span>
-          <h3>Cards and financing plans</h3>
-          <p>We accept all major credit cards and offer financing plans to help spread the cost.</p>
-        </li>
-        <li class="hc-pay__item">
-          <span class="hc-pay__icon" aria-hidden="true"><svg class="hc-icon"><use href="#i-file"/></svg></span>
-          <h3>A Good Faith Estimate</h3>
-          <p>You have the right to receive a Good Faith Estimate of expected costs, so you can plan with more clarity.</p>
-        </li>
-      </ul>
-
-      <div class="hc-pay__foot">
-        <p>Questions about insurance or payment? A quick call is often easiest.</p>
-        <div class="hc-cta">
-          <a class="hc-btn hc-btn--call" href="tel:+19032062442" data-contact-tel>
-            <svg class="hc-icon" aria-hidden="true"><use href="#i-phone"/></svg>
-            <span>Call <span data-contact-display>903-206-2442</span></span>
-          </a>
-          <a class="hc-textlink" href="sms:+19032062442" data-contact-sms>
-            <svg class="hc-icon" aria-hidden="true"><use href="#i-message"/></svg>
-            Text us your question
-          </a>
+          <h3>We contact your insurer, so you don’t have to</h3>
         </div>
+        <p>We work with many insurance providers and will spend the time on hold to find out whether your plan includes hearing aid benefits.</p>
+        <p class="hc-pay__qualification">Coverage varies by plan.</p>
+      </div>
+      <div class="hc-pay__methods">
+        <div class="hc-pay__method">
+          <h3>CareCredit®</h3>
+          <p>A health credit card with special financing for expenses not covered by insurance. Ask our team how it works.</p>
+        </div>
+        <div class="hc-pay__method">
+          <h3>Credit cards and financing plans</h3>
+          <p>We accept all major credit cards and offer financing plans to help spread the cost. Contact us to discuss the options.</p>
+        </div>
+      </div>
+    </div>
+    <div class="hc-pay__estimate">
+      <svg class="hc-icon" aria-hidden="true"><use href="#i-file"/></svg>
+      <div><h3>Your right to a Good Faith Estimate</h3><p>You have the right to receive a Good Faith Estimate of expected costs, so you can plan with more clarity.</p></div>
+    </div>
+    <div class="hc-pay__contact">
+      <p>Questions about insurance or payment? Talk with our team.</p>
+      <div class="hc-cta">
+        <a class="hc-btn hc-btn--call" href="tel:+19032062442" data-contact-tel><svg class="hc-icon" aria-hidden="true"><use href="#i-phone"/></svg><span>Call <span data-contact-display>903-206-2442</span></span></a>
+        <a class="hc-textlink" href="sms:+19032062442" data-contact-sms><svg class="hc-icon" aria-hidden="true"><use href="#i-message"/></svg>Text us your question</a>
       </div>
     </div>
   </div>

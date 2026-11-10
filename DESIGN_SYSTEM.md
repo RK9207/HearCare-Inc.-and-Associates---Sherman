@@ -262,3 +262,8 @@ User requested a more noticeable hearing-aid style disclosure. Rename the summar
 ## Options final approval
 
 User: “Looks good, i approve this and lets move to next section.” Hearing-aid options in b2d329e is APPROVED / LOCKED, including navy introduction, labelled authentic product image, bordered benefits, pill manufacturer names and prominent style-guide disclosure. Do not modify without user authorization. Next proposed section is payment and insurance help: it follows suitable device choices by addressing cost, benefits and payment questions. Request its current desktop/mobile screenshots and wait before individual review or editing. This approval records options only; no inferred final approval or lock of the preceding process section is added.
+
+
+## Approved payment rebuild — Layout A, headline 1
+
+User approved the recommendation with “Yes please.” H2: “Understand your benefits and payment options.” Desktop places heading/introduction/contact left and a prominent insurer-help panel plus compact payment-method rows right; full-width Good Faith Estimate note below. Mobile order: introduction, insurance assistance, CareCredit and credit-card/financing choices, estimate note, then Call/Text contact actions. Use a calm blue surface, bordered white panels, consistent rounded borders/buttons and full-width 18px descriptions. Insurance coverage varies by plan; no implication of test coverage, guaranteed benefits, pricing or credit approval. Preserve all original payment topics and contact destinations/hooks. No photo is needed. Other sections and integrations remain unchanged. Implemented for rendered review, not locked.
