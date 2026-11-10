@@ -302,3 +302,8 @@ User explicitly supplied a MapLibre GL v4 / OAP map to replace the Google iframe
 ## User-requested larger map
 
 Increase the desktop map minimum height to 520px, tablet minimum to 460px, and mobile height to 450px. Allocate a larger desktop map share (4fr details / 7fr map) and reduce map-column padding to 16px on desktop/tablet. Preserve mobile full-width map, marker coordinates, zoom, OAP tracking, map card including Open in Maps, all links and all other page content. Existing ResizeObserver continues to resize MapLibre with its container. Source-scope checks confirm only location CSS changed; index and complete HTML artifact match before publication. The execution environment failed startup, so no new browser rendering or live map test was possible for this sizing revision; GHL screenshot review remains required. Location section is not locked.
+
+
+## Sherman location final approval
+
+User: “looks good, lets move to the next section, I approve this section.” Location implementation as of 7d363a12eb3b9c2177a639ade734d3195287b46c is APPROVED / LOCKED, including the bordered details/map panel, supplied OAP/MapLibre integration, enlarged responsive map, Open in Maps card link and dark-blue Get Directions button. Preserve without further user authorization. Next proposed section: existing final contact invitation, to connect the completed visit-planning information to Call, Text and Request Appointment. Request current desktop/mobile screenshots showing the complete invitation and actions, and wait before individual review or editing. No HTML/CSS changes accompany this approval record.
