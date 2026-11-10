@@ -2,7 +2,7 @@
 
 User direction: Layout A with headline 4, “Know what to expect before your visit.” Implemented for rendered review; not locked pending user approval.
 
-Two phases distinguish the hearing test and explained results from optional hearing-aid selection, fitting and ongoing support. Four numbered steps remain. Descriptions use full width below headings on mobile; body and test-detail text remain 18px. A white canvas follows the tinted proof section, with a navy contact band and rounded Call/Appointment buttons plus a distinct Text link.
+Two phases distinguish the hearing test and explained results from optional hearing-aid selection, fitting and ongoing support. Four numbered steps remain. Descriptions use full width below headings on mobile; body and test-detail text remain 18px. A white canvas follows the tinted proof section, with a pale-blue contact panel and rounded Call/Appointment buttons plus a distinct Text link.
 
 Original test-type disclosure, its not-every-visit qualification, medical-treatment caveat, contact destinations, tracking hooks and appointment integration are preserved. No new image is needed. PAGE_STRATEGY.md, CONTENT_DIRECTION.md and DESIGN_SYSTEM.md record the approved direction.
 
@@ -23,3 +23,7 @@ Original test-type disclosure, its not-every-visit qualification, medical-treatm
 - [Expanded mobile test details](process-tests-mobile.png)
 
 Local rendering used cached production font families. Remote owner photo and logo access remain blocked locally; original hosted URLs are preserved. These process screenshots contain no replacement imagery. No calls, texts or form submissions were made. External form field loading and lead delivery require GHL QA.
+
+## Visual refinement requested after GHL screenshot
+
+Stronger navy/pale-blue phase headers, white equal-height panels, subtle shadows, outlined step numbers and internal dividers improve hierarchy. A short sky accent introduces the heading; the medical caveat gains a quiet left rule. The light contact panel aligns all three desktop actions in one row and stacks buttons on mobile. No wording, markup, heading sizes or integration changed. Exact source comparison verified only process-specific CSS changed in the page. Repeated seven-width overflow and keyboard interaction checks passed. Updated screenshots show the revision. Awaiting user review; not locked.
