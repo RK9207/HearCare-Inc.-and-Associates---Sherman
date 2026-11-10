@@ -9,11 +9,11 @@
 
 ## Scope
 
-The Step 4A draft has exactly **three** intentional image placeholders. This file covers only those three. No other section has a placeholder, and none should receive an image just to fill space. The design system keeps the difficulty, process, payment, FAQ, review, location and final sections image-free.
+The Step 4A draft began with three image slots. Step 5 has replaced IMG-HERO-01 with a generated lifestyle image; the provider image and product placeholder retain their existing state. This file covers only those three slots. No other section has a placeholder, and none should receive an image just to fill space. The design system keeps the difficulty, process, payment, FAQ, review, location and final sections image-free.
 
 | Placeholder | Section | Current state in `index.html` | Source preference |
 |---|---|---|---|
-| IMG-HERO-01 | Hero | Designed placeholder (`.hc-ph--hero`) | AI-generated lifestyle/editorial image appropriate |
+| IMG-HERO-01 | Hero | **Implemented:** AI-generated kitchen-table scene; responsive local WebP assets; awaiting rendered approval | Generic lifestyle illustration, not practice evidence |
 | IMG-PROVIDER-01 | Owners: "Meet the people behind HearCare" | **Real owner portrait in use** (411×411, hot-linked from hearcareinc.com); placeholder appears only if it fails to load | Real provider/team image preferred |
 | IMG-PRODUCT-01 | Options: "Hearing aids fitted to your everyday life" | Designed placeholder (`.hc-ph--product`) | Either real or AI image could work |
 
@@ -42,51 +42,30 @@ These come from the Step 3 documents and RESEARCH.md. They override any wording 
 
 ## IMG-HERO-01 — Hero
 
-### Placeholder purpose
+### Approved purpose and implementation — November 10, 2026
 
-This is the first image a visitor sees, beside the H1 "Hearing Tests & Hearing Aids in Sherman, TX." Its job is the strategy's opening move: show *why hearing matters* before the page explains *how care works*. It should let a visitor, or the adult child searching on their behalf, recognise the outcome they want: being part of an ordinary conversation again, easily and without strain.
+The user selected Option A (navy split layout), Headline 4 (“Personalized Hearing Care, Right Here in Sherman”), recommended test-first support/benefit copy, and the recommended kitchen-table concept. This image supplies everyday human relevance beside the explicit service line “Hearing tests & hearing aids in Sherman, TX.” Hero implementation is awaiting rendered approval; it is not locked.
 
-The image must support hopeful recognition without shame or alarm, as PAGE_STRATEGY §1 sets out. It must not compete with the H1 or the call button. It also hosts the Google rating badge (4.8 · 94 reviews), which overlaps its bottom-left corner.
+**Source:** AI-generated generic editorial lifestyle illustration created for this approved Hero. It is not an actual HearCare patient, provider, office, or documented treatment outcome. No visible hearing device is shown, avoiding any implied specific product feature or unsupported device geometry.
 
-### Recommended source type
+**Assets:** `assets/hearcare-kitchen-conversation.webp` (1122×1402) and `assets/hearcare-kitchen-conversation-960.webp` (960×1200), both portrait approximately 4:5 sources. Original generated PNG remains outside the repository. The original portrait-placeholder instructions are superseded.
 
-**AI-generated lifestyle/editorial image appropriate**
+### Composition and crop
 
-No real lifestyle photography exists for the practice. The site's own heroes are licensed Getty stock files, which are wide 2560×400 banner crops and unusable at 4:5. An AI-generated or newly licensed editorial image is appropriate, as long as it reads as a generic lifestyle scene and not as a HearCare patient or location.
+- Two women, an older adult and an adult family member, engaged in an ordinary kitchen-table conversation. Silver hair, muted blue/off-white wardrobe, warm daylight and a calm domestic background; nobody posed toward camera.
+- Desktop: photograph occupies the right side of the split composition. CSS cover crop is centered near 51% horizontal / 46% vertical; preserve both faces when height changes. The restrained white review panel overlaps the lower-left photo/table area without obscuring faces.
+- Tablet/mobile: 4:3 display crop, centered near 50% / 46%. The proof panel moves into normal flow before the contact actions, so it cannot obscure mobile subjects.
+- Rounded upper-left corner and a subtle offset outline belong to the page styling, not baked into the image. No words, logos, badges, frames or ratings are embedded in the image.
+- The image follows message, proof, actions and location details in mobile reading order. `data-img-id="IMG-HERO-01"` is preserved; explicit width/height, srcset/sizes, decoding async and high fetch priority are supplied. Do not lazy-load this image.
+- Alt: “An older woman and an adult woman talking together at a kitchen table.” Do not identify them as patients or claim an improved hearing outcome.
 
-### Recommended composition
+### Generation direction used
 
-- **Orientation:** 4:5 portrait. Generate at 1600×2000 or larger; the minimum delivered size is 960×1200.
-- **Responsive crop:** The same file is shown at **4:3 on tablet and mobile**, using a centre crop that keeps roughly the middle 60% of the height. Keep all faces and the key interaction **between about 22% and 70% of the image height**. Do not place faces at the very top.
-- **Subject placement:** Primary faces slightly right of centre or upper-centre. The image sits in the right column on desktop, so subjects facing slightly *left*, toward the headline, works best.
-- **Badge zone:** The bottom-left quadrant (roughly the lowest 25% and left 45%) holds the rating badge. Keep it calm and low in detail, such as a table edge, soft fabric or out-of-focus foreground, with no hands, faces or hearing aid there.
-- **Negative space:** No text sits on the image, so heavy negative space is not needed. Moderate breathing room at the top keeps the 4:3 crop from feeling cramped.
-- **Desktop/mobile:** On mobile the image appears *after* the buttons, at about 350px wide. The interaction must still read at that size, so avoid very wide group shots with small faces. Two people, or three at most.
-- **Frame treatment:** The page applies a 16px radius. Do not generate vignettes or rounded borders.
+Photorealistic 4:5 editorial lifestyle photograph of a dignified silver-haired woman around 70 in a muted blue cardigan, sitting at a light oak kitchen table and engaged in conversation with an adult daughter around 43 in an off-white blouse. Natural attentive expressions, daughter mid-sentence making a gentle gesture, realistic skin texture and hands, subjects seated close together around the table corner, with both complete heads near the central 65% of the frame and faces around 40–48% of the portrait height for responsive crops. Warm daylight, muted navy and pale oak interior, two unmarked ceramic mugs, calm lower-left tabletop for desktop proof overlap. No visible hearing device, text, branding, clinic, medical equipment, exaggerated reaction or outcome claim.
 
-### Option 1 — Lifestyle outcome: kitchen-table conversation
+### Review and handoff
 
-> Editorial lifestyle photograph, 4:5 vertical. A woman in her early 70s with short silver hair and reading glasses pushed up on her head sits at a light oak kitchen table in a bright, lived-in North Texas home, leaning in slightly as she listens to her adult daughter (mid-40s) who sits across the corner of the table, mid-sentence, gesturing gently with one hand. The older woman's expression is relaxed and attentive, a small genuine smile, eyes on her daughter, clearly following the conversation without effort. A small, discreet receiver-in-canal hearing aid is just visible behind her ear in a neutral beige or silver tone, not a focal point. Two ceramic coffee mugs with no markings, a folded linen napkin. Soft late-morning window light from the left, warm natural tones with muted blue accents in her cardigan and the background kitchen textiles. Faces positioned in the upper-middle of the frame, subjects turned slightly toward the left edge; the lower-left foreground is a calm, softly out-of-focus table surface. Shot on a full-frame camera with a 50mm lens at f/2.2, shallow depth of field, natural skin texture, candid documentary feel, not posed for camera, nobody looking at the lens. Realistic, understated healthcare advertising photography, gentle contrast, no text, no logos.
-
-### Option 2 — Family/community warmth: porch visit
-
-> Editorial lifestyle photograph, 4:5 vertical. On a shaded front porch of a modest single-storey brick home in a quiet North Texas neighborhood in late afternoon, a man in his mid-60s to early 70s with a trimmed grey beard, wearing a soft chambray button-up shirt, sits in a wooden rocking chair, turned toward his adult son (late 30s) who sits on the porch step beside him. They are sharing an easy laugh mid-conversation, the father's head tilted toward his son, comfortable and engaged. A small, discreet hearing aid is barely visible behind the father's ear. Warm golden-hour side light filtering through trees, soft green and brick-red background tones kept muted, blue-grey wardrobe accents. Faces in the upper-middle third, slightly right of center, both oriented toward the left of frame; the lower-left foreground is the porch floorboards and soft shadow, simple and uncluttered. 85mm lens feel at f/2.0, gentle background blur, candid moment, unposed, no one looking at the camera, natural skin and hair detail. Authentic, warm, restrained healthcare editorial style, no text, no house numbers, no logos, no signage.
-
-### Option 3 — Social participation: small dinner with friends
-
-> Editorial lifestyle photograph, 4:5 vertical. A woman in her late 60s with natural grey curly hair, wearing a soft navy knit top, sits at a small round table in a warmly lit neighborhood restaurant during a quiet early-evening dinner, turned toward a friend of similar age seen in three-quarter view at the right edge of frame. She is listening closely and responding with a relaxed, knowing smile, clearly following the conversation despite the gentle background activity. Background diners are fully out of focus as soft bokeh shapes, no legible menus or signs. Warm tungsten ambient light balanced with soft window light, muted navy and warm-wood palette. The woman's face sits at about 40% of the frame height, slightly right of center, gazing left toward her friend; the lower-left area is a softly blurred tabletop with a plain water glass and folded napkin. 50mm lens at f/1.8, shallow depth of field, candid documentary style, natural skin texture, no one looking at the camera, no visible hearing device emphasis. Realistic, dignified, understated healthcare advertising photography, no text, no logos.
-
-### Recommended option
-
-**Option 1, the kitchen-table conversation.** It most directly expresses CONTENT_DIRECTION's primary outcome, "clearer conversations and staying engaged with the people … that matter," in an everyday setting that both patients and family members recognise. The adult-child figure speaks quietly to the inferred family-member audience without making the patient passive.
-
-It is also the easiest composition to control for the badge zone and the 4:3 mobile crop. Option 3 is the stronger choice if Step 5 wants to echo the "background noise" difficulty from section 2, but restaurant scenes risk signage and busy-background artifacts. Option 2 is the warmest local feel, but outdoor light and porch details are harder to keep consistent and free of text.
-
-### Real-image note
-
-Real clinic imagery is **not** preferred for this slot. The strategy specifically wants the hero to show everyday life rather than the clinic or product. If the client has authentic, consented photos of real patients in everyday settings, those would outperform AI. Without them, AI or licensed editorial stock is appropriate.
-
-**Before publishing an AI hero:** check hands, ears and the hearing aid shape closely. Make sure the device looks like a plausible small RIC/BTE and not an earbud. Confirm the image is not described anywhere as a HearCare patient.
+Inspect both faces, hands, mugs and crops at actual desktop/mobile sizes before approving the Hero. The user's direction approval is not final rendered approval. If later layout changes materially affect the crop or proof placement, synchronize this entry. Keep the provider and product slot guidance separate and unchanged.
 
 ---
 
@@ -202,16 +181,16 @@ If the practice can photograph an actual device it fits, in a staff member's han
 
 | Placeholder | Recommended | Source | Key risk to check |
 |---|---|---|---|
-| IMG-HERO-01 | Option 1, kitchen-table conversation | AI lifestyle/editorial (or licensed editorial stock) | Faces inside the 4:3 mobile crop band; calm bottom-left badge zone; plausible hearing aid; not presented as a HearCare patient |
+| IMG-HERO-01 | Implemented kitchen-table conversation; awaiting rendered approval | AI lifestyle/editorial; responsive local WebP files | Preserve both faces; proof overlaps only on desktop; no patient/clinic/outcome attribution |
 | IMG-PROVIDER-01 | Option 1 restoration now; Option 2 real reshoot later | **Real provider image required** | No AI likeness; get the high-res original; re-host on filesafe CDN |
 | IMG-PRODUCT-01 | Option 1, in-hand scale | AI or licensed product photo | True scale; no logos or engraving; no charging case; correct RIC wire/dome |
 
 **Suggested alt text** (to finalise in Step 5):
-- IMG-HERO-01: "An older woman enjoying an easy conversation with her daughter at the kitchen table." Adjust to the chosen option.
+- IMG-HERO-01: "An older woman and an adult woman talking together at a kitchen table." Implemented; illustrative, with no patient or outcome attribution.
 - IMG-PROVIDER-01: "Kenneth M. Sheppard, Jr. and Jill A. Sheppard, owners of HearCare, Inc. and Associates." This is already in the page.
 - IMG-PRODUCT-01: "A small modern hearing aid resting in the palm of a hand."
 
 **Implementation notes:**
 - When a placeholder `div` is replaced with an `<img>`, keep `data-img-id`, set explicit `width` and `height`, and use `object-fit: cover`.
-- For the hero, add `object-position` tuned to the final image so the 4:3 crop keeps the faces.
+- Hero crop is now implemented with responsive CSS and reviewed at representative widths; preserve both faces if its layout changes.
 - Use `loading="lazy"` for the provider and product images only, not the hero.

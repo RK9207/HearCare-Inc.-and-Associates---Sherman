@@ -2,6 +2,21 @@
 
 Direction approved November 10, 2026: warm editorial healthcare; everyday connection first, authentic owners early, clear testing pathway. This specification implements the approved strategy; it is not a claim that these dimensions or components were extracted from the existing website. Read PAGE_STRATEGY.md and CONTENT_DIRECTION.md before implementation.
 
+## Approved Step 5 Hero pattern — November 10, 2026
+
+User-selected Option A controls the Hero only. Implemented for rendered review; not locked. Preserve other section styling and the existing header/mobile Call until independently approved.
+
+- Full-width navy/deep-navy Hero surface, with white primary copy, sky-blue headline emphasis and a substantial adjacent lifestyle photograph. A restrained offset outline frames the photograph; no background photograph behind text.
+- Use the user-selected personalized/local H1 with the prominent service/location line and concise test-first explanation from CONTENT_DIRECTION.md.
+- Desktop: approximately 51% content / 49% media within the existing container, a generous gap, and a white Google-proof panel overlapping the lower-left image boundary. Keep both subjects' faces inside the crop.
+- Below 1,024px: one column with message, the same proof panel in normal flow, actions, address/hours, then photograph. No duplicated proof DOM. Photo is 4:3 on mobile/tablet; no fixed Hero height.
+- Hero controls use the approved rounded/pill brand treatment, at least 48px high, with sky/Ink Call and a white-outline appointment action. This local pattern does not silently restyle controls elsewhere.
+- Scope Hero-specific color, type, focus and responsive rules to its classes. Ensure the white proof panel's stars, values and keyboard focus remain legible on the dark surface.
+- IMG-HERO-01 is a 4:5 generated source delivered as 1,122px and 960px WebP files, with explicit dimensions, responsive sizes, high fetch priority, no lazy loading, and a meaningful illustrative alt. Crop with CSS; never stretch faces.
+- The generated scene is not a HearCare clinic, patient or outcome claim. Google aggregate evidence remains U1/RESEARCH §3A, separate from the illustrative image.
+
+These approved details supersede older Hero guidance below, including the original white-first treatment and Hero button radius. They do not authorize applying the pattern to unreviewed sections.
+
 ## First-screen priorities
 
 The visitor must identify hearing tests, hearing aids, Sherman, an understandable benefit, and contact actions without opening navigation or an accordion. Use one H1, a short supporting statement, compact practice/location details, and a clear CTA group. Do not let decorative imagery or a tall header push the service and first CTA below a typical mobile first screen. Let the hero image follow text/actions on mobile rather than shrinking everything to fit a fixed viewport.
@@ -62,7 +77,7 @@ Place CTA groups in the hero, after trust, after the process, and in the final i
 
 ### Hero
 
-Text and image are adjacent on desktop; text/actions precede imagery on mobile. No busy photograph behind the H1. Prefer an authentic-feeling conversation scene with faces directed naturally within the composition. Reserve a compact Google rating badge near the text or image only after rating/count are verified. Owner-operated and accurate credential microcopy supply factual trust without fabricated stars while reviews are pending internally.
+Follow the approved Step 5 Hero pattern above: navy split composition, generated kitchen-table scene, explicit service line and personalized/local H1. Desktop proof overlaps the photo; mobile proof precedes actions and imagery. Aggregate values are screenshot-supported 4.8/5 and 94 reviews (RESEARCH §3A/U1), not a fresh lookup. Use a fractional star fill and exact accessible aggregate label. Owner-operated/licensed microcopy supplies additional factual trust.
 
 Show Sherman address and hours compactly near the first contact opportunity. Do not crowd the hero with eight brand logos, long credentials, symptoms, or financial disclaimers.
 
@@ -128,7 +143,7 @@ Bottom Call button with phone icon, sky #78bbe9 background, Ink #2c2c2c text, `t
 | Location and final invitation | Map establishes locality; strong CTA surface signals action | Practical details, then final contrast peak |
 | Popup/footer | No image; clear request and policy access | Focused action, then a quiet ending |
 
-Use whitespace, a subtle divider, or a change in composition for transitions before reaching for a new background color. White is the default canvas; light tint gives selected informational relief; deep navy is reserved for the final invitation/footer rather than every other section. Headings should carry a coherent story even if images do not load.
+Use whitespace, a subtle divider, or a change in composition for transitions before reaching for a new background color. White is the default canvas; light tint gives selected informational relief; deep navy anchors the approved Hero and final invitation/footer rather than every other section. Headings should carry a coherent story even if images do not load.
 
 On mobile preserve the same persuasion order: service/action first, short recognition, real owners/proof, process, options, payment, FAQ, local action. Do not move all authentic proof beneath long explanations. Stack review and process units legibly, reduce decorative spacing before reducing font size, and preserve complete faces and product shapes in alternate crops.
 

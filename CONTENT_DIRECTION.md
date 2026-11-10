@@ -2,6 +2,21 @@
 
 Approved strategy: November 10, 2026. Companion to PAGE_STRATEGY.md and DESIGN_SYSTEM.md. This is writing guidance, not finished page copy.
 
+## Step 5 Hero override — approved November 10, 2026
+
+The user approved the whole-page direction and specifically selected Option A layout, Headline 4, the recommended test-first supporting copy and everyday-conversation benefit, and recommended kitchen-table imagery. The Hero is rebuilt for review, not locked. Other section copy remains unchanged pending its own screenshot/proposal/approval loop.
+
+- Prominent service line: **Hearing tests & hearing aids in Sherman, TX**.
+- H1: **Personalized Hearing Care, Right Here in Sherman**.
+- Support: **Start with a hearing test and a clear explanation of your results. If hearing aids are appropriate, explore options suited to your hearing and everyday life.**
+- Benefit: **Take the next step toward easier everyday conversations.** This is an aspiration, not guaranteed improvement.
+- Trust: **Owner-operated. Licensed hearing instrument specialists.** Full legal credentials remain in the owner section.
+- Proof: screenshot-supported **4.8/5 from 94 Google reviews**, RESEARCH.md §3A/U1; retain the existing Google destination. Capture date unknown; not live-rechecked.
+- Actions: Call remains primary; Request Appointment remains secondary; Text remains a distinct link. Preserve existing data hooks, contact values and appointment behavior.
+- On mobile, service/message, compact trust proof, actions and local details precede the image. No new price, promotion, availability, provider-assignment or outcome claim.
+
+Where the historical Hero recommendations below differ, this explicitly approved Hero direction controls. Campaign terms and ad copy remain NOT PROVIDED.
+
 ## Controlling decisions and evidence
 
 Use the approved everyday-connection narrative with owners early and a clear test-first explanation. Primary theme: **Hearing tests and hearing aids in Sherman, TX**. Temporary approved website contact: **903-206-2442** (`tel:+19032062442`, `sms:+19032062442`), pending CSM tracking numbers. This user decision supersedes the original brief's contact number for the new page.
@@ -16,7 +31,7 @@ Primary visitor outcome: the possibility of clearer conversations and staying en
 
 | Priority | Message | Where it belongs |
 |---|---|---|
-| Headline | Hearing tests and hearing aids in Sherman | Hero H1; explicit service/location relevance |
+| Opening message | Personalized hearing care, right here in Sherman; explicit hearing-tests/hearing-aids service line | Hero H1 plus prominent preceding line preserve local service relevance |
 | Hero support | Understand your hearing and appropriate next steps toward clearer everyday conversations | Short subhead; no vague technology slogan |
 | Early trust | Real licensed owners and genuine patient evidence | Owner introduction and dedicated reviews subsection |
 | Section emphasis | Testing informs recommendations; fitting and education make options understandable | Process and options headings |
@@ -54,7 +69,7 @@ Every benefit should answer “Why should I care?” Prefer an everyday listenin
 
 Supplied primary/supporting campaign terms and ad copy remain **NOT PROVIDED**. The approved theme is strategic; candidate phrases such as “hearing aids Sherman TX” and “hearing test Sherman TX” remain **AI CANDIDATE — UNVALIDATED**. Natural alternatives include hearing evaluation, hearing aid fitting, and hearing care; do not repeat exact matches mechanically or treat screening as interchangeable with a full evaluation.
 
-Hero H1 direction: **Hearing Tests & Hearing Aids in Sherman, TX**. Supporting copy should explain that assessment helps determine whether hearing aids are appropriate and that recommendations consider the visitor's needs, lifestyle, and budget. The headline names the service; the support explains the human value and first step.
+Step 5 approved Hero H1: **Personalized Hearing Care, Right Here in Sherman**, paired with **Hearing tests & hearing aids in Sherman, TX** immediately above it. Supporting copy should explain that assessment helps determine whether hearing aids are appropriate and that recommendations consider the visitor's needs, lifestyle, and budget. The headline names the service; the support explains the human value and first step.
 
 No promoted offer is supplied. Do not headline the unconfirmed two-week trial. Do not promise a free test or mirror “audiologist” terminology based on an ad. Compare actual ads against services, geography, pricing, offer, credentials, and action when they arrive; escalate mismatches rather than rewriting facts to fit ads.
 
@@ -64,7 +79,7 @@ Keep brand/style and payment themes supportive. Do not turn the page into a repa
 
 ### Hero
 
-Use the service/location H1 above as the drafting anchor. Follow with a short statement connecting personalized assessment and suitable options to clearer everyday conversations. Add a concise test-first explanation if the subhead does not already communicate it. The first screen should answer what, where, why care, and how to act.
+Use the approved Step 5 service line, H1, support and benefit stated above. Assessment precedes any appropriate hearing-aid recommendation; preserve that conditional meaning without repeating the original long subheadline and separate testing paragraph. The first screen should answer what, where, why care, and how to act.
 
 Trust microcopy: owner-operated practice led by licensed hearing instrument specialists; exact legal credentials appear in the owner section. Show the Sherman address and hours compactly. Add the Google badge only with verified rating/count. Avoid a crowded row of unsupported badges.
 

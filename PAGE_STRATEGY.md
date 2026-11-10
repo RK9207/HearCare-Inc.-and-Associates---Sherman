@@ -1,6 +1,6 @@
 # Page strategy — HearCare, Sherman
 
-Approved direction: November 10, 2026. Step 3 strategy; no page implementation authorized yet.
+Approved direction: November 10, 2026. Step 3 is the historical baseline. The user subsequently approved the Step 5 whole-page direction and the Hero rebuild described below. Hero implementation is ready for review, not visually approved or locked; publication is not authorized.
 
 ## Authority and scope
 
@@ -9,6 +9,15 @@ The user approved “Hearing tests and hearing aids in Sherman, TX” and Direct
 Read alongside CONTENT_DIRECTION.md, DESIGN_SYSTEM.md, RESEARCH.md, and KEYWORD_RESEARCH.md. The original brief is `Project Brief - Hearcare Inc. and Associates.md`; there is no separate PROJECT_BRIEF.md. Source IDs below refer to RESEARCH.md. Preserve its historical evidence and the original brief.
 
 **Contact decision overrides the brief's old number:** use the website's Sherman number **903-206-2442**, `tel:+19032062442`, and `sms:+19032062442` for now. The CSMs will supply tracking numbers later. Do not use Gainesville's 903-206-1692 on this page. Keep the temporary number easy to replace consistently across visible copy and action links; verify call and SMS routing when replacements arrive.
+
+## Approved Step 5 Decisions
+
+| Section / scope | Action | Reason | Approval | Affected files |
+|---|---|---|---|---|
+| Whole-page direction | Establish design/content direction | Carry forward the supplied HearCare visual standard, reduce repetition, prioritize genuine proof, and clarify assessment versus subsequent care | User: “I approve your overall direction with the additions you suggest” | Governing guidance; implementation remains section-gated |
+| Hero | Rebuild only | Navy split composition; explicit service line; Headline 4; shorter test-first explanation; everyday-conversation benefit; kitchen-table lifestyle image | User: “Layout - Option A, Copy:- Headline 4 with recommended supporting copy direction and benefits, Imagery:- your recommended” | index.html, assets/hearcare-kitchen-conversation*.webp, PAGE_STRATEGY.md, CONTENT_DIRECTION.md, DESIGN_SYSTEM.md, IMAGE_PROMPTS.md |
+
+Current tracker: **locked final sequence: none**. Hero is implemented and awaiting the user's rendered desktop/mobile review. Header/mobile Call, everyday difficulty, owners/reviews, process, options, payment, FAQ, location, final invitation, popup and footer remain existing first-draft sections awaiting their own review. No section has been removed, merged, added or reordered. Recognition compression is a direction for later review, not an implemented change. Historical Step 3 builder gates below do not revoke the subsequent explicit Hero authorization.
 
 ## Objective, visitor, and offer
 
@@ -23,7 +32,7 @@ Read alongside CONTENT_DIRECTION.md, DESIGN_SYSTEM.md, RESEARCH.md, and KEYWORD_
 
 The approved strategic theme is **Hearing tests and hearing aids in Sherman, TX**. Approval is a page-direction decision, not validation of keyword performance. Actual primary/supporting campaign keywords, ad groups, search-term data, and ad copy remain NOT PROVIDED. Every phrase in KEYWORD_RESEARCH.md remains an AI candidate unless independently supplied and verified.
 
-The first screen must show the services, Sherman, a plain-language benefit, accurate local details, and call/text plus Request Appointment actions. Suggested H1 direction: “Hearing Tests & Hearing Aids in Sherman, TX.” The supporting line explains assessment before recommendations and connects care to everyday conversations. A hearing test does not imply that a device purchase is necessary.
+The first screen must show the services, Sherman, a plain-language benefit, accurate local details, and call/text plus Request Appointment actions. Step 5 approved H1: “Personalized Hearing Care, Right Here in Sherman.” Preserve explicit PPC service/location continuity with the prominent preceding line “Hearing tests & hearing aids in Sherman, TX.” Supporting copy: “Start with a hearing test and a clear explanation of your results. If hearing aids are appropriate, explore options suited to your hearing and everyday life.” Benefit: “Take the next step toward easier everyday conversations.” A hearing test does not imply that a device purchase is necessary.
 
 Expected path: local service search → immediate service/location recognition → human relevance → credible practice and patient evidence → understandable appointment → suitable options → financial reassurance → contact.
 
@@ -53,11 +62,11 @@ Use a medium-length, scannable page. Target roughly 900–1,250 authored words e
 - Conversion purpose: confirm relevance and let ready visitors act immediately.
 - Visitor question: “Is this the right service in Sherman?”
 - Main message: hearing tests and hearing aids in Sherman, with personalized next steps toward clearer conversations.
-- Key content: service/location H1, short outcome-oriented support, test-first explanation, accurate owner-operated/licensed-practice line, address/hours, and CTA group. Sources: S2, S4, S5, S7, S10–S12.
+- Key content: the approved personalized/local H1 with a prominent hearing-tests/hearing-aids service/location line, concise test-first support and conversation benefit, owner-operated/licensed-practice microcopy, address/hours, and CTA group. Sources: S2, S4, S5, S7, S10–S12. The screenshot-supported 4.8/5 and 94 reviews use RESEARCH.md §3A/U1; no live refresh is claimed.
 - Emotional role: hopeful recognition without shame or alarm.
 - Trust role: exact location, accurate practice credentials, and Google rating badge only when verified material is supplied.
 - Visual storytelling role: establish why the service matters before explaining its mechanics.
-- Treatment: readable text beside a warm conversation photograph; avoid text over busy faces and product-dominated hero imagery.
+- Treatment: approved Option A, a navy text panel adjacent to a warm kitchen-table conversation photograph with a restrained overlapping white Google-proof panel on desktop. On mobile, the same proof panel appears in normal reading order before the actions, with image after local details. Preserve explicit service recognition and readable text; no text over faces. Generated lifestyle imagery illustrates everyday conversation and is not practice/patient evidence.
 - CTA: Call 903-206-2442, separate Text link, Request Appointment popup.
 - Previous relationship: expands the header's orientation into a service proposition.
 - Next relationship: introduces a short, recognizable account of everyday difficulty.

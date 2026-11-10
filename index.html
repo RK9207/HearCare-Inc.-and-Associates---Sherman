@@ -8,7 +8,7 @@
 
 <!--
 ==========================================================================
-STEP 4A FIRST DRAFT — INTERNAL BUILD NOTES (remove before publishing)
+STEP 5 HERO REBUILD — INTERNAL BUILD NOTES (remove before publishing)
 ==========================================================================
 Theme (Step 3 approved): Hearing tests and hearing aids in Sherman, TX.
 Narrative: everyday connection first → owners + Google proof early →
@@ -31,7 +31,11 @@ GOOGLE REVIEWS: 4.8 / 94 from user-supplied screenshots (RESEARCH §3A, U1).
 Capture date unknown — refresh rating/count before publishing.
 Reviews: shortlist from §3A (mobile shows first three).
 
-IMAGES: see placeholder inventory. IMG-PROVIDER-01 uses the real owner
+HERO: user-approved Option A split layout, Headline 4 and test-first copy.
+Rebuilt for review; not locked. IMG-HERO-01 is an AI lifestyle illustration
+with local responsive WebP assets; source records are in IMAGE_PROMPTS.md.
+
+IMAGES: see asset inventory. IMG-PROVIDER-01 uses the real owner
 portrait hot-linked from hearcareinc.com (411×411) — request a larger
 original and re-host on the filesafe CDN before launch.
 
@@ -152,37 +156,66 @@ a:hover{ color:var(--hc-navy); }
   .hc-header .hc-btn{ padding:10px 14px; font-size:1rem; }
 }
 
-/* ---------- Hero ---------- */
-.hc-hero{ padding:clamp(36px, 5vw, 72px) 0 clamp(48px, 6vw, 88px); }
-.hc-hero__grid{ display:grid; grid-template-columns:minmax(0, 1.2fr) minmax(0, 1fr); gap:clamp(40px, 5vw, 72px); align-items:center; }
-.hc-hero__text{ max-width:580px; }
-.hc-hero__lead{ margin-top:20px; font-size:1.25rem; line-height:1.55; }
-.hc-hero__step{ margin-top:14px; color:var(--hc-muted); }
-.hc-hero__trust{ margin-top:24px; padding-left:16px; border-left:3px solid var(--hc-sky); font-weight:500; color:var(--hc-navy); }
-.hc-hero .hc-cta{ margin-top:28px; }
-.hc-facts{ list-style:none; margin:24px 0 0; padding:0; display:flex; flex-wrap:wrap; gap:8px 28px; font-size:1rem; color:var(--hc-muted); }
-.hc-facts li{ display:flex; align-items:flex-start; gap:8px; }
-.hc-facts .hc-icon{ width:18px; height:18px; margin-top:3px; color:var(--hc-blue); }
-
-.hc-hero__media{ position:relative; }
-.hc-hero__media::before{ content:""; position:absolute; inset:28px -18px -18px 28px; background:var(--hc-surface); border-radius:16px; z-index:0; }
-.hc-hero__media > *{ position:relative; z-index:1; }
-.hc-badge{
-  position:absolute; z-index:2; left:-20px; bottom:28px;
-  display:flex; align-items:center; gap:14px; padding:14px 18px;
-  background:var(--hc-white); border:1px solid var(--hc-border); border-radius:12px;
-  box-shadow:0 8px 24px rgba(0,74,105,.12); text-decoration:none; color:var(--hc-ink);
-}
+/* ---------- Hero: approved Step 5 split composition ---------- */
+.hc-hero--split{ position:relative; padding:64px 0 72px; background:linear-gradient(115deg,var(--hc-navy) 0%,var(--hc-navy) 58%,var(--hc-navy-deep) 100%); color:var(--hc-white); }
+.hc-hero__grid{ display:grid; grid-template-columns:minmax(0,1.05fr) minmax(0,1fr); grid-template-areas:"copy media" "actions media" "facts media"; column-gap:64px; align-items:start; position:relative; }
+.hc-hero__text{ grid-area:copy; max-width:580px; }
+.hc-hero__eyebrow{ font-size:.875rem; line-height:1.5; font-weight:600; letter-spacing:.055em; text-transform:uppercase; color:#b7dcf5; }
+.hc-hero--split h1{ margin-top:18px; color:var(--hc-white); font-size:clamp(2.5rem,3.4vw,3rem); line-height:1.1; letter-spacing:-.025em; text-wrap:balance; }
+.hc-hero--split h1 span{ display:block; }
+.hc-hero--split .hc-hero__headline-local{ color:var(--hc-sky); }
+.hc-hero__lead{ margin-top:22px; font-size:1.1875rem; line-height:1.6; color:#edf5fa; }
+.hc-hero__benefit{ margin-top:16px; font-size:1.125rem; line-height:1.5; font-weight:600; color:var(--hc-white); }
+.hc-hero__trust{ margin-top:18px; font-size:1rem; line-height:1.5; color:#cce2ef; }
+.hc-hero__actions{ grid-area:actions; margin-top:26px; }
+.hc-hero--split .hc-btn{ border-radius:999px; min-height:50px; padding:12px 21px; }
+.hc-hero--split .hc-cta{ gap:12px 14px; }
+.hc-hero--split .hc-cta__text{ margin-top:0; }
+.hc-hero--split .hc-textlink{ color:var(--hc-white); }
+.hc-hero--split .hc-textlink:hover{ color:var(--hc-sky); }
+.hc-hero--split :focus-visible{ outline:3px solid var(--hc-sky); outline-offset:4px; box-shadow:0 0 0 2px var(--hc-navy); }
+.hc-facts{ grid-area:facts; list-style:none; margin:22px 0 0; padding:0; display:grid; gap:7px; font-size:1rem; line-height:1.5; color:#d6e7f1; }
+.hc-facts li{ display:flex; align-items:flex-start; gap:10px; }
+.hc-facts .hc-icon{ width:18px; height:18px; margin-top:3px; color:var(--hc-sky); }
+.hc-hero__media{ grid-area:media; position:relative; align-self:stretch; margin:0; min-height:570px; border-radius:96px 18px 18px 18px; }
+.hc-hero__media::after{ content:""; position:absolute; z-index:0; inset:18px -18px -18px 18px; border:1px solid rgba(120,187,233,.45); border-radius:96px 18px 18px 18px; pointer-events:none; }
+.hc-hero__media img{ position:absolute; z-index:1; inset:0; width:100%; height:100%; object-fit:cover; object-position:51% 46%; border-radius:inherit; }
+.hc-badge{ grid-area:media; position:relative; z-index:2; align-self:end; justify-self:start; margin:0 0 32px -28px; display:flex; align-items:center; gap:16px; padding:18px 22px; min-height:80px; background:var(--hc-white); border:1px solid var(--hc-white); border-radius:14px; box-shadow:0 12px 32px rgba(0,30,45,.19); text-decoration:none; color:var(--hc-ink); }
 .hc-badge:hover{ color:var(--hc-ink); border-color:var(--hc-sky); }
-.hc-badge__score{ font-family:var(--hc-head); font-weight:700; font-size:2rem; line-height:1; color:var(--hc-navy); }
-.hc-badge__meta{ display:flex; flex-direction:column; gap:4px; font-size:.9375rem; line-height:1.3; }
+.hc-badge__score{ font-family:var(--hc-head); font-weight:700; font-size:2.5rem; line-height:1; color:var(--hc-navy); }
+.hc-badge__meta{ display:flex; flex-direction:column; gap:5px; font-size:1rem; line-height:1.3; }
 .hc-badge__meta strong{ font-weight:600; }
-@media (max-width:639px){ .hc-hero__media::before{ display:none; } }
+.hc-badge__meta .hc-stars__base{ color:#c9d5dd; }
+@media (max-width:1199px) and (min-width:1024px){ .hc-hero__grid{ column-gap:42px; } .hc-hero--split h1{ font-size:2.75rem; } .hc-hero--split .hc-btn{ padding-inline:16px; } }
 @media (max-width:1023px){
-  .hc-hero__grid{ grid-template-columns:1fr; }
-  .hc-hero__text{ max-width:640px; }
-  .hc-hero__media{ max-width:640px; }
-  .hc-badge{ left:16px; bottom:16px; }
+  .hc-hero--split{ padding:44px 0 48px; }
+  .hc-hero__grid{ grid-template-columns:minmax(0,1fr); grid-template-areas:"copy" "proof" "actions" "facts" "media"; }
+  .hc-hero__text{ max-width:680px; }
+  .hc-hero--split h1{ max-width:680px; font-size:clamp(2rem,6.2vw,3rem); margin-top:14px; }
+  .hc-hero__lead{ max-width:640px; margin-top:18px; }
+  .hc-hero__benefit{ margin-top:14px; }
+  .hc-hero__trust{ margin-top:14px; }
+  .hc-badge{ grid-area:proof; align-self:start; margin:20px 0 0; min-height:64px; padding:12px 16px; gap:12px; border-radius:12px; box-shadow:none; }
+  .hc-badge__score{ font-size:1.875rem; }
+  .hc-badge__meta{ font-size:.9375rem; gap:3px; }
+  .hc-hero__actions{ margin-top:20px; }
+  .hc-facts{ margin-top:18px; }
+  .hc-hero__media{ margin-top:30px; min-height:0; aspect-ratio:4 / 3; border-radius:56px 14px 14px 14px; }
+  .hc-hero__media::after{ display:none; }
+  .hc-hero__media img{ object-position:50% 46%; }
+}
+@media (max-width:639px){
+  .hc-hero--split{ padding:32px 0 36px; }
+  .hc-hero__eyebrow{ letter-spacing:.025em; }
+  .hc-hero--split h1{ font-size:clamp(2rem,8.2vw,2.625rem); line-height:1.13; }
+  .hc-hero__lead{ font-size:1.125rem; line-height:1.55; }
+  .hc-hero__benefit{ font-size:1.0625rem; }
+  .hc-hero__trust{ font-size:1rem; }
+  .hc-hero--split .hc-cta{ gap:10px; }
+  .hc-hero--split .hc-btn{ white-space:normal; }
+  .hc-hero--split .hc-textlink{ font-size:1rem; }
+  .hc-facts{ font-size:1rem; }
+  .hc-hero__media{ margin-top:26px; }
 }
 
 /* Stars */
@@ -461,14 +494,29 @@ a:hover{ color:var(--hc-navy); }
 <main id="main">
 
 <!-- ===================== 1. HERO ===================== -->
-<section class="hc-hero" aria-labelledby="hero-title">
+<section class="hc-hero hc-hero--split hc-dark" aria-labelledby="hero-title">
   <div class="hc-wrap hc-hero__grid">
     <div class="hc-hero__text">
-      <h1 id="hero-title">Hearing Tests &amp; Hearing Aids in Sherman, TX</h1>
-      <p class="hc-hero__lead">Understand how you’re really hearing, then get clear guidance on next steps toward easier everyday conversations, including hearing aids matched to your needs, lifestyle and budget if they’re right for you.</p>
-      <p class="hc-hero__step">It starts with a comprehensive hearing test and a personal conversation about your results.</p>
-      <p class="hc-hero__trust">An owner-operated practice led by licensed hearing instrument specialists.</p>
+      <p class="hc-hero__eyebrow">Hearing tests &amp; hearing aids in Sherman, TX</p>
+      <h1 id="hero-title"><span>Personalized Hearing Care,</span> <span class="hc-hero__headline-local">Right Here in Sherman</span></h1>
+      <p class="hc-hero__lead">Start with a hearing test and a clear explanation of your results. If hearing aids are appropriate, explore options suited to your hearing and everyday life.</p>
+      <p class="hc-hero__benefit">Take the next step toward easier everyday conversations.</p>
+      <p class="hc-hero__trust">Owner-operated. Licensed hearing instrument specialists.</p>
+    </div>
 
+    <!-- U1 screenshot evidence: 4.8/5, 94 reviews. Same badge moves before actions on mobile. -->
+    <a class="hc-badge" href="https://www.google.com/search?q=hearcare+inc+and+associates+sherman&sca_esv=245a2c734ea474ba&rlz=1C1CHBD_enIN1092IN1158&biw=1920&bih=953&sxsrf=AKL5yDhrpWQFSvw2k45Jya0PWIxzVxSoBQ%3A1794240620821&ei=bPDxao3TMcqP4-EPrvLF4AE&oq=hearcare+inc+and+associates+sherman&gs_lp=Egxnd3Mtd2l6LXNlcnAiI2hlYXJjYXJlIGluYyBhbmQgYXNzb2NpYXRlcyBzaGVybWFuKgUIAhjvBTIGEAAYFhgeMgUQABjvBTIFEAAY7wUyBRAAGO8FMgUQABjvBUjyOFD7Blj4KXABeACQAQCYAakBoAHHFaoBBDAuMTi4AQHIAQD4AQGYAgygAtkNwgIIEAAY7wUYsAPCAgQQIxgnwgILEAAYgAQYigUYhgOYAwCIBgGQBgKSBwQxLjExoAfsUbIHBDAuMTG4B9QNwgcFMC43LjXIByOACAE&sclient=gws-wiz-serp#lrd=0x864c8851e671d29f:0xc56621ec07540757,1,,,," target="_blank" rel="noopener" aria-label="Rated 4.8 out of 5 from 94 Google reviews. Opens Google reviews in a new tab.">
+      <span class="hc-badge__score" aria-hidden="true">4.8</span>
+      <span class="hc-badge__meta" aria-hidden="true">
+        <span class="hc-stars">
+          <span class="hc-stars__base"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+          <span class="hc-stars__fill" style="width:96%"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+        </span>
+        <strong>94 Google reviews</strong>
+      </span>
+    </a>
+
+    <div class="hc-hero__actions">
       <div class="hc-cta">
         <a class="hc-btn hc-btn--call" href="tel:+19032062442" data-contact-tel>
           <svg class="hc-icon" aria-hidden="true"><use href="#i-phone"/></svg>
@@ -485,36 +533,21 @@ a:hover{ color:var(--hc-navy); }
           </a>
         </div>
       </div>
-
-      <ul class="hc-facts">
-        <li><svg class="hc-icon" aria-hidden="true"><use href="#i-pin"/></svg><span>1800 N. Travis St, Suite D, Sherman</span></li>
-        <li><svg class="hc-icon" aria-hidden="true"><use href="#i-clock"/></svg><span>Mon–Thu 9am–5pm, Fri by appointment</span></li>
-      </ul>
     </div>
 
-    <div class="hc-hero__media">
-      <!-- IMG-HERO-01: replace this div with <img data-img-id="IMG-HERO-01" ...> (object-fit:cover, radius 16px) -->
-      <div class="hc-ph hc-ph--hero" data-img-id="IMG-HERO-01" role="img" aria-label="Image placeholder IMG-HERO-01">
-        <div class="hc-ph__inner">
-          <svg class="hc-icon" aria-hidden="true"><use href="#i-image"/></svg>
-          <span class="hc-ph__id">IMG-HERO-01</span>
-          <span>Warm, natural conversation scene: an older adult engaged and laughing with family or a friend. Faces clear of the badge area (bottom-left).</span>
-          <span class="hc-ph__spec">4:5 portrait, min 960×1200. Mobile crop 4:3.</span>
-        </div>
-      </div>
+    <ul class="hc-facts">
+      <li><svg class="hc-icon" aria-hidden="true"><use href="#i-pin"/></svg><span>1800 N. Travis St, Suite D, Sherman, TX 75092</span></li>
+      <li><svg class="hc-icon" aria-hidden="true"><use href="#i-clock"/></svg><span>Mon–Thu 9am–5pm · Fri by appointment</span></li>
+    </ul>
 
-      <!-- Google badge: values from user-supplied screenshots (U1). Refresh before publishing. -->
-      <a class="hc-badge" href="https://www.google.com/search?q=hearcare+inc+and+associates+sherman&sca_esv=245a2c734ea474ba&rlz=1C1CHBD_enIN1092IN1158&biw=1920&bih=953&sxsrf=AKL5yDhrpWQFSvw2k45Jya0PWIxzVxSoBQ%3A1794240620821&ei=bPDxao3TMcqP4-EPrvLF4AE&oq=hearcare+inc+and+associates+sherman&gs_lp=Egxnd3Mtd2l6LXNlcnAiI2hlYXJjYXJlIGluYyBhbmQgYXNzb2NpYXRlcyBzaGVybWFuKgUIAhjvBTIGEAAYFhgeMgUQABjvBTIFEAAY7wUyBRAAGO8FMgUQABjvBUjyOFD7Blj4KXABeACQAQCYAakBoAHHFaoBBDAuMTi4AQHIAQD4AQGYAgygAtkNwgIIEAAY7wUYsAPCAgQQIxgnwgILEAAYgAQYigUYhgOYAwCIBgGQBgKSBwQxLjExoAfsUbIHBDAuMTG4B9QNwgcFMC43LjXIByOACAE&sclient=gws-wiz-serp#lrd=0x864c8851e671d29f:0xc56621ec07540757,1,,,," target="_blank" rel="noopener" aria-label="Rated 4.8 out of 5 from 94 Google reviews. Opens Google reviews in a new tab.">
-        <span class="hc-badge__score" aria-hidden="true">4.8</span>
-        <span class="hc-badge__meta" aria-hidden="true">
-          <span class="hc-stars">
-            <span class="hc-stars__base"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
-            <span class="hc-stars__fill" style="width:96%"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
-          </span>
-          <span><strong>94 Google reviews</strong></span>
-        </span>
-      </a>
-    </div>
+    <figure class="hc-hero__media">
+      <!-- IMG-HERO-01: AI-created illustrative lifestyle scene, not HearCare patients or clinic. -->
+      <img src="assets/hearcare-kitchen-conversation.webp"
+           srcset="assets/hearcare-kitchen-conversation-960.webp 960w, assets/hearcare-kitchen-conversation.webp 1122w"
+           sizes="(min-width:1288px) 554px, (min-width:1024px) 44vw, calc(100vw - 40px)"
+           width="1122" height="1402" fetchpriority="high" decoding="async" data-img-id="IMG-HERO-01"
+           alt="An older woman and an adult woman talking together at a kitchen table.">
+    </figure>
   </div>
 </section>
 
