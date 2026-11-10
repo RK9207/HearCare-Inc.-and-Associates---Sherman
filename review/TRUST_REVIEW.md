@@ -29,3 +29,5 @@ Checked at 320, 390, 500, 768, 1024, 1440 and 1920px: no section overflow, exact
 A source comparison confirms all HTML/CSS outside the owners/reviews group is identical to the previous commit: locked Hero and recognition section, header, later sections and integration scripts are unchanged. Verbatim quote checks passed. No lead, call or text was sent. No conversion uplift, live tracking, Lighthouse or successful form delivery is claimed.
 
 PAGE_STRATEGY.md, CONTENT_DIRECTION.md, DESIGN_SYSTEM.md and IMAGE_PROMPTS.md reflect this approved rebuild. It is implemented for review, **not locked**. Ask for approval or adjustments; do not automatically advance.
+
+User-supplied portrait hosting update: IMG-PROVIDER-01 now uses https://files.leadconnectorhq.com/file/6af3642f512d2edab67fe078/hearcare-associates-kenneth-jill-sheppard.jpg . Only the image URL changed; authentic portrait identity, dimensions, alt text, lazy loading, crop, image ID and layout are preserved. No live image availability or new resolution is assumed.

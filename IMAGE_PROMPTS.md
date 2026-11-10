@@ -210,3 +210,5 @@ Google proof now sits below the Hero actions as a compact inline row, not over t
 Everyday-difficulty section rebuilt under user approval as an image-free asymmetric editorial section. Small functional line icons represent the three listening situations; no photo slot or new image generation is needed. IMG-HERO-01 and its locked implementation are unchanged.
 
 Owner/proof Layout A approved: IMG-PROVIDER-01 remains the authentic 411×411 joint portrait, shown at up to 300px desktop / 280px mobile with both owners retained and no AI alteration. It now follows the introductory heading/copy on mobile. No new image or replacement likeness is used. Source URL unchanged; actual image rendering remains to be reviewed in GHL because local access failed.
+
+User-supplied portrait hosting update: IMG-PROVIDER-01 now uses https://files.leadconnectorhq.com/file/6af3642f512d2edab67fe078/hearcare-associates-kenneth-jill-sheppard.jpg . Only the image URL changed; authentic portrait identity, dimensions, alt text, lazy loading, crop, image ID and layout are preserved. No live image availability or new resolution is assumed.
