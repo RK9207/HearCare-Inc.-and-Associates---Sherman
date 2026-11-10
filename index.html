@@ -394,10 +394,11 @@ a:hover{ color:var(--hc-navy); }
 /* Mobile-only refinement; desktop trust layout and locked sections are preserved. */
 @media(max-width:639px){
  .hc-practice{ padding:34px 0 36px; }
- .hc-practice__intro{ margin-bottom:22px; }
+ .hc-practice__intro{ margin-bottom:22px; text-align:center; }
  .hc-practice__intro > p{ margin-top:12px; line-height:1.55; }
  .hc-practice .hc-owners{ grid-template-columns:minmax(0,1fr); grid-template-areas:"portrait" "license" "credentials" "values"; gap:20px; align-items:start; }
  .hc-practice .hc-owner-content{ display:contents; }
+ .hc-practice .hc-owner-license,.hc-practice .hc-creds,.hc-practice .hc-values{ text-align:center; }
  .hc-practice .hc-portrait{ grid-area:portrait; width:100%; max-width:220px; justify-self:center; }
  .hc-practice .hc-portrait img{ border-radius:18px; box-shadow:0 8px 24px rgba(0,74,105,.1); }
  .hc-practice .hc-portrait figcaption{ display:none; }
@@ -406,7 +407,7 @@ a:hover{ color:var(--hc-navy); }
  .hc-practice .hc-cred h3{ font-size:1.25rem; }
  .hc-practice .hc-cred + .hc-cred{ padding-top:14px; border-top:1px solid var(--hc-border); }
  .hc-practice .hc-owner-quals{ margin-top:10px; }
- .hc-practice .hc-owner-quals summary{ min-height:48px; padding:10px 14px; justify-content:space-between; border:1px solid var(--hc-border); border-radius:8px; background:var(--hc-surface); text-decoration:none; }
+ .hc-practice .hc-owner-quals summary{ min-height:48px; padding:10px 14px; justify-content:center; border:1px solid var(--hc-border); border-radius:8px; background:var(--hc-surface); text-decoration:none; }
  .hc-practice .hc-values{ grid-area:values; margin-top:0; }
  .hc-practice .hc-reviews{ margin-top:28px; margin-inline:calc(-1 * var(--hc-gutter)); padding:22px var(--hc-gutter); border-radius:0; border-left:0; border-right:0; }
  .hc-practice .hc-reviews__head{ gap:14px; margin-bottom:20px; }

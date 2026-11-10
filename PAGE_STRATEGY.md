@@ -248,3 +248,5 @@ Optimize the current owners/reviews group below 640px only. Use a compact authen
 ## Mobile portrait layout correction
 
 The user rejected the compact portrait-and-licensing row shown in the GHL screenshot. Replace it below 640px with a centered 220px authentic portrait (200px below 380px), followed by full-width licensing text and vertically stacked owner profiles. Use full-width outlined native qualification controls with a clear right-aligned chevron and at least 48px height. Preserve all wording, review quotations, source image, desktop styling and locked sections. This supersedes the prior side-by-side mobile optimization. Awaiting rendered approval.
+
+User-requested mobile centering: center the owner heading/introduction, shared license, names, qualification controls and values below 640px. Portrait remains centered. Keep expanded qualification prose and review quotations readable; main review content remains left-aligned. Desktop and locked sections unchanged.
