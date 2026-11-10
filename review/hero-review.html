@@ -426,29 +426,53 @@ a:hover{ color:var(--hc-navy); }
  .hc-practice .hc-owner-license{ line-height:1.55; }
 }
 
-/* ---------- Process ---------- */
-.hc-steps{ list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(4, minmax(0,1fr)); gap:32px; counter-reset:step; }
-.hc-step{ position:relative; }
-.hc-step__num{
-  display:flex; align-items:center; justify-content:center; width:44px; height:44px; border-radius:50%;
-  background:var(--hc-navy); color:var(--hc-white); font-family:var(--hc-head); font-weight:700; font-size:1.125rem; margin-bottom:18px; position:relative; z-index:1;
+/* ---------- Process: approved two-phase editorial layout ---------- */
+.hc-process{ padding:60px 0; background:var(--hc-white); }
+.hc-process__intro{ max-width:940px; margin-bottom:30px; }
+.hc-process__intro > p{ margin-top:16px; color:var(--hc-muted); font-size:1.125rem; line-height:1.6; }
+.hc-process__phases{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:28px; align-items:start; }
+.hc-process__phase{ padding:28px; border:1px solid var(--hc-border); border-radius:16px; }
+.hc-process__phase--conditional{ background:var(--hc-surface); }
+.hc-process__phase > h3{ margin:0 0 24px; color:var(--hc-navy); font-size:1.375rem; line-height:1.35; }
+.hc-process__steps{ list-style:none; margin:0; padding:0; display:grid; gap:26px; }
+.hc-process__steps li{ display:grid; grid-template-columns:34px minmax(0,1fr); gap:10px 12px; align-items:center; }
+.hc-process__number{ display:flex; align-items:center; justify-content:center; width:34px; height:34px; border-radius:50%; background:#e0f0fa; color:var(--hc-navy); font-family:var(--hc-head); font-size:1rem; font-weight:700; }
+.hc-process__steps h4{ margin:0; color:var(--hc-navy); font-family:var(--hc-head); font-size:1.1875rem; font-weight:600; line-height:1.4; }
+.hc-process__steps p{ grid-column:1 / -1; margin:0; font-size:1.125rem; line-height:1.6; color:var(--hc-muted); }
+.hc-process__details{ margin-top:28px; display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:28px; align-items:start; }
+.hc-process__details > p{ color:var(--hc-muted); font-size:1.125rem; line-height:1.6; }
+.hc-process .hc-more summary{ font-size:1.125rem; }
+.hc-process .hc-more__body,.hc-process .hc-more__body > p{ font-size:1.125rem; line-height:1.6; }
+.hc-process__contact{ display:grid; grid-template-columns:minmax(0,1fr) auto; gap:20px 32px; align-items:center; margin-top:30px; padding:24px 28px; border-radius:16px; background:var(--hc-navy); color:var(--hc-white); }
+.hc-process__contact > p{ font-family:var(--hc-head); font-size:1.25rem; line-height:1.4; font-weight:600; }
+.hc-process__contact .hc-cta{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px 14px; }
+.hc-process__contact .hc-btn{ width:100%; min-height:52px; border-radius:999px; gap:8px; text-align:center; white-space:normal; }
+.hc-process__contact .hc-btn > span{ display:block; line-height:1.25; }
+.hc-process__contact .hc-btn--appt{ color:var(--hc-white); border-color:var(--hc-white); background:transparent; }
+.hc-process__contact .hc-btn--appt:hover{ background:var(--hc-white); color:var(--hc-navy); }
+.hc-process__contact .hc-textlink{ grid-column:1 / -1; justify-self:start; color:var(--hc-white); }
+.hc-process__contact :focus-visible{ outline-color:var(--hc-sky); box-shadow:0 0 0 3px var(--hc-navy); }
+@media(max-width:1023px){
+ .hc-process__phases{ gap:20px; }
+ .hc-process__phase{ padding:24px; }
+ .hc-process__details{ grid-template-columns:1fr; gap:18px; }
+ .hc-process__contact{ grid-template-columns:1fr; gap:16px; }
+ .hc-process__contact .hc-cta{ justify-self:start; }
 }
-.hc-step:not(:last-child)::after{ content:""; position:absolute; top:21px; left:56px; right:-20px; height:2px; background:var(--hc-sky); }
-.hc-step h3{ margin-bottom:10px; }
-.hc-step p{ font-size:1.0625rem; }
-.hc-step__outcome{ margin-top:14px !important; padding-left:12px; border-left:3px solid var(--hc-sky); color:var(--hc-navy); font-weight:500; }
-@media (max-width:1023px){
-  .hc-steps{ grid-template-columns:repeat(2, minmax(0,1fr)); gap:36px 32px; }
-  .hc-step:not(:last-child)::after{ display:none; }
+@media(max-width:767px){
+ .hc-process{ padding:40px 0; }
+ .hc-process__intro{ margin-bottom:24px; }
+ .hc-process__intro > p{ margin-top:14px; }
+ .hc-process__phases{ grid-template-columns:minmax(0,1fr); gap:18px; }
+ .hc-process__phase{ padding:22px 20px; }
+ .hc-process__phase > h3{ margin-bottom:20px; font-size:1.25rem; }
+ .hc-process__steps{ gap:22px; }
+ .hc-process__details{ margin-top:22px; }
+ .hc-process__contact{ margin-top:24px; padding:22px 20px; }
+ .hc-process__contact > p{ font-size:1.125rem; }
+ .hc-process__contact .hc-cta{ width:100%; justify-self:stretch; }
 }
-@media (max-width:639px){
-  .hc-steps{ grid-template-columns:1fr; gap:0; }
-  .hc-step{ padding-left:64px; padding-bottom:32px; }
-  .hc-step__num{ position:absolute; left:0; top:0; margin:0; }
-  .hc-step:not(:last-child)::after{ display:block; top:52px; bottom:8px; left:21px; right:auto; width:2px; height:auto; }
-}
-.hc-care-note{ margin-top:clamp(32px, 4vw, 44px); max-width:760px; display:flex; flex-direction:column; gap:16px; }
-.hc-care-note > p{ color:var(--hc-muted); }
+@media(max-width:639px){ .hc-process__contact .hc-cta{ grid-template-columns:minmax(0,1fr); } }
 
 /* Disclosure */
 .hc-more{ border:1px solid var(--hc-border); border-radius:12px; background:var(--hc-white); }
@@ -821,41 +845,45 @@ a:hover{ color:var(--hc-navy); }
 </section>
 
 <!-- ===================== 4. WHAT HAPPENS NEXT ===================== -->
-<section class="hc-section hc-section--tint" id="care" aria-labelledby="care-title">
+<section class="hc-section hc-process" id="care" aria-labelledby="care-title">
   <div class="hc-wrap">
-    <div class="hc-section__head">
-      <h2 id="care-title">Understand your hearing before choosing anything</h2>
-      <p>Your first visit is about learning how you hear. Any recommendation comes after that, and only if it suits your results.</p>
+    <div class="hc-process__intro">
+      <h2 id="care-title">Know what to expect before your visit</h2>
+      <p>Start with a hearing test and a discussion of your results. Hearing-aid selection, fitting and support follow only if appropriate and you choose to proceed.</p>
     </div>
-
-    <ol class="hc-steps">
-      <li class="hc-step">
-        <span class="hc-step__num" aria-hidden="true">1</span>
-        <h3>Your hearing test</h3>
-        <p>In a quiet, confidential room, you listen through headphones to tones and speech while your responses are measured and recorded.</p>
-        <p class="hc-step__outcome">Recommendations are based on how you actually hear.</p>
-      </li>
-      <li class="hc-step">
-        <span class="hc-step__num" aria-hidden="true">2</span>
-        <h3>Your results, explained</h3>
-        <p>We review your results with you on an audiogram, a simple chart showing how loud sounds need to be for you to hear them at different pitches.</p>
-        <p class="hc-step__outcome">You understand what’s happening before deciding anything.</p>
-      </li>
-      <li class="hc-step">
-        <span class="hc-step__num" aria-hidden="true">3</span>
-        <h3>Options that suit you</h3>
-        <p>If hearing aids are appropriate, we guide you toward styles and technology that fit your hearing needs, lifestyle and budget.</p>
-        <p class="hc-step__outcome">Choices that make sense for your daily life.</p>
-      </li>
-      <li class="hc-step">
-        <span class="hc-step__num" aria-hidden="true">4</span>
-        <h3>Fitting, learning and support</h3>
-        <p>Devices are fitted and set for you, with custom ear impressions when needed, plus help with care, charging, phone connectivity and features. Follow-ups and adjustments continue as your needs change.</p>
-        <p class="hc-step__outcome">More confidence using your hearing aids day to day.</p>
-      </li>
-    </ol>
-
-    <div class="hc-care-note">
+    <div class="hc-process__phases">
+      <div class="hc-process__phase">
+        <h3>At your hearing test</h3>
+        <ol class="hc-process__steps">
+          <li>
+            <span class="hc-process__number" aria-hidden="true">1</span>
+            <h4>Your hearing test</h4>
+            <p>In a quiet, confidential room, you listen through headphones to tones and speech while your responses are measured and recorded. This helps establish how you hear.</p>
+          </li>
+          <li>
+            <span class="hc-process__number" aria-hidden="true">2</span>
+            <h4>Your results, explained</h4>
+            <p>We explain your results on an audiogram—a chart of how you hear sounds at different pitches and volumes—so you can understand the findings and discuss next steps.</p>
+          </li>
+        </ol>
+      </div>
+      <div class="hc-process__phase hc-process__phase--conditional">
+        <h3>If hearing aids are appropriate</h3>
+        <ol class="hc-process__steps" start="3">
+          <li>
+            <span class="hc-process__number" aria-hidden="true">3</span>
+            <h4>Options that suit you</h4>
+            <p>Explore styles and technology suited to your hearing needs, lifestyle and budget, with guidance to help you understand the choices.</p>
+          </li>
+          <li>
+            <span class="hc-process__number" aria-hidden="true">4</span>
+            <h4>Fitting, learning and support</h4>
+            <p>If you proceed with devices, fitting and personalized settings help make them usable in daily life. Guidance covers care, charging where applicable, phone connectivity and features, with custom ear impressions when needed and follow-up adjustments.</p>
+          </li>
+        </ol>
+      </div>
+    </div>
+    <div class="hc-process__details">
       <p>Hearing aids aren’t the answer for every type of hearing loss. Some causes, such as a blockage or fluid in the ear, may need medical treatment instead, and your results help show which path makes sense.</p>
       <details class="hc-more">
         <summary>Which tests might be included?<svg class="hc-icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
@@ -869,22 +897,12 @@ a:hover{ color:var(--hc-navy); }
         </div>
       </details>
     </div>
-
-    <div class="hc-section-cta">
+    <div class="hc-process__contact">
       <p>Ready to start with a hearing test?</p>
       <div class="hc-cta">
-        <a class="hc-btn hc-btn--call" href="tel:+19032062442" data-contact-tel>
-          <svg class="hc-icon" aria-hidden="true"><use href="#i-phone"/></svg>
-          <span>Call <span data-contact-display>903-206-2442</span></span>
-        </a>
-        <a class="hc-btn hc-btn--appt" href="https://api.onspirepulse.com/widget/form/8wW1RhQrj7egDZ93IJlJ" data-open-appointment>
-          <svg class="hc-icon" aria-hidden="true"><use href="#i-calendar"/></svg>
-          Request Appointment
-        </a>
-        <a class="hc-textlink" href="sms:+19032062442" data-contact-sms>
-          <svg class="hc-icon" aria-hidden="true"><use href="#i-message"/></svg>
-          Text us
-        </a>
+        <a class="hc-btn hc-btn--call" href="tel:+19032062442" data-contact-tel><svg class="hc-icon" aria-hidden="true"><use href="#i-phone"/></svg><span>Call <span data-contact-display>903-206-2442</span></span></a>
+        <a class="hc-btn hc-btn--appt" href="https://api.onspirepulse.com/widget/form/8wW1RhQrj7egDZ93IJlJ" data-open-appointment><svg class="hc-icon" aria-hidden="true"><use href="#i-calendar"/></svg><span>Request Appointment</span></a>
+        <a class="hc-textlink" href="sms:+19032062442" data-contact-sms><svg class="hc-icon" aria-hidden="true"><use href="#i-message"/></svg>Text us</a>
       </div>
     </div>
   </div>
