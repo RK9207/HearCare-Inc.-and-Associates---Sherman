@@ -47,3 +47,8 @@ User requested implementing the source-backed recommendation with “please do i
 
 
 Preparation follow-up validation: eight questions at all seven widths; all 56 keyboard item/viewport open/close checks passed, no collapsed/expanded overflow, answer text remains 18px, and desktop scroll-follow/boundary/reduced-motion checks still pass. Exact page-source comparison confirms only the eighth details element was added.
+
+
+## FAQ final approval
+
+User: “Looks good, I approve this section, let's move to next section.” FAQ implementation in b1017ee is APPROVED / LOCKED, including all eight topics, source-backed preparation answer, bordered native disclosures, responsive answer spacing and desktop scroll-following introduction with reduced-motion/static-mobile behavior. Preserve without further user authorization. Next proposed section: the existing Sherman location/map section, to turn answered concerns into practical visit planning before the final contact invitation. Request current desktop/mobile screenshots including map, address, hours and directions, and wait before individual review or editing. No HTML/CSS changes accompany this approval record.

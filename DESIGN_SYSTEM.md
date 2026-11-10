@@ -282,3 +282,8 @@ User approved Layout A + “Questions before your visit?” after desktop/mobile
 ## User-requested scroll-following left column
 
 User requested that the FAQ left column slide downward with scroll like parallax. Use native CSS sticky positioning at widths >=768px and viewport heights >=600px, offset below the fixed header by 32px and constrained to the FAQ grid. The intro follows the questions and stops at the section boundary, without custom scroll listeners or moving accordion controls. Keep static positioning on mobile, short viewports and reduced-motion preferences. No wording, typography, other section or integration changes. Awaiting rendered review.
+
+
+## FAQ final approval
+
+User: “Looks good, I approve this section, let's move to next section.” FAQ implementation in b1017ee is APPROVED / LOCKED, including all eight topics, source-backed preparation answer, bordered native disclosures, responsive answer spacing and desktop scroll-following introduction with reduced-motion/static-mobile behavior. Preserve without further user authorization. Next proposed section: the existing Sherman location/map section, to turn answered concerns into practical visit planning before the final contact invitation. Request current desktop/mobile screenshots including map, address, hours and directions, and wait before individual review or editing. No HTML/CSS changes accompany this approval record.

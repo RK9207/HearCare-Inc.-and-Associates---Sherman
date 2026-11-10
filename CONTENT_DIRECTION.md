@@ -240,3 +240,8 @@ User approved Layout A + “Questions before your visit?” after desktop/mobile
 ## Approved preparation FAQ addition
 
 User requested implementing the source-backed recommendation with “please do it.” Add an eighth FAQ, “How should I prepare for my hearing test?” Answer: note difficult listening situations, be ready to discuss medical history/current medications, and optionally bring a friend or family member. Source S19 in RESEARCH.md is the clinic’s preparation article. Do not imply a required-items checklist or promise a duration/fee. Existing seven answers, styling, sticky introduction, contact integrations and other sections remain unchanged. FAQ remains pending rendered approval.
+
+
+## FAQ final approval
+
+User: “Looks good, I approve this section, let's move to next section.” FAQ implementation in b1017ee is APPROVED / LOCKED, including all eight topics, source-backed preparation answer, bordered native disclosures, responsive answer spacing and desktop scroll-following introduction with reduced-motion/static-mobile behavior. Preserve without further user authorization. Next proposed section: the existing Sherman location/map section, to turn answered concerns into practical visit planning before the final contact invitation. Request current desktop/mobile screenshots including map, address, hours and directions, and wait before individual review or editing. No HTML/CSS changes accompany this approval record.
