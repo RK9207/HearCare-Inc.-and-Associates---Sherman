@@ -51,3 +51,8 @@ Increase the desktop map minimum height to 520px, tablet minimum to 460px, and m
 
 
 User-requested directions-button styling: apply brand navy background/border (#004a69), white text and icon, and deeper navy hover (#003a53), scoped only to the location map’s Get Directions button. Other buttons, map card, destinations and sizing unchanged. Index and full HTML artifact match; exact replacement scope verified. No new browser-rendering claim for this color-only adjustment.
+
+
+## Sherman location final approval
+
+User: “looks good, lets move to the next section, I approve this section.” Location implementation as of 7d363a12eb3b9c2177a639ade734d3195287b46c is APPROVED / LOCKED, including the bordered details/map panel, supplied OAP/MapLibre integration, enlarged responsive map, Open in Maps card link and dark-blue Get Directions button. Preserve without further user authorization. Next proposed section: existing final contact invitation, to connect the completed visit-planning information to Call, Text and Request Appointment. Request current desktop/mobile screenshots showing the complete invitation and actions, and wait before individual review or editing. No HTML/CSS changes accompany this approval record.
