@@ -396,17 +396,17 @@ a:hover{ color:var(--hc-navy); }
  .hc-practice{ padding:34px 0 36px; }
  .hc-practice__intro{ margin-bottom:22px; }
  .hc-practice__intro > p{ margin-top:12px; line-height:1.55; }
- .hc-practice .hc-owners{ grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr); grid-template-areas:"portrait license" "credentials credentials" "values values"; gap:18px 16px; align-items:center; }
+ .hc-practice .hc-owners{ grid-template-columns:minmax(0,1fr); grid-template-areas:"portrait" "license" "credentials" "values"; gap:20px; align-items:start; }
  .hc-practice .hc-owner-content{ display:contents; }
- .hc-practice .hc-portrait{ grid-area:portrait; width:100%; max-width:140px; justify-self:start; }
- .hc-practice .hc-portrait img{ border-radius:14px; }
+ .hc-practice .hc-portrait{ grid-area:portrait; width:100%; max-width:220px; justify-self:center; }
+ .hc-practice .hc-portrait img{ border-radius:18px; box-shadow:0 8px 24px rgba(0,74,105,.1); }
  .hc-practice .hc-portrait figcaption{ display:none; }
- .hc-practice .hc-owner-license{ grid-area:license; border:0; padding:0; font-size:1.125rem; line-height:1.45; }
+ .hc-practice .hc-owner-license{ grid-area:license; border:0; padding:0 0 18px; border-bottom:1px solid var(--hc-border); font-size:1.125rem; line-height:1.55; }
  .hc-practice .hc-creds{ grid-area:credentials; margin-top:0; gap:14px; }
  .hc-practice .hc-cred h3{ font-size:1.25rem; }
  .hc-practice .hc-cred + .hc-cred{ padding-top:14px; border-top:1px solid var(--hc-border); }
- .hc-practice .hc-owner-quals{ margin-top:4px; }
- .hc-practice .hc-owner-quals summary{ min-height:48px; }
+ .hc-practice .hc-owner-quals{ margin-top:10px; }
+ .hc-practice .hc-owner-quals summary{ min-height:48px; padding:10px 14px; justify-content:space-between; border:1px solid var(--hc-border); border-radius:8px; background:var(--hc-surface); text-decoration:none; }
  .hc-practice .hc-values{ grid-area:values; margin-top:0; }
  .hc-practice .hc-reviews{ margin-top:28px; margin-inline:calc(-1 * var(--hc-gutter)); padding:22px var(--hc-gutter); border-radius:0; border-left:0; border-right:0; }
  .hc-practice .hc-reviews__head{ gap:14px; margin-bottom:20px; }
@@ -421,7 +421,7 @@ a:hover{ color:var(--hc-navy); }
 }
 @media(max-width:379px){
  .hc-practice .hc-owners{ grid-template-columns:minmax(0,1fr); grid-template-areas:"portrait" "license" "credentials" "values"; }
- .hc-practice .hc-portrait{ max-width:160px; justify-self:center; }
+ .hc-practice .hc-portrait{ max-width:200px; justify-self:center; }
  .hc-practice .hc-owner-license{ line-height:1.55; }
 }
 

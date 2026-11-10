@@ -214,3 +214,5 @@ Owner/proof Layout A approved: IMG-PROVIDER-01 remains the authentic 411×411 jo
 User-supplied portrait hosting update: IMG-PROVIDER-01 now uses https://files.leadconnectorhq.com/file/6af3642f512d2edab67fe078/hearcare-associates-kenneth-jill-sheppard.jpg . Only the image URL changed; authentic portrait identity, dimensions, alt text, lazy loading, crop, image ID and layout are preserved. No live image availability or new resolution is assumed.
 
 Mobile optimization: authentic GHL portrait is up to 140px beside license text at 380–639px, and up to 160px stacked below 380px. Both faces remain intact via unchanged contain rendering. Duplicate mobile caption is hidden; the full names remain visible in profiles. Desktop portrait unchanged.
+
+User rejected the small side-by-side mobile portrait. IMG-PROVIDER-01 now remains centered above full-width credentials: 220px maximum, 200px on screens below 380px, with original contain rendering and unchanged GHL source. No new image or crop.
