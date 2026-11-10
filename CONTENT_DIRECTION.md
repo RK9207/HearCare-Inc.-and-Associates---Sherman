@@ -149,3 +149,7 @@ Footer: **Privacy Policy** → https://hearcareinc.com/privacy-policy/; **Visit 
 ## Final editorial review
 
 Check each major claim against RESEARCH.md source IDs; flag missing support rather than inventing it. Confirm the approved temporary number and all destinations agree. Read headlines alone for service, outcome, trust, process, payment, and action continuity. Preserve candidate/verified distinctions and record unresolved reviews, assets, ad inputs, and form behavior. Writing the first draft and selecting a builder remain a separate approval gate.
+
+## Approved hierarchy and button refinement
+
+The user requested improved visual hierarchy, removal of the break after “Personalized,” and button alignment fixes. Keep “Personalized Hearing” together, allow the remaining headline to wrap responsively, and make the local phrase smaller/lighter than the primary message. Place the existing conversation benefit before the longer test-first explanation, preserving all approved wording. Use equal-width/equal-height Hero action columns on desktop, a single column on mobile, and consistent centered icon/label groups in Hero/header buttons. These refinements remain pending rendered approval; no section is locked. Preserve all destinations and integration hooks.

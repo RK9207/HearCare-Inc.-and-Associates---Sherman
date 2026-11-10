@@ -46,3 +46,7 @@ In the preceding Hero rebuild, no other section, header, form embed, integration
 ## Next gate
 
 Ask the user to approve the rendered Hero, request adjustments, or try another direction. Do not lock it or start a new section automatically. After explicit rendered approval, select the strongest next section, explain the transition, and request that section's desktop/mobile screenshots before its individual review.
+
+## Subsequent hierarchy refinement
+
+User requested removal of the break after Personalized, improved hierarchy and button alignment. The primary phrase now stays together; desktop sizing accommodates the full primary headline when space allows. Local emphasis is subordinate; the existing conversation benefit precedes the detailed test-first explanation. Hero action buttons use matching grid columns and equal height, with consistent icon/label centering in Hero/header controls. Copy, evidence, destinations and integration scripts are preserved. Latest screenshots and portable HTML reflect this refinement. Still awaiting rendered approval.

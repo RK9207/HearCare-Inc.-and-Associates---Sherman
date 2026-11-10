@@ -186,3 +186,7 @@ Use a medium-length, scannable page. Target roughly 900–1,250 authored words e
 ## Next gate
 
 These documents guide the first draft; they do not authorize building or publication. Present a separate Claude/Codex recommendation and wait for the user's builder selection before Step 4.
+
+## Approved hierarchy and button refinement
+
+The user requested improved visual hierarchy, removal of the break after “Personalized,” and button alignment fixes. Keep “Personalized Hearing” together, allow the remaining headline to wrap responsively, and make the local phrase smaller/lighter than the primary message. Place the existing conversation benefit before the longer test-first explanation, preserving all approved wording. Use equal-width/equal-height Hero action columns on desktop, a single column on mobile, and consistent centered icon/label groups in Hero/header buttons. These refinements remain pending rendered approval; no section is locked. Preserve all destinations and integration hooks.
