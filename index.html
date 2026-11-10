@@ -521,9 +521,16 @@ a:hover{ color:var(--hc-navy); }
 .hc-options .hc-brands ul{ list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
 .hc-options .hc-brands li{ padding:5px 14px; border:1px solid var(--hc-options-border); border-radius:999px; background:var(--hc-white); font-weight:500; font-size:1.125rem; line-height:1.5; color:var(--hc-navy); }
 .hc-options .hc-brands p{ grid-column:2; font-size:1.125rem; line-height:1.6; color:var(--hc-muted); }
-.hc-options .hc-more{ margin-top:20px; border:1px solid var(--hc-options-border); border-radius:16px; }
+.hc-options .hc-more{ margin-top:20px; border:2px solid #76aac7; border-radius:16px; background:var(--hc-surface); }
+.hc-options .hc-more summary{ padding:22px 24px; gap:20px; }
+.hc-options__guide-text{ display:flex; flex-direction:column; gap:6px; }
+.hc-options__guide-title{ font-family:var(--hc-head); font-size:1.25rem; font-weight:600; line-height:1.4; }
+.hc-options__guide-description{ font-size:1.125rem; font-weight:400; line-height:1.5; color:var(--hc-muted); }
+.hc-options .hc-more summary > .hc-icon{ flex:none; width:40px; height:40px; padding:10px; border:1px solid #76aac7; border-radius:50%; color:var(--hc-white); background:var(--hc-navy); }
+.hc-options .hc-more summary:hover{ background:#e4f1fa; border-radius:14px; }
+.hc-options .hc-more summary:focus-visible{ outline:3px solid var(--hc-navy); outline-offset:4px; border-radius:14px; }
 .hc-options .hc-more[open] summary{ border-bottom:1px solid var(--hc-options-border); }
-.hc-options .hc-more[open] .hc-more__body{ padding-top:20px; }
+.hc-options .hc-more[open] .hc-more__body{ padding-top:20px; background:var(--hc-white); border-radius:0 0 14px 14px; }
 .hc-options .hc-more summary,.hc-options .hc-more__body,.hc-options .hc-more__body > p{ font-size:1.125rem; line-height:1.6; }
 .hc-options .hc-more__body dl{ grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px 36px; }
 @media(max-width:1023px){
@@ -550,6 +557,8 @@ a:hover{ color:var(--hc-navy); }
  .hc-options .hc-brands ul{ gap:8px; }
  .hc-options .hc-brands p{ grid-column:auto; }
  .hc-options .hc-more__body dl{ grid-template-columns:1fr; gap:18px; }
+ .hc-options .hc-more summary{ padding:20px 18px; gap:14px; }
+ .hc-options__guide-title{ font-size:1.125rem; }
 }
 
 /* ---------- Payment ---------- */
@@ -991,7 +1000,7 @@ a:hover{ color:var(--hc-navy); }
         <p>Your hearing needs and lifestyle guide the recommendation.</p>
       </div>
       <details class="hc-more">
-        <summary>Hearing aid styles at a glance<svg class="hc-icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
+        <summary><span class="hc-options__guide-text"><span class="hc-options__guide-title">Compare hearing aid styles</span><span class="hc-options__guide-description">Explore behind-the-ear and in-ear options. Expand the guide to see how they differ.</span></span><svg class="hc-icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
         <div class="hc-more__body">
           <dl>
             <div><dt>Behind-the-ear (BTE)</dt><dd>Easy to handle, and most include wireless features. Typically used for moderate to severe hearing loss.</dd></div>

@@ -254,3 +254,6 @@ Use one consistent #b8cfdd border treatment for the product frame, shared three-
 
 
 User requested restoring pill-shaped circular borders around all eight manufacturer names. Restore white-filled rounded outlines with consistent 8px gaps, preserving the existing panel, text sizes and section layout.
+
+
+User requested a more noticeable hearing-aid style disclosure. Rename the summary “Compare hearing aid styles,” add explanatory copy and an explicit expand instruction, use a pale-blue surface with a stronger 2px outline and a navy circular chevron. Retain native keyboard-accessible details, all expanded style content, responsive layout and existing type sizes elsewhere. No other section or integration changes.
