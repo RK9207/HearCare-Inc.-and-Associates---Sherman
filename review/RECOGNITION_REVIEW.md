@@ -23,3 +23,7 @@ Checked at 320, 390, 500, 768, 1024, 1440 and 1920px: no section overflow; three
 A source comparison verified all HTML/CSS outside this section is identical to the preceding commit, including locked Hero, header, remaining sections, contact data and integration scripts. No lead was submitted, and external form delivery was not tested.
 
 PAGE_STRATEGY.md, CONTENT_DIRECTION.md, DESIGN_SYSTEM.md and IMAGE_PROMPTS.md record the approved direction and current implementation. This section remains **awaiting rendered approval**; no further section review or edits are authorized by this implementation. Ask the user to approve, adjust or request an alternative before locking it and selecting the next section.
+
+## Latest space-use refinement
+
+User requested better use of section space. Replaced the asymmetric split with a full-width heading/introduction, one continuous white panel with three aligned desktop examples, and a compact shared closing area containing the family acknowledgement, reassurance and existing visit link. All wording and icons are retained. Mobile stacks examples with descriptions spanning the full panel width rather than leaving unused space beneath icons. Desktop section height is approximately 526px versus 612px for the preceding version. The locked Hero and all other sections remain unchanged. Latest screenshots and complete HTML reflect this revision; still awaiting rendered approval.

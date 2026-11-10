@@ -303,38 +303,44 @@ a:hover{ color:var(--hc-navy); }
 .hc-ph--portrait{ aspect-ratio:1 / 1; width:100%; }
 .hc-ph--product{ aspect-ratio:4 / 3; width:100%; }
 
-/* ---------- Everyday difficulty: approved editorial layout ---------- */
-.hc-recognition{ padding:72px 0 56px; background:#f2f8fc; }
-.hc-recognition__grid{ display:grid; grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr); column-gap:80px; align-items:start; }
-.hc-recognition__intro h2{ max-width:430px; }
-.hc-recognition__intro > p{ margin-top:18px; max-width:380px; color:var(--hc-muted); }
-.hc-recognition__family{ margin-top:30px; max-width:370px; font-size:1rem; line-height:1.6; color:var(--hc-muted); }
-.hc-recognition__family strong{ display:block; margin-bottom:4px; color:var(--hc-navy); font-weight:600; }
-.hc-recognition .hc-signs{ list-style:none; margin:0; padding:0; display:grid; gap:0; }
-.hc-recognition .hc-signs li{ display:grid; grid-template-columns:48px minmax(0,1fr); gap:18px; padding:23px 0; border-bottom:1px solid var(--hc-border); }
-.hc-recognition .hc-signs li:first-child{ padding-top:0; }
-.hc-recognition .hc-signs li:last-child{ padding-bottom:0; border-bottom:0; }
-.hc-recognition__icon{ width:48px; height:48px; display:flex; align-items:center; justify-content:center; border-radius:50%; background:#e0f0fa; color:var(--hc-navy); }
-.hc-recognition__icon svg{ width:25px; height:25px; }
-.hc-recognition .hc-signs h3{ margin:0 0 7px; font-size:1.25rem; line-height:1.35; }
-.hc-recognition .hc-signs p{ margin:0; max-width:520px; color:var(--hc-muted); font-size:1.125rem; line-height:1.6; }
-.hc-recognition .hc-bridge{ max-width:none; margin-top:36px; padding-top:24px; border-top:1px solid #c6dce9; display:grid; grid-template-columns:minmax(0,1fr) auto; gap:24px 48px; align-items:center; }
-.hc-recognition .hc-bridge p{ max-width:850px; margin:0; font-size:1.0625rem; line-height:1.6; color:var(--hc-muted); }
+/* ---------- Everyday difficulty: compact full-width composition ---------- */
+.hc-recognition{ padding:54px 0 44px; background:#f2f8fc; }
+.hc-recognition__grid{ display:grid; gap:26px; }
+.hc-recognition__intro h2{ max-width:none; }
+.hc-recognition__intro > p{ margin-top:12px; color:var(--hc-muted); }
+.hc-recognition .hc-signs{ list-style:none; margin:0; padding:24px 0; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); background:var(--hc-white); border:1px solid var(--hc-border); border-radius:16px; }
+.hc-recognition .hc-signs li{ display:grid; grid-template-columns:44px minmax(0,1fr); grid-template-rows:auto 1fr; gap:12px 14px; padding:0 24px; border-right:1px solid var(--hc-border); align-items:center; }
+.hc-recognition .hc-signs li:last-child{ border-right:0; }
+.hc-recognition .hc-signs li > div{ display:contents; }
+.hc-recognition__icon{ grid-column:1; grid-row:1; width:44px; height:44px; display:flex; align-items:center; justify-content:center; border-radius:50%; background:#e0f0fa; color:var(--hc-navy); }
+.hc-recognition__icon svg{ width:24px; height:24px; }
+.hc-recognition .hc-signs h3{ grid-column:2; grid-row:1; min-height:54px; display:flex; align-items:center; margin:0; font-size:1.1875rem; line-height:1.4; }
+.hc-recognition .hc-signs p{ grid-column:1 / -1; grid-row:2; align-self:start; margin:0; color:var(--hc-muted); font-size:1.125rem; line-height:1.6; }
+.hc-recognition .hc-bridge{ max-width:none; margin-top:24px; display:grid; grid-template-columns:minmax(0,1fr) auto; gap:24px 36px; align-items:center; }
+.hc-recognition__closing{ max-width:920px; }
+.hc-recognition__family{ margin:0 0 9px; font-size:1rem; line-height:1.6; color:var(--hc-muted); }
+.hc-recognition__family strong{ color:var(--hc-navy); font-weight:600; }
+.hc-recognition .hc-bridge p{ margin:0; font-size:1.0625rem; line-height:1.6; color:var(--hc-muted); }
 .hc-recognition .hc-bridge p strong{ color:var(--hc-navy); font-weight:600; }
 .hc-recognition .hc-bridge a{ display:inline-flex; align-items:center; gap:8px; min-height:44px; font-size:1.0625rem; font-weight:600; white-space:nowrap; }
 .hc-recognition .hc-bridge a svg{ width:18px; height:18px; flex:none; }
-@media(max-width:1023px){ .hc-recognition__grid{ column-gap:40px; grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr); } .hc-recognition .hc-bridge{ grid-template-columns:1fr; gap:10px; } }
+@media(max-width:1023px){
+ .hc-recognition .hc-signs li{ padding:0 18px; grid-template-columns:1fr; gap:10px; align-items:start; }
+ .hc-recognition .hc-signs h3{ grid-column:1; grid-row:2; }
+ .hc-recognition .hc-signs p{ grid-row:3; }
+ .hc-recognition .hc-bridge{ grid-template-columns:1fr; gap:10px; }
+}
 @media(max-width:767px){
- .hc-recognition{ padding:44px 0 40px; }
- .hc-recognition__grid{ grid-template-columns:minmax(0,1fr); gap:26px; }
- .hc-recognition__intro h2{ max-width:520px; }
- .hc-recognition__intro > p{ margin-top:14px; max-width:520px; }
- .hc-recognition__family{ margin-top:18px; max-width:520px; }
- .hc-recognition .hc-signs li{ grid-template-columns:40px minmax(0,1fr); gap:14px; padding:18px 0; }
+ .hc-recognition{ padding:38px 0 36px; }
+ .hc-recognition__grid{ gap:22px; }
+ .hc-recognition .hc-signs{ grid-template-columns:minmax(0,1fr); padding:0 18px; }
+ .hc-recognition .hc-signs li{ grid-template-columns:40px minmax(0,1fr); grid-template-rows:auto; gap:12px; padding:20px 0; border-right:0; border-bottom:1px solid var(--hc-border); }
+ .hc-recognition .hc-signs li:last-child{ border-bottom:0; }
+ .hc-recognition .hc-signs li > div{ display:contents; }
+ .hc-recognition .hc-signs h3{ grid-column:2; grid-row:1; display:block; min-height:0; margin:0; }
+ .hc-recognition .hc-signs p{ grid-column:1 / -1; grid-row:2; }
  .hc-recognition__icon{ width:40px; height:40px; }
- .hc-recognition__icon svg{ width:23px; height:23px; }
- .hc-recognition .hc-signs h3{ font-size:1.1875rem; }
- .hc-recognition .hc-bridge{ margin-top:26px; padding-top:20px; gap:8px; }
+ .hc-recognition .hc-bridge{ margin-top:20px; gap:8px; }
  .hc-recognition .hc-bridge a{ white-space:normal; }
 }
 
@@ -655,10 +661,6 @@ a:hover{ color:var(--hc-navy); }
       <div class="hc-recognition__intro">
         <h2 id="signs-title">Recognize any of these listening difficulties?</h2>
         <p>Changes in hearing can show up in ordinary moments.</p>
-        <div class="hc-recognition__family">
-          <strong>Here for someone you love?</strong>
-          The same first step can help them understand their hearing.
-        </div>
       </div>
       <ul class="hc-signs">
         <li>
@@ -676,7 +678,10 @@ a:hover{ color:var(--hc-navy); }
       </ul>
     </div>
     <div class="hc-bridge">
+      <div class="hc-recognition__closing">
+        <div class="hc-recognition__family"><strong>Here for someone you love?</strong> The same first step can help them understand their hearing.</div>
       <p><strong>These experiences don’t automatically mean you have hearing loss or need hearing aids.</strong> A hearing test can identify changes you haven’t noticed and help guide your next steps.</p>
+      </div>
       <a href="#care">See what happens at a visit<svg class="hc-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
     </div>
   </div>
