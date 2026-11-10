@@ -41,3 +41,6 @@ All other sections and integrations are unchanged by exact source comparison. Up
 ## User-requested border refinement
 
 Use one consistent #b8cfdd border treatment for the product frame, shared three-benefit enclosure, manufacturer panel and style disclosure. Desktop benefit columns have matching internal vertical dividers; mobile stacks within the same rounded enclosure with horizontal separators and no stray left borders or double edges. Open style guide gains a clear separator below its summary and padded body. Navy intro has a subtle tonal outline. Copy, typography, other sections and integrations remain unchanged. Awaiting rendered review.
+
+
+Manufacturer border follow-up: user requested restoring the earlier rounded name outlines. All eight names now have white pill backgrounds, consistent thin borders and 8px wrapping gaps. No wording or other section changes.
