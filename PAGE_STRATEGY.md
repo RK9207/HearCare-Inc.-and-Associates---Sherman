@@ -202,3 +202,7 @@ The user clarified that the current Hero should be made more beautiful. Apply vi
 ## Approved restrained refinement
 
 User authorized simplification and specifically requested no forced mobile break after “Care,”. On mobile, headline spans are inline with natural wrapping; headline wording, uniform white color, weight and responsive size remain unchanged. Remove the service capsule, benefit rule, trust dot and offset photo outline; retain the useful location panel and review proof. Tighten mobile spacing without reducing body text size or deleting content. Use a softer photo frame and centered mobile crop at 50% / 55%. Pending rendered approval; no section is locked.
+
+## User-requested return to previous visual design
+
+The user preferred the prior design and requested its restoration, plus a smaller mobile headline. Restore the visual implementation from b132802 (service capsule, benefit rule, trust dot, framed photograph and location panel). Supersede the subsequent restrained-refinement direction. Preserve the original uniform white headline, wording including Sherman, TX, hosted GHL image and all actions. Only mobile headline sizing differs from that prior design: clamp(1.375rem, 7.2vw, 2.125rem), approximately 28px at 390px versus the prior 32px. Desktop sizing remains unchanged. Still awaiting rendered approval.

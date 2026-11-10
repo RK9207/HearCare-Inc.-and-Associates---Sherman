@@ -64,3 +64,7 @@ User requested a more beautiful Hero. Added tonal navy depth, a restrained servi
 ## Restrained/mobile refinement
 
 User approved simplification and requested removal of the mobile break after Care. Headline spans now flow inline on mobile with natural wrapping; all headline colors/sizes/weight and wording are preserved. Removed the service capsule, benefit rule, trust dot and offset outline. Tightened mobile spacing without reducing prose size or removing content. Location panel and genuine review evidence remain. Source image is unchanged, with a slightly adjusted responsive crop. No body markup, links, scripts or other sections changed; awaiting rendered approval.
+
+## Latest: previous design restored
+
+User preferred the previous design. Restored the b132802 visual design exactly, with only a smaller mobile H1 clamp (22px minimum, 7.2vw fluid, 34px maximum; approximately 28px at 390px). Desktop H1 and all body markup, wording, GHL image source, contact links and integrations match that previous design. The simplified treatment is superseded. Awaiting rendered approval.
