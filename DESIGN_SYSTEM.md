@@ -246,3 +246,8 @@ Imagery: authentic in-hand photo remains preferred but is not available. Use the
 ## Options revision after updated GHL screenshots
 
 User requested stronger design and content. Keep the approved headline and conditional hearing-aid premise. Replace the low-contrast image-led opening with a compact navy introduction, white headline, and a modest labelled product frame sized to the existing asset. White canvas and three editorial benefit columns focus on appearance, comfort and connection; mobile stacks them with simple dividers. Shorten repeated prose and integrate compatibility/suitability qualifications. Keep the original style guide and all eight brands, now shown as plain text in a supporting strip rather than button-like chips. Main prose stays 18px. No CTA, other section or integration changes. Existing product URL remains; its actual appearance is supported by the user’s new GHL screenshots, while remote retrieval is blocked locally. No generated product imagery. Awaiting rendered review, not locked.
+
+
+## User-requested border refinement
+
+Use one consistent #b8cfdd border treatment for the product frame, shared three-benefit enclosure, manufacturer panel and style disclosure. Desktop benefit columns have matching internal vertical dividers; mobile stacks within the same rounded enclosure with horizontal separators and no stray left borders or double edges. Open style guide gains a clear separator below its summary and padded body. Navy intro has a subtle tonal outline. Copy, typography, other sections and integrations remain unchanged. Awaiting rendered review.
