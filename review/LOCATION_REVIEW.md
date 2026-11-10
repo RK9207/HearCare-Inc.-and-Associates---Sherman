@@ -43,3 +43,8 @@ Current OAP fallback layout previews (deliberately blocked dependencies): [deskt
 
 
 User-requested label adjustment: change only the map address-card link to “Open in Maps” and align its accessible label. Preserve its existing Google Maps destination and the separate Get Directions button.
+
+
+## User-requested larger map
+
+Increase the desktop map minimum height to 520px, tablet minimum to 460px, and mobile height to 450px. Allocate a larger desktop map share (4fr details / 7fr map) and reduce map-column padding to 16px on desktop/tablet. Preserve mobile full-width map, marker coordinates, zoom, OAP tracking, map card including Open in Maps, all links and all other page content. Existing ResizeObserver continues to resize MapLibre with its container. Source-scope checks confirm only location CSS changed; index and complete HTML artifact match before publication. The execution environment failed startup, so no new browser rendering or live map test was possible for this sizing revision; GHL screenshot review remains required. Location section is not locked.
