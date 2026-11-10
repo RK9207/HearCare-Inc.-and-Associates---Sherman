@@ -265,6 +265,22 @@ a:hover{ color:var(--hc-navy); }
  .hc-hero__media{ border-radius:56px 16px 16px 16px; }
 }
 
+/* User-selected compact Google proof, placed below Hero actions. */
+.hc-hero__grid{ grid-template-areas:"copy media" "actions media" "proof media" "facts media"; }
+.hc-hero--split .hc-badge{ grid-area:proof; align-self:start; justify-self:start; margin:18px 0 0; padding:0; min-height:48px; gap:12px; background:transparent; border:0; border-radius:4px; box-shadow:none; color:var(--hc-white); }
+.hc-hero--split .hc-badge:hover{ color:var(--hc-white); }
+.hc-badge__google{ display:block; width:24px; height:24px; flex:0 0 24px; }
+.hc-hero--split .hc-badge__score{ color:var(--hc-white); font-size:2.125rem; }
+.hc-hero--split .hc-badge__meta{ gap:4px; font-size:.9375rem; color:var(--hc-white); }
+.hc-hero--split .hc-badge__meta strong{ font-weight:400; }
+.hc-hero--split .hc-badge__meta .hc-stars__base{ color:rgba(255,255,255,.3); }
+.hc-hero--split .hc-badge__meta .hc-stars__fill{ color:#f3bf58; }
+.hc-hero--split .hc-badge__meta .hc-stars svg{ width:17px; height:17px; }
+@media (max-width:1023px){
+ .hc-hero__grid{ grid-template-areas:"copy" "actions" "proof" "facts" "media"; }
+ .hc-hero--split .hc-badge{ margin-top:16px; }
+}
+
 /* Stars */
 .hc-stars{ position:relative; display:inline-flex; line-height:0; }
 .hc-stars svg{ width:18px; height:18px; flex:none; }
@@ -554,17 +570,6 @@ a:hover{ color:var(--hc-navy); }
       <p class="hc-hero__trust">Owner-operated. Licensed hearing instrument specialists.</p>
     </div>
 
-    <!-- U1 screenshot evidence: 4.8/5, 94 reviews. Same badge moves before actions on mobile. -->
-    <a class="hc-badge" href="https://www.google.com/search?q=hearcare+inc+and+associates+sherman&sca_esv=245a2c734ea474ba&rlz=1C1CHBD_enIN1092IN1158&biw=1920&bih=953&sxsrf=AKL5yDhrpWQFSvw2k45Jya0PWIxzVxSoBQ%3A1794240620821&ei=bPDxao3TMcqP4-EPrvLF4AE&oq=hearcare+inc+and+associates+sherman&gs_lp=Egxnd3Mtd2l6LXNlcnAiI2hlYXJjYXJlIGluYyBhbmQgYXNzb2NpYXRlcyBzaGVybWFuKgUIAhjvBTIGEAAYFhgeMgUQABjvBTIFEAAY7wUyBRAAGO8FMgUQABjvBUjyOFD7Blj4KXABeACQAQCYAakBoAHHFaoBBDAuMTi4AQHIAQD4AQGYAgygAtkNwgIIEAAY7wUYsAPCAgQQIxgnwgILEAAYgAQYigUYhgOYAwCIBgGQBgKSBwQxLjExoAfsUbIHBDAuMTG4B9QNwgcFMC43LjXIByOACAE&sclient=gws-wiz-serp#lrd=0x864c8851e671d29f:0xc56621ec07540757,1,,,," target="_blank" rel="noopener" aria-label="Rated 4.8 out of 5 from 90+ Google reviews. Opens Google reviews in a new tab.">
-      <span class="hc-badge__score" aria-hidden="true">4.8</span>
-      <span class="hc-badge__meta" aria-hidden="true">
-        <span class="hc-stars">
-          <span class="hc-stars__base"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
-          <span class="hc-stars__fill" style="width:96%"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
-        </span>
-        <strong>90+ Google reviews</strong>
-      </span>
-    </a>
 
     <div class="hc-hero__actions">
       <div class="hc-cta">
@@ -584,6 +589,24 @@ a:hover{ color:var(--hc-navy); }
         </div>
       </div>
     </div>
+
+    <!-- Compact Google proof below actions; 4.8/5 and 90+ display based on U1 screenshot evidence. -->
+    <a class="hc-badge" href="https://www.google.com/search?q=hearcare+inc+and+associates+sherman&sca_esv=245a2c734ea474ba&rlz=1C1CHBD_enIN1092IN1158&biw=1920&bih=953&sxsrf=AKL5yDhrpWQFSvw2k45Jya0PWIxzVxSoBQ%3A1794240620821&ei=bPDxao3TMcqP4-EPrvLF4AE&oq=hearcare+inc+and+associates+sherman&gs_lp=Egxnd3Mtd2l6LXNlcnAiI2hlYXJjYXJlIGluYyBhbmQgYXNzb2NpYXRlcyBzaGVybWFuKgUIAhjvBTIGEAAYFhgeMgUQABjvBTIFEAAY7wUyBRAAGO8FMgUQABjvBUjyOFD7Blj4KXABeACQAQCYAakBoAHHFaoBBDAuMTi4AQHIAQD4AQGYAgygAtkNwgIIEAAY7wUYsAPCAgQQIxgnwgILEAAYgAQYigUYhgOYAwCIBgGQBgKSBwQxLjExoAfsUbIHBDAuMTG4B9QNwgcFMC43LjXIByOACAE&sclient=gws-wiz-serp#lrd=0x864c8851e671d29f:0xc56621ec07540757,1,,,," target="_blank" rel="noopener" aria-label="Rated 4.8 out of 5 from 90+ Google reviews. Opens Google reviews in a new tab.">
+      <svg class="hc-badge__google" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+        <path fill="#4285F4" d="M21.6 12.23c0-.71-.06-1.39-.18-2.05H12v3.88h5.38a4.6 4.6 0 0 1-1.99 3.02v2.51h3.23c1.89-1.74 2.98-4.3 2.98-7.36Z"/>
+        <path fill="#34A853" d="M12 22c2.7 0 4.96-.9 6.61-2.42l-3.23-2.51c-.9.6-2.05.97-3.38.97-2.6 0-4.81-1.76-5.6-4.13H3.06v2.59A10 10 0 0 0 12 22Z"/>
+        <path fill="#FBBC05" d="M6.4 13.91a6 6 0 0 1 0-3.82V7.5H3.06a10 10 0 0 0 0 9l3.34-2.59Z"/>
+        <path fill="#EA4335" d="M12 5.96c1.47 0 2.79.51 3.83 1.51L18.7 4.6A9.6 9.6 0 0 0 12 2a10 10 0 0 0-8.94 5.5l3.34 2.59C7.19 7.72 9.4 5.96 12 5.96Z"/>
+      </svg>
+      <span class="hc-badge__score" aria-hidden="true">4.8</span>
+      <span class="hc-badge__meta" aria-hidden="true">
+        <span class="hc-stars">
+          <span class="hc-stars__base"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+          <span class="hc-stars__fill" style="width:96%"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+        </span>
+        <strong>90+ Google reviews</strong>
+      </span>
+    </a>
 
     <ul class="hc-facts">
       <li><svg class="hc-icon" aria-hidden="true"><use href="#i-pin"/></svg><span>1800 N. Travis St, Suite D, Sherman, TX 75092</span></li>

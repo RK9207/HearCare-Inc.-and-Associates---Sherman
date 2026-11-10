@@ -163,3 +163,7 @@ User requested uniform color and font size throughout the entire headline and TX
 The user preferred the prior design and requested its restoration, plus a smaller mobile headline. Restore the visual implementation from b132802 (service capsule, benefit rule, trust dot, framed photograph and location panel). Supersede the subsequent restrained-refinement direction. Preserve the original uniform white headline, wording including Sherman, TX, hosted GHL image and all actions. Only mobile headline sizing differs from that prior design: clamp(1.375rem, 7.2vw, 2.125rem), approximately 28px at 390px versus the prior 32px. Desktop sizing remains unchanged. Still awaiting rendered approval.
 
 Latest user-approved review display: show “90+ Google reviews” in the Hero badge, accessible aggregate label and reviews section. The rating remains 4.8/5. This is conservative display wording based on the recorded 94-review screenshot evidence; preserve the historical source count in RESEARCH.md rather than rewriting that evidence.
+
+## Compact Google proof approved by reference
+
+User requested the supplied screenshot badge style: inline Google icon, white 4.8 rating, gold fractional stars, and 90+ Google reviews, placed below Hero contact actions on desktop/mobile. Remove the floating white badge card, preserving the existing Google destination, accessible aggregate label and screenshot provenance. No other business details from the reference are adopted. Prior photo-overlay/proof-before-actions guidance is superseded. Pending rendered approval.

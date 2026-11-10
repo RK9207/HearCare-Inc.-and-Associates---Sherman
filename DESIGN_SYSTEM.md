@@ -187,3 +187,7 @@ User authorized simplification and specifically requested no forced mobile break
 The user preferred the prior design and requested its restoration, plus a smaller mobile headline. Restore the visual implementation from b132802 (service capsule, benefit rule, trust dot, framed photograph and location panel). Supersede the subsequent restrained-refinement direction. Preserve the original uniform white headline, wording including Sherman, TX, hosted GHL image and all actions. Only mobile headline sizing differs from that prior design: clamp(1.375rem, 7.2vw, 2.125rem), approximately 28px at 390px versus the prior 32px. Desktop sizing remains unchanged. Still awaiting rendered approval.
 
 Latest user correction: remove the forced mobile break after “Care,” by rendering H1 segments inline below 640px. Preserve the restored visual design, smaller mobile font size, desktop headline, all wording and integrations. Natural line wrapping remains responsive.
+
+## Compact Google proof approved by reference
+
+User requested the supplied screenshot badge style: inline Google icon, white 4.8 rating, gold fractional stars, and 90+ Google reviews, placed below Hero contact actions on desktop/mobile. Remove the floating white badge card, preserving the existing Google destination, accessible aggregate label and screenshot provenance. No other business details from the reference are adopted. Prior photo-overlay/proof-before-actions guidance is superseded. Pending rendered approval.

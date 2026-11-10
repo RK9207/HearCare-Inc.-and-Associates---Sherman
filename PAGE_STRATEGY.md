@@ -210,3 +210,7 @@ The user preferred the prior design and requested its restoration, plus a smalle
 Latest user correction: remove the forced mobile break after “Care,” by rendering H1 segments inline below 640px. Preserve the restored visual design, smaller mobile font size, desktop headline, all wording and integrations. Natural line wrapping remains responsive.
 
 Latest user-approved review display: show “90+ Google reviews” in the Hero badge, accessible aggregate label and reviews section. The rating remains 4.8/5. This is conservative display wording based on the recorded 94-review screenshot evidence; preserve the historical source count in RESEARCH.md rather than rewriting that evidence.
+
+## Compact Google proof approved by reference
+
+User requested the supplied screenshot badge style: inline Google icon, white 4.8 rating, gold fractional stars, and 90+ Google reviews, placed below Hero contact actions on desktop/mobile. Remove the floating white badge card, preserving the existing Google destination, accessible aggregate label and screenshot provenance. No other business details from the reference are adopted. Prior photo-overlay/proof-before-actions guidance is superseded. Pending rendered approval.

@@ -204,3 +204,5 @@ Latest visual refinement retains the GHL-hosted IMG-HERO-01 source. Desktop CSS 
 Restrained refinement supersedes the prior frame note: no offset outline; softer 100px upper-left desktop corner and 40px mobile corner. Mobile/tablet crop now uses 50% / 55%, preserving both faces. Source URL and image meaning remain unchanged.
 
 User-requested restoration returns the photo frame/crop to b132802: 140px upper-left desktop corner, subtle offset outline, desktop position 51% / 75%, mobile/tablet 50% / 46%. The same GHL-hosted image is retained. This supersedes the restrained-refinement frame note.
+
+Google proof now sits below the Hero actions as a compact inline row, not over the photograph. No badge exclusion zone is needed on the photo. Existing hosted image and crop remain unchanged.

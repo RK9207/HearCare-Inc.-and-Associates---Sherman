@@ -72,3 +72,5 @@ User preferred the previous design. Restored the b132802 visual design exactly, 
 Latest correction removes only the forced mobile break after Care. The restored styling and smaller mobile H1 remain intact; seven-width overflow/contact checks passed.
 
 Latest user-approved review display: show “90+ Google reviews” in the Hero badge, accessible aggregate label and reviews section. The rating remains 4.8/5. This is conservative display wording based on the recorded 94-review screenshot evidence; preserve the historical source count in RESEARCH.md rather than rewriting that evidence.
+
+Latest badge update matches the supplied compact reference: multicolor Google icon, white 4.8 score, gold stars and 90+ Google reviews on the navy background, below Hero contact actions in both visual and DOM order. The existing review link and accessible label are retained. Screenshot brand names, rating 5.0 and unrelated claims were not copied. Seven-width overflow/contact checks passed.
