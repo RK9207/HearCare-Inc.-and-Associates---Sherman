@@ -294,3 +294,8 @@ User approved the recommendation with “Yes please.” H2: “Understand your b
 ## Payment final approval
 
 User: “Looks good, next move to the next one, i approve this section.” Payment section in 035c4e7 is APPROVED / LOCKED, including insurance assistance, payment methods, estimate note and responsive contact actions. Preserve without further user authorization. Next proposed section is the existing FAQ: resolve remaining practical objections before location and final contact. Request its complete current desktop/mobile screenshots, including at least one expanded answer, and wait before individual review or editing. No HTML/CSS changes accompany this approval record.
+
+
+## Approved FAQ rebuild — Layout A, headline 1
+
+User approved Layout A + “Questions before your visit?” after desktop/mobile and expanded-answer screenshot review. Desktop: short introduction left, wider bordered accordion right. Mobile: introduction then full-width question/answer panels. Keep all seven topics; distinguish signs that suggest testing from whether a test implies hearing aids. Tighten answers while retaining suitability, medical-treatment, coverage, connectivity, support/lifespan and accurate credentials/staffing limitations. Rounded borders, circular chevrons, pale-blue open headers and padded white answers; preserve native keyboard-operable details and visible inset focus. Main prose remains 18px. All items initially closed; allow independent expansion without custom scripts. No image or additional CTA needed. Other sections and integrations unchanged. Implemented for rendered review, NOT LOCKED.

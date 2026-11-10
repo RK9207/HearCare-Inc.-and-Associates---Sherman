@@ -611,22 +611,35 @@ a:hover{ color:var(--hc-navy); }
  .hc-pay__contact .hc-textlink{ align-self:center; }
 }
 
-/* ---------- FAQ ---------- */
-.hc-faq{ max-width:800px; }
-.hc-faq__list{ border-top:1px solid var(--hc-border); }
-.hc-faq details{ border-bottom:1px solid var(--hc-border); }
-.hc-faq summary{
-  list-style:none; cursor:pointer; display:flex; align-items:center; justify-content:space-between; gap:20px;
-  padding:20px 4px; min-height:64px; font-family:var(--hc-head); font-weight:600; font-size:clamp(1.0625rem, 1rem + .3vw, 1.1875rem); line-height:1.35; color:var(--hc-navy);
-}
+/* ---------- FAQ: introduction beside a bordered accordion ---------- */
+#faq{ padding:60px 0; }
+.hc-faq{ display:grid; grid-template-columns:minmax(0,4fr) minmax(0,8fr); gap:56px; align-items:start; }
+.hc-faq .hc-section__head{ margin:0; }
+.hc-faq .hc-section__head > p{ margin-top:18px; font-size:1.125rem; line-height:1.6; color:var(--hc-muted); }
+.hc-faq__list{ display:grid; gap:12px; min-width:0; }
+.hc-faq details{ border:1px solid #b8cfdd; border-radius:14px; background:var(--hc-white); }
+.hc-faq summary{ list-style:none; cursor:pointer; display:flex; align-items:center; justify-content:space-between; gap:18px; padding:20px 22px; min-height:76px; border-radius:13px; font-family:var(--hc-head); font-weight:600; font-size:1.1875rem; line-height:1.4; color:var(--hc-navy); }
 .hc-faq summary::-webkit-details-marker{ display:none; }
-.hc-faq summary:hover{ color:var(--hc-blue); }
-.hc-faq__chev{ display:flex; align-items:center; justify-content:center; flex:none; width:32px; height:32px; border-radius:50%; background:var(--hc-surface); color:var(--hc-navy); transition:transform .2s; }
-.hc-faq details[open] .hc-faq__chev{ transform:rotate(180deg); }
-.hc-faq__a{ padding:0 4px 24px; max-width:680px; }
-.hc-faq__a p + p, .hc-faq__a p + ul, .hc-faq__a ul + p{ margin-top:12px; }
+.hc-faq summary:hover{ background:var(--hc-surface); }
+.hc-faq summary:focus-visible{ outline:3px solid var(--hc-navy); outline-offset:-5px; box-shadow:none; }
+.hc-faq__chev{ display:flex; align-items:center; justify-content:center; flex:none; width:34px; height:34px; border:1px solid #b8cfdd; border-radius:50%; background:var(--hc-surface); color:var(--hc-navy); }
+.hc-faq details[open]{ border-color:#76aac7; }
+.hc-faq details[open] summary{ background:var(--hc-surface); border-bottom:1px solid #b8cfdd; border-radius:13px 13px 0 0; }
+.hc-faq details[open] .hc-faq__chev{ transform:rotate(180deg); color:var(--hc-white); border-color:var(--hc-navy); background:var(--hc-navy); }
+.hc-faq__a{ padding:18px 22px 24px; font-size:1.125rem; line-height:1.6; color:var(--hc-muted); }
+.hc-faq__a p,.hc-faq__a li{ font-size:1.125rem; line-height:1.6; }
+.hc-faq__a p + p,.hc-faq__a p + ul,.hc-faq__a ul + p{ margin-top:12px; }
 .hc-faq__a ul{ margin:0; padding-left:22px; }
-.hc-faq__a li + li{ margin-top:6px; }
+.hc-faq__a li + li{ margin-top:8px; }
+@media(max-width:1023px){ .hc-faq{ grid-template-columns:minmax(0,4fr) minmax(0,7fr); gap:28px; } }
+@media(max-width:767px){
+ #faq{ padding:40px 0; }
+ .hc-faq{ grid-template-columns:minmax(0,1fr); gap:24px; }
+ .hc-faq .hc-section__head > p{ margin-top:14px; }
+ .hc-faq summary{ padding:18px; gap:14px; font-size:1.125rem; min-height:72px; }
+ .hc-faq__a{ padding:18px 18px 22px; }
+ .hc-faq__chev{ width:32px; height:32px; }
+}
 
 /* ---------- Location ---------- */
 .hc-loc{ display:grid; grid-template-columns:minmax(0, 5fr) minmax(0, 7fr); gap:clamp(32px, 5vw, 64px); align-items:start; }
@@ -1097,63 +1110,40 @@ a:hover{ color:var(--hc-navy); }
 
 <!-- ===================== 7. FAQ ===================== -->
 <section class="hc-section" id="faq" aria-labelledby="faq-title">
-  <div class="hc-wrap">
-    <div class="hc-faq">
-      <div class="hc-section__head">
-        <h2 id="faq-title">Common questions</h2>
-      </div>
-      <div class="hc-faq__list">
-        <details>
-          <summary>How do I know if I need hearing aids?<span class="hc-faq__chev" aria-hidden="true"><svg class="hc-icon"><use href="#i-chev"/></svg></span></summary>
-          <div class="hc-faq__a">
-            <p>If you often ask people to repeat themselves, turn the TV volume up, or feel that people are mumbling, it’s a good idea to have a hearing evaluation. A comprehensive test shows the type and extent of any hearing loss, which guides what we recommend.</p>
-          </div>
-        </details>
-        <details>
-          <summary>Will a hearing test mean I need hearing aids?<span class="hc-faq__chev" aria-hidden="true"><svg class="hc-icon"><use href="#i-chev"/></svg></span></summary>
-          <div class="hc-faq__a">
-            <p>Not necessarily. The test helps determine the type and severity of any hearing loss and whether hearing aids are the right solution for you.</p>
-            <p>Some types of hearing loss, such as those caused by earwax or fluid in the middle ear, may be treated medically rather than with hearing aids.</p>
-          </div>
-        </details>
-        <details>
-          <summary>Will people be able to see my hearing aids?<span class="hc-faq__chev" aria-hidden="true"><svg class="hc-icon"><use href="#i-chev"/></svg></span></summary>
-          <div class="hc-faq__a">
-            <p>Many modern hearing aids are small and discreet. Receiver-in-canal models have a sleek profile, and completely-in-canal (CIC) and invisible-in-canal (IIC) styles are virtually invisible.</p>
-            <p>The smallest styles are generally suited to mild to moderate hearing loss, so the options open to you depend on your hearing test results.</p>
-          </div>
-        </details>
-        <details>
-          <summary>Will my insurance cover hearing aids?<span class="hc-faq__chev" aria-hidden="true"><svg class="hc-icon"><use href="#i-chev"/></svg></span></summary>
-          <div class="hc-faq__a">
-            <p>It depends on your plan. The best way to be sure is to call us. We work with many insurance providers and will spend the time on hold to see if you have any hearing aid benefits, so you don’t have to.</p>
-            <p>We also accept all major credit cards and CareCredit®, and offer financing plans.</p>
-          </div>
-        </details>
-        <details>
-          <summary>Can my hearing aids connect to my phone?<span class="hc-faq__chev" aria-hidden="true"><svg class="hc-icon"><use href="#i-chev"/></svg></span></summary>
-          <div class="hc-faq__a">
-            <p>Most hearing aids are Bluetooth-enabled and can connect directly to smartphones, so you can stream calls, music and more. We can guide you through the pairing process during your fitting. Compatibility depends on the hearing aid model and your phone.</p>
-          </div>
-        </details>
-        <details>
-          <summary>What support is available after I get hearing aids?<span class="hc-faq__chev" aria-hidden="true"><svg class="hc-icon"><use href="#i-chev"/></svg></span></summary>
-          <div class="hc-faq__a">
-            <p>Support continues after your fitting:</p>
-            <ul>
-              <li>Follow-up visits and adjustments as your hearing needs change.</li>
-              <li>Guidance on cleaning, storage and an annual maintenance appointment. With proper care, hearing aids typically last 5–7 years.</li>
-              <li>Repairs, many handled in our office, including hearing aids purchased somewhere else.</li>
-            </ul>
-          </div>
-        </details>
-        <details>
-          <summary>Who will I see at my appointment?<span class="hc-faq__chev" aria-hidden="true"><svg class="hc-icon"><use href="#i-chev"/></svg></span></summary>
-          <div class="hc-faq__a">
-            <p>HearCare is owned and led by Kenneth M. Sheppard, Jr. and Jill A. Sheppard, both Licensed Fitters and Dispensers of Hearing Instruments. If you’d like to know which team member you’ll see at the Sherman office, just ask when you call or text.</p>
-          </div>
-        </details>
-      </div>
+  <div class="hc-wrap hc-faq">
+    <div class="hc-section__head">
+      <h2 id="faq-title">Questions before your visit?</h2>
+      <p>Find answers about hearing tests, hearing aids and ongoing support. For questions about your own needs, contact our Sherman team.</p>
+    </div>
+    <div class="hc-faq__list">
+      <details>
+        <summary>When should I book a hearing test?<span class="hc-faq__chev" aria-hidden="true"><svg class="hc-icon"><use href="#i-chev"/></svg></span></summary>
+        <div class="hc-faq__a"><p>If you often ask people to repeat themselves, turn up the TV, or feel that people are mumbling, a hearing test can help you understand what’s happening. The results show the type and extent of any hearing loss and guide the recommendations.</p></div>
+      </details>
+      <details>
+        <summary>Does a hearing test mean I need hearing aids?<span class="hc-faq__chev" aria-hidden="true"><svg class="hc-icon"><use href="#i-chev"/></svg></span></summary>
+        <div class="hc-faq__a"><p>Not necessarily. Your results help determine whether hearing aids are appropriate. Some causes of hearing loss, such as earwax or fluid in the middle ear, may need medical treatment instead.</p></div>
+      </details>
+      <details>
+        <summary>Will people notice my hearing aids?<span class="hc-faq__chev" aria-hidden="true"><svg class="hc-icon"><use href="#i-chev"/></svg></span></summary>
+        <div class="hc-faq__a"><p>Styles range from sleek receiver-in-canal models to smaller completely-in-canal (CIC) and invisible-in-canal (IIC) designs. Some are virtually invisible. The smallest styles generally suit mild to moderate hearing loss, so your results guide which options are suitable.</p></div>
+      </details>
+      <details>
+        <summary>Will my insurance cover hearing aids?<span class="hc-faq__chev" aria-hidden="true"><svg class="hc-icon"><use href="#i-chev"/></svg></span></summary>
+        <div class="hc-faq__a"><p>Coverage depends on your plan. Our team works with many insurance providers and can contact your insurer to check for hearing aid benefits.</p><p>We also accept all major credit cards and CareCredit®, and offer financing plans.</p></div>
+      </details>
+      <details>
+        <summary>Can hearing aids connect to my phone?<span class="hc-faq__chev" aria-hidden="true"><svg class="hc-icon"><use href="#i-chev"/></svg></span></summary>
+        <div class="hc-faq__a"><p>Many models offer Bluetooth connectivity for streaming calls and music from compatible smartphones. We can help with pairing during your fitting. Compatibility depends on the hearing aid model and your phone.</p></div>
+      </details>
+      <details>
+        <summary>What support is available after fitting?<span class="hc-faq__chev" aria-hidden="true"><svg class="hc-icon"><use href="#i-chev"/></svg></span></summary>
+        <div class="hc-faq__a"><p>Support continues after your fitting:</p><ul><li>Follow-up visits and adjustments as your needs change.</li><li>Guidance on cleaning and storage, plus an annual maintenance appointment.</li><li>Repairs, many handled in our office, including hearing aids purchased elsewhere.</li></ul><p>With proper care, hearing aids typically last 5–7 years.</p></div>
+      </details>
+      <details>
+        <summary>Who will I see at my appointment?<span class="hc-faq__chev" aria-hidden="true"><svg class="hc-icon"><use href="#i-chev"/></svg></span></summary>
+        <div class="hc-faq__a"><p>HearCare is owned and led by Kenneth M. Sheppard, Jr. and Jill A. Sheppard, both Licensed Fitters and Dispensers of Hearing Instruments.</p><p>Ask when you call or text to confirm which team member you’ll see at the Sherman office.</p></div>
+      </details>
     </div>
   </div>
 </section>
