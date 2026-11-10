@@ -245,3 +245,8 @@ User requested implementing the source-backed recommendation with “please do i
 ## FAQ final approval
 
 User: “Looks good, I approve this section, let's move to next section.” FAQ implementation in b1017ee is APPROVED / LOCKED, including all eight topics, source-backed preparation answer, bordered native disclosures, responsive answer spacing and desktop scroll-following introduction with reduced-motion/static-mobile behavior. Preserve without further user authorization. Next proposed section: the existing Sherman location/map section, to turn answered concerns into practical visit planning before the final contact invitation. Request current desktop/mobile screenshots including map, address, hours and directions, and wait before individual review or editing. No HTML/CSS changes accompany this approval record.
+
+
+## Approved location rebuild — Layout A, headline 2
+
+User selected Layout A + “Find us in Sherman, TX.” Contain details and original map in one bordered, rounded white panel on the soft blue section background. Desktop aligns details left and map right; separated address/hours and rounded Call/Text actions improve scanning. Full-width Get Directions sits beneath the map. Mobile stacks details before a shorter 280px map and directions action. Preserve exact address, Mon–Thu 9–5 / Friday by appointment, phone hooks/destinations and full original map iframe/directions URL. Main details remain 18px. Do not add unverified parking, accessibility or travel-time claims. No new imagery needed; all other sections/integrations unchanged. Implemented for rendered review, NOT LOCKED.

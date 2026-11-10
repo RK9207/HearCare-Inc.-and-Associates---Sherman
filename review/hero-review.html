@@ -645,20 +645,48 @@ a:hover{ color:var(--hc-navy); }
  .hc-faq__chev{ width:32px; height:32px; }
 }
 
-/* ---------- Location ---------- */
-.hc-loc{ display:grid; grid-template-columns:minmax(0, 5fr) minmax(0, 7fr); gap:clamp(32px, 5vw, 64px); align-items:start; }
+/* ---------- Location: contained visit details and map ---------- */
+#location{ padding:56px 0; }
+.hc-loc{ display:grid; grid-template-columns:minmax(0,5fr) minmax(0,7fr); align-items:stretch; border:1px solid #b8cfdd; border-radius:20px; background:var(--hc-white); overflow:hidden; }
+.hc-loc__details{ padding:32px; }
+.hc-loc__details h2{ max-width:430px; }
+.hc-loc__city{ white-space:nowrap; }
 .hc-loc__list{ list-style:none; margin:28px 0 0; padding:0; display:grid; gap:22px; }
-.hc-loc__list li{ display:grid; grid-template-columns:24px 1fr; gap:14px; }
+.hc-loc__list li{ display:grid; grid-template-columns:24px minmax(0,1fr); gap:14px; }
+.hc-loc__list li + li{ padding-top:22px; border-top:1px solid var(--hc-border); }
 .hc-loc__list .hc-icon{ width:22px; height:22px; color:var(--hc-blue); margin-top:3px; }
-.hc-loc__list h3{ font-family:var(--hc-body); font-size:1rem; font-weight:600; color:var(--hc-muted); margin-bottom:2px; }
+.hc-loc__list h3{ font-family:var(--hc-body); font-size:1rem; font-weight:600; color:var(--hc-navy); margin-bottom:6px; }
+.hc-loc__list address,.hc-loc__list p{ font-size:1.125rem; line-height:1.6; color:var(--hc-muted); }
 .hc-loc__list address{ font-style:normal; }
-.hc-loc__phone{ display:flex; flex-wrap:wrap; gap:4px 16px; }
-.hc-loc__phone a{ font-weight:600; }
-.hc-map{ position:relative; width:100%; aspect-ratio:4 / 3; border-radius:16px; overflow:hidden; border:1px solid var(--hc-border); background:var(--hc-surface); }
+.hc-loc__hours{ display:grid; gap:5px; }
+.hc-loc__hours span{ display:block; }
+.hc-loc__hours .hc-loc__time{ display:inline-block; white-space:nowrap; }
+.hc-loc__actions{ display:flex; flex-wrap:wrap; gap:10px; margin-top:26px; padding-top:24px; border-top:1px solid var(--hc-border); }
+.hc-loc .hc-btn{ min-height:52px; gap:8px; border-radius:999px; text-align:center; white-space:normal; }
+.hc-loc .hc-btn > span{ display:block; line-height:1.25; }
+.hc-map-wrap{ padding:24px; border-left:1px solid #b8cfdd; display:flex; flex-direction:column; min-width:0; }
+.hc-map{ position:relative; width:100%; flex:1; min-height:360px; border-radius:12px; overflow:hidden; border:1px solid var(--hc-border); background:var(--hc-surface); }
 .hc-map iframe{ position:absolute; inset:0; width:100% !important; height:100% !important; border:0; }
-.hc-map-wrap .hc-btn{ margin-top:16px; }
-@media (max-width:1023px){ .hc-loc{ grid-template-columns:1fr; } }
-@media (max-width:639px){ .hc-map{ aspect-ratio:1 / 1; } .hc-map-wrap .hc-btn{ width:100%; } }
+.hc-map-wrap .hc-btn{ margin-top:16px; width:100%; }
+@media(max-width:1023px){
+ .hc-loc{ grid-template-columns:minmax(0,5fr) minmax(0,6fr); }
+ .hc-loc__details{ padding:26px; }
+ .hc-map-wrap{ padding:20px; }
+ .hc-map{ min-height:380px; }
+}
+@media(max-width:767px){
+ #location{ padding:40px 0; }
+ .hc-loc{ grid-template-columns:minmax(0,1fr); border-radius:18px; }
+ .hc-loc__details{ padding:24px 20px; }
+ .hc-loc__list{ margin-top:24px; gap:20px; }
+ .hc-loc__list li + li{ padding-top:20px; }
+ .hc-loc__actions{ margin-top:22px; padding-top:22px; }
+ .hc-loc__actions .hc-btn--call{ flex:1 1 200px; }
+ .hc-loc__actions .hc-btn--appt{ flex:1 1 100px; }
+ .hc-map-wrap{ padding:0 0 20px; border-left:0; border-top:1px solid #b8cfdd; }
+ .hc-map{ flex:none; min-height:0; height:280px; border:0; border-bottom:1px solid var(--hc-border); border-radius:0; }
+ .hc-map-wrap .hc-btn{ width:calc(100% - 40px); margin:18px 20px 0; }
+}
 
 /* ---------- Final CTA ---------- */
 .hc-final{ background:var(--hc-navy); color:var(--hc-white); text-align:center; }
@@ -1158,47 +1186,36 @@ a:hover{ color:var(--hc-navy); }
 
 <!-- ===================== 8. LOCATION / MAP ===================== -->
 <section class="hc-section hc-section--tint" id="location" aria-labelledby="loc-title">
-  <div class="hc-wrap hc-loc">
-    <div>
-      <h2 id="loc-title">Visit our Sherman office</h2>
-      <ul class="hc-loc__list">
-        <li>
-          <svg class="hc-icon" aria-hidden="true"><use href="#i-pin"/></svg>
-          <div>
-            <h3>Address</h3>
-            <address>HearCare, Inc. and Associates<br>1800 N. Travis St, Suite D<br>Sherman, TX 75092</address>
-          </div>
-        </li>
-        <li>
-          <svg class="hc-icon" aria-hidden="true"><use href="#i-clock"/></svg>
-          <div>
-            <h3>Hours</h3>
-            <p>Monday–Thursday: 9:00am–5:00pm<br>Friday: by appointment only</p>
-          </div>
-        </li>
-        <li>
-          <svg class="hc-icon" aria-hidden="true"><use href="#i-phone"/></svg>
-          <div>
-            <h3>Call or text</h3>
-            <p class="hc-loc__phone">
-              <a href="tel:+19032062442" data-contact-tel><span>Call <span data-contact-display>903-206-2442</span></span></a>
-              <a href="sms:+19032062442" data-contact-sms>Text <span data-contact-display>903-206-2442</span></a>
-            </p>
-          </div>
-        </li>
-      </ul>
-    </div>
-
-    <div class="hc-map-wrap">
-      <!-- Brief-supplied pb= embed; src unmodified. Responsiveness via .hc-map container only. -->
-      <div class="hc-map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.117994477039!2d-96.61518459999999!3d33.6541044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c8851e671d29f%3A0xc56621ec07540757!2sHearCare%20Inc%20%26%20Associates!5e0!3m2!1sen!2sin!4v1794241372173!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Map of HearCare, Inc. and Associates in Sherman, TX"></iframe>
+  <div class="hc-wrap">
+    <div class="hc-loc">
+      <div class="hc-loc__details">
+        <h2 id="loc-title">Find us in <span class="hc-loc__city">Sherman, TX</span></h2>
+        <ul class="hc-loc__list">
+          <li>
+            <svg class="hc-icon" aria-hidden="true"><use href="#i-pin"/></svg>
+            <div><h3>Address</h3><address>HearCare, Inc. and Associates<br>1800 N. Travis St, Suite D<br>Sherman, TX 75092</address></div>
+          </li>
+          <li>
+            <svg class="hc-icon" aria-hidden="true"><use href="#i-clock"/></svg>
+            <div><h3>Office hours</h3><p class="hc-loc__hours"><span>Monday–Thursday: <span class="hc-loc__time">9:00am–5:00pm</span></span><span>Friday: by appointment only</span></p></div>
+          </li>
+        </ul>
+        <div class="hc-loc__actions">
+          <a class="hc-btn hc-btn--call" href="tel:+19032062442" data-contact-tel><svg class="hc-icon" aria-hidden="true"><use href="#i-phone"/></svg><span>Call <span data-contact-display>903-206-2442</span></span></a>
+          <a class="hc-btn hc-btn--appt" href="sms:+19032062442" data-contact-sms><svg class="hc-icon" aria-hidden="true"><use href="#i-message"/></svg><span>Text us</span></a>
+        </div>
       </div>
-      <a class="hc-btn hc-btn--appt" href="https://maps.google.com/maps/dir//HearCare%2C+Inc.+and+Associates+1800+N.+Travis+St%2C+Suite+D%2C+Sherman%2C+TX+75092" target="_blank" rel="noopener">
+      <div class="hc-map-wrap">
+        <!-- Original supplied map embed and directions destination preserved. -->
+        <div class="hc-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.117994477039!2d-96.61518459999999!3d33.6541044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c8851e671d29f%3A0xc56621ec07540757!2sHearCare%20Inc%20%26%20Associates!5e0!3m2!1sen!2sin!4v1794241372173!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Map of HearCare, Inc. and Associates in Sherman, TX"></iframe>
+        </div>
+        <a class="hc-btn hc-btn--appt" href="https://maps.google.com/maps/dir//HearCare%2C+Inc.+and+Associates+1800+N.+Travis+St%2C+Suite+D%2C+Sherman%2C+TX+75092" target="_blank" rel="noopener">
         <svg class="hc-icon" aria-hidden="true"><use href="#i-nav"/></svg>
         Get Directions
         <span class="hc-sr">(opens Google Maps in a new tab)</span>
       </a>
+      </div>
     </div>
   </div>
 </section>
