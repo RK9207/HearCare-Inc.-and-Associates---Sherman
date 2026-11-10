@@ -200,3 +200,5 @@ If the practice can photograph an actual device it fits, in a staff member's han
 The user uploaded the approved AI-created Hero image to GHL and explicitly requested its insertion. Current IMG-HERO-01 source: https://files.leadconnectorhq.com/file/6af3305fddcd97ce5aa8a0c8/hearcare-kitchen-conversation.webp . The HTML now uses this hosted URL directly, without Base64 or the former local srcset. Existing dimensions, crop, alt, image ID and priority are preserved. Local WebP files remain archival assets; they are not the active image source. The scene remains an AI-created illustration, not practice/patient evidence.
 
 Latest visual refinement retains the GHL-hosted IMG-HERO-01 source. Desktop CSS uses object-position 51% / 75% to give the conversation more emphasis; tablet/mobile retain 50% / 46%. The frame has a larger curved corner and restrained depth. No image regeneration or factual attribution change.
+
+Restrained refinement supersedes the prior frame note: no offset outline; softer 100px upper-left desktop corner and 40px mobile corner. Mobile/tablet crop now uses 50% / 55%, preserving both faces. Source URL and image meaning remain unchanged.

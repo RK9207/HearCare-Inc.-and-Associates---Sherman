@@ -60,3 +60,7 @@ Latest delivery update: the complete HTML now uses the user-supplied GHL Hero im
 ## Visual finish update
 
 User requested a more beautiful Hero. Added tonal navy depth, a restrained service capsule, benefit accent, sculpted photo frame, softer proof/CTA shadows and a compact location panel. All body markup, wording, headline typography, hosted image URL and scripts are byte-identical to the preceding version. Seven-width overflow/contact/dialog checks passed. Local screenshot previews used the existing approved image file as a cache for the supplied GHL URL; live CDN availability was not reverified. Pending user visual approval.
+
+## Restrained/mobile refinement
+
+User approved simplification and requested removal of the mobile break after Care. Headline spans now flow inline on mobile with natural wrapping; all headline colors/sizes/weight and wording are preserved. Removed the service capsule, benefit rule, trust dot and offset outline. Tightened mobile spacing without reducing prose size or removing content. Location panel and genuine review evidence remain. Source image is unchanged, with a slightly adjusted responsive crop. No body markup, links, scripts or other sections changed; awaiting rendered approval.
