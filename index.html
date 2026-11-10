@@ -391,15 +391,38 @@ a:hover{ color:var(--hc-navy); }
  .hc-practice .hc-review-grid{ grid-template-columns:1fr; }
  .hc-practice .hc-reviews{ padding:24px; }
 }
+/* Mobile-only refinement; desktop trust layout and locked sections are preserved. */
 @media(max-width:639px){
- .hc-practice{ padding:42px 0 44px; }
- .hc-practice .hc-owners{ grid-template-columns:minmax(0,1fr); gap:24px; }
- .hc-practice .hc-portrait{ max-width:280px; justify-self:center; }
- .hc-practice .hc-creds{ margin-top:20px; }
- .hc-practice .hc-cred + .hc-cred{ padding-top:18px; border-top:1px solid var(--hc-border); }
- .hc-practice .hc-reviews{ margin-top:32px; margin-inline:calc(-1 * var(--hc-gutter)); padding:24px var(--hc-gutter); border-radius:0; border-left:0; border-right:0; }
- .hc-practice .hc-review{ padding:20px 18px; }
- .hc-practice .hc-proof-cta .hc-cta{ width:100%; }
+ .hc-practice{ padding:34px 0 36px; }
+ .hc-practice__intro{ margin-bottom:22px; }
+ .hc-practice__intro > p{ margin-top:12px; line-height:1.55; }
+ .hc-practice .hc-owners{ grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr); grid-template-areas:"portrait license" "credentials credentials" "values values"; gap:18px 16px; align-items:center; }
+ .hc-practice .hc-owner-content{ display:contents; }
+ .hc-practice .hc-portrait{ grid-area:portrait; width:100%; max-width:140px; justify-self:start; }
+ .hc-practice .hc-portrait img{ border-radius:14px; }
+ .hc-practice .hc-portrait figcaption{ display:none; }
+ .hc-practice .hc-owner-license{ grid-area:license; border:0; padding:0; font-size:1.125rem; line-height:1.45; }
+ .hc-practice .hc-creds{ grid-area:credentials; margin-top:0; gap:14px; }
+ .hc-practice .hc-cred h3{ font-size:1.25rem; }
+ .hc-practice .hc-cred + .hc-cred{ padding-top:14px; border-top:1px solid var(--hc-border); }
+ .hc-practice .hc-owner-quals{ margin-top:4px; }
+ .hc-practice .hc-owner-quals summary{ min-height:48px; }
+ .hc-practice .hc-values{ grid-area:values; margin-top:0; }
+ .hc-practice .hc-reviews{ margin-top:28px; margin-inline:calc(-1 * var(--hc-gutter)); padding:22px var(--hc-gutter); border-radius:0; border-left:0; border-right:0; }
+ .hc-practice .hc-reviews__head{ gap:14px; margin-bottom:20px; }
+ .hc-practice .hc-rating{ flex-wrap:wrap; gap:10px; }
+ .hc-practice .hc-review-grid{ gap:14px; }
+ .hc-practice .hc-review{ padding:18px 16px; gap:12px; }
+ .hc-practice .hc-review blockquote{ font-size:1.125rem; line-height:1.55; }
+ .hc-practice .hc-reviews__foot{ margin-top:16px; gap:8px; }
+ .hc-practice .hc-proof-cta{ margin-top:18px; padding-top:18px; gap:16px; }
+ .hc-practice .hc-proof-cta .hc-cta{ display:grid; grid-template-columns:minmax(0,1fr); gap:10px; width:100%; }
+ .hc-practice .hc-proof-cta .hc-btn{ width:100%; min-height:52px; white-space:normal; text-align:center; justify-content:center; }
+}
+@media(max-width:379px){
+ .hc-practice .hc-owners{ grid-template-columns:minmax(0,1fr); grid-template-areas:"portrait" "license" "credentials" "values"; }
+ .hc-practice .hc-portrait{ max-width:160px; justify-self:center; }
+ .hc-practice .hc-owner-license{ line-height:1.55; }
 }
 
 /* ---------- Process ---------- */

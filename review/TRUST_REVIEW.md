@@ -31,3 +31,7 @@ A source comparison confirms all HTML/CSS outside the owners/reviews group is id
 PAGE_STRATEGY.md, CONTENT_DIRECTION.md, DESIGN_SYSTEM.md and IMAGE_PROMPTS.md reflect this approved rebuild. It is implemented for review, **not locked**. Ask for approval or adjustments; do not automatically advance.
 
 User-supplied portrait hosting update: IMG-PROVIDER-01 now uses https://files.leadconnectorhq.com/file/6af3642f512d2edab67fe078/hearcare-associates-kenneth-jill-sheppard.jpg . Only the image URL changed; authentic portrait identity, dimensions, alt text, lazy loading, crop, image ID and layout are preserved. No live image availability or new resolution is assumed.
+
+## User-requested mobile optimization
+
+Optimize the current owners/reviews group below 640px only. Use a compact authentic portrait beside visible licensing context from 380–639px, then full-width owner disclosures and values; below 380px, stack a smaller 160px portrait and full-width credentials. Hide only the duplicate photo caption on mobile, retaining both full names and authentic image alt. Reduce spacing, retain 18px principal prose/full quotations, use comfortable disclosure targets and full-width aligned contact actions. Desktop layout, all page markup/wording/quotes/links and both locked sections are unchanged. Real GHL portrait fetch remains blocked locally and is not substituted with another image. Final GHL photo/rendering review remains required; section is not locked.
