@@ -40,3 +40,6 @@ User explicitly supplied a MapLibre GL v4 / OAP map to replace the Google iframe
 - Live CDN fetch attempts returned proxy 403 in this workspace. Actual tiles, WebGL controls and tracking delivery remain Needs QA in GHL.
 
 Current OAP fallback layout previews (deliberately blocked dependencies): [desktop](location-oap-fallback-desktop.png), [mobile](location-oap-fallback-mobile.png). Earlier location screenshots above document the prior Google-embed version. No fake map tiles or substituted map screenshots are used.
+
+
+User-requested label adjustment: change only the map address-card link to “Open in Maps” and align its accessible label. Preserve its existing Google Maps destination and the separate Get Directions button.
