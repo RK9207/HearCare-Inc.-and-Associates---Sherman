@@ -221,3 +221,8 @@ User rejected the small side-by-side mobile portrait. IMG-PROVIDER-01 now remain
 ## Options Layout A implementation update
 
 User approved Layout A + headline 1. This supersedes the old sticky image/above-heading mobile positioning: introduction left/image right, then three benefits across the full desktop width; headline before image on mobile. An authentic in-hand photograph is preferred. Pending that asset, the research-recorded clinic product URL https://hearcareinc.com/wp-content/uploads/2026/08/widexsmartric.jpg is used as a labelled Widex SmartRIC example, at native 232×253 resolution without magnification. Do not infer other models or capabilities from the image. Local network blocks retrieval; image appearance and availability require GHL review. No generated product is used.
+
+
+## Options revision after updated GHL screenshots
+
+User requested stronger design and content. Keep the approved headline and conditional hearing-aid premise. Replace the low-contrast image-led opening with a compact navy introduction, white headline, and a modest labelled product frame sized to the existing asset. White canvas and three editorial benefit columns focus on appearance, comfort and connection; mobile stacks them with simple dividers. Shorten repeated prose and integrate compatibility/suitability qualifications. Keep the original style guide and all eight brands, now shown as plain text in a supporting strip rather than button-like chips. Main prose stays 18px. No CTA, other section or integration changes. Existing product URL remains; its actual appearance is supported by the user’s new GHL screenshots, while remote retrieval is blocked locally. No generated product imagery. Awaiting rendered review, not locked.

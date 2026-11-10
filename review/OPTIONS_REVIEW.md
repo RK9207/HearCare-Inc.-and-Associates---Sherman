@@ -30,3 +30,9 @@ A real in-hand photograph remains the preferred final asset. None was supplied o
 - [Expanded styles on mobile](options-styles-mobile.png)
 
 Production font families were rendered using locally cached fonts. Actual product-image appearance remains Needs QA in GHL.
+
+## Second revision — user requested stronger design and content
+
+The user’s latest GHL screenshots confirm the existing Widex product image loads and show its actual appearance. Keep that authentic, labelled model example, with a compact frame rather than the oversized rounded white plate. The approved H2 remains. A navy introduction creates a focal point on the white canvas; three editorial benefits use appearance, comfort and connection labels with short practical explanations. Remove decorative icon circles and reduce duplication. Desktop benefit text aligns; mobile stacks with horizontal rules, preserving 18px body text. The manufacturer strip now uses plain text instead of button-like chips. The original style guide remains complete, with a two-column expanded layout on desktop and one column on mobile.
+
+All other sections and integrations are unchanged by exact source comparison. Updated seven-width rendering and keyboard disclosure checks cover the revision. Local product fetch remains blocked, so local screenshots show missing-image alt content; the actual asset was observed in the user’s GHL screenshots. Pending the user's rendered approval; not locked.
