@@ -194,3 +194,7 @@ If the practice can photograph an actual device it fits, in a staff member's han
 - When a placeholder `div` is replaced with an `<img>`, keep `data-img-id`, set explicit `width` and `height`, and use `object-fit: cover`.
 - Hero crop is now implemented with responsive CSS and reviewed at representative widths; preserve both faces if its layout changes.
 - Use `loading="lazy"` for the provider and product images only, not the hero.
+
+## User-supplied GHL hosting update
+
+The user uploaded the approved AI-created Hero image to GHL and explicitly requested its insertion. Current IMG-HERO-01 source: https://files.leadconnectorhq.com/file/6af3305fddcd97ce5aa8a0c8/hearcare-kitchen-conversation.webp . The HTML now uses this hosted URL directly, without Base64 or the former local srcset. Existing dimensions, crop, alt, image ID and priority are preserved. Local WebP files remain archival assets; they are not the active image source. The scene remains an AI-created illustration, not practice/patient evidence.

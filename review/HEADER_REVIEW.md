@@ -14,7 +14,7 @@ The user approved the recommended navy header with “okay, please make the chan
 
 ## Review files and limitations
 
-- [Updated complete HTML](hero-review.html): download/open to preview or copy the complete code. Hero images are embedded; the original external logo/font/form services remain in place.
+- [Updated complete HTML](hero-review.html): download/open to preview or copy the complete code. The Hero uses the user-supplied GHL image URL; original external logo/font/form services remain in place.
 - [Desktop layout screenshot](header-desktop.png).
 - [Mobile layout screenshot](header-mobile.png).
 
@@ -29,3 +29,5 @@ The user approved the recommended navy header with “okay, please make the chan
 - Sky/Ink primary button and white/navy navigation/appointment colors retain the previously measured contrast ratios of 6.71:1 and 9.62:1 respectively; sky hover text on navy is 4.62:1.
 
 Review in GHL with the real logo loaded, then approve or request adjustments. Do not lock the header or advance to a new section automatically.
+
+Latest delivery update: the complete HTML now uses the user-supplied GHL Hero image URL directly. Base64 embedding and the former local srcset were removed; layout and interactions are unchanged.

@@ -12,7 +12,7 @@ The user separately approved the integrated navy header. The current full-page H
 - [Mobile Hero](hero-mobile.png), 390px viewport.
 - [Desktop transition into the existing next section](hero-transition-desktop.png).
 - [Mobile transition into the existing next section](hero-transition-mobile.png).
-- [Downloadable full-page HTML review copy](hero-review.html): download/open in a browser. The two responsive Hero images are embedded for portability; existing external fonts, logo, map and form still depend on their original services. This is a review artifact, not a production deployment.
+- [Downloadable full-page HTML review copy](hero-review.html): download/open in a browser. The Hero now loads from the user-supplied GHL media URL; external fonts, logo, map and form retain their original services. This is a review artifact, not a production deployment.
 
 Screenshots show the Hero without the unchanged header. The fixed mobile Call bar is hidden only during these long-layout screenshots so it does not appear midway through a stitched capture; its source code is unchanged, and hide-on-modal behavior was checked separately. The source image is an AI-generated illustrative scene, not HearCare patients, owners, or a clinic photograph.
 
@@ -54,3 +54,5 @@ User requested removal of the break after Personalized, improved hierarchy and b
 ## Latest headline correction
 
 The user requested one uniform headline color and font size, plus TX after Sherman. The current headline uses the same white, responsive size and weight throughout, reading “Personalized Hearing Care, Right Here in Sherman, TX.” Earlier notes about smaller/lighter location text are superseded. Seven-width Hero checks passed after this correction.
+
+Latest delivery update: the complete HTML now uses the user-supplied GHL Hero image URL directly. Base64 embedding and the former local srcset were removed; layout and interactions are unchanged.
