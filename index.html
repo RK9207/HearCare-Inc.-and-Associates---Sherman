@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hearing Tests &amp; Hearing Aids in Sherman, TX | HearCare, Inc. and Associates</title>
+<meta name="description" content="Hearing tests and hearing aids in Sherman, TX. Understand your hearing first, then explore options fitted to your needs, lifestyle and budget. Call or text 903-206-2442.">
+
+<!--
+==========================================================================
+STEP 4A FIRST DRAFT — INTERNAL BUILD NOTES (remove before publishing)
+==========================================================================
+Theme (Step 3 approved): Hearing tests and hearing aids in Sherman, TX.
+Narrative: everyday connection first → owners + Google proof early →
+test-first process → options → payment → FAQ → location → final invite.
+
+CONTACT (temporary, user-approved): 903-206-2442 / tel:+19032062442 /
+sms:+19032062442. Supersedes brief's 903-206-1692 (Gainesville line).
+Centralised in the CONTACT object at the bottom of this file. Hard-coded
+fallbacks in markup match it. When CSM tracking numbers arrive, update
+CONTACT and verify call AND sms routing separately.
+
+GHL FORM: brief's embed was POPUP layout + alwaysShow trigger, which would
+auto-open GHL's own popup on load and compete with our CTA. Technically
+necessary change: same src / form ID / form name / consent attributes,
+but switched to INLINE layout inside our own <dialog>, iframe ID prefixed
+`formEmbed-` (avoids GHL autoscroll bug), inline display:none removed.
+form_embed.js loaded exactly once (end of body).
+
+GOOGLE REVIEWS: 4.8 / 94 from user-supplied screenshots (RESEARCH §3A, U1).
+Capture date unknown — refresh rating/count before publishing.
+Reviews: shortlist from §3A (mobile shows first three).
+
+IMAGES: see placeholder inventory. IMG-PROVIDER-01 uses the real owner
+portrait hot-linked from hearcareinc.com (411×411) — request a larger
+original and re-host on the filesafe CDN before launch.
+
+LOGO: brief PNG, colour variant unverified. Footer shows it on a white
+plate so it stays legible whichever variant it is.
+
+OPEN ITEMS: trial offer (not used), test cost/duration (not stated),
+Sherman staffing (not promised), rechargeable/waterproof (not claimed),
+footer merge fields are GHL custom values and render only inside GHL.
+==========================================================================
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --hc-sky:#78bbe9;
+  --hc-sky-hover:#62afe4;
+  --hc-navy:#004a69;
+  --hc-navy-deep:#003a53;
+  --hc-blue:#2578b2;
+  --hc-white:#ffffff;
+  --hc-ink:#2c2c2c;
+  --hc-muted:#4a5560;
+  --hc-surface:#f2f8fc;
+  --hc-border:#d5e2ea;
+  --hc-head:"Montserrat", Arial, sans-serif;
+  --hc-body:"Hind", Arial, sans-serif;
+  --hc-header-h:76px;
+  --hc-gutter:20px;
+}
+@media (min-width:640px){ :root{ --hc-gutter:32px; } }
+@media (min-width:1024px){ :root{ --hc-gutter:44px; } }
+@media (max-width:1023px){ :root{ --hc-header-h:68px; } }
+
+*,*::before,*::after{ box-sizing:border-box; }
+[hidden]{ display:none !important; }
+html{ scroll-behavior:smooth; scroll-padding-top:calc(var(--hc-header-h) + 16px); overflow-x:clip; -webkit-text-size-adjust:100%; }
+@media (prefers-reduced-motion:reduce){ html{ scroll-behavior:auto; } *{ transition:none !important; animation:none !important; } }
+html.hc-modal-open{ overflow:hidden; }
+body{
+  margin:0; overflow-x:clip;
+  font-family:var(--hc-body); font-size:1.125rem; line-height:1.6;
+  color:var(--hc-ink); background:var(--hc-white);
+}
+img{ max-width:100%; height:auto; display:block; }
+h1,h2,h3{ font-family:var(--hc-head); color:var(--hc-navy); margin:0; text-wrap:balance; }
+h1{ font-weight:700; font-size:clamp(2rem, 1.3rem + 2.6vw, 3.5rem); line-height:1.1; letter-spacing:-0.01em; }
+h2{ font-weight:700; font-size:clamp(1.625rem, 1.2rem + 1.4vw, 2.375rem); line-height:1.2; }
+h3{ font-weight:600; font-size:clamp(1.25rem, 1.1rem + .4vw, 1.4375rem); line-height:1.3; }
+p{ margin:0; }
+a{ color:var(--hc-blue); text-underline-offset:3px; }
+a:hover{ color:var(--hc-navy); }
+
+:focus-visible{ outline:3px solid var(--hc-navy); outline-offset:3px; box-shadow:0 0 0 3px var(--hc-white); border-radius:4px; }
+.hc-dark :focus-visible{ outline-color:var(--hc-sky); box-shadow:0 0 0 3px var(--hc-navy); }
+
+.hc-skip{ position:absolute; left:16px; top:-100px; z-index:200; background:var(--hc-navy); color:#fff; padding:12px 18px; border-radius:8px; font-weight:600; }
+.hc-skip:focus{ top:12px; color:#fff; }
+.hc-sr{ position:absolute !important; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+
+.hc-wrap{ width:100%; max-width:calc(1200px + var(--hc-gutter) * 2); margin:0 auto; padding:0 var(--hc-gutter); }
+.hc-section{ padding:clamp(48px, 6vw, 96px) 0; }
+.hc-section--tint{ background:var(--hc-surface); }
+.hc-section__head{ max-width:680px; margin-bottom:clamp(28px, 4vw, 48px); }
+.hc-section__head p{ margin-top:16px; color:var(--hc-muted); }
+.hc-prose{ max-width:680px; }
+
+.hc-icon{ width:20px; height:20px; flex:none; fill:none; stroke:currentColor; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+
+/* ---------- Buttons ---------- */
+.hc-btn{
+  display:inline-flex; align-items:center; justify-content:center; gap:10px;
+  min-height:48px; padding:12px 22px; border-radius:8px; border:2px solid transparent;
+  font-family:var(--hc-body); font-size:1.0625rem; font-weight:600; line-height:1.2;
+  text-decoration:none; cursor:pointer; transition:background-color .15s, color .15s, border-color .15s;
+  white-space:nowrap;
+}
+.hc-btn--call{ background:var(--hc-sky); color:var(--hc-ink); border-color:var(--hc-sky); }
+.hc-btn--call:hover{ background:var(--hc-sky-hover); border-color:var(--hc-sky-hover); color:var(--hc-ink); }
+.hc-btn--appt{ background:var(--hc-white); color:var(--hc-navy); border-color:var(--hc-navy); }
+.hc-btn--appt:hover{ background:var(--hc-navy); color:var(--hc-white); }
+.hc-dark .hc-btn--appt{ background:transparent; color:var(--hc-white); border-color:var(--hc-white); }
+.hc-dark .hc-btn--appt:hover{ background:var(--hc-white); color:var(--hc-navy); }
+.hc-textlink{ display:inline-flex; align-items:center; gap:8px; font-weight:600; color:var(--hc-blue); text-decoration:underline; min-height:44px; }
+.hc-textlink:hover{ color:var(--hc-navy); }
+.hc-textlink [data-contact-display]{ white-space:nowrap; }
+.hc-dark .hc-textlink{ color:var(--hc-white); }
+.hc-dark .hc-textlink:hover{ color:var(--hc-sky); }
+
+.hc-cta{ display:flex; flex-wrap:wrap; align-items:center; gap:12px 16px; }
+.hc-cta__text{ flex-basis:100%; }
+@media (max-width:639px){
+  .hc-cta .hc-btn{ width:100%; }
+}
+
+/* ---------- Header ---------- */
+.hc-header{ position:sticky; top:0; z-index:100; background:var(--hc-white); border-bottom:1px solid var(--hc-border); }
+.hc-header__row{ display:grid; grid-template-columns:auto 1fr auto; align-items:center; gap:24px; min-height:var(--hc-header-h); }
+.hc-logo{ display:inline-flex; align-items:center; }
+.hc-logo img{ height:52px; width:auto; }
+.hc-nav ul{ list-style:none; margin:0; padding:0; display:flex; justify-content:center; gap:clamp(16px, 2.4vw, 36px); }
+.hc-nav a{ display:inline-flex; align-items:center; min-height:44px; font-weight:500; color:var(--hc-ink); text-decoration:none; border-bottom:2px solid transparent; }
+.hc-nav a:hover{ color:var(--hc-navy); border-bottom-color:var(--hc-sky); }
+.hc-header__actions{ display:flex; align-items:center; gap:12px; }
+.hc-header .hc-btn{ min-height:46px; padding:10px 18px; }
+@media (max-width:1023px){
+  .hc-nav{ display:none; }
+  .hc-header__row{ grid-template-columns:auto 1fr; }
+  .hc-header__actions{ justify-content:flex-end; }
+  .hc-logo img{ height:44px; }
+}
+@media (max-width:639px){
+  .hc-header__call{ display:none; }
+  .hc-logo img{ height:40px; }
+  .hc-header .hc-btn{ padding:10px 14px; font-size:1rem; }
+}
+
+/* ---------- Hero ---------- */
+.hc-hero{ padding:clamp(36px, 5vw, 72px) 0 clamp(48px, 6vw, 88px); }
+.hc-hero__grid{ display:grid; grid-template-columns:minmax(0, 1.2fr) minmax(0, 1fr); gap:clamp(40px, 5vw, 72px); align-items:center; }
+.hc-hero__text{ max-width:580px; }
+.hc-hero__lead{ margin-top:20px; font-size:1.25rem; line-height:1.55; }
+.hc-hero__step{ margin-top:14px; color:var(--hc-muted); }
+.hc-hero__trust{ margin-top:24px; padding-left:16px; border-left:3px solid var(--hc-sky); font-weight:500; color:var(--hc-navy); }
+.hc-hero .hc-cta{ margin-top:28px; }
+.hc-facts{ list-style:none; margin:24px 0 0; padding:0; display:flex; flex-wrap:wrap; gap:8px 28px; font-size:1rem; color:var(--hc-muted); }
+.hc-facts li{ display:flex; align-items:flex-start; gap:8px; }
+.hc-facts .hc-icon{ width:18px; height:18px; margin-top:3px; color:var(--hc-blue); }
+
+.hc-hero__media{ position:relative; }
+.hc-hero__media::before{ content:""; position:absolute; inset:28px -18px -18px 28px; background:var(--hc-surface); border-radius:16px; z-index:0; }
+.hc-hero__media > *{ position:relative; z-index:1; }
+.hc-badge{
+  position:absolute; z-index:2; left:-20px; bottom:28px;
+  display:flex; align-items:center; gap:14px; padding:14px 18px;
+  background:var(--hc-white); border:1px solid var(--hc-border); border-radius:12px;
+  box-shadow:0 8px 24px rgba(0,74,105,.12); text-decoration:none; color:var(--hc-ink);
+}
+.hc-badge:hover{ color:var(--hc-ink); border-color:var(--hc-sky); }
+.hc-badge__score{ font-family:var(--hc-head); font-weight:700; font-size:2rem; line-height:1; color:var(--hc-navy); }
+.hc-badge__meta{ display:flex; flex-direction:column; gap:4px; font-size:.9375rem; line-height:1.3; }
+.hc-badge__meta strong{ font-weight:600; }
+@media (max-width:639px){ .hc-hero__media::before{ display:none; } }
+@media (max-width:1023px){
+  .hc-hero__grid{ grid-template-columns:1fr; }
+  .hc-hero__text{ max-width:640px; }
+  .hc-hero__media{ max-width:640px; }
+  .hc-badge{ left:16px; bottom:16px; }
+}
+
+/* Stars */
+.hc-stars{ position:relative; display:inline-flex; line-height:0; }
+.hc-stars svg{ width:18px; height:18px; flex:none; }
+.hc-stars__base{ display:inline-flex; color:var(--hc-border); }
+.hc-stars__fill{ position:absolute; inset:0 auto 0 0; display:inline-flex; overflow:hidden; white-space:nowrap; color:var(--hc-navy); }
+.hc-stars svg{ fill:currentColor; }
+
+/* ---------- Image placeholders ---------- */
+.hc-ph{
+  display:flex; align-items:center; justify-content:center; text-align:center;
+  background:linear-gradient(160deg, #e3f0f9 0%, #cfe5f5 100%);
+  border:2px dashed #9cc7e6; border-radius:16px; color:var(--hc-navy); padding:24px; overflow:hidden;
+}
+.hc-ph__inner{ display:flex; flex-direction:column; align-items:center; gap:6px; max-width:300px; font-size:.9375rem; line-height:1.4; }
+.hc-ph__inner .hc-icon{ width:36px; height:36px; stroke-width:1.5; margin-bottom:4px; }
+.hc-ph__id{ font-family:var(--hc-head); font-weight:700; font-size:1rem; }
+.hc-ph__spec{ color:var(--hc-muted); font-size:.875rem; }
+.hc-ph--hero{ aspect-ratio:4 / 5; width:100%; }
+@media (max-width:1023px){ .hc-ph--hero{ aspect-ratio:4 / 3; } }
+.hc-ph--portrait{ aspect-ratio:1 / 1; width:100%; }
+.hc-ph--product{ aspect-ratio:4 / 3; width:100%; }
+
+/* ---------- Everyday difficulty ---------- */
+.hc-signs{ list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:clamp(20px, 3vw, 40px); }
+.hc-signs li{ padding-top:20px; border-top:3px solid var(--hc-sky); }
+.hc-signs h3{ margin-bottom:8px; }
+.hc-signs p{ color:var(--hc-muted); }
+.hc-bridge{ margin-top:clamp(32px, 4vw, 48px); max-width:760px; font-size:1.1875rem; }
+.hc-bridge p + p{ margin-top:12px; }
+@media (max-width:767px){ .hc-signs{ grid-template-columns:1fr; } }
+
+/* ---------- Owners ---------- */
+.hc-owners{ display:grid; grid-template-columns:minmax(0, 360px) minmax(0, 1fr); gap:clamp(32px, 5vw, 72px); align-items:start; }
+.hc-portrait img{ width:100%; aspect-ratio:1 / 1; object-fit:cover; border-radius:16px; }
+.hc-portrait figcaption{ margin-top:12px; font-size:.9375rem; color:var(--hc-muted); }
+.hc-owners__lead{ margin-top:16px; max-width:640px; }
+.hc-creds{ display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:24px 32px; margin-top:32px; }
+.hc-cred{ padding-top:16px; border-top:1px solid var(--hc-border); }
+.hc-cred__role{ margin-top:4px; font-weight:600; color:var(--hc-blue); font-size:1rem; line-height:1.4; }
+.hc-cred p:last-child{ margin-top:10px; font-size:1rem; color:var(--hc-muted); }
+.hc-values{ margin-top:28px; font-size:1rem; color:var(--hc-muted); }
+.hc-values strong{ color:var(--hc-navy); font-weight:600; }
+@media (max-width:1023px){ .hc-owners{ grid-template-columns:minmax(0, 280px) minmax(0,1fr); } .hc-creds{ grid-template-columns:1fr; } }
+@media (max-width:639px){ .hc-owners{ grid-template-columns:1fr; } .hc-portrait{ max-width:320px; } }
+
+/* ---------- Reviews ---------- */
+.hc-reviews{ margin-top:clamp(48px, 6vw, 80px); padding-top:clamp(40px, 5vw, 64px); border-top:1px solid var(--hc-border); }
+.hc-reviews__head{ display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:16px 32px; margin-bottom:28px; }
+.hc-reviews__head h2{ max-width:560px; }
+.hc-rating{ display:flex; align-items:center; gap:14px; }
+.hc-rating__score{ font-family:var(--hc-head); font-weight:700; font-size:2.25rem; line-height:1; color:var(--hc-navy); }
+.hc-rating__meta{ display:flex; flex-direction:column; gap:4px; font-size:1rem; line-height:1.3; color:var(--hc-muted); }
+.hc-review-grid{ list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:20px; }
+.hc-review{ display:flex; flex-direction:column; gap:14px; height:100%; padding:24px; background:var(--hc-white); border:1px solid var(--hc-border); border-radius:12px; }
+.hc-review blockquote{ margin:0; font-size:1.0625rem; line-height:1.6; }
+.hc-review blockquote p + p{ margin-top:10px; }
+.hc-review footer{ margin-top:auto; font-size:.9375rem; color:var(--hc-muted); }
+.hc-review cite{ display:block; font-style:normal; font-weight:600; color:var(--hc-ink); font-size:1rem; }
+.hc-reviews__foot{ display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px 24px; margin-top:24px; font-size:.9375rem; color:var(--hc-muted); }
+.hc-reviews__foot .hc-textlink{ font-size:1.0625rem; }
+@media (max-width:1023px){ .hc-review-grid{ grid-template-columns:repeat(2, minmax(0,1fr)); } }
+@media (max-width:639px){
+  .hc-review-grid{ grid-template-columns:1fr; }
+  .hc-review-grid > li:nth-child(n+4){ display:none; }
+}
+.hc-proof-cta{ margin-top:clamp(40px, 5vw, 56px); padding:28px; border-radius:12px; background:var(--hc-surface); display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:20px 32px; }
+.hc-proof-cta p{ font-family:var(--hc-head); font-weight:600; font-size:1.25rem; color:var(--hc-navy); max-width:480px; line-height:1.35; }
+
+/* ---------- Process ---------- */
+.hc-steps{ list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(4, minmax(0,1fr)); gap:32px; counter-reset:step; }
+.hc-step{ position:relative; }
+.hc-step__num{
+  display:flex; align-items:center; justify-content:center; width:44px; height:44px; border-radius:50%;
+  background:var(--hc-navy); color:var(--hc-white); font-family:var(--hc-head); font-weight:700; font-size:1.125rem; margin-bottom:18px; position:relative; z-index:1;
+}
+.hc-step:not(:last-child)::after{ content:""; position:absolute; top:21px; left:56px; right:-20px; height:2px; background:var(--hc-sky); }
+.hc-step h3{ margin-bottom:10px; }
+.hc-step p{ font-size:1.0625rem; }
+.hc-step__outcome{ margin-top:14px !important; padding-left:12px; border-left:3px solid var(--hc-sky); color:var(--hc-navy); font-weight:500; }
+@media (max-width:1023px){
+  .hc-steps{ grid-template-columns:repeat(2, minmax(0,1fr)); gap:36px 32px; }
+  .hc-step:not(:last-child)::after{ display:none; }
+}
+@media (max-width:639px){
+  .hc-steps{ grid-template-columns:1fr; gap:0; }
+  .hc-step{ padding-left:64px; padding-bottom:32px; }
+  .hc-step__num{ position:absolute; left:0; top:0; margin:0; }
+  .hc-step:not(:last-child)::after{ display:block; top:52px; bottom:8px; left:21px; right:auto; width:2px; height:auto; }
+}
+.hc-care-note{ margin-top:clamp(32px, 4vw, 44px); max-width:760px; display:flex; flex-direction:column; gap:16px; }
+.hc-care-note > p{ color:var(--hc-muted); }
+
+/* Disclosure */
+.hc-more{ border:1px solid var(--hc-border); border-radius:12px; background:var(--hc-white); }
+.hc-more summary{ list-style:none; cursor:pointer; display:flex; align-items:center; justify-content:space-between; gap:16px; padding:16px 20px; min-height:56px; font-weight:600; color:var(--hc-navy); }
+.hc-more summary::-webkit-details-marker{ display:none; }
+.hc-more summary .hc-icon{ transition:transform .2s; }
+.hc-more[open] summary .hc-icon{ transform:rotate(180deg); }
+.hc-more__body{ padding:0 20px 20px; font-size:1.0625rem; }
+.hc-more__body dl{ margin:0; display:grid; gap:14px; }
+.hc-more__body dt{ font-weight:600; color:var(--hc-ink); }
+.hc-more__body dd{ margin:2px 0 0; color:var(--hc-muted); }
+.hc-more__body > p{ margin-top:14px; color:var(--hc-muted); font-size:1rem; }
+
+.hc-section-cta{ margin-top:clamp(36px, 4vw, 52px); display:flex; flex-wrap:wrap; align-items:center; gap:16px 28px; }
+.hc-section-cta > p{ font-family:var(--hc-head); font-weight:600; font-size:1.25rem; color:var(--hc-navy); }
+
+/* ---------- Options ---------- */
+.hc-options{ display:grid; grid-template-columns:minmax(0, 5fr) minmax(0, 7fr); gap:clamp(32px, 5vw, 72px); align-items:start; }
+.hc-options__media{ position:sticky; top:calc(var(--hc-header-h) + 32px); }
+.hc-feature + .hc-feature{ margin-top:28px; padding-top:28px; border-top:1px solid var(--hc-border); }
+.hc-feature h3{ margin-bottom:10px; }
+.hc-feature p + p{ margin-top:10px; }
+.hc-feature__note{ font-size:1rem; color:var(--hc-muted); }
+.hc-brands{ margin-top:36px; }
+.hc-brands h3{ font-size:1.0625rem; font-family:var(--hc-body); font-weight:600; color:var(--hc-ink); margin-bottom:12px; }
+.hc-brands ul{ list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:8px; }
+.hc-brands li{ padding:6px 14px; border:1px solid var(--hc-border); border-radius:999px; font-weight:500; font-size:1rem; color:var(--hc-navy); background:var(--hc-white); }
+.hc-brands p{ margin-top:12px; font-size:.9375rem; color:var(--hc-muted); }
+.hc-options .hc-more{ margin-top:28px; }
+@media (max-width:1023px){
+  .hc-options{ grid-template-columns:1fr; }
+  .hc-options__media{ position:static; max-width:560px; }
+}
+
+/* ---------- Payment ---------- */
+.hc-pay{ background:var(--hc-white); border:1px solid var(--hc-border); border-radius:12px; padding:clamp(24px, 4vw, 44px); }
+.hc-pay__grid{ list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:28px 40px; }
+.hc-pay__item{ display:grid; grid-template-columns:44px 1fr; gap:4px 16px; }
+.hc-pay__icon{ grid-row:span 2; display:flex; align-items:center; justify-content:center; width:44px; height:44px; border-radius:50%; background:var(--hc-surface); color:var(--hc-navy); }
+.hc-pay__item h3{ font-size:1.1875rem; }
+.hc-pay__item p{ font-size:1.0625rem; color:var(--hc-muted); }
+.hc-pay__foot{ margin-top:32px; padding-top:24px; border-top:1px solid var(--hc-border); display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:16px 28px; }
+.hc-pay__foot p{ font-weight:600; color:var(--hc-navy); font-size:1.125rem; }
+@media (max-width:767px){ .hc-pay__grid{ grid-template-columns:1fr; } }
+
+/* ---------- FAQ ---------- */
+.hc-faq{ max-width:800px; }
+.hc-faq__list{ border-top:1px solid var(--hc-border); }
+.hc-faq details{ border-bottom:1px solid var(--hc-border); }
+.hc-faq summary{
+  list-style:none; cursor:pointer; display:flex; align-items:center; justify-content:space-between; gap:20px;
+  padding:20px 4px; min-height:64px; font-family:var(--hc-head); font-weight:600; font-size:clamp(1.0625rem, 1rem + .3vw, 1.1875rem); line-height:1.35; color:var(--hc-navy);
+}
+.hc-faq summary::-webkit-details-marker{ display:none; }
+.hc-faq summary:hover{ color:var(--hc-blue); }
+.hc-faq__chev{ display:flex; align-items:center; justify-content:center; flex:none; width:32px; height:32px; border-radius:50%; background:var(--hc-surface); color:var(--hc-navy); transition:transform .2s; }
+.hc-faq details[open] .hc-faq__chev{ transform:rotate(180deg); }
+.hc-faq__a{ padding:0 4px 24px; max-width:680px; }
+.hc-faq__a p + p, .hc-faq__a p + ul, .hc-faq__a ul + p{ margin-top:12px; }
+.hc-faq__a ul{ margin:0; padding-left:22px; }
+.hc-faq__a li + li{ margin-top:6px; }
+
+/* ---------- Location ---------- */
+.hc-loc{ display:grid; grid-template-columns:minmax(0, 5fr) minmax(0, 7fr); gap:clamp(32px, 5vw, 64px); align-items:start; }
+.hc-loc__list{ list-style:none; margin:28px 0 0; padding:0; display:grid; gap:22px; }
+.hc-loc__list li{ display:grid; grid-template-columns:24px 1fr; gap:14px; }
+.hc-loc__list .hc-icon{ width:22px; height:22px; color:var(--hc-blue); margin-top:3px; }
+.hc-loc__list h3{ font-family:var(--hc-body); font-size:1rem; font-weight:600; color:var(--hc-muted); margin-bottom:2px; }
+.hc-loc__list address{ font-style:normal; }
+.hc-loc__phone{ display:flex; flex-wrap:wrap; gap:4px 16px; }
+.hc-loc__phone a{ font-weight:600; }
+.hc-map{ position:relative; width:100%; aspect-ratio:4 / 3; border-radius:16px; overflow:hidden; border:1px solid var(--hc-border); background:var(--hc-surface); }
+.hc-map iframe{ position:absolute; inset:0; width:100% !important; height:100% !important; border:0; }
+.hc-map-wrap .hc-btn{ margin-top:16px; }
+@media (max-width:1023px){ .hc-loc{ grid-template-columns:1fr; } }
+@media (max-width:639px){ .hc-map{ aspect-ratio:1 / 1; } .hc-map-wrap .hc-btn{ width:100%; } }
+
+/* ---------- Final CTA ---------- */
+.hc-final{ background:var(--hc-navy); color:var(--hc-white); text-align:center; }
+.hc-final h2{ color:var(--hc-white); max-width:760px; margin:0 auto; }
+.hc-final p{ max-width:620px; margin:18px auto 0; color:#dbeaf4; }
+.hc-final .hc-cta{ justify-content:center; margin-top:32px; }
+.hc-final .hc-cta__text{ display:flex; justify-content:center; }
+
+/* ---------- Footer ---------- */
+.hc-footer{ background:var(--hc-navy-deep); color:#dbeaf4; padding:56px 0 calc(28px + env(safe-area-inset-bottom)); font-size:1rem; }
+.hc-footer__grid{ display:grid; grid-template-columns:1.2fr 1fr 1fr; gap:32px 48px; }
+.hc-footer__logo{ display:inline-flex; padding:12px 16px; background:var(--hc-white); border-radius:12px; }
+.hc-footer__logo img{ height:44px; width:auto; }
+.hc-footer h2{ font-size:1.0625rem; color:var(--hc-white); margin-bottom:12px; }
+.hc-footer address{ font-style:normal; }
+.hc-footer a{ color:var(--hc-white); }
+.hc-footer a:hover{ color:var(--hc-sky); }
+.hc-footer ul{ list-style:none; margin:0; padding:0; display:grid; gap:8px; }
+.hc-footer__name{ margin-top:16px; color:var(--hc-white); font-weight:600; }
+.hc-footer__bottom{ margin-top:40px; padding-top:20px; border-top:1px solid rgba(255,255,255,.18); font-size:.9375rem; color:#b9d3e3; }
+@media (max-width:767px){ .hc-footer__grid{ grid-template-columns:1fr; } }
+
+/* ---------- Mobile sticky call ---------- */
+.hc-callbar{ display:none; }
+@media (max-width:639px){
+  body{ padding-bottom:calc(64px + env(safe-area-inset-bottom)); }
+  .hc-callbar{
+    display:flex; position:fixed; left:0; right:0; bottom:0; z-index:90;
+    padding:8px 12px calc(8px + env(safe-area-inset-bottom)); background:var(--hc-sky);
+    box-shadow:0 -4px 16px rgba(0,74,105,.15);
+  }
+  .hc-callbar a{ flex:1; display:flex; align-items:center; justify-content:center; gap:10px; min-height:48px; color:var(--hc-ink); font-weight:600; font-size:1.125rem; text-decoration:none; border-radius:8px; }
+  html.hc-modal-open .hc-callbar{ display:none; }
+}
+
+/* ---------- Appointment dialog ---------- */
+.hc-dialog{
+  width:min(640px, calc(100% - 24px)); max-height:calc(100dvh - 32px); padding:0; border:0; border-radius:12px;
+  color:var(--hc-ink); background:var(--hc-white); box-shadow:0 24px 64px rgba(0,30,45,.35); overflow:hidden;
+}
+.hc-dialog::backdrop{ background:rgba(0,30,45,.62); }
+.hc-dialog__inner{ display:flex; flex-direction:column; max-height:calc(100dvh - 32px); }
+.hc-dialog__head{ display:flex; align-items:flex-start; justify-content:space-between; gap:16px; padding:24px 24px 16px; border-bottom:1px solid var(--hc-border); }
+.hc-dialog__head p{ margin-top:6px; font-size:1.0625rem; color:var(--hc-muted); }
+.hc-dialog__close{ flex:none; display:flex; align-items:center; justify-content:center; width:44px; height:44px; border-radius:8px; border:1px solid var(--hc-border); background:var(--hc-white); color:var(--hc-navy); cursor:pointer; }
+.hc-dialog__close:hover{ background:var(--hc-surface); }
+.hc-dialog__body{ overflow-y:auto; padding:16px 20px; -webkit-overflow-scrolling:touch; }
+.hc-dialog__body iframe{ display:block; width:100%; min-height:647px; border:none; border-radius:8px; }
+.hc-dialog__foot{ padding:14px 24px 18px; border-top:1px solid var(--hc-border); font-size:1rem; color:var(--hc-muted); }
+.hc-dialog__foot a{ font-weight:600; }
+@media (max-width:639px){
+  .hc-dialog{ width:100%; max-width:100%; max-height:100dvh; height:100dvh; border-radius:0; margin:0; }
+  .hc-dialog__inner{ max-height:100dvh; height:100%; }
+  .hc-dialog__head{ padding:16px 16px 12px; padding-top:calc(16px + env(safe-area-inset-top)); }
+  .hc-dialog__body{ flex:1; padding:12px; }
+  .hc-dialog__foot{ padding-bottom:calc(14px + env(safe-area-inset-bottom)); }
+}
+</style>
+</head>
+<body>
+
+<!-- Icon sprite: one stroke family (Lucide-style, 2px) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+  <symbol id="i-message" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+  <symbol id="i-nav" viewBox="0 0 24 24"><path d="M3 11 22 2l-9 19-2-8-8-2z"/></symbol>
+  <symbol id="i-chev" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+  <symbol id="i-ext" viewBox="0 0 24 24"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></symbol>
+  <symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.1-3.1a2 2 0 0 0-2.8 0L6 21"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></symbol>
+  <symbol id="i-card" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></symbol>
+  <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path stroke="none" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></symbol>
+</svg>
+
+<a class="hc-skip" href="#main">Skip to main content</a>
+
+<!-- ===================== 0. HEADER ===================== -->
+<header class="hc-header">
+  <div class="hc-wrap hc-header__row">
+    <a class="hc-logo" href="https://hearcareinc.com/" aria-label="HearCare, Inc. and Associates home">
+      <img src="https://assets.cdn.filesafe.space/EMRBqQhzoUkKgjjbAzEz/media/6af1f80512958b0af36f1271.png" alt="HearCare, Inc. and Associates" height="52">
+    </a>
+    <nav class="hc-nav" aria-label="Page sections">
+      <ul>
+        <li><a href="#care">Care</a></li>
+        <li><a href="#practice">Our Practice</a></li>
+        <li><a href="#faq">FAQs</a></li>
+        <li><a href="#location">Location</a></li>
+      </ul>
+    </nav>
+    <div class="hc-header__actions">
+      <a class="hc-btn hc-btn--call hc-header__call" href="tel:+19032062442" data-contact-tel aria-label="Call 903-206-2442">
+        <svg class="hc-icon" aria-hidden="true"><use href="#i-phone"/></svg>
+        <span data-contact-display>903-206-2442</span>
+      </a>
+      <a class="hc-btn hc-btn--appt" href="https://api.onspirepulse.com/widget/form/8wW1RhQrj7egDZ93IJlJ" data-open-appointment>Request Appointment</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ===================== 1. HERO ===================== -->
+<section class="hc-hero" aria-labelledby="hero-title">
+  <div class="hc-wrap hc-hero__grid">
+    <div class="hc-hero__text">
+      <h1 id="hero-title">Hearing Tests &amp; Hearing Aids in Sherman, TX</h1>
+      <p class="hc-hero__lead">Understand how you’re really hearing, then get clear guidance on next steps toward easier everyday conversations, including hearing aids matched to your needs, lifestyle and budget if they’re right for you.</p>
+      <p class="hc-hero__step">It starts with a comprehensive hearing test and a personal conversation about your results.</p>
+      <p class="hc-hero__trust">An owner-operated practice led by licensed hearing instrument specialists.</p>
+
+      <div class="hc-cta">
+        <a class="hc-btn hc-btn--call" href="tel:+19032062442" data-contact-tel>
+          <svg class="hc-icon" aria-hidden="true"><use href="#i-phone"/></svg>
+          <span>Call <span data-contact-display>903-206-2442</span></span>
+        </a>
+        <a class="hc-btn hc-btn--appt" href="https://api.onspirepulse.com/widget/form/8wW1RhQrj7egDZ93IJlJ" data-open-appointment>
+          <svg class="hc-icon" aria-hidden="true"><use href="#i-calendar"/></svg>
+          Request Appointment
+        </a>
+        <div class="hc-cta__text">
+          <a class="hc-textlink" href="sms:+19032062442" data-contact-sms>
+            <svg class="hc-icon" aria-hidden="true"><use href="#i-message"/></svg>
+            <span>Or text us at <span data-contact-display>903-206-2442</span></span>
+          </a>
+        </div>
+      </div>
+
+      <ul class="hc-facts">
+        <li><svg class="hc-icon" aria-hidden="true"><use href="#i-pin"/></svg><span>1800 N. Travis St, Suite D, Sherman</span></li>
+        <li><svg class="hc-icon" aria-hidden="true"><use href="#i-clock"/></svg><span>Mon–Thu 9am–5pm, Fri by appointment</span></li>
+      </ul>
+    </div>
+
+    <div class="hc-hero__media">
+      <!-- IMG-HERO-01: replace this div with <img data-img-id="IMG-HERO-01" ...> (object-fit:cover, radius 16px) -->
+      <div class="hc-ph hc-ph--hero" data-img-id="IMG-HERO-01" role="img" aria-label="Image placeholder IMG-HERO-01">
+        <div class="hc-ph__inner">
+          <svg class="hc-icon" aria-hidden="true"><use href="#i-image"/></svg>
+          <span class="hc-ph__id">IMG-HERO-01</span>
+          <span>Warm, natural conversation scene: an older adult engaged and laughing with family or a friend. Faces clear of the badge area (bottom-left).</span>
+          <span class="hc-ph__spec">4:5 portrait, min 960×1200. Mobile crop 4:3.</span>
+        </div>
+      </div>
+
+      <!-- Google badge: values from user-supplied screenshots (U1). Refresh before publishing. -->
+      <a class="hc-badge" href="https://www.google.com/search?q=hearcare+inc+and+associates+sherman&sca_esv=245a2c734ea474ba&rlz=1C1CHBD_enIN1092IN1158&biw=1920&bih=953&sxsrf=AKL5yDhrpWQFSvw2k45Jya0PWIxzVxSoBQ%3A1794240620821&ei=bPDxao3TMcqP4-EPrvLF4AE&oq=hearcare+inc+and+associates+sherman&gs_lp=Egxnd3Mtd2l6LXNlcnAiI2hlYXJjYXJlIGluYyBhbmQgYXNzb2NpYXRlcyBzaGVybWFuKgUIAhjvBTIGEAAYFhgeMgUQABjvBTIFEAAY7wUyBRAAGO8FMgUQABjvBUjyOFD7Blj4KXABeACQAQCYAakBoAHHFaoBBDAuMTi4AQHIAQD4AQGYAgygAtkNwgIIEAAY7wUYsAPCAgQQIxgnwgILEAAYgAQYigUYhgOYAwCIBgGQBgKSBwQxLjExoAfsUbIHBDAuMTG4B9QNwgcFMC43LjXIByOACAE&sclient=gws-wiz-serp#lrd=0x864c8851e671d29f:0xc56621ec07540757,1,,,," target="_blank" rel="noopener" aria-label="Rated 4.8 out of 5 from 94 Google reviews. Opens Google reviews in a new tab.">
+        <span class="hc-badge__score" aria-hidden="true">4.8</span>
+        <span class="hc-badge__meta" aria-hidden="true">
+          <span class="hc-stars">
+            <span class="hc-stars__base"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+            <span class="hc-stars__fill" style="width:96%"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+          </span>
+          <span><strong>94 Google reviews</strong></span>
+        </span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 2. EVERYDAY DIFFICULTY ===================== -->
+<section class="hc-section hc-section--tint" aria-labelledby="signs-title">
+  <div class="hc-wrap">
+    <div class="hc-section__head">
+      <h2 id="signs-title">When conversations start to take more effort</h2>
+      <p>Changes in hearing can be subtle and easy to explain away. You might recognize some of these moments:</p>
+    </div>
+    <ul class="hc-signs">
+      <li>
+        <h3>Missing words</h3>
+        <p>People seem to mumble, and you find yourself asking them to repeat what they said.</p>
+      </li>
+      <li>
+        <h3>Struggling with background noise</h3>
+        <p>Busy rooms, restaurants or meetings make it harder to follow the voice you’re trying to hear.</p>
+      </li>
+      <li>
+        <h3>Turning up the TV</h3>
+        <p>You set the volume higher than others in the room find comfortable.</p>
+      </li>
+    </ul>
+    <div class="hc-bridge">
+      <p>These experiences don’t automatically mean you have hearing loss or need hearing aids. A hearing test gives you a clear picture, and it can detect changes often before you notice them yourself.</p>
+      <p>If you’re here for someone you love, the same first step applies. <a href="#care">See what happens at a visit</a>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 3. OWNERS + GOOGLE REVIEWS ===================== -->
+<section class="hc-section" id="practice" aria-labelledby="owners-title">
+  <div class="hc-wrap">
+    <div class="hc-owners">
+      <figure class="hc-portrait" style="margin:0">
+        <!-- IMG-PROVIDER-01: real owner portrait from hearcareinc.com (411×411). Request larger original; re-host on filesafe CDN. -->
+        <img src="https://hearcareinc.com/wp-content/uploads/2026/07/hearcare-associates-kenneth-jill-sheppard.jpg"
+             width="411" height="411" loading="lazy" data-img-id="IMG-PROVIDER-01"
+             alt="Kenneth M. Sheppard, Jr. and Jill A. Sheppard, owners of HearCare, Inc. and Associates"
+             onerror="this.hidden=true;this.nextElementSibling.hidden=false;">
+        <div class="hc-ph hc-ph--portrait" data-img-id="IMG-PROVIDER-01" role="img" aria-label="Image placeholder IMG-PROVIDER-01" hidden>
+          <div class="hc-ph__inner">
+            <svg class="hc-icon" aria-hidden="true"><use href="#i-image"/></svg>
+            <span class="hc-ph__id">IMG-PROVIDER-01</span>
+            <span>Real joint portrait of Kenneth and Jill Sheppard. Keep both people in the crop.</span>
+            <span class="hc-ph__spec">1:1 square, min 720×720.</span>
+          </div>
+        </div>
+        <figcaption>Kenneth M. Sheppard, Jr. and Jill A. Sheppard</figcaption>
+      </figure>
+
+      <div>
+        <h2 id="owners-title">Meet the people behind HearCare</h2>
+        <p class="hc-owners__lead">HearCare, Inc. and Associates is owned and operated by Kenneth and Jill Sheppard. Their approach starts with listening: learning about your hearing challenges and how you spend your days, so that any care plan is built around your life.</p>
+
+        <div class="hc-creds">
+          <div class="hc-cred">
+            <h3>Kenneth M. Sheppard, Jr.</h3>
+            <p class="hc-cred__role">Owner, Licensed Fitter and Dispenser of Hearing Instruments</p>
+            <p>Licensed in Texas by the State Committee of Examiners in the Fitting and Dispensing of Hearing Instruments. He has completed International Hearing Society courses in Hearing Instrument Science and Fitting Practices.</p>
+          </div>
+          <div class="hc-cred">
+            <h3>Jill A. Sheppard, B.S.</h3>
+            <p class="hc-cred__role">Owner, Licensed Fitter and Dispenser of Hearing Instruments</p>
+            <p>Bachelor of Science in Speech-Language Pathology and Audiology from the University of Texas at Dallas, and licensed by the State of Texas to fit and dispense hearing instruments.</p>
+          </div>
+        </div>
+
+        <p class="hc-values">The values the practice works by: <strong>expertise, integrity, good humor and compassion.</strong></p>
+      </div>
+    </div>
+
+    <!-- Google reviews: verbatim from user-supplied screenshots (RESEARCH §3A). Max 6 desktop / 3 mobile. -->
+    <div class="hc-reviews" aria-labelledby="reviews-title">
+      <div class="hc-reviews__head">
+        <h2 id="reviews-title">What patients say on Google</h2>
+        <div class="hc-rating">
+          <span class="hc-rating__score" aria-hidden="true">4.8</span>
+          <span class="hc-rating__meta">
+            <span class="hc-stars" role="img" aria-label="Rated 4.8 out of 5">
+              <span class="hc-stars__base" aria-hidden="true"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+              <span class="hc-stars__fill" style="width:96%" aria-hidden="true"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+            </span>
+            <span>4.8 out of 5 from 94 Google reviews</span>
+          </span>
+        </div>
+      </div>
+
+      <ul class="hc-review-grid">
+        <li><article class="hc-review">
+          <span class="hc-stars" role="img" aria-label="5 out of 5 stars"><span class="hc-stars__base" style="color:var(--hc-navy)" aria-hidden="true"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span></span>
+          <blockquote><p>“The folks here have helped me be able to participate in life more fully again. I can participate in conversations and feel confident that these hearing aids will stay put where they belong.”</p></blockquote>
+          <footer><cite>Karyn Feltner</cite>Google review</footer>
+        </article></li>
+        <li><article class="hc-review">
+          <span class="hc-stars" role="img" aria-label="5 out of 5 stars"><span class="hc-stars__base" style="color:var(--hc-navy)" aria-hidden="true"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span></span>
+          <blockquote><p>“Great technical knowledge, product options. Nice people, well established. I’m now much more confident in my choice of hearing aids.”</p></blockquote>
+          <footer><cite>garey gaston</cite>Google review</footer>
+        </article></li>
+        <li><article class="hc-review">
+          <span class="hc-stars" role="img" aria-label="5 out of 5 stars"><span class="hc-stars__base" style="color:var(--hc-navy)" aria-hidden="true"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span></span>
+          <blockquote><p>“Jill and her team provided excellent customer service to my Mom and myself! It is rare to find people/companies that care enough to go the extra mile when you have a difficult situation. They are also knowledgeable and professional.”</p></blockquote>
+          <footer><cite>Sandra Walker</cite>Google review</footer>
+        </article></li>
+        <li><article class="hc-review">
+          <span class="hc-stars" role="img" aria-label="5 out of 5 stars"><span class="hc-stars__base" style="color:var(--hc-navy)" aria-hidden="true"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span></span>
+          <blockquote><p>“I’ve been a super satisfied patient/customer of Hearcare for several years. They are continually on top of each upgrade or problem that I have encountered.”</p></blockquote>
+          <footer><cite>James Poindexter</cite>Google review</footer>
+        </article></li>
+        <li><article class="hc-review">
+          <span class="hc-stars" role="img" aria-label="5 out of 5 stars"><span class="hc-stars__base" style="color:var(--hc-navy)" aria-hidden="true"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span></span>
+          <blockquote><p>“Ken, Jill, and their staff have always been very accommodating and professional and kept their promises. A great value if you comprehend that concept.</p><p>I whole hartedly recommend them.”</p></blockquote>
+          <footer><cite>Terry Schuck</cite>Google review</footer>
+        </article></li>
+        <li><article class="hc-review">
+          <span class="hc-stars" role="img" aria-label="5 out of 5 stars"><span class="hc-stars__base" style="color:var(--hc-navy)" aria-hidden="true"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span></span>
+          <blockquote><p>“Prompt and respectful customer care and service!!!”</p></blockquote>
+          <footer><cite>Sharon Jordan</cite>Google review</footer>
+        </article></li>
+      </ul>
+
+      <div class="hc-reviews__foot">
+        <p>Reviews from the HearCare Inc &amp; Associates Google listing at 1800 N Travis St, Sherman. Individual experiences vary.</p>
+        <a class="hc-textlink" href="https://www.google.com/search?q=hearcare+inc+and+associates+sherman&sca_esv=245a2c734ea474ba&rlz=1C1CHBD_enIN1092IN1158&biw=1920&bih=953&sxsrf=AKL5yDhrpWQFSvw2k45Jya0PWIxzVxSoBQ%3A1794240620821&ei=bPDxao3TMcqP4-EPrvLF4AE&oq=hearcare+inc+and+associates+sherman&gs_lp=Egxnd3Mtd2l6LXNlcnAiI2hlYXJjYXJlIGluYyBhbmQgYXNzb2NpYXRlcyBzaGVybWFuKgUIAhjvBTIGEAAYFhgeMgUQABjvBTIFEAAY7wUyBRAAGO8FMgUQABjvBUjyOFD7Blj4KXABeACQAQCYAakBoAHHFaoBBDAuMTi4AQHIAQD4AQGYAgygAtkNwgIIEAAY7wUYsAPCAgQQIxgnwgILEAAYgAQYigUYhgOYAwCIBgGQBgKSBwQxLjExoAfsUbIHBDAuMTG4B9QNwgcFMC43LjXIByOACAE&sclient=gws-wiz-serp#lrd=0x864c8851e671d29f:0xc56621ec07540757,1,,,," target="_blank" rel="noopener">
+          Read all our Google reviews
+          <svg class="hc-icon" aria-hidden="true"><use href="#i-ext"/></svg>
+          <span class="hc-sr">(opens in a new tab)</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="hc-proof-cta">
+      <p>Have questions about your hearing? Our Sherman team is ready to help.</p>
+      <div class="hc-cta">
+        <a class="hc-btn hc-btn--appt" href="https://api.onspirepulse.com/widget/form/8wW1RhQrj7egDZ93IJlJ" data-open-appointment>
+          <svg class="hc-icon" aria-hidden="true"><use href="#i-calendar"/></svg>
+          Request Appointment
+        </a>
+        <a class="hc-btn hc-btn--call" href="tel:+19032062442" data-contact-tel>
+          <svg class="hc-icon" aria-hidden="true"><use href="#i-phone"/></svg>
+          <span>Call <span data-contact-display>903-206-2442</span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 4. WHAT HAPPENS NEXT ===================== -->
+<section class="hc-section hc-section--tint" id="care" aria-labelledby="care-title">
+  <div class="hc-wrap">
+    <div class="hc-section__head">
+      <h2 id="care-title">Understand your hearing before choosing anything</h2>
+      <p>Your first visit is about learning how you hear. Any recommendation comes after that, and only if it suits your results.</p>
+    </div>
+
+    <ol class="hc-steps">
+      <li class="hc-step">
+        <span class="hc-step__num" aria-hidden="true">1</span>
+        <h3>Your hearing test</h3>
+        <p>In a quiet, confidential room, you listen through headphones to tones and speech while your responses are measured and recorded.</p>
+        <p class="hc-step__outcome">Recommendations are based on how you actually hear.</p>
+      </li>
+      <li class="hc-step">
+        <span class="hc-step__num" aria-hidden="true">2</span>
+        <h3>Your results, explained</h3>
+        <p>We review your results with you on an audiogram, a simple chart showing how loud sounds need to be for you to hear them at different pitches.</p>
+        <p class="hc-step__outcome">You understand what’s happening before deciding anything.</p>
+      </li>
+      <li class="hc-step">
+        <span class="hc-step__num" aria-hidden="true">3</span>
+        <h3>Options that suit you</h3>
+        <p>If hearing aids are appropriate, we guide you toward styles and technology that fit your hearing needs, lifestyle and budget.</p>
+        <p class="hc-step__outcome">Choices that make sense for your daily life.</p>
+      </li>
+      <li class="hc-step">
+        <span class="hc-step__num" aria-hidden="true">4</span>
+        <h3>Fitting, learning and support</h3>
+        <p>Devices are fitted and set for you, with custom ear impressions when needed, plus help with care, charging, phone connectivity and features. Follow-ups and adjustments continue as your needs change.</p>
+        <p class="hc-step__outcome">More confidence using your hearing aids day to day.</p>
+      </li>
+    </ol>
+
+    <div class="hc-care-note">
+      <p>Hearing aids aren’t the answer for every type of hearing loss. Some causes, such as a blockage or fluid in the ear, may need medical treatment instead, and your results help show which path makes sense.</p>
+      <details class="hc-more">
+        <summary>Which tests might be included?<svg class="hc-icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
+        <div class="hc-more__body">
+          <dl>
+            <div><dt>Pure-tone audiometry</dt><dd>You hear beeps at different volumes and pitches through headphones, which identifies the quietest sounds you can hear across frequencies.</dd></div>
+            <div><dt>Tympanometry</dt><dd>Gently changes the air pressure in your ear canal to check how your middle ear is working. It can show earwax buildup or fluid behind the eardrum.</dd></div>
+            <div><dt>Otoacoustic emissions (OAE)</dt><dd>A tiny probe measures the faint sounds produced by healthy hair cells in the inner ear.</dd></div>
+          </dl>
+          <p>The tests used depend on your situation, so not every visit includes all three.</p>
+        </div>
+      </details>
+    </div>
+
+    <div class="hc-section-cta">
+      <p>Ready to start with a hearing test?</p>
+      <div class="hc-cta">
+        <a class="hc-btn hc-btn--call" href="tel:+19032062442" data-contact-tel>
+          <svg class="hc-icon" aria-hidden="true"><use href="#i-phone"/></svg>
+          <span>Call <span data-contact-display>903-206-2442</span></span>
+        </a>
+        <a class="hc-btn hc-btn--appt" href="https://api.onspirepulse.com/widget/form/8wW1RhQrj7egDZ93IJlJ" data-open-appointment>
+          <svg class="hc-icon" aria-hidden="true"><use href="#i-calendar"/></svg>
+          Request Appointment
+        </a>
+        <a class="hc-textlink" href="sms:+19032062442" data-contact-sms>
+          <svg class="hc-icon" aria-hidden="true"><use href="#i-message"/></svg>
+          Text us
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 5. OPTIONS ===================== -->
+<section class="hc-section" id="options" aria-labelledby="options-title">
+  <div class="hc-wrap hc-options">
+    <div class="hc-options__media">
+      <!-- IMG-PRODUCT-01: one purposeful hearing-aid visual. Avoid manufacturer co-op banners with their own text. -->
+      <div class="hc-ph hc-ph--product" data-img-id="IMG-PRODUCT-01" role="img" aria-label="Image placeholder IMG-PRODUCT-01">
+        <div class="hc-ph__inner">
+          <svg class="hc-icon" aria-hidden="true"><use href="#i-image"/></svg>
+          <span class="hc-ph__id">IMG-PRODUCT-01</span>
+          <span>A modern receiver-in-canal hearing aid held in a hand or shown at true scale on a soft neutral background. No brand logos or ad text.</span>
+          <span class="hc-ph__spec">4:3 landscape, min 1200×900.</span>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="hc-section__head" style="margin-bottom:32px">
+        <h2 id="options-title">Hearing aids fitted to your everyday life</h2>
+        <p>The right hearing aid depends on your hearing profile, how you spend your days and your budget. With eight manufacturers to choose from, there’s room to find options that fit you.</p>
+      </div>
+
+      <div class="hc-feature">
+        <h3>Discreet styles, where they suit your hearing</h3>
+        <p>Styles range from behind-the-ear and sleek receiver-in-canal models to custom designs that sit in the ear canal. Some of the smallest are virtually invisible.</p>
+        <p class="hc-feature__note">The smallest styles are generally suited to mild to moderate hearing loss, so your results guide which options are realistic for you.</p>
+      </div>
+      <div class="hc-feature">
+        <h3>A fit and sound set for you</h3>
+        <p>Custom ear impressions are taken when needed for a snug, comfortable fit, and settings are adjusted to your hearing so sound is balanced and clear. A comfortable fit can make it easier to wear your hearing aids for more of the day.</p>
+      </div>
+      <div class="hc-feature">
+        <h3>Help with your phone and everyday technology</h3>
+        <p>Most hearing aids are Bluetooth-enabled and can stream calls and music from compatible smartphones. We set up streaming and environment presets and guide you through pairing at your fitting, so the features are ready to use.</p>
+        <p class="hc-feature__note">Connectivity varies by model and phone.</p>
+      </div>
+
+      <div class="hc-brands">
+        <h3>Manufacturers we work with</h3>
+        <ul>
+          <li>Widex</li><li>Starkey</li><li>Unitron</li><li>Signia</li>
+          <li>Oticon</li><li>ReSound</li><li>Rexton</li><li>Phonak</li>
+        </ul>
+        <p>The right brand depends on your unique hearing profile and lifestyle.</p>
+      </div>
+
+      <details class="hc-more">
+        <summary>Hearing aid styles at a glance<svg class="hc-icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
+        <div class="hc-more__body">
+          <dl>
+            <div><dt>Behind-the-ear (BTE)</dt><dd>Easy to handle, and most include wireless features. Typically used for moderate to severe hearing loss.</dd></div>
+            <div><dt>Receiver-in-canal (RIC)</dt><dd>A sleek profile with wireless connectivity as standard. Typically used for moderate to severe hearing loss.</dd></div>
+            <div><dt>In-the-ear (ITE)</dt><dd>Custom-made half- or full-shell designs with longer battery life and manual controls. Used for mild to severe hearing loss.</dd></div>
+            <div><dt>In-the-canal (ITC, CIC, IIC)</dt><dd>Smaller custom styles. CIC and IIC models are virtually invisible and suited to mild to moderate hearing loss.</dd></div>
+          </dl>
+          <p>Which style suits you depends on the degree of your hearing loss and your preferences.</p>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 6. PAYMENT ===================== -->
+<section class="hc-section hc-section--tint" id="payment" aria-labelledby="pay-title">
+  <div class="hc-wrap">
+    <div class="hc-section__head">
+      <h2 id="pay-title">Help with paying for hearing care</h2>
+      <p>Hearing aid costs depend on your needs and the technology that suits you. We’ll talk through your options and help you understand what may be covered.</p>
+    </div>
+
+    <div class="hc-pay">
+      <ul class="hc-pay__grid">
+        <li class="hc-pay__item">
+          <span class="hc-pay__icon" aria-hidden="true"><svg class="hc-icon"><use href="#i-shield"/></svg></span>
+          <h3>We check your benefits for you</h3>
+          <p>If you have health insurance, we work with many providers and will spend the time on hold to find out whether you have hearing aid benefits, so you don’t have to. Coverage varies by plan.</p>
+        </li>
+        <li class="hc-pay__item">
+          <span class="hc-pay__icon" aria-hidden="true"><svg class="hc-icon"><use href="#i-heart"/></svg></span>
+          <h3>CareCredit®</h3>
+          <p>A health credit card with special financing for expenses not covered by insurance. Ask us how it works.</p>
+        </li>
+        <li class="hc-pay__item">
+          <span class="hc-pay__icon" aria-hidden="true"><svg class="hc-icon"><use href="#i-card"/></svg></span>
+          <h3>Cards and financing plans</h3>
+          <p>We accept all major credit cards and offer financing plans to help spread the cost.</p>
+        </li>
+        <li class="hc-pay__item">
+          <span class="hc-pay__icon" aria-hidden="true"><svg class="hc-icon"><use href="#i-file"/></svg></span>
+          <h3>A Good Faith Estimate</h3>
+          <p>You have the right to receive a Good Faith Estimate of expected costs, so you can plan with more clarity.</p>
+        </li>
+      </ul>
+
+      <div class="hc-pay__foot">
+        <p>Questions about insurance or payment? A quick call is often easiest.</p>
+        <div class="hc-cta">
+          <a class="hc-btn hc-btn--call" href="tel:+19032062442" data-contact-tel>
+            <svg class="hc-icon" aria-hidden="true"><use href="#i-phone"/></svg>
+            <span>Call <span data-contact-display>903-206-2442</span></span>
+          </a>
+          <a class="hc-textlink" href="sms:+19032062442" data-contact-sms>
+            <svg class="hc-icon" aria-hidden="true"><use href="#i-message"/></svg>
+            Text us your question
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 7. FAQ ===================== -->
+<section class="hc-section" id="faq" aria-labelledby="faq-title">
+  <div class="hc-wrap">
+    <div class="hc-faq">
+      <div class="hc-section__head">
+        <h2 id="faq-title">Common questions</h2>
+      </div>
+      <div class="hc-faq__list">
+        <details>
+          <summary>How do I know if I need hearing aids?<span class="hc-faq__chev" aria-hidden="true"><svg class="hc-icon"><use href="#i-chev"/></svg></span></summary>
+          <div class="hc-faq__a">
+            <p>If you often ask people to repeat themselves, turn the TV volume up, or feel that people are mumbling, it’s a good idea to have a hearing evaluation. A comprehensive test shows the type and extent of any hearing loss, which guides what we recommend.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Will a hearing test mean I need hearing aids?<span class="hc-faq__chev" aria-hidden="true"><svg class="hc-icon"><use href="#i-chev"/></svg></span></summary>
+          <div class="hc-faq__a">
+            <p>Not necessarily. The test helps determine the type and severity of any hearing loss and whether hearing aids are the right solution for you.</p>
+            <p>Some types of hearing loss, such as those caused by earwax or fluid in the middle ear, may be treated medically rather than with hearing aids.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Will people be able to see my hearing aids?<span class="hc-faq__chev" aria-hidden="true"><svg class="hc-icon"><use href="#i-chev"/></svg></span></summary>
+          <div class="hc-faq__a">
+            <p>Many modern hearing aids are small and discreet. Receiver-in-canal models have a sleek profile, and completely-in-canal (CIC) and invisible-in-canal (IIC) styles are virtually invisible.</p>
+            <p>The smallest styles are generally suited to mild to moderate hearing loss, so the options open to you depend on your hearing test results.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Will my insurance cover hearing aids?<span class="hc-faq__chev" aria-hidden="true"><svg class="hc-icon"><use href="#i-chev"/></svg></span></summary>
+          <div class="hc-faq__a">
+            <p>It depends on your plan. The best way to be sure is to call us. We work with many insurance providers and will spend the time on hold to see if you have any hearing aid benefits, so you don’t have to.</p>
+            <p>We also accept all major credit cards and CareCredit®, and offer financing plans.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Can my hearing aids connect to my phone?<span class="hc-faq__chev" aria-hidden="true"><svg class="hc-icon"><use href="#i-chev"/></svg></span></summary>
+          <div class="hc-faq__a">
+            <p>Most hearing aids are Bluetooth-enabled and can connect directly to smartphones, so you can stream calls, music and more. We can guide you through the pairing process during your fitting. Compatibility depends on the hearing aid model and your phone.</p>
+          </div>
+        </details>
+        <details>
+          <summary>What support is available after I get hearing aids?<span class="hc-faq__chev" aria-hidden="true"><svg class="hc-icon"><use href="#i-chev"/></svg></span></summary>
+          <div class="hc-faq__a">
+            <p>Support continues after your fitting:</p>
+            <ul>
+              <li>Follow-up visits and adjustments as your hearing needs change.</li>
+              <li>Guidance on cleaning, storage and an annual maintenance appointment. With proper care, hearing aids typically last 5–7 years.</li>
+              <li>Repairs, many handled in our office, including hearing aids purchased somewhere else.</li>
+            </ul>
+          </div>
+        </details>
+        <details>
+          <summary>Who will I see at my appointment?<span class="hc-faq__chev" aria-hidden="true"><svg class="hc-icon"><use href="#i-chev"/></svg></span></summary>
+          <div class="hc-faq__a">
+            <p>HearCare is owned and led by Kenneth M. Sheppard, Jr. and Jill A. Sheppard, both Licensed Fitters and Dispensers of Hearing Instruments. If you’d like to know which team member you’ll see at the Sherman office, just ask when you call or text.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 8. LOCATION / MAP ===================== -->
+<section class="hc-section hc-section--tint" id="location" aria-labelledby="loc-title">
+  <div class="hc-wrap hc-loc">
+    <div>
+      <h2 id="loc-title">Visit our Sherman office</h2>
+      <ul class="hc-loc__list">
+        <li>
+          <svg class="hc-icon" aria-hidden="true"><use href="#i-pin"/></svg>
+          <div>
+            <h3>Address</h3>
+            <address>HearCare, Inc. and Associates<br>1800 N. Travis St, Suite D<br>Sherman, TX 75092</address>
+          </div>
+        </li>
+        <li>
+          <svg class="hc-icon" aria-hidden="true"><use href="#i-clock"/></svg>
+          <div>
+            <h3>Hours</h3>
+            <p>Monday–Thursday: 9:00am–5:00pm<br>Friday: by appointment only</p>
+          </div>
+        </li>
+        <li>
+          <svg class="hc-icon" aria-hidden="true"><use href="#i-phone"/></svg>
+          <div>
+            <h3>Call or text</h3>
+            <p class="hc-loc__phone">
+              <a href="tel:+19032062442" data-contact-tel><span>Call <span data-contact-display>903-206-2442</span></span></a>
+              <a href="sms:+19032062442" data-contact-sms>Text <span data-contact-display>903-206-2442</span></a>
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="hc-map-wrap">
+      <!-- Brief-supplied pb= embed; src unmodified. Responsiveness via .hc-map container only. -->
+      <div class="hc-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.117994477039!2d-96.61518459999999!3d33.6541044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c8851e671d29f%3A0xc56621ec07540757!2sHearCare%20Inc%20%26%20Associates!5e0!3m2!1sen!2sin!4v1794241372173!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Map of HearCare, Inc. and Associates in Sherman, TX"></iframe>
+      </div>
+      <a class="hc-btn hc-btn--appt" href="https://maps.google.com/maps/dir//HearCare%2C+Inc.+and+Associates+1800+N.+Travis+St%2C+Suite+D%2C+Sherman%2C+TX+75092" target="_blank" rel="noopener">
+        <svg class="hc-icon" aria-hidden="true"><use href="#i-nav"/></svg>
+        Get Directions
+        <span class="hc-sr">(opens Google Maps in a new tab)</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 9. FINAL INVITATION ===================== -->
+<section class="hc-section hc-final hc-dark" aria-labelledby="final-title">
+  <div class="hc-wrap">
+    <h2 id="final-title">Take the first step toward clearer conversations</h2>
+    <p>Call or text our Sherman office, or request an appointment online. We’ll help you understand your hearing and what comes next.</p>
+    <div class="hc-cta">
+      <a class="hc-btn hc-btn--call" href="tel:+19032062442" data-contact-tel>
+        <svg class="hc-icon" aria-hidden="true"><use href="#i-phone"/></svg>
+        <span>Call <span data-contact-display>903-206-2442</span></span>
+      </a>
+      <a class="hc-btn hc-btn--appt" href="https://api.onspirepulse.com/widget/form/8wW1RhQrj7egDZ93IJlJ" data-open-appointment>
+        <svg class="hc-icon" aria-hidden="true"><use href="#i-calendar"/></svg>
+        Request Appointment
+      </a>
+      <div class="hc-cta__text">
+        <a class="hc-textlink" href="sms:+19032062442" data-contact-sms>
+          <svg class="hc-icon" aria-hidden="true"><use href="#i-message"/></svg>
+          <span>Or text us at <span data-contact-display>903-206-2442</span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="hc-footer hc-dark">
+  <div class="hc-wrap">
+    <div class="hc-footer__grid">
+      <div>
+        <a class="hc-footer__logo" href="https://hearcareinc.com/" aria-label="HearCare, Inc. and Associates home">
+          <img src="https://assets.cdn.filesafe.space/EMRBqQhzoUkKgjjbAzEz/media/6af1f80512958b0af36f1271.png" alt="HearCare, Inc. and Associates" height="44" loading="lazy">
+        </a>
+        <p class="hc-footer__name">Hearing tests and hearing aids in Sherman, TX</p>
+      </div>
+      <div>
+        <h2>Sherman office</h2>
+        <address>1800 N. Travis St, Suite D<br>Sherman, TX 75092</address>
+        <p style="margin-top:10px">Mon–Thu 9:00am–5:00pm<br>Fri by appointment only</p>
+        <p style="margin-top:10px"><a href="tel:+19032062442" data-contact-tel><span>Call <span data-contact-display>903-206-2442</span></span></a> or <a href="sms:+19032062442" data-contact-sms>text us</a></p>
+      </div>
+      <div>
+        <h2>Links</h2>
+        <ul>
+          <li><a href="https://hearcareinc.com/" target="_blank" rel="noopener">Visit Our Website</a></li>
+          <li><a href="https://hearcareinc.com/privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="hc-footer__bottom">© {{right_now.year}} {{location.name}} | All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- ===================== MOBILE STICKY CALL ===================== -->
+<div class="hc-callbar">
+  <a href="tel:+19032062442" data-contact-tel>
+    <svg class="hc-icon" aria-hidden="true"><use href="#i-phone"/></svg>
+    <span>Call <span data-contact-display>903-206-2442</span></span>
+  </a>
+</div>
+
+<!-- ===================== APPOINTMENT DIALOG (GHL form) ===================== -->
+<dialog class="hc-dialog" id="hc-appt" aria-labelledby="appt-title">
+  <div class="hc-dialog__inner">
+    <div class="hc-dialog__head">
+      <div>
+        <h2 id="appt-title">Request an Appointment</h2>
+        <p>Share a few details and our Sherman team will be in touch to arrange your visit.</p>
+      </div>
+      <button type="button" class="hc-dialog__close" data-close-appointment aria-label="Close appointment form">
+        <svg class="hc-icon" aria-hidden="true"><use href="#i-x"/></svg>
+      </button>
+    </div>
+    <div class="hc-dialog__body">
+      <!-- Supplied GHL embed: src, form ID, name, height and consent attributes preserved.
+           Changed (technically necessary): POPUP → INLINE layout inside our dialog,
+           `formEmbed-` ID prefix, display:none removed. -->
+      <iframe
+        src="https://api.onspirepulse.com/widget/form/8wW1RhQrj7egDZ93IJlJ"
+        style="width:100%;height:647px;border:none;border-radius:8px"
+        id="formEmbed-8wW1RhQrj7egDZ93IJlJ"
+        data-layout="{'id':'INLINE'}"
+        data-trigger-type="alwaysShow"
+        data-trigger-value=""
+        data-activation-type="alwaysActivated"
+        data-activation-value=""
+        data-deactivation-type="neverDeactivate"
+        data-deactivation-value=""
+        data-form-name="Hearing Aids and Test"
+        data-height="647"
+        data-layout-iframe-id="formEmbed-8wW1RhQrj7egDZ93IJlJ"
+        data-form-id="8wW1RhQrj7egDZ93IJlJ"
+        data-cookie-consent="true"
+        data-cookie-consent-provider="auto"
+        title="Hearing Aids and Test">
+      </iframe>
+    </div>
+    <p class="hc-dialog__foot">Prefer to talk now? <a href="tel:+19032062442" data-contact-tel>Call</a> or <a href="sms:+19032062442" data-contact-sms>text</a> <span data-contact-display>903-206-2442</span>.</p>
+  </div>
+</dialog>
+
+<script src="https://api.onspirepulse.com/js/form_embed.js"></script>
+<script>
+(function () {
+  /* Single source of truth for contact data. Replace with CSM tracking
+     numbers when supplied; verify call and SMS destinations separately. */
+  var CONTACT = { display: '903-206-2442', tel: '+19032062442', sms: '+19032062442' };
+  var FORM_URL = 'https://api.onspirepulse.com/widget/form/8wW1RhQrj7egDZ93IJlJ';
+
+  document.querySelectorAll('[data-contact-tel]').forEach(function (a) { a.setAttribute('href', 'tel:' + CONTACT.tel); });
+  document.querySelectorAll('[data-contact-sms]').forEach(function (a) { a.setAttribute('href', 'sms:' + CONTACT.sms); });
+  document.querySelectorAll('[data-contact-display]').forEach(function (el) { el.textContent = CONTACT.display; });
+  document.querySelectorAll('[aria-label^="Call "]').forEach(function (el) { el.setAttribute('aria-label', 'Call ' + CONTACT.display); });
+
+  /* Appointment dialog. Links fall back to the hosted form if JS or <dialog> is unavailable. */
+  var dlg = document.getElementById('hc-appt');
+  var root = document.documentElement;
+  var lastTrigger = null;
+  var supported = dlg && typeof dlg.showModal === 'function';
+
+  document.querySelectorAll('[data-open-appointment]').forEach(function (btn) {
+    btn.setAttribute('role', 'button');
+    btn.setAttribute('aria-haspopup', 'dialog');
+    btn.addEventListener('click', function (e) {
+      if (!supported) { btn.setAttribute('target', '_blank'); btn.setAttribute('rel', 'noopener'); return; }
+      e.preventDefault();
+      lastTrigger = btn;
+      dlg.showModal();
+      root.classList.add('hc-modal-open');
+    });
+  });
+
+  if (supported) {
+    dlg.addEventListener('close', function () {
+      root.classList.remove('hc-modal-open');
+      if (lastTrigger) lastTrigger.focus();
+    });
+    dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
+    dlg.querySelectorAll('[data-close-appointment]').forEach(function (b) {
+      b.addEventListener('click', function () { dlg.close(); });
+    });
+  }
+})();
+</script>
+</body>
+</html>
