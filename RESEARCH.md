@@ -716,8 +716,10 @@ User requested a fresh comparison of the live website and this research document
 
 ### Additional current website source
 
-**S19 — How to Prepare for a Hearing Exam**  
-URL: https://hearcareinc.com/hearing-test-info/how-to-prepare-for-a-hearing-test/  
+**S19 — How to Prepare for a Hearing Exam**
+
+URL: https://hearcareinc.com/hearing-test-info/how-to-prepare-for-a-hearing-test/
+
 Published: June 20, 2024. Accessed November 11, 2026 via web retrieval (live page returned).
 
 Source-backed preparation guidance, paraphrased: note the situations in which hearing is difficult; be ready to discuss relevant medical history and current medications/devices; a friend, family member or caregiver can provide support but is optional; check hearing-test/related-service coverage with the clinic or insurer. This is an educational article, not a verified Sherman intake checklist. It does not establish requirements to bring ID, an insurance card, records or existing hearing aids, nor clinic arrival-time instructions. Do not invent such requirements.
