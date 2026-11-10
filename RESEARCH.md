@@ -709,3 +709,27 @@ The screenshots establish which listing was displayed, not the branch attended b
 | Button style, border radius, card treatment from live site | Could not be confirmed |
 | Logo color variant (dark vs light background) | Unknown — verify the brief's PNG |
 | GHL form behavior note | Brief's iframe ID is `popup-8wW1RhQrj7egDZ93IJlJ` with POPUP layout and `alwaysShow` trigger. Brief says to open the form in a popup from the "Request Appointment" CTA and not modify the embed "unless technically necessary." Codex should evaluate whether `alwaysShow` auto-opens the popup on page load (likely undesired) and whether an inline/custom-modal approach is technically necessary. |
+
+## FAQ completeness recheck — November 11, 2026
+
+User requested a fresh comparison of the live website and this research document. Read-only web checks covered current hearing-tests, plans/pricing, specials, an additional preparation article, and targeted site searches. No landing-page wording was changed by this audit.
+
+### Additional current website source
+
+**S19 — How to Prepare for a Hearing Exam**  
+URL: https://hearcareinc.com/hearing-test-info/how-to-prepare-for-a-hearing-test/  
+Published: June 20, 2024. Accessed November 11, 2026 via web retrieval (live page returned).
+
+Source-backed preparation guidance, paraphrased: note the situations in which hearing is difficult; be ready to discuss relevant medical history and current medications/devices; a friend, family member or caregiver can provide support but is optional; check hearing-test/related-service coverage with the clinic or insurer. This is an educational article, not a verified Sherman intake checklist. It does not establish requirements to bring ID, an insurance card, records or existing hearing aids, nor clinic arrival-time instructions. Do not invent such requirements.
+
+**Recommended addition for user approval:** one short FAQ, “How should I prepare for my hearing test?” Suggested direction: note difficult listening situations, be ready to discuss medical history/current medications, and optionally bring a support person. This adds practical visit preparation rather than repeating existing process content. Earlier chat statement that all preparation guidance was unverified is superseded by S19; formal required-items instructions remain unconfirmed.
+
+### Rechecked existing sources
+
+- **S5** https://hearcareinc.com/services/hearing-tests/ — testing setting, listening tasks, test types and results discussion remain supported. No published appointment duration or test fee was found on this checked page.
+- **S7** https://hearcareinc.com/hearing-aids/plans-and-pricing/ — insurer benefit enquiries, major credit cards, CareCredit and financing remain supported. No numeric hearing-test/device price was found on this checked page. Do not imply that hearing-aid coverage guarantees hearing-test coverage.
+- **S8** https://hearcareinc.com/hearing-aids/special-offers/ — the live page still invites enquiries about a two-week in-home premium hearing-aid trial. Eligibility, charges, deposit/return terms and cancellation conditions are not stated there. Existence of the invitation is verified; do not recast it as a free or risk-free offer. Keep prior confirmation requirement before featuring the trial on the landing page.
+
+Current seven FAQ topics cover the principal existing questions. Testing steps, brands and payment methods already appear elsewhere on the page. Recommendation: propose preparation as an eighth FAQ; keep cost and duration pending clinic confirmation and avoid unrelated expansion. No page edit or section lock is authorized by this research request alone.
+
+Search also surfaced www-domain pages with older presentation and conflicting Friday-hours copy. These are not used to change verified location hours, staffing, offers or credentials in this audit. The current primary service pages and established source precedence remain authoritative for this project.
