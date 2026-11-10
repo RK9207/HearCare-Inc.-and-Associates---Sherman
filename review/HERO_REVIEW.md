@@ -56,3 +56,7 @@ User requested removal of the break after Personalized, improved hierarchy and b
 The user requested one uniform headline color and font size, plus TX after Sherman. The current headline uses the same white, responsive size and weight throughout, reading “Personalized Hearing Care, Right Here in Sherman, TX.” Earlier notes about smaller/lighter location text are superseded. Seven-width Hero checks passed after this correction.
 
 Latest delivery update: the complete HTML now uses the user-supplied GHL Hero image URL directly. Base64 embedding and the former local srcset were removed; layout and interactions are unchanged.
+
+## Visual finish update
+
+User requested a more beautiful Hero. Added tonal navy depth, a restrained service capsule, benefit accent, sculpted photo frame, softer proof/CTA shadows and a compact location panel. All body markup, wording, headline typography, hosted image URL and scripts are byte-identical to the preceding version. Seven-width overflow/contact/dialog checks passed. Local screenshot previews used the existing approved image file as a cache for the supplied GHL URL; live CDN availability was not reverified. Pending user visual approval.

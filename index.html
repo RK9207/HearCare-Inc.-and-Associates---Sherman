@@ -235,6 +235,33 @@ a:hover{ color:var(--hc-navy); }
   .hc-hero__media{ margin-top:26px; }
 }
 
+/* Visual refinement: approved Hero only; headline styling remains unchanged. */
+.hc-hero--split{ isolation:isolate; background:radial-gradient(ellipse at 88% 28%,rgba(120,187,233,.16),transparent 48%),linear-gradient(125deg,#004a69 15%,#00445f 65%,#00384f 100%); }
+.hc-hero__eyebrow{ display:inline-flex; align-items:center; padding:8px 13px; border:1px solid rgba(183,220,245,.27); border-radius:999px; background:rgba(255,255,255,.045); }
+.hc-hero__benefit{ padding-left:16px; border-left:3px solid var(--hc-sky); max-width:540px; }
+.hc-hero__lead{ max-width:540px; }
+.hc-hero__trust{ display:flex; align-items:center; gap:10px; }
+.hc-hero__trust::before{ content:""; width:7px; height:7px; flex:0 0 7px; border-radius:50%; background:var(--hc-sky); box-shadow:0 0 0 5px rgba(120,187,233,.1); }
+.hc-hero__media{ border-radius:140px 28px 28px 28px; box-shadow:0 28px 65px rgba(0,20,32,.24); }
+.hc-hero__media::after{ inset:16px -16px -16px 16px; border-radius:140px 28px 28px 28px; border-color:rgba(183,220,245,.34); background:rgba(120,187,233,.035); }
+.hc-hero__media img{ object-position:51% 75%; }
+.hc-hero--split .hc-btn--call{ box-shadow:0 8px 22px rgba(0,20,32,.18); }
+.hc-hero--split .hc-btn--appt{ background:rgba(255,255,255,.035); }
+.hc-hero--split .hc-btn--appt:hover{ background:var(--hc-white); }
+.hc-facts{ margin-top:20px; padding:16px 18px; background:rgba(255,255,255,.045); border:1px solid rgba(183,220,245,.17); border-radius:14px; }
+.hc-badge{ padding:20px 24px; border-radius:18px; box-shadow:0 16px 36px rgba(0,20,32,.22); }
+@media (max-width:1023px){
+ .hc-hero__media{ border-radius:72px 20px 20px 20px; }
+ .hc-hero__media img{ object-position:50% 46%; }
+ .hc-badge{ padding:12px 16px; border-radius:12px; box-shadow:0 8px 20px rgba(0,20,32,.1); }
+}
+@media (max-width:639px){
+ .hc-hero__eyebrow{ display:block; width:fit-content; padding:7px 11px; font-size:.8125rem; }
+ .hc-hero__benefit{ padding-left:12px; }
+ .hc-facts{ padding:14px; }
+ .hc-hero__media{ border-radius:56px 16px 16px 16px; }
+}
+
 /* Stars */
 .hc-stars{ position:relative; display:inline-flex; line-height:0; }
 .hc-stars svg{ width:18px; height:18px; flex:none; }

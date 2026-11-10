@@ -173,3 +173,7 @@ The user requested improved visual hierarchy, removal of the break after “Pers
 ## Subsequent headline correction
 
 User requested uniform color and font size throughout the entire headline and TX after Sherman. The current H1 is “Personalized Hearing Care, Right Here in Sherman, TX.” Both lines inherit the same white color, responsive font size and weight; the earlier smaller/lighter location treatment is superseded. Keep Sherman and TX together when wrapping. Other layout, copy and actions remain unchanged. Pending rendered approval.
+
+## Hero visual refinement
+
+The user clarified that the current Hero should be made more beautiful. Apply visual styling only: restrained navy tonal depth, a fine-bordered service capsule, an accent rule beside the existing benefit, a larger sculpted photo corner with subtle offset frame/shadow, gentle CTA depth, and a contained translucent location/hours panel. Preserve every word, heading color/font size/weight, GHL-hosted image URL, proof placement, links and integration scripts. Mobile simplifies these treatments without additional imagery. Pending rendered approval; no other section is changed or locked.
