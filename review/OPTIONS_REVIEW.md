@@ -52,3 +52,10 @@ User requested a more noticeable hearing-aid style disclosure. Rename the summar
 ## Options final approval
 
 User: “Looks good, i approve this and lets move to next section.” Hearing-aid options in b2d329e is APPROVED / LOCKED, including navy introduction, labelled authentic product image, bordered benefits, pill manufacturer names and prominent style-guide disclosure. Do not modify without user authorization. Next proposed section is payment and insurance help: it follows suitable device choices by addressing cost, benefits and payment questions. Request its current desktop/mobile screenshots and wait before individual review or editing. This approval records options only; no inferred final approval or lock of the preceding process section is added.
+
+
+## User-requested product image and frame update
+
+Replace the previous clinic-hosted SmartRIC URL with the user-supplied https://files.leadconnectorhq.com/file/6af44925fbdd54a827b67c4f/widexsmartric.jpg. Keep the device uncropped and avoid enlarging beyond the prior native dimensions. Replace the tall white image-and-caption card with a separate rounded image stage, balanced padding and a restrained shadow; move the caption onto the navy background with a white product name and lighter supporting line. Preserve all other options copy, layout, providers, links and sections. Awaiting rendered review.
+
+Validation: rendered frame inspected at 390px and 1440px; geometry checks passed at 320, 390, 768, 1024 and 1440px (no page overflow, contain fit, caption outside stage, native-sized image). Source checks confirm only the product URL/caption markup changed in main content; all scripts/integrations unchanged and both full HTML artifacts identical. User-hosted image retrieval returns 403 in this restricted environment, so actual photo loading needs GHL preview review.

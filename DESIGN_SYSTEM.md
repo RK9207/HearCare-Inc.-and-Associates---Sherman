@@ -365,3 +365,8 @@ User requested white hero icons. Set hero .hc-icon color to white, including pho
 
 
 User requested an “Explore this page” dropdown matching the reference. Add native details navigation beneath the existing header row below 1200px, using the same six desktop destinations. Show a full-width summary/chevron and a compact two-column overlay menu. Close on selection, Escape, outside click or desktop resize; transfer keyboard focus to the destination heading. Measure the real sticky-header height for anchor offsets and FAQ sticky-intro clearance; preserve desktop nav, other section designs and contact integrations. Awaiting rendered review.
+
+
+## User-requested product image and frame update
+
+Replace the previous clinic-hosted SmartRIC URL with the user-supplied https://files.leadconnectorhq.com/file/6af44925fbdd54a827b67c4f/widexsmartric.jpg. Keep the device uncropped and avoid enlarging beyond the prior native dimensions. Replace the tall white image-and-caption card with a separate rounded image stage, balanced padding and a restrained shadow; move the caption onto the navy background with a white product name and lighter supporting line. Preserve all other options copy, layout, providers, links and sections. Awaiting rendered review.

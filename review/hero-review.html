@@ -577,10 +577,11 @@ a:hover{ color:var(--hc-navy); }
 .hc-options__eyebrow{ display:block; margin-bottom:16px; font-size:.875rem; font-weight:600; line-height:1.5; letter-spacing:.07em; color:#b9def4; text-transform:uppercase; }
 .hc-options__intro h2{ max-width:650px; color:var(--hc-white); }
 .hc-options__intro p{ margin-top:20px; font-size:1.125rem; line-height:1.6; color:#e0edf5; max-width:610px; }
-.hc-options__media{ margin:0; padding:18px 18px 16px; border:1px solid var(--hc-options-border); border-radius:18px; background:var(--hc-white); text-align:center; }
-.hc-options__photo{ display:flex; justify-content:center; align-items:center; }
-.hc-options__photo img{ width:202px; height:220px; max-width:100%; object-fit:contain; color:var(--hc-navy); font-size:1rem; }
-.hc-options__media figcaption{ margin-top:10px; font-size:1rem; line-height:1.4; color:var(--hc-muted); }
+.hc-options__media{ margin:0; padding:0; text-align:center; }
+.hc-options__photo{ display:flex; justify-content:center; align-items:center; min-height:260px; padding:20px; border:1px solid rgba(255,255,255,.45); border-radius:20px; background:var(--hc-white); box-shadow:0 12px 28px rgba(0,30,46,.14); }
+.hc-options__photo img{ width:202px; height:220px; max-width:100%; object-fit:contain; border-radius:8px; color:var(--hc-navy); font-size:1rem; }
+.hc-options__media figcaption{ margin-top:16px; font-size:.9375rem; line-height:1.5; color:#e0edf5; }
+.hc-options__media figcaption strong{ display:block; margin-bottom:2px; font-size:1.125rem; font-weight:600; color:var(--hc-white); }
 .hc-options__benefits{ display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:0; margin-top:36px; border:1px solid var(--hc-options-border); border-radius:16px; overflow:hidden; }
 .hc-options .hc-feature{ padding:26px 28px; }
 .hc-options .hc-feature + .hc-feature{ border-left:1px solid var(--hc-options-border); }
@@ -607,7 +608,7 @@ a:hover{ color:var(--hc-navy); }
 .hc-options .hc-more__body dl{ grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px 36px; }
 @media(max-width:1023px){
  .hc-options__intro{ grid-template-columns:minmax(0,1fr) 240px; gap:28px; padding:30px; }
- .hc-options__media{ padding:16px; }
+ .hc-options__photo{ min-height:240px; padding:16px; }
  .hc-options .hc-feature{ padding:24px 20px; }
  .hc-options .hc-feature h3{ min-height:4.05em; font-size:1.25rem; }
  .hc-options .hc-brands{ grid-template-columns:200px minmax(0,1fr); gap:10px 20px; padding:22px; }
@@ -617,7 +618,8 @@ a:hover{ color:var(--hc-navy); }
  .hc-options__intro{ grid-template-columns:1fr; gap:24px; padding:28px 22px; border-radius:20px; }
  .hc-options__eyebrow{ margin-bottom:12px; font-size:.8125rem; }
  .hc-options__intro p{ margin-top:16px; }
- .hc-options__media{ width:100%; max-width:260px; justify-self:center; padding:14px; }
+ .hc-options__media{ width:100%; max-width:280px; justify-self:center; }
+ .hc-options__photo{ min-height:230px; padding:20px; }
  .hc-options__photo img{ width:174px; height:190px; }
  .hc-options__benefits{ grid-template-columns:1fr; margin-top:28px; gap:0; }
  .hc-options .hc-feature{ padding:22px 20px; border:0; }
@@ -1177,8 +1179,8 @@ a:hover{ color:var(--hc-navy); }
         <p>Compare styles, fit and features suited to your hearing results, daily life and budget—with help understanding the differences.</p>
       </div>
       <figure class="hc-options__media">
-        <div class="hc-options__photo"><img src="https://hearcareinc.com/wp-content/uploads/2026/08/widexsmartric.jpg" width="232" height="253" loading="lazy" decoding="async" alt="Widex SmartRIC hearing aid — one example of the available styles"></div>
-        <figcaption>Widex SmartRIC<br>One example of the styles available</figcaption>
+        <div class="hc-options__photo"><img src="https://files.leadconnectorhq.com/file/6af44925fbdd54a827b67c4f/widexsmartric.jpg" width="232" height="253" loading="lazy" decoding="async" alt="Widex SmartRIC hearing aid — one example of the available styles"></div>
+        <figcaption><strong>Widex SmartRIC</strong>One example of the styles available</figcaption>
       </figure>
     </div>
     <div class="hc-options__benefits">

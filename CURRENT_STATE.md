@@ -34,11 +34,11 @@ The user has now authorized feasible audit improvements. These changes permit ta
 
 - Hero: user-hosted kitchen-conversation WebP, generic AI lifestyle illustration, not practice/patient evidence.
 - Owners: authentic user-hosted Kenneth/Jill joint portrait. No generated likeness.
-- Product: existing clinic-hosted 232×253 Widex SmartRIC example; sharper authorized real imagery remains requested.
+- Product: user-hosted Widex SmartRIC example; sharper authorized real imagery remains requested.
 - Header: original supplied logo. Footer: no logo at user request.
 - Hero URL: https://files.leadconnectorhq.com/file/6af3305fddcd97ce5aa8a0c8/hearcare-kitchen-conversation.webp
 - Owners URL: https://files.leadconnectorhq.com/file/6af3642f512d2edab67fe078/hearcare-associates-kenneth-jill-sheppard.jpg
-- Product URL: https://hearcareinc.com/wp-content/uploads/2026/08/widexsmartric.jpg
+- Product URL: https://files.leadconnectorhq.com/file/6af44925fbdd54a827b67c4f/widexsmartric.jpg
 - No image placeholders are intended as production content. Local blocked-image fallbacks do not establish live image failure.
 
 ## Current technical behavior
