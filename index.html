@@ -118,8 +118,8 @@ a:hover{ color:var(--hc-navy); }
   text-decoration:none; cursor:pointer; transition:background-color .15s, color .15s, border-color .15s;
   white-space:nowrap;
 }
-.hc-btn--call{ background:var(--hc-sky); color:var(--hc-ink); border-color:var(--hc-sky); }
-.hc-btn--call:hover{ background:var(--hc-sky-hover); border-color:var(--hc-sky-hover); color:var(--hc-ink); }
+.hc-btn--call{ background:var(--hc-sky); color:var(--hc-ink); border-color:#000; }
+.hc-btn--call:hover{ background:var(--hc-sky-hover); border-color:#000; color:var(--hc-ink); }
 .hc-btn--appt{ background:var(--hc-white); color:var(--hc-navy); border-color:var(--hc-navy); }
 .hc-btn--appt:hover{ background:var(--hc-navy); color:var(--hc-white); }
 .hc-dark .hc-btn--appt{ background:transparent; color:var(--hc-white); border-color:var(--hc-white); }
@@ -870,7 +870,7 @@ a:hover{ color:var(--hc-navy); }
     padding:4px 12px calc(4px + env(safe-area-inset-bottom)); background:var(--hc-sky);
     box-shadow:0 -4px 16px rgba(0,74,105,.15);
   }
-  .hc-callbar a{ flex:1; display:flex; align-items:center; justify-content:center; gap:10px; min-height:44px; color:var(--hc-ink); font-weight:600; font-size:1.125rem; text-decoration:none; border-radius:8px; }
+  .hc-callbar a{ flex:1; display:flex; align-items:center; justify-content:center; gap:10px; min-height:44px; color:var(--hc-ink); font-weight:600; font-size:1.125rem; text-decoration:none; border:2px solid #000; border-radius:8px; }
   html.hc-modal-open .hc-callbar{ display:none; }
 }
 

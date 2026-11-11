@@ -410,3 +410,6 @@ Refine only the visit/process section following the supplied screenshot: replace
 ## User-requested services overview
 
 User identified the missing services section. Add a concise overview after listening difficulties and before the owners: hearing tests, selection/fitting, hearing aid repairs, and ongoing care/adjustments. Base copy on RESEARCH S5/S6/S15/S16, including repairs for devices purchased elsewhere and many repairs in-office. Preserve suitability qualifications; no unsupported prices, guarantees or medical services. Keep this hearing-test/hearing-aid page focused rather than expand into brain training or tinnitus campaigns. Desktop intro beside a shared 2×2 pale-blue panel; stack on mobile, dark body text, no new imagery. Add Services #services to desktop and Explore menus; compact only desktop logo/gaps to fit seven links. Existing section wording/order relative to one another and integrations remain unchanged. Awaiting rendered review.
+
+
+User requested black borders on blue Call CTAs. Use a consistent 2px #000 border for all hc-btn--call controls, retain black border on hover, and apply the same border to the mobile sticky Call link. Preserve blue backgrounds, current sizes, safe-area spacing and contact destinations.
