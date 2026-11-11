@@ -30,3 +30,6 @@ Stronger navy/pale-blue phase headers, white equal-height panels, subtle shadows
 
 
 User requested a more visible “Which tests might be included?” disclosure. Add a pale-blue surface, stronger 2px blue border, larger title, explicit expansion hint and white chevron inside a navy circle. Preserve the native details behavior, original question and all existing test descriptions/qualifications. Style only this process disclosure; retain all other sections and integrations. Awaiting rendered review.
+
+
+User requested removal of forced headline/prompt breaks. Remove process CTA prompt’s 350px width cap and allow the contact row to wrap as a group when text/buttons need space. Hero heading spans flow inline with normal wrapping; remove nonbreaking location phrasing in hero and location heading. Retain semantic address/hours line breaks, wording, font sizes, contacts and integrations. Awaiting rendered review.

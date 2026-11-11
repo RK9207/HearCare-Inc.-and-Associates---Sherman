@@ -194,9 +194,9 @@ a:hover{ color:var(--hc-navy); }
 .hc-hero__grid{ display:grid; grid-template-columns:minmax(0,1.05fr) minmax(0,1fr); grid-template-areas:"copy media" "actions media" "facts media"; column-gap:64px; align-items:start; position:relative; }
 .hc-hero__text{ grid-area:copy; max-width:580px; }
 .hc-hero__eyebrow{ font-size:.875rem; line-height:1.5; font-weight:600; letter-spacing:.055em; text-transform:uppercase; color:#b7dcf5; }
-.hc-hero--split h1{ margin-top:18px; color:var(--hc-white); font-size:clamp(2rem,3vw,2.625rem); line-height:1.1; letter-spacing:-.025em; text-wrap:balance; }
-.hc-hero--split h1 > span{ display:block; }
-.hc-hero--split .hc-hero__headline-phrase{ white-space:nowrap; }
+.hc-hero--split h1{ margin-top:18px; color:var(--hc-white); font-size:clamp(2rem,3vw,2.625rem); line-height:1.1; letter-spacing:-.025em; text-wrap:wrap; }
+.hc-hero--split h1 > span{ display:inline; }
+.hc-hero--split .hc-hero__headline-phrase{ white-space:normal; }
 .hc-hero--split .hc-hero__headline-local{ margin-top:8px; color:inherit; font-size:inherit; font-weight:inherit; }
 .hc-hero__lead{ margin-top:14px; font-size:1.125rem; line-height:1.6; color:#d6e7f1; }
 .hc-hero__benefit{ margin-top:20px; font-size:1.25rem; line-height:1.5; font-weight:500; color:var(--hc-white); }
@@ -532,9 +532,9 @@ a:hover{ color:var(--hc-navy); }
 .hc-process .hc-more[open] .hc-more__body{ padding-top:20px; background:var(--hc-white); border-radius:0 0 14px 14px; }
 @media(max-width:639px){ .hc-process .hc-more summary{ padding:20px 18px; gap:14px; } }
 .hc-process .hc-more__body,.hc-process .hc-more__body > p{ font-size:1.125rem; line-height:1.6; }
-.hc-process__contact{ display:grid; grid-template-columns:minmax(0,1fr) auto; gap:20px 28px; align-items:center; margin-top:32px; padding:28px; border:1px solid var(--hc-border); border-radius:20px; background:var(--hc-surface); color:var(--hc-navy); }
-.hc-process__contact > p{ max-width:350px; font-family:var(--hc-head); font-size:1.25rem; line-height:1.4; font-weight:600; }
-.hc-process__contact .hc-cta{ display:grid; grid-template-columns:auto auto auto; gap:14px; align-items:center; }
+.hc-process__contact{ display:flex; flex-wrap:wrap; gap:20px 28px; align-items:center; margin-top:32px; padding:28px; border:1px solid var(--hc-border); border-radius:20px; background:var(--hc-surface); color:var(--hc-navy); }
+.hc-process__contact > p{ max-width:none; font-family:var(--hc-head); font-size:1.25rem; line-height:1.4; font-weight:600; }
+.hc-process__contact .hc-cta{ margin-left:auto; display:grid; grid-template-columns:auto auto auto; gap:14px; align-items:center; }
 .hc-process__contact .hc-btn{ width:100%; min-height:52px; border-radius:999px; gap:8px; text-align:center; white-space:normal; }
 .hc-process__contact .hc-btn > span{ display:block; line-height:1.25; }
 .hc-process__contact .hc-btn--appt{ color:var(--hc-navy); border-color:var(--hc-navy); background:var(--hc-white); }
@@ -544,7 +544,7 @@ a:hover{ color:var(--hc-navy); }
 @media(max-width:1100px){
  .hc-process__contact{ grid-template-columns:1fr; gap:18px; }
  .hc-process__contact > p{ max-width:none; }
- .hc-process__contact .hc-cta{ justify-self:start; }
+ .hc-process__contact .hc-cta{ margin-left:0; justify-self:start; }
 }
 @media(max-width:1023px){
  .hc-process__phases{ gap:20px; }
@@ -737,7 +737,7 @@ a:hover{ color:var(--hc-navy); }
 .hc-loc{ display:grid; grid-template-columns:minmax(0,4fr) minmax(0,7fr); align-items:stretch; border:1px solid #b8cfdd; border-radius:20px; background:var(--hc-white); overflow:hidden; }
 .hc-loc__details{ padding:32px; }
 .hc-loc__details h2{ max-width:430px; }
-.hc-loc__city{ white-space:nowrap; }
+.hc-loc__city{ white-space:normal; }
 .hc-loc__list{ list-style:none; margin:28px 0 0; padding:0; display:grid; gap:22px; }
 .hc-loc__list li{ display:grid; grid-template-columns:24px minmax(0,1fr); gap:14px; }
 .hc-loc__list li + li{ padding-top:22px; border-top:1px solid var(--hc-border); }
@@ -942,7 +942,7 @@ a:hover{ color:var(--hc-navy); }
   <div class="hc-wrap hc-hero__grid">
     <div class="hc-hero__text">
       <p class="hc-hero__eyebrow">Hearing tests &amp; hearing aids in Sherman, TX</p>
-      <h1 id="hero-title"><span><span class="hc-hero__headline-phrase">Personalized Hearing</span> Care,</span> <span class="hc-hero__headline-local">Right Here in Sherman,&nbsp;TX</span></h1>
+      <h1 id="hero-title"><span><span class="hc-hero__headline-phrase">Personalized Hearing</span> Care,</span> <span class="hc-hero__headline-local">Right Here in Sherman, TX</span></h1>
       <p class="hc-hero__benefit">Take the next step toward easier everyday conversations.</p>
       <p class="hc-hero__lead">Start with a hearing test and a clear explanation of your results. If hearing aids are appropriate, explore options suited to your hearing and everyday life.</p>
     </div>
