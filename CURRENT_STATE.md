@@ -15,9 +15,10 @@ This summary records the latest user instructions. Historical strategy/source no
 
 | Section | State |
 |---|---|
-| Header | Desktop section links plus mobile/tablet “Explore this page” dropdown; latest implementation awaiting rendered sign-off |
+| Header | Seven desktop section links plus mobile/tablet “Explore this page” dropdown; latest implementation awaiting rendered sign-off |
 | Hero | User authorized a refined split presentation after approval; headline wording/size/white color and image preserved; latest layout awaiting rendered sign-off |
 | Listening difficulties | Explicitly approved |
+| Services | User-requested overview added after listening difficulties, before owners; awaiting rendered approval |
 | Owners and Google proof | User-authorized visible owner profiles awaiting review; Google reviews remain unchanged and approved, with three verbatim reviews and historical 4.8 / 90+ evidence |
 | Process | User requested a more polished design; connected steps, inset phase headings and navy contact strip implemented; awaiting rendered approval |
 | Hearing-aid options | Explicitly approved before subsequent authorized audit wording updates |

@@ -138,7 +138,7 @@ a:hover{ color:var(--hc-navy); }
 
 /* ---------- Header: approved integrated navy treatment ---------- */
 .hc-header{ position:sticky; top:0; z-index:100; background:var(--hc-navy); border-bottom:1px solid rgba(120,187,233,.25); color:var(--hc-white); }
-.hc-header__row{ display:grid; grid-template-columns:minmax(200px,250px) minmax(0,1fr) auto; align-items:center; gap:20px; min-height:var(--hc-header-h); padding-block:12px; }
+.hc-header__row{ display:grid; grid-template-columns:minmax(180px,210px) minmax(0,1fr) auto; align-items:center; gap:16px; min-height:var(--hc-header-h); padding-block:12px; }
 .hc-header .hc-logo{ display:flex; align-items:center; min-width:0; min-height:44px; width:100%; color:var(--hc-white); text-decoration:none; }
 .hc-header .hc-logo img{ display:block; width:100%; height:auto; max-height:52px; object-fit:contain; object-position:left center; }
 .hc-nav ul{ list-style:none; margin:0; padding:0; display:flex; justify-content:center; align-items:center; gap:clamp(12px,1vw,16px); }
@@ -152,8 +152,8 @@ a:hover{ color:var(--hc-navy); }
 .hc-header .hc-btn--appt{ background:transparent; color:var(--hc-white); border-color:var(--hc-white); }
 .hc-header .hc-btn--appt:hover{ background:var(--hc-white); color:var(--hc-navy); }
 @media (max-width:1279px) and (min-width:1200px){
-  .hc-header__row{ grid-template-columns:minmax(200px,220px) minmax(0,1fr) auto; gap:16px; }
-  .hc-header .hc-btn{ padding-inline:15px; }
+  .hc-header__row{ grid-template-columns:minmax(170px,190px) minmax(0,1fr) auto; gap:14px; }
+  .hc-header .hc-btn{ padding-inline:12px; }
 }
 @media (max-width:1199px){
   .hc-nav{ display:none; }
@@ -408,6 +408,22 @@ a:hover{ color:var(--hc-navy); }
  .hc-recognition .hc-bridge{ margin-top:20px; gap:8px; }
  .hc-recognition .hc-bridge a{ white-space:normal; }
 }
+
+/* ---------- Services: concise overview before the team ---------- */
+.hc-services{ padding:64px 0; background:var(--hc-white); }
+.hc-services__layout{ display:grid; grid-template-columns:minmax(0,4fr) minmax(0,8fr); gap:48px; align-items:start; }
+.hc-services__eyebrow{ display:block; margin-bottom:14px; color:var(--hc-navy); font-size:.875rem; line-height:1.5; font-weight:600; letter-spacing:.08em; text-transform:uppercase; }
+.hc-services__intro > p{ margin-top:18px; color:var(--hc-ink); font-size:1.125rem; line-height:1.6; }
+.hc-services__intro .hc-textlink{ display:inline-flex; margin-top:24px; min-height:44px; color:var(--hc-blue); line-height:1.5; }
+.hc-services__list{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); list-style:none; padding:0; margin:0; border:1px solid #bdd4e2; border-radius:20px; overflow:hidden; background:var(--hc-surface); }
+.hc-services__list li{ padding:28px; }
+.hc-services__list li:nth-child(odd){ border-right:1px solid #bdd4e2; }
+.hc-services__list li:nth-child(-n+2){ border-bottom:1px solid #bdd4e2; }
+.hc-services__icon{ display:flex; justify-content:center; align-items:center; width:42px; height:42px; margin-bottom:18px; border:1px solid #c0d9e8; border-radius:12px; background:var(--hc-white); color:var(--hc-navy); }
+.hc-services__list h3{ font-size:1.25rem; line-height:1.4; margin-bottom:12px; }
+.hc-services__list p{ color:var(--hc-ink); font-size:1.125rem; line-height:1.6; }
+@media(max-width:1023px){ .hc-services__layout{ grid-template-columns:1fr; gap:28px; } .hc-services__intro{ max-width:720px; } }
+@media(max-width:639px){ .hc-services{ padding:40px 0; } .hc-services__list{ grid-template-columns:1fr; } .hc-services__list li{ padding:24px 22px; } .hc-services__list li:nth-child(odd){ border-right:0; } .hc-services__list li:not(:last-child){ border-bottom:1px solid #bdd4e2; } }
 
 /* ---------- Owners and patient proof: approved Layout A ---------- */
 .hc-practice{ padding:64px 0 72px; }
@@ -913,6 +929,7 @@ a:hover{ color:var(--hc-navy); }
     </a>
     <nav class="hc-nav" aria-label="Page sections">
       <ul>
+        <li><a href="#services">Services</a></li>
         <li><a href="#practice">Our Team</a></li>
         <li><a href="#care">Your Visit</a></li>
         <li><a href="#options">Hearing Aids</a></li>
@@ -937,7 +954,8 @@ a:hover{ color:var(--hc-navy); }
       <summary>Explore this page<svg class="hc-icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
       <nav aria-label="Explore page sections">
         <ul>
-          <li><a href="#practice">Our Team</a></li>
+          <li><a href="#services">Services</a></li>
+        <li><a href="#practice">Our Team</a></li>
           <li><a href="#care">Your Visit</a></li>
           <li><a href="#options">Hearing Aids</a></li>
           <li><a href="#payment">Payment</a></li>
@@ -1046,6 +1064,40 @@ a:hover{ color:var(--hc-navy); }
       </div>
       <a href="#care">See what happens at a visit<svg class="hc-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
     </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICES OVERVIEW ===================== -->
+<section class="hc-section hc-services" id="services" aria-labelledby="services-title">
+  <div class="hc-wrap hc-services__layout">
+    <div class="hc-services__intro">
+      <span class="hc-services__eyebrow">Our services</span>
+      <h2 id="services-title">Hearing care for every step</h2>
+      <p>Understand your hearing, explore suitable hearing aids and get help keeping your devices working. Our Sherman team can guide you through your options.</p>
+      <a class="hc-textlink" href="#care">See what happens at your visit <span aria-hidden="true">→</span></a>
+    </div>
+    <ul class="hc-services__list">
+      <li>
+        <span class="hc-services__icon" aria-hidden="true"><svg class="hc-icon" viewBox="0 0 24 24"><path d="M3 14v-3a9 9 0 0 1 18 0v3"/><rect x="2" y="12" width="4" height="8" rx="2"/><rect x="18" y="12" width="4" height="8" rx="2"/></svg></span>
+        <h3>Hearing tests</h3>
+        <p>Learn how you hear at different pitches and volumes, with a clear explanation of your results and next steps.</p>
+      </li>
+      <li>
+        <span class="hc-services__icon" aria-hidden="true"><svg class="hc-icon" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/><circle cx="9" cy="6" r="2" fill="white"/><circle cx="15" cy="12" r="2" fill="white"/><circle cx="9" cy="18" r="2" fill="white"/></svg></span>
+        <h3>Hearing aid selection &amp; fitting</h3>
+        <p>If hearing aids are appropriate, compare options for your needs, lifestyle and budget, with personalized fit and settings.</p>
+      </li>
+      <li>
+        <span class="hc-services__icon" aria-hidden="true"><svg class="hc-icon" viewBox="0 0 24 24"><path d="m14 6-8 8M5 13l-3 3a3 3 0 0 0 4 4l3-3M14 6l4-4a6 6 0 0 0-8 8l4 4a6 6 0 0 0 8-8l-4 4-4-4Z"/></svg></span>
+        <h3>Hearing aid repairs</h3>
+        <p>Get help when your hearing aids aren’t working as expected—even if you bought them elsewhere. Many repairs can be handled in the office.</p>
+      </li>
+      <li>
+        <span class="hc-services__icon" aria-hidden="true"><svg class="hc-icon"><use href="#i-heart"/></svg></span>
+        <h3>Ongoing care &amp; adjustments</h3>
+        <p>Get follow-up adjustments and practical help with care, charging and compatible phone features as your needs change.</p>
+      </li>
+    </ul>
   </div>
 </section>
 
