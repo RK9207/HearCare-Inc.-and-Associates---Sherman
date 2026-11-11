@@ -94,3 +94,5 @@ User requested additional breathing space after the latest desktop screenshot. I
 User requested white hero icons. Set hero .hc-icon color to white, including phone, calendar, SMS, address and clock icons. Google brand paths and review stars retain their original colors. No icon or styling outside the hero changed.
 
 Keep the appointment button dark navy on hover/focus with white text so the newly white calendar icon remains visible. This supersedes its prior white hover fill only.
+
+User requested reverting only the hero Call CTA phone icon to black (#000); other functional hero icons remain white. No other styles or content changed.
