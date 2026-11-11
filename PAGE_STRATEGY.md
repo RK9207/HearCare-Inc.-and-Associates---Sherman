@@ -329,3 +329,8 @@ User: “looks good, lets move to the next section, I approve this section.” L
 ## Approved final invitation rebuild — Layout A, headline 1
 
 User approved Layout A + Headline 1 after desktop/mobile screenshot review. Retain “Take the first step toward clearer conversations.” Supporting copy: “Start with a hearing test and a clear explanation of your results. Contact our Sherman team to ask a question or request an appointment.” Use a compact centered navy closing band, equal rounded Call/Request Appointment buttons, distinct Text action beneath, and a subtle separator above the existing footer. Desktop padding 56px, mobile 44px; main prose 18px; full-width stacked buttons on mobile. Preserve all contact destinations/hooks and the shared appointment dialog. No new image, unsupported availability/purchase promise or repeated review badge is needed. Locked location/FAQ/payment/options and all other sections remain unchanged. Implemented for rendered review, NOT LOCKED.
+
+
+## Final invitation approval
+
+User: “I approve this section, lets move to next.” Final invitation in af13f94 is APPROVED / LOCKED, including the retained headline, revised supporting copy, compact navy band, rounded contact buttons and footer separator. Preserve without further user authorization. Next proposed section is the existing footer: complete the visible page with practice details, website access and policy links. Request its current complete desktop/mobile screenshots and wait before individual review or editing. The shared appointment dialog remains a separate later review checkpoint. No HTML/CSS changes accompany this approval record.

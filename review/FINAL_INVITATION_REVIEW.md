@@ -23,3 +23,8 @@ A compact centered navy band uses 56px desktop / 44px mobile padding, 18px suppo
 - [Mobile transition](final-transition-mobile.png)
 
 Review in GHL before locking. No deployment or merge to the main branch performed.
+
+
+## Final invitation approval
+
+User: “I approve this section, lets move to next.” Final invitation in af13f94 is APPROVED / LOCKED, including the retained headline, revised supporting copy, compact navy band, rounded contact buttons and footer separator. Preserve without further user authorization. Next proposed section is the existing footer: complete the visible page with practice details, website access and policy links. Request its current complete desktop/mobile screenshots and wait before individual review or editing. The shared appointment dialog remains a separate later review checkpoint. No HTML/CSS changes accompany this approval record.
