@@ -424,3 +424,6 @@ User refinement: center the desktop section-link group with a fixed 28px gap ins
 
 
 User refinement: set the centered desktop navigation-link gap to 35px, superseding the previous 28px gap.
+
+
+User requested balanced desktop logo/action widths. Increase the desktop logo column to 430px, approximately matching the combined Call + Request Appointment group; allow the logo to reach 72px high while preserving its natural proportions. Apply only at 1200px and above. Preserve the two-row layout, 35px nav gaps, all mobile/tablet rules and contact behavior.

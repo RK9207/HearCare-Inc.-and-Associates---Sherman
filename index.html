@@ -153,6 +153,10 @@ a:hover{ color:var(--hc-navy); }
 .hc-header .hc-btn .hc-icon{ width:18px; height:18px; }
 .hc-header .hc-btn--appt{ background:transparent; color:var(--hc-white); border-color:var(--hc-white); }
 .hc-header .hc-btn--appt:hover{ background:var(--hc-white); color:var(--hc-navy); }
+@media(min-width:1200px){
+  .hc-header__row{ grid-template-columns:minmax(200px,430px) auto; }
+  .hc-header .hc-logo img{ max-height:72px; }
+}
 @media (max-width:1199px){
   .hc-header__nav-row{ display:none; }
   .hc-nav{ display:none; }
