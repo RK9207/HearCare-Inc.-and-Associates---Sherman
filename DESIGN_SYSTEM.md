@@ -460,3 +460,6 @@ Integrate the standalone clinic photograph with office details/map into one roun
 
 
 User refinement: set the centered desktop navigation-link spacing to 40px, superseding the previous 35px gap. Mobile Explore menu spacing is unchanged.
+
+
+User requested centered form content. Center appointment-dialog heading/introduction and footer. Use symmetric header columns so the close button does not offset heading centering; center iframe element within its body. Keep every iframe attribute, form destination, consent setting and dialog behavior unchanged. Cross-origin GHL iframe contents cannot be styled by parent page CSS; actual field/label alignment requires a form-builder change and has not been altered.
