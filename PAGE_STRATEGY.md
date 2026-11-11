@@ -339,3 +339,8 @@ User: “I approve this section, lets move to next.” Final invitation in af13f
 ## Approved footer rebuild — Layout A and current year
 
 User approved Layout A and explicitly requested replacing the year token with the current year. Render copyright as “© 2026 HearCare, Inc. and Associates. All rights reserved.” without unresolved GHL tokens or additional year JavaScript. Use a compact darker-navy footer: practice identity, Sherman details and useful links in three desktop columns; stacked identity/office and wrapping utility links on mobile. Remove the white logo frame while preserving the original source and image proportions. Retain exact address, hours, Call/Text hooks and website/privacy destinations. Use comfortable footer type/targets, a restrained bottom divider, and no extra promotional CTA. The approved final invitation and all other sections/integrations are unchanged. Implemented for rendered review, NOT LOCKED.
+
+
+## User-requested section navigation update
+
+Replace generic Care/Our Practice labels and provide six meaningful header anchors in page order: Our Team → #practice; Your Visit → #care; Hearing Aids → #options; Payment → #payment; FAQs → #faq; Location → #location. Reuse existing section IDs and shared smooth-scroll/header offset, without modifying locked section content. Adjust only desktop header column allocation and nav gaps to fit the expanded link list. Preserve existing responsive collapse thresholds, logo source/home destination, contact values/hooks and appointment integration. No new page sections or unrelated links are added. Awaiting rendered review.

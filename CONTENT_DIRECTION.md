@@ -280,3 +280,8 @@ User approved Layout A and explicitly requested replacing the year token with th
 ## Automatic copyright year
 
 User clarified that the footer year should change automatically. Wrap the 2026 fallback in a dedicated data-copyright-year span and update its text with the browser’s current calendar year on page load. This supersedes the previous static-year instruction. No GHL merge token is required, and no other wording, styling or integration changes.
+
+
+## User-requested section navigation update
+
+Replace generic Care/Our Practice labels and provide six meaningful header anchors in page order: Our Team → #practice; Your Visit → #care; Hearing Aids → #options; Payment → #payment; FAQs → #faq; Location → #location. Reuse existing section IDs and shared smooth-scroll/header offset, without modifying locked section content. Adjust only desktop header column allocation and nav gaps to fit the expanded link list. Preserve existing responsive collapse thresholds, logo source/home destination, contact values/hooks and appointment integration. No new page sections or unrelated links are added. Awaiting rendered review.

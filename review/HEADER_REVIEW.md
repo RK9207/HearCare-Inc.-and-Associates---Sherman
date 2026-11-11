@@ -31,3 +31,11 @@ The user approved the recommended navy header with “okay, please make the chan
 Review in GHL with the real logo loaded, then approve or request adjustments. Do not lock the header or advance to a new section automatically.
 
 Latest delivery update: the complete HTML now uses the user-supplied GHL Hero image URL directly. Base64 embedding and the former local srcset were removed; layout and interactions are unchanged.
+
+
+## User-requested section navigation update
+
+Replace generic Care/Our Practice labels and provide six meaningful header anchors in page order: Our Team → #practice; Your Visit → #care; Hearing Aids → #options; Payment → #payment; FAQs → #faq; Location → #location. Reuse existing section IDs and shared smooth-scroll/header offset, without modifying locked section content. Adjust only desktop header column allocation and nav gaps to fit the expanded link list. Preserve existing responsive collapse thresholds, logo source/home destination, contact values/hooks and appointment integration. No new page sections or unrelated links are added. Awaiting rendered review.
+
+
+Navigation update validation: nine widths (320, 390, 500, 768, 1024, 1200, 1280, 1440, 1920px) have no header overflow and preserve appointment open/Escape/focus return. At all four desktop navigation widths, all six links were clicked; every destination hash matches and its heading lands below the sticky header. No link/logo/action overlap at those widths. Existing compact header behavior below 1200px remains unchanged. Exact source comparison confirms only header markup/CSS changed. Original remote logo cannot load in the local preview, so screenshots display its alt text; original URL and dimensions are retained. Current captures: navigation-header-1200.png, navigation-header-1440.png and navigation-header-390.png.
