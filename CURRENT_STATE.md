@@ -33,11 +33,12 @@ The user has now authorized feasible audit improvements. These changes permit ta
 
 ## Current imagery
 
-- Hero: user-hosted authentic clinic storefront WebP; desktop background with navy overlay, uncropped image below copy on mobile/tablet.
+- Hero: original kitchen-conversation foreground photo, smaller/lowered, plus the user-hosted clinic storefront as a separate navy-overlaid background.
 - Owners: authentic user-hosted Kenneth/Jill joint portrait. No generated likeness.
 - Product: user-hosted Widex SmartRIC example; sharper authorized real imagery remains requested.
 - Header: original supplied logo. Footer: no logo at user request.
-- Hero URL: https://files.leadconnectorhq.com/file/6af46ff41ca1c60e4d785638/clinic-image.webp
+- Hero foreground URL: https://files.leadconnectorhq.com/file/6af3305fddcd97ce5aa8a0c8/hearcare-kitchen-conversation.webp
+- Hero background URL: https://files.leadconnectorhq.com/file/6af46ff41ca1c60e4d785638/clinic-image.webp
 - Owners URL: https://files.leadconnectorhq.com/file/6af3642f512d2edab67fe078/hearcare-associates-kenneth-jill-sheppard.jpg
 - Product URL: https://files.leadconnectorhq.com/file/6af44925fbdd54a827b67c4f/widexsmartric.jpg
 - No image placeholders are intended as production content. Local blocked-image fallbacks do not establish live image failure.

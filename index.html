@@ -349,24 +349,19 @@ a:hover{ color:var(--hc-navy); }
 .hc-hero--split .hc-btn--call .hc-icon{ color:#000; }
 .hc-hero--split .hc-btn--appt:hover,.hc-hero--split .hc-btn--appt:focus-visible{ background:var(--hc-navy-deep); color:#fff; border-color:#fff; }
 
-/* Authentic clinic photograph: desktop background, uncropped mobile view. */
+/* Clinic background with the original, smaller foreground hero photograph. */
 .hc-hero--clinic{ isolation:isolate; background:var(--hc-navy-deep); }
-.hc-hero--clinic .hc-hero__grid{ display:block; position:static; }
-.hc-hero--clinic .hc-hero__grid > :not(.hc-hero__media){ position:relative; z-index:2; max-width:640px; }
-.hc-hero--clinic .hc-hero__lead{ max-width:580px; color:#fff; }
+.hc-hero--clinic::before{ content:""; position:absolute; z-index:-1; inset:0; pointer-events:none; background-image:linear-gradient(90deg,rgba(0,46,67,.97) 0%,rgba(0,46,67,.92) 50%,rgba(0,46,67,.78) 100%),url("https://files.leadconnectorhq.com/file/6af46ff41ca1c60e4d785638/clinic-image.webp"); background-size:cover; background-position:center top; background-repeat:no-repeat; }
+.hc-hero--clinic .hc-hero__grid{ position:relative; z-index:1; }
+.hc-hero--clinic .hc-hero__lead,
 .hc-hero--clinic .hc-hero__proof .hc-hero__trust,
 .hc-hero--clinic .hc-facts{ color:#fff; }
-.hc-hero--clinic .hc-hero__media{ position:absolute; z-index:0; inset:0; margin:0; min-height:0; aspect-ratio:auto; border-radius:0; box-shadow:none; }
-.hc-hero--clinic .hc-hero__media::after{ display:none; }
-.hc-hero--clinic .hc-hero__media img{ object-position:50% 0; border-radius:0; }
-.hc-hero--clinic::before{ content:""; position:absolute; z-index:1; inset:0; pointer-events:none; background:linear-gradient(90deg,rgba(0,46,67,.98) 0%,rgba(0,46,67,.96) 35%,rgba(0,46,67,.88) 58%,rgba(0,46,67,.5) 100%); }
+.hc-hero--clinic .hc-hero__media{ width:90%; max-width:490px; align-self:start; justify-self:end; margin-top:40px; aspect-ratio:4 / 5; }
 @media(max-width:1023px){
- .hc-hero--clinic::before{ display:none; }
- .hc-hero--clinic .hc-hero__grid{ position:relative; }
- .hc-hero--clinic .hc-hero__grid > :not(.hc-hero__media){ max-width:720px; }
- .hc-hero--clinic .hc-hero__media{ position:relative; margin-top:32px; width:100%; max-width:720px; border:1px solid rgba(183,220,245,.35); border-radius:18px; overflow:hidden; }
- .hc-hero--clinic .hc-hero__media img{ position:static; display:block; width:100%; height:auto; object-fit:contain; border-radius:0; }
+ .hc-hero--clinic::before{ background-image:linear-gradient(rgba(0,46,67,.95),rgba(0,46,67,.95)),url("https://files.leadconnectorhq.com/file/6af46ff41ca1c60e4d785638/clinic-image.webp"); }
+ .hc-hero--clinic .hc-hero__media{ width:90%; max-width:600px; justify-self:center; margin-top:36px; aspect-ratio:4 / 3; }
 }
+@media(max-width:639px){ .hc-hero--clinic .hc-hero__media{ width:92%; max-width:420px; margin-top:32px; } }
 
 /* Stars */
 .hc-stars{ position:relative; display:inline-flex; line-height:0; }
@@ -1051,10 +1046,10 @@ a:hover{ color:var(--hc-navy); }
     </ul>
 
     <figure class="hc-hero__media">
-      <!-- IMG-HERO-01: user-supplied authentic clinic storefront; preserve sign on mobile. -->
-      <img src="https://files.leadconnectorhq.com/file/6af46ff41ca1c60e4d785638/clinic-image.webp"
-           width="680" height="411" fetchpriority="high" decoding="async" data-img-id="IMG-HERO-01"
-           alt="HearCare, Inc. and Associates storefront, with the practice sign above the entrance.">
+      <!-- IMG-HERO-01: illustrative lifestyle photograph; authentic clinic image is the separate CSS background. -->
+      <img src="https://files.leadconnectorhq.com/file/6af3305fddcd97ce5aa8a0c8/hearcare-kitchen-conversation.webp"
+           width="1122" height="1402" fetchpriority="high" decoding="async" data-img-id="IMG-HERO-01"
+           alt="An older woman and an adult woman talking together at a kitchen table.">
     </figure>
   </div>
 </section>
