@@ -310,3 +310,6 @@ User identified the missing services section. Add a concise overview after liste
 
 
 User approved adding middle-ear implants and extended-wear devices after availability caveats were explained. Add a clearly distinguished “Other options to ask about” group below the four core services. Middle-ear implants require specialist assessment; invite questions about options/next steps without implying HearCare performs implant surgery. Extended-wear wording asks about suitability and current Sherman availability. No confirmation of local provision has been supplied. Preserve original four services, other sections and contact integrations.
+
+
+User-selected hero H1: “Personalized Hearing Care & Hearing Tests in Sherman, TX”. Preserve current white typography, font sizes, mobile 1.25 line-height and natural wrapping; no forced spans or line breaks. Other hero copy and imagery unchanged.

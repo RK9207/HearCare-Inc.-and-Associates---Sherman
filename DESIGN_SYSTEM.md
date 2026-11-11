@@ -436,3 +436,6 @@ User requested relocating middle-ear implants and extended-wear devices into the
 
 
 User refinement: remove the black border from the sticky mobile Call link only. Keep 2px black borders on all other blue Call CTAs and preserve sticky sizing/padding.
+
+
+User-selected hero H1: “Personalized Hearing Care & Hearing Tests in Sherman, TX”. Preserve current white typography, font sizes, mobile 1.25 line-height and natural wrapping; no forced spans or line breaks. Other hero copy and imagery unchanged.
