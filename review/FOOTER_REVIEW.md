@@ -32,3 +32,6 @@ Awaiting rendered approval in GHL. No deployment or merge to main performed.
 ## Automatic copyright year
 
 User clarified that the footer year should change automatically. Wrap the 2026 fallback in a dedicated data-copyright-year span and update its text with the browser’s current calendar year on page load. This supersedes the previous static-year instruction. No GHL merge token is required, and no other wording, styling or integration changes.
+
+
+User-requested logo-background match: change only the footer background from deep navy to brand navy (#004a69), matching the logo background visible in the supplied GHL screenshot. Preserve the existing final-invitation separator, footer layout, text, links and automatic year.
