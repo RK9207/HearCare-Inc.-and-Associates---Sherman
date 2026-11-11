@@ -843,10 +843,10 @@ a:hover{ color:var(--hc-navy); }
 /* ---------- Mobile sticky call ---------- */
 .hc-callbar{ display:none; }
 @media (max-width:639px){
-  body{ padding-bottom:calc(48px + env(safe-area-inset-bottom)); }
+  body{ padding-bottom:calc(52px + env(safe-area-inset-bottom)); }
   .hc-callbar{
     display:flex; position:fixed; left:0; right:0; bottom:0; z-index:90;
-    padding:2px 12px calc(2px + env(safe-area-inset-bottom)); background:var(--hc-sky);
+    padding:4px 12px calc(4px + env(safe-area-inset-bottom)); background:var(--hc-sky);
     box-shadow:0 -4px 16px rgba(0,74,105,.15);
   }
   .hc-callbar a{ flex:1; display:flex; align-items:center; justify-content:center; gap:10px; min-height:44px; color:var(--hc-ink); font-weight:600; font-size:1.125rem; text-decoration:none; border-radius:8px; }

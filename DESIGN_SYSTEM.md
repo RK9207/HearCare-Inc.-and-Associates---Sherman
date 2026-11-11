@@ -397,3 +397,6 @@ User requested removal of forced headline/prompt breaks. Remove process CTA prom
 
 
 User requested darker text on colored backgrounds. Use ink #2c2c2c for supporting copy within pale-blue sections/panels (listening difficulties, Google proof, test disclosure, manufacturers/style guide, payment/location and map status). Scope the muted token to these containers so navy surfaces retain readable light text. No layout, wording, links or integration changes.
+
+
+User requested a slight increase to sticky bottom Call padding: raise vertical padding from 2px to 4px, retain 44px link height and safe-area inset, and match body bottom clearance to the resulting 52px bar. Explore menu spacing unchanged.
