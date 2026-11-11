@@ -1,0 +1,577 @@
+[
+  {
+    "width": 320,
+    "totalHeight": 15305,
+    "viewportHeight": 844,
+    "horizontalOverflow": false,
+    "sections": [
+      {
+        "id": "hc-hero hc-hero--split hc-dark",
+        "title": "Personalized Hearing Care, Right Here in Sherman, TX",
+        "height": 1141,
+        "words": 83
+      },
+      {
+        "id": "hc-section hc-recognition",
+        "title": "Recognize any of these listening difficulties?",
+        "height": 1207,
+        "words": 117
+      },
+      {
+        "id": "practice",
+        "title": "Meet the people behind HearCare",
+        "height": 2636,
+        "words": 228
+      },
+      {
+        "id": "care",
+        "title": "Know what to expect before your visit",
+        "height": 2442,
+        "words": 221
+      },
+      {
+        "id": "options",
+        "title": "Hearing aids chosen around your life",
+        "height": 2565,
+        "words": 197
+      },
+      {
+        "id": "payment",
+        "title": "Understand your benefits and payment options",
+        "height": 1712,
+        "words": 157
+      },
+      {
+        "id": "faq",
+        "title": "Questions before your visit?",
+        "height": 1187,
+        "words": 80
+      },
+      {
+        "id": "location",
+        "title": "Find us in Sherman, TX",
+        "height": 1246,
+        "words": 66
+      },
+      {
+        "id": "hc-section hc-final hc-dark",
+        "title": "Take the first step toward clearer conversations",
+        "height": 514,
+        "words": 40
+      }
+    ],
+    "firstHeroCallY": 564.546875,
+    "headings": [
+      "Personalized Hearing Care, Right Here in Sherman, TX",
+      "Recognize any of these listening difficulties?",
+      "Meet the people behind HearCare",
+      "What patients say on Google",
+      "Know what to expect before your visit",
+      "Hearing aids chosen around your life",
+      "Understand your benefits and payment options",
+      "Questions before your visit?",
+      "Find us in Sherman, TX",
+      "Take the first step toward clearer conversations"
+    ],
+    "duplicateIds": [],
+    "brokenAnchors": [],
+    "images": [
+      {
+        "alt": "An older woman and an adult woman talking together at a kitchen table.",
+        "src": "https://files.leadconnectorhq.com/file/6af3305fddcd97ce5aa8a0c8/hearcare-kitchen-conversation.webp",
+        "width": 280,
+        "height": 210,
+        "loaded": true
+      },
+      {
+        "alt": "Kenneth M. Sheppard, Jr. and Jill A. Sheppard, owners of HearCare, Inc. and Associates",
+        "src": "https://files.leadconnectorhq.com/file/6af3642f512d2edab67fe078/hearcare-associates-kenneth-jill-sheppard.jpg",
+        "width": 200,
+        "height": 200,
+        "loaded": false
+      },
+      {
+        "alt": "Widex SmartRIC hearing aid — one example of the available styles",
+        "src": "https://hearcareinc.com/wp-content/uploads/2026/08/widexsmartric.jpg",
+        "width": 174,
+        "height": 190,
+        "loaded": false
+      }
+    ],
+    "counts": {
+      "calls": 10,
+      "texts": 7,
+      "appointments": 5
+    },
+    "mobileNav": "none",
+    "copyright": "© 2026 HearCare, Inc. and Associates. All rights reserved.",
+    "dialog": {
+      "open": true,
+      "rect": {
+        "height": 844,
+        "width": 320
+      },
+      "iframeHeight": 647
+    }
+  },
+  {
+    "width": 390,
+    "totalHeight": 13618,
+    "viewportHeight": 844,
+    "horizontalOverflow": false,
+    "sections": [
+      {
+        "id": "hc-hero hc-hero--split hc-dark",
+        "title": "Personalized Hearing Care, Right Here in Sherman, TX",
+        "height": 1139,
+        "words": 83
+      },
+      {
+        "id": "hc-section hc-recognition",
+        "title": "Recognize any of these listening difficulties?",
+        "height": 1034,
+        "words": 117
+      },
+      {
+        "id": "practice",
+        "title": "Meet the people behind HearCare",
+        "height": 2380,
+        "words": 228
+      },
+      {
+        "id": "care",
+        "title": "Know what to expect before your visit",
+        "height": 2099,
+        "words": 221
+      },
+      {
+        "id": "options",
+        "title": "Hearing aids chosen around your life",
+        "height": 2156,
+        "words": 197
+      },
+      {
+        "id": "payment",
+        "title": "Understand your benefits and payment options",
+        "height": 1424,
+        "words": 157
+      },
+      {
+        "id": "faq",
+        "title": "Questions before your visit?",
+        "height": 1087,
+        "words": 80
+      },
+      {
+        "id": "location",
+        "title": "Find us in Sherman, TX",
+        "height": 1189,
+        "words": 66
+      },
+      {
+        "id": "hc-section hc-final hc-dark",
+        "title": "Take the first step toward clearer conversations",
+        "height": 483,
+        "words": 40
+      }
+    ],
+    "firstHeroCallY": 534.21875,
+    "headings": [
+      "Personalized Hearing Care, Right Here in Sherman, TX",
+      "Recognize any of these listening difficulties?",
+      "Meet the people behind HearCare",
+      "What patients say on Google",
+      "Know what to expect before your visit",
+      "Hearing aids chosen around your life",
+      "Understand your benefits and payment options",
+      "Questions before your visit?",
+      "Find us in Sherman, TX",
+      "Take the first step toward clearer conversations"
+    ],
+    "duplicateIds": [],
+    "brokenAnchors": [],
+    "images": [
+      {
+        "alt": "An older woman and an adult woman talking together at a kitchen table.",
+        "src": "https://files.leadconnectorhq.com/file/6af3305fddcd97ce5aa8a0c8/hearcare-kitchen-conversation.webp",
+        "width": 350,
+        "height": 263,
+        "loaded": true
+      },
+      {
+        "alt": "Kenneth M. Sheppard, Jr. and Jill A. Sheppard, owners of HearCare, Inc. and Associates",
+        "src": "https://files.leadconnectorhq.com/file/6af3642f512d2edab67fe078/hearcare-associates-kenneth-jill-sheppard.jpg",
+        "width": 220,
+        "height": 220,
+        "loaded": false
+      },
+      {
+        "alt": "Widex SmartRIC hearing aid — one example of the available styles",
+        "src": "https://hearcareinc.com/wp-content/uploads/2026/08/widexsmartric.jpg",
+        "width": 174,
+        "height": 190,
+        "loaded": false
+      }
+    ],
+    "counts": {
+      "calls": 10,
+      "texts": 7,
+      "appointments": 5
+    },
+    "mobileNav": "none",
+    "copyright": "© 2026 HearCare, Inc. and Associates. All rights reserved.",
+    "dialog": {
+      "open": true,
+      "rect": {
+        "height": 844,
+        "width": 390
+      },
+      "iframeHeight": 647
+    }
+  },
+  {
+    "width": 768,
+    "totalHeight": 10137,
+    "viewportHeight": 844,
+    "horizontalOverflow": false,
+    "sections": [
+      {
+        "id": "hc-hero hc-hero--split hc-dark",
+        "title": "Personalized Hearing Care,\nRight Here in Sherman, TX",
+        "height": 1303,
+        "words": 83
+      },
+      {
+        "id": "hc-section hc-recognition",
+        "title": "Recognize any of these listening difficulties?",
+        "height": 712,
+        "words": 117
+      },
+      {
+        "id": "practice",
+        "title": "Meet the people behind HearCare",
+        "height": 1888,
+        "words": 236
+      },
+      {
+        "id": "care",
+        "title": "Know what to expect before your visit",
+        "height": 1350,
+        "words": 221
+      },
+      {
+        "id": "options",
+        "title": "Hearing aids chosen around your life",
+        "height": 1395,
+        "words": 197
+      },
+      {
+        "id": "payment",
+        "title": "Understand your benefits and payment options",
+        "height": 1003,
+        "words": 157
+      },
+      {
+        "id": "faq",
+        "title": "Questions before your visit?",
+        "height": 966,
+        "words": 80
+      },
+      {
+        "id": "location",
+        "title": "Find us in Sherman, TX",
+        "height": 707,
+        "words": 66
+      },
+      {
+        "id": "hc-section hc-final hc-dark",
+        "title": "Take the first step toward clearer conversations",
+        "height": 402,
+        "words": 40
+      }
+    ],
+    "firstHeroCallY": 497.109375,
+    "headings": [
+      "Personalized Hearing Care,\nRight Here in Sherman, TX",
+      "Recognize any of these listening difficulties?",
+      "Meet the people behind HearCare",
+      "What patients say on Google",
+      "Know what to expect before your visit",
+      "Hearing aids chosen around your life",
+      "Understand your benefits and payment options",
+      "Questions before your visit?",
+      "Find us in Sherman, TX",
+      "Take the first step toward clearer conversations"
+    ],
+    "duplicateIds": [],
+    "brokenAnchors": [],
+    "images": [
+      {
+        "alt": "An older woman and an adult woman talking together at a kitchen table.",
+        "src": "https://files.leadconnectorhq.com/file/6af3305fddcd97ce5aa8a0c8/hearcare-kitchen-conversation.webp",
+        "width": 704,
+        "height": 528,
+        "loaded": true
+      },
+      {
+        "alt": "Kenneth M. Sheppard, Jr. and Jill A. Sheppard, owners of HearCare, Inc. and Associates",
+        "src": "https://files.leadconnectorhq.com/file/6af3642f512d2edab67fe078/hearcare-associates-kenneth-jill-sheppard.jpg",
+        "width": 250,
+        "height": 250,
+        "loaded": false
+      },
+      {
+        "alt": "Widex SmartRIC hearing aid — one example of the available styles",
+        "src": "https://hearcareinc.com/wp-content/uploads/2026/08/widexsmartric.jpg",
+        "width": 202,
+        "height": 220,
+        "loaded": false
+      }
+    ],
+    "counts": {
+      "calls": 10,
+      "texts": 7,
+      "appointments": 5
+    },
+    "mobileNav": "none",
+    "copyright": "© 2026 HearCare, Inc. and Associates. All rights reserved.",
+    "dialog": {
+      "open": true,
+      "rect": {
+        "height": 812,
+        "width": 640
+      },
+      "iframeHeight": 647
+    }
+  },
+  {
+    "width": 1200,
+    "totalHeight": 8172,
+    "viewportHeight": 844,
+    "horizontalOverflow": false,
+    "sections": [
+      {
+        "id": "hc-hero hc-hero--split hc-dark",
+        "title": "Personalized Hearing Care,\nRight Here in Sherman, TX",
+        "height": 782,
+        "words": 83
+      },
+      {
+        "id": "hc-section hc-recognition",
+        "title": "Recognize any of these listening difficulties?",
+        "height": 530,
+        "words": 117
+      },
+      {
+        "id": "practice",
+        "title": "Meet the people behind HearCare",
+        "height": 1339,
+        "words": 240
+      },
+      {
+        "id": "care",
+        "title": "Know what to expect before your visit",
+        "height": 1115,
+        "words": 221
+      },
+      {
+        "id": "options",
+        "title": "Hearing aids chosen around your life",
+        "height": 1200,
+        "words": 197
+      },
+      {
+        "id": "payment",
+        "title": "Understand your benefits and payment options",
+        "height": 809,
+        "words": 157
+      },
+      {
+        "id": "faq",
+        "title": "Questions before your visit?",
+        "height": 828,
+        "words": 80
+      },
+      {
+        "id": "location",
+        "title": "Find us in Sherman, TX",
+        "height": 734,
+        "words": 66
+      },
+      {
+        "id": "hc-section hc-final hc-dark",
+        "title": "Take the first step toward clearer conversations",
+        "height": 417,
+        "words": 40
+      }
+    ],
+    "firstHeroCallY": 515.578125,
+    "headings": [
+      "Personalized Hearing Care,\nRight Here in Sherman, TX",
+      "Recognize any of these listening difficulties?",
+      "Meet the people behind HearCare",
+      "What patients say on Google",
+      "Know what to expect before your visit",
+      "Hearing aids chosen around your life",
+      "Understand your benefits and payment options",
+      "Questions before your visit?",
+      "Find us in Sherman, TX",
+      "Take the first step toward clearer conversations"
+    ],
+    "duplicateIds": [],
+    "brokenAnchors": [],
+    "images": [
+      {
+        "alt": "An older woman and an adult woman talking together at a kitchen table.",
+        "src": "https://files.leadconnectorhq.com/file/6af3305fddcd97ce5aa8a0c8/hearcare-kitchen-conversation.webp",
+        "width": 511,
+        "height": 646,
+        "loaded": true
+      },
+      {
+        "alt": "Kenneth M. Sheppard, Jr. and Jill A. Sheppard, owners of HearCare, Inc. and Associates",
+        "src": "https://files.leadconnectorhq.com/file/6af3642f512d2edab67fe078/hearcare-associates-kenneth-jill-sheppard.jpg",
+        "width": 411,
+        "height": 411,
+        "loaded": false
+      },
+      {
+        "alt": "Widex SmartRIC hearing aid — one example of the available styles",
+        "src": "https://hearcareinc.com/wp-content/uploads/2026/08/widexsmartric.jpg",
+        "width": 202,
+        "height": 220,
+        "loaded": false
+      }
+    ],
+    "counts": {
+      "calls": 10,
+      "texts": 7,
+      "appointments": 5
+    },
+    "mobileNav": "block",
+    "copyright": "© 2026 HearCare, Inc. and Associates. All rights reserved.",
+    "dialog": {
+      "open": true,
+      "rect": {
+        "height": 812,
+        "width": 640
+      },
+      "iframeHeight": 647
+    }
+  },
+  {
+    "width": 1440,
+    "totalHeight": 8040,
+    "viewportHeight": 844,
+    "horizontalOverflow": false,
+    "sections": [
+      {
+        "id": "hc-hero hc-hero--split hc-dark",
+        "title": "Personalized Hearing Care,\nRight Here in Sherman, TX",
+        "height": 795,
+        "words": 83
+      },
+      {
+        "id": "hc-section hc-recognition",
+        "title": "Recognize any of these listening difficulties?",
+        "height": 532,
+        "words": 117
+      },
+      {
+        "id": "practice",
+        "title": "Meet the people behind HearCare",
+        "height": 1313,
+        "words": 240
+      },
+      {
+        "id": "care",
+        "title": "Know what to expect before your visit",
+        "height": 1031,
+        "words": 221
+      },
+      {
+        "id": "options",
+        "title": "Hearing aids chosen around your life",
+        "height": 1171,
+        "words": 197
+      },
+      {
+        "id": "payment",
+        "title": "Understand your benefits and payment options",
+        "height": 795,
+        "words": 157
+      },
+      {
+        "id": "faq",
+        "title": "Questions before your visit?",
+        "height": 828,
+        "words": 80
+      },
+      {
+        "id": "location",
+        "title": "Find us in Sherman, TX",
+        "height": 734,
+        "words": 66
+      },
+      {
+        "id": "hc-section hc-final hc-dark",
+        "title": "Take the first step toward clearer conversations",
+        "height": 422,
+        "words": 40
+      }
+    ],
+    "firstHeroCallY": 528.765625,
+    "headings": [
+      "Personalized Hearing Care,\nRight Here in Sherman, TX",
+      "Recognize any of these listening difficulties?",
+      "Meet the people behind HearCare",
+      "What patients say on Google",
+      "Know what to expect before your visit",
+      "Hearing aids chosen around your life",
+      "Understand your benefits and payment options",
+      "Questions before your visit?",
+      "Find us in Sherman, TX",
+      "Take the first step toward clearer conversations"
+    ],
+    "duplicateIds": [],
+    "brokenAnchors": [],
+    "images": [
+      {
+        "alt": "An older woman and an adult woman talking together at a kitchen table.",
+        "src": "https://files.leadconnectorhq.com/file/6af3305fddcd97ce5aa8a0c8/hearcare-kitchen-conversation.webp",
+        "width": 554,
+        "height": 659,
+        "loaded": true
+      },
+      {
+        "alt": "Kenneth M. Sheppard, Jr. and Jill A. Sheppard, owners of HearCare, Inc. and Associates",
+        "src": "https://files.leadconnectorhq.com/file/6af3642f512d2edab67fe078/hearcare-associates-kenneth-jill-sheppard.jpg",
+        "width": 411,
+        "height": 411,
+        "loaded": false
+      },
+      {
+        "alt": "Widex SmartRIC hearing aid — one example of the available styles",
+        "src": "https://hearcareinc.com/wp-content/uploads/2026/08/widexsmartric.jpg",
+        "width": 202,
+        "height": 220,
+        "loaded": false
+      }
+    ],
+    "counts": {
+      "calls": 10,
+      "texts": 7,
+      "appointments": 5
+    },
+    "mobileNav": "block",
+    "copyright": "© 2026 HearCare, Inc. and Associates. All rights reserved.",
+    "dialog": {
+      "open": true,
+      "rect": {
+        "height": 812,
+        "width": 640
+      },
+      "iframeHeight": 647
+    }
+  }
+]
