@@ -354,3 +354,8 @@ User approved the refined split-hero recommendation with “okay make the change
 
 
 User requested additional breathing space after the latest desktop screenshot. Increase only hero spacing: section padding, service-label-to-headline gap, benefit/body gaps, CTA spacing, trust divider spacing, credential separation and location-line spacing, with moderated mobile increases. Preserve font sizes, all wording, images, headline wrapping rules, button colors and other sections. Awaiting rendered review.
+
+
+## User-authorized visible owner qualifications
+
+User requested removing View qualifications dropdowns and filling the empty profile area so both providers can be understood immediately. Replace the two owner disclosures with permanently visible full source-backed backgrounds and individual Owner / Licensed Fitter and Dispenser of Hearing Instruments role lines. Do not call them audiologists or doctors; their documented credentials establish licensed hearing-instrument specialists. Remove the redundant shared license line and its empty mobile grid slot. Use two bordered profiles beside the authentic portrait on desktop; stack on mobile with the previously requested centering. Preserve all original biography facts, owner names, image, values and the entire Google-review group. Other sections and integrations unchanged. Awaiting rendered review of this revision.

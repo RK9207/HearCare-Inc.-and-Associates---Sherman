@@ -45,3 +45,11 @@ User-requested mobile centering: center the owner heading/introduction, shared l
 ## Final approval
 
 User explicitly approved this group after the mobile centering correction. Implementation ce97231 is APPROVED / LOCKED, superseding all earlier pending-review notes. Current group includes the user-hosted portrait, centered mobile owners and three-review proof area. No material edits or repositioning without specific permission. Next proposed existing section is the process, awaiting its desktop/mobile screenshots before individual assessment.
+
+
+## User-authorized visible owner qualifications
+
+User requested removing View qualifications dropdowns and filling the empty profile area so both providers can be understood immediately. Replace the two owner disclosures with permanently visible full source-backed backgrounds and individual Owner / Licensed Fitter and Dispenser of Hearing Instruments role lines. Do not call them audiologists or doctors; their documented credentials establish licensed hearing-instrument specialists. Remove the redundant shared license line and its empty mobile grid slot. Use two bordered profiles beside the authentic portrait on desktop; stack on mobile with the previously requested centering. Preserve all original biography facts, owner names, image, values and the entire Google-review group. Other sections and integrations unchanged. Awaiting rendered review of this revision.
+
+
+Visible-profile checks passed at seven widths (320–1920px): two profiles, no qualification details/summary elements, 18px biography paragraphs, no section overflow. Desktop composition inspected; authentic image URL preserved, but local photo retrieval remains blocked and its fallback appears in local captures. Google-review markup and all later sections remain byte-identical. Existing mobile centering is preserved.

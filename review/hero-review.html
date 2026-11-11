@@ -467,6 +467,18 @@ a:hover{ color:var(--hc-navy); }
  .hc-practice .hc-owner-license{ line-height:1.55; }
 }
 
+/* Visible owner profiles: qualifications available without expansion. */
+.hc-practice .hc-creds{ margin-top:0; gap:22px; }
+.hc-practice .hc-cred{ padding:22px; border:1px solid #b8cfdd; border-top:3px solid var(--hc-sky); border-radius:14px; background:var(--hc-white); }
+.hc-practice .hc-cred p{ margin-top:14px; font-size:1.125rem; line-height:1.6; color:var(--hc-muted); }
+.hc-practice .hc-cred .hc-owner-role{ margin-top:10px; color:var(--hc-blue); font-size:1rem; line-height:1.5; font-weight:600; }
+.hc-practice .hc-values{ margin-top:22px; }
+@media(max-width:639px){
+ .hc-practice .hc-owners{ grid-template-areas:"portrait" "credentials" "values"; gap:22px; }
+ .hc-practice .hc-creds{ gap:18px; }
+ .hc-practice .hc-cred,.hc-practice .hc-cred + .hc-cred{ padding:22px 18px; border:1px solid #b8cfdd; border-top:3px solid var(--hc-sky); }
+}
+
 /* ---------- Process: two-phase editorial layout ---------- */
 .hc-process{ padding:64px 0; background:var(--hc-white); }
 .hc-process__intro{ max-width:940px; margin-bottom:34px; }
@@ -993,21 +1005,16 @@ a:hover{ color:var(--hc-navy); }
         <figcaption>Kenneth M. Sheppard, Jr. and Jill A. Sheppard</figcaption>
       </figure>
       <div class="hc-owner-content">
-        <p class="hc-owner-license">Kenneth and Jill are both <strong>Licensed Fitters and Dispensers of Hearing Instruments.</strong></p>
         <div class="hc-creds">
           <div class="hc-cred">
             <h3>Kenneth M. Sheppard, Jr.</h3>
-            <details class="hc-owner-quals">
-              <summary>View qualifications<svg class="hc-icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
-              <p>Licensed in Texas by the State Committee of Examiners in the Fitting and Dispensing of Hearing Instruments. He has completed International Hearing Society courses in Hearing Instrument Science and Fitting Practices.</p>
-            </details>
+            <p class="hc-owner-role">Owner · Licensed Fitter and Dispenser of Hearing Instruments</p>
+            <p>Licensed in Texas by the State Committee of Examiners in the Fitting and Dispensing of Hearing Instruments. He has completed International Hearing Society courses in Hearing Instrument Science and Fitting Practices.</p>
           </div>
           <div class="hc-cred">
             <h3>Jill A. Sheppard, B.S.</h3>
-            <details class="hc-owner-quals">
-              <summary>View qualifications<svg class="hc-icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
-              <p>Bachelor of Science in Speech-Language Pathology and Audiology from the University of Texas at Dallas, and licensed by the State of Texas to fit and dispense hearing instruments.</p>
-            </details>
+            <p class="hc-owner-role">Owner · Licensed Fitter and Dispenser of Hearing Instruments</p>
+            <p>Bachelor of Science in Speech-Language Pathology and Audiology from the University of Texas at Dallas, and licensed by the State of Texas to fit and dispense hearing instruments.</p>
           </div>
         </div>
         <p class="hc-values">The values the practice works by: <strong>expertise, integrity, good humor and compassion.</strong></p>

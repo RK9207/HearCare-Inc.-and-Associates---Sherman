@@ -18,7 +18,7 @@ This summary records the latest user instructions. Historical strategy/source no
 | Header | Six valid section links; latest navigation implementation needs final rendered sign-off |
 | Hero | User authorized a refined split presentation after approval; headline wording/size/white color and image preserved; latest layout awaiting rendered sign-off |
 | Listening difficulties | Explicitly approved |
-| Owners and Google proof | Explicitly approved; three verbatim reviews, 4.8 / 90+ user-approved display, evidence is historical screenshots |
+| Owners and Google proof | User-authorized visible owner profiles awaiting review; Google reviews remain unchanged and approved, with three verbatim reviews and historical 4.8 / 90+ evidence |
 | Process | Implemented; no distinct final rendered approval recorded |
 | Hearing-aid options | Explicitly approved before subsequent authorized audit wording updates |
 | Payment | Explicitly approved |
