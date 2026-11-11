@@ -433,3 +433,6 @@ User approved adding middle-ear implants and extended-wear devices after availab
 
 
 User requested relocating middle-ear implants and extended-wear devices into the existing Compare hearing aid styles disclosure. Move both qualified descriptions into its definition list and remove the separate Other options to ask about group and unused CSS from Services. Expand summary description to include other hearing options. Preserve all six entries, specialist/availability caveats and the four core services.
+
+
+User refinement: remove the black border from the sticky mobile Call link only. Keep 2px black borders on all other blue Call CTAs and preserve sticky sizing/padding.
