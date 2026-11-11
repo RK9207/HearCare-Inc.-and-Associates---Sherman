@@ -388,3 +388,6 @@ User requested reduced vertical padding on mobile Explore this page and sticky C
 
 
 User requested subtitles for the owner portrait. Show a clear caption on desktop and mobile identifying Kenneth (left) and Jill (right), full names, Jill’s B.S., and their verified roles as owners / Licensed Fitters and Dispensers of Hearing Instruments. Remove the former mobile caption hiding. Do not label them audiologists or doctors; preserve all biographies and portrait source. Awaiting rendered review.
+
+
+Owner photo caption refinement: replace left/right labels with an ampersand between the full names. Keep the licensed-role subtitle visible on desktop and mobile.
