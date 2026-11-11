@@ -394,3 +394,6 @@ Owner photo caption refinement: replace left/right labels with an ampersand betw
 
 
 User requested removal of forced headline/prompt breaks. Remove process CTA prompt’s 350px width cap and allow the contact row to wrap as a group when text/buttons need space. Hero heading spans flow inline with normal wrapping; remove nonbreaking location phrasing in hero and location heading. Retain semantic address/hours line breaks, wording, font sizes, contacts and integrations. Awaiting rendered review.
+
+
+User requested darker text on colored backgrounds. Use ink #2c2c2c for supporting copy within pale-blue sections/panels (listening difficulties, Google proof, test disclosure, manufacturers/style guide, payment/location and map status). Scope the muted token to these containers so navy surfaces retain readable light text. No layout, wording, links or integration changes.
