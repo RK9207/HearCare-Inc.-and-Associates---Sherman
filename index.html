@@ -415,7 +415,8 @@ a:hover{ color:var(--hc-navy); }
 .hc-practice__intro > p{ margin-top:16px; font-size:1.125rem; line-height:1.6; color:var(--hc-muted); }
 .hc-practice .hc-owners{ display:grid; grid-template-columns:minmax(0,300px) minmax(0,1fr); gap:48px; align-items:start; }
 .hc-practice .hc-portrait img{ width:100%; aspect-ratio:1 / 1; object-fit:contain; border-radius:18px; }
-.hc-practice .hc-portrait figcaption{ margin-top:10px; font-size:1rem; line-height:1.5; color:var(--hc-muted); }
+.hc-practice .hc-portrait figcaption{ display:block; margin-top:14px; font-size:.9375rem; line-height:1.5; color:var(--hc-muted); text-align:center; }
+.hc-practice .hc-portrait figcaption strong{ display:block; margin-bottom:6px; font-size:1rem; font-weight:600; color:var(--hc-navy); }
 .hc-owner-license{ padding:0 0 22px; border-bottom:1px solid var(--hc-border); font-size:1.125rem; line-height:1.6; }
 .hc-owner-license strong{ color:var(--hc-navy); font-weight:600; }
 .hc-practice .hc-creds{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:28px; margin-top:24px; }
@@ -466,7 +467,6 @@ a:hover{ color:var(--hc-navy); }
  .hc-practice .hc-owner-license,.hc-practice .hc-creds,.hc-practice .hc-values{ text-align:center; }
  .hc-practice .hc-portrait{ grid-area:portrait; width:100%; max-width:220px; justify-self:center; }
  .hc-practice .hc-portrait img{ border-radius:18px; box-shadow:0 8px 24px rgba(0,74,105,.1); }
- .hc-practice .hc-portrait figcaption{ display:none; }
  .hc-practice .hc-owner-license{ grid-area:license; border:0; padding:0 0 18px; border-bottom:1px solid var(--hc-border); font-size:1.125rem; line-height:1.55; }
  .hc-practice .hc-creds{ grid-area:credentials; margin-top:0; gap:14px; }
  .hc-practice .hc-cred h3{ font-size:1.25rem; }
@@ -1051,7 +1051,7 @@ a:hover{ color:var(--hc-navy); }
         <div class="hc-ph hc-ph--portrait" role="img" aria-label="Owner portrait temporarily unavailable" hidden>
           <div class="hc-ph__inner"><span>Owner portrait temporarily unavailable.</span></div>
         </div>
-        <figcaption>Kenneth M. Sheppard, Jr. and Jill A. Sheppard</figcaption>
+        <figcaption><strong>Kenneth M. Sheppard, Jr. (left)<br>Jill A. Sheppard, B.S. (right)</strong>Owners · Licensed Fitters and Dispensers of Hearing Instruments</figcaption>
       </figure>
       <div class="hc-owner-content">
         <div class="hc-creds">

@@ -385,3 +385,6 @@ User requested a more visible “Which tests might be included?” disclosure. A
 
 
 User requested reduced vertical padding on mobile Explore this page and sticky Call. Below 640px: summary uses 4px vertical padding with a 44px minimum tap target; dropdown panel uses 8px top/bottom padding. Sticky Call uses 2px top/bottom padding and a 44px tap target (48px total plus safe-area inset); body bottom clearance matches. Preserve tablet/desktop styles, safe-area support, contact links and measured header offsets.
+
+
+User requested subtitles for the owner portrait. Show a clear caption on desktop and mobile identifying Kenneth (left) and Jill (right), full names, Jill’s B.S., and their verified roles as owners / Licensed Fitters and Dispensers of Hearing Instruments. Remove the former mobile caption hiding. Do not label them audiologists or doctors; preserve all biographies and portrait source. Awaiting rendered review.
