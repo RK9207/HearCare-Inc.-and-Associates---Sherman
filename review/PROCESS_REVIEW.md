@@ -27,3 +27,6 @@ Local rendering used cached production font families. Remote owner photo and log
 ## Visual refinement requested after GHL screenshot
 
 Stronger navy/pale-blue phase headers, white equal-height panels, subtle shadows, outlined step numbers and internal dividers improve hierarchy. A short sky accent introduces the heading; the medical caveat gains a quiet left rule. The light contact panel aligns all three desktop actions in one row and stacks buttons on mobile. No wording, markup, heading sizes or integration changed. Exact source comparison verified only process-specific CSS changed in the page. Repeated seven-width overflow and keyboard interaction checks passed. Updated screenshots show the revision. Awaiting user review; not locked.
+
+
+User requested a more visible “Which tests might be included?” disclosure. Add a pale-blue surface, stronger 2px blue border, larger title, explicit expansion hint and white chevron inside a navy circle. Preserve the native details behavior, original question and all existing test descriptions/qualifications. Style only this process disclosure; retain all other sections and integrations. Awaiting rendered review.

@@ -379,3 +379,6 @@ User refinement: reduce SmartRIC image-frame padding from 8px to 2px on all scre
 
 
 User requested more mobile headline line spacing. Increase hero H1 line-height from 1.13 to 1.25 below 640px; preserve wording, font size and desktop typography.
+
+
+User requested a more visible “Which tests might be included?” disclosure. Add a pale-blue surface, stronger 2px blue border, larger title, explicit expansion hint and white chevron inside a navy circle. Preserve the native details behavior, original question and all existing test descriptions/qualifications. Style only this process disclosure; retain all other sections and integrations. Awaiting rendered review.

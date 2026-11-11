@@ -515,7 +515,17 @@ a:hover{ color:var(--hc-navy); }
 .hc-process__steps p{ grid-column:1 / -1; margin:0; font-size:1.125rem; line-height:1.6; color:var(--hc-muted); }
 .hc-process__details{ margin-top:30px; display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:28px; align-items:start; }
 .hc-process__details > p{ padding-left:18px; border-left:3px solid var(--hc-sky); color:var(--hc-muted); font-size:1.125rem; line-height:1.6; }
-.hc-process .hc-more summary{ font-size:1.125rem; }
+.hc-process .hc-more{ border:2px solid #76aac7; border-radius:16px; background:var(--hc-surface); }
+.hc-process .hc-more summary{ padding:22px 24px; gap:20px; font-size:1.125rem; border-radius:14px; }
+.hc-tests__prompt{ display:flex; flex-direction:column; gap:6px; }
+.hc-tests__title{ font-family:var(--hc-head); font-size:1.1875rem; font-weight:600; line-height:1.4; }
+.hc-tests__hint{ font-size:1rem; font-weight:400; line-height:1.5; color:var(--hc-muted); }
+.hc-process .hc-more summary > .hc-icon{ flex:none; width:40px; height:40px; padding:10px; border-radius:50%; background:var(--hc-navy); color:var(--hc-white); }
+.hc-process .hc-more summary:hover{ background:#e4f1fa; }
+.hc-process .hc-more summary:focus-visible{ outline:3px solid var(--hc-navy); outline-offset:4px; }
+.hc-process .hc-more[open] summary{ border-radius:14px 14px 0 0; border-bottom:1px solid #b8cfdd; }
+.hc-process .hc-more[open] .hc-more__body{ padding-top:20px; background:var(--hc-white); border-radius:0 0 14px 14px; }
+@media(max-width:639px){ .hc-process .hc-more summary{ padding:20px 18px; gap:14px; } }
 .hc-process .hc-more__body,.hc-process .hc-more__body > p{ font-size:1.125rem; line-height:1.6; }
 .hc-process__contact{ display:grid; grid-template-columns:minmax(0,1fr) auto; gap:20px 28px; align-items:center; margin-top:32px; padding:28px; border:1px solid var(--hc-border); border-radius:20px; background:var(--hc-surface); color:var(--hc-navy); }
 .hc-process__contact > p{ max-width:350px; font-family:var(--hc-head); font-size:1.25rem; line-height:1.4; font-weight:600; }
@@ -1145,7 +1155,7 @@ a:hover{ color:var(--hc-navy); }
     <div class="hc-process__details">
       <p>Some causes of hearing loss, such as a blockage or middle-ear fluid, may need medical treatment rather than hearing aids. Your results help guide the next step.</p>
       <details class="hc-more">
-        <summary>Which tests might be included?<svg class="hc-icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
+        <summary><span class="hc-tests__prompt"><span class="hc-tests__title">Which tests might be included?</span><span class="hc-tests__hint">Expand to see the tests and what each one checks.</span></span><svg class="hc-icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
         <div class="hc-more__body">
           <dl>
             <div><dt>Pure-tone audiometry</dt><dd>You hear beeps at different volumes and pitches through headphones, which identifies the quietest sounds you can hear across frequencies.</dd></div>
