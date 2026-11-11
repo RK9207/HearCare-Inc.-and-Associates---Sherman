@@ -331,3 +331,8 @@ After reviewing the real GHL screenshot, user approved removing the competing cl
 ## User-requested location rebuild for desktop and mobile
 
 Integrate the standalone clinic photograph with office details/map into one rounded panel. Move the unchanged Find us in Sherman, TX heading above the panel, add a brief visit-planning introduction, place full uncropped storefront plus sign caption/address/hours/Call/Text on the left and the large OAP map/dark Directions action on the right. Use dark body copy, balanced borders and full-width recognizable image. Desktop address/hours sit side by side; tablet combines image/details above the map; mobile stacks heading, full-width photo, office details, actions, 450px map and Directions. Compact map address card leaves more of the route visible; keep Open in Maps label. Preserve exact map DOM, ID, proxy/center/zoom/gestures/tracking initialization, destinations, hours, contact hooks and hero/other sections. Awaiting rendered review.
+
+
+## User editorial preference: natural punctuation
+
+Remove sentence em dashes and en dashes from published page copy and accessible text. Rewrite with commas, full stops or connecting words. Spell out visible time/day and lifespan ranges with “to.” Preserve the exact schedule and lifespan meaning, standard hyphenated terms, phone numbers, URLs, testimonials and integration code. Services, audiogram explanation, hearing-aid introduction, product alt text and range labels updated accordingly.
