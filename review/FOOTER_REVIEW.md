@@ -41,3 +41,6 @@ User-supplied transparent footer logo: https://files.leadconnectorhq.com/file/6a
 
 
 User requested restoring the darker footer background. Restore deep navy (#003a53) while retaining the supplied transparent footer logo, automatic copyright year, current layout and all links. This supersedes the earlier logo-background color match.
+
+
+User requested removing the footer logo. Remove only its linked image, retain the practice/service description, office details, utility links and automatic year, and reset the description’s top margin so no logo gap remains. The header logo and all other images remain unchanged.

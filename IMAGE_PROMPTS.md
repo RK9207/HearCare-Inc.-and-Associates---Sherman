@@ -229,3 +229,6 @@ User requested stronger design and content. Keep the approved headline and condi
 
 
 User-supplied transparent footer logo: https://files.leadconnectorhq.com/file/6af40cdbddcd97ce5ac404ec/logo-hearcare-transparent.png . Replace only the footer image src; preserve its alt text, homepage link, responsive dimensions, navy background and all other page logos. No generated or edited logo is used.
+
+
+User requested removing the footer logo. Remove only its linked image, retain the practice/service description, office details, utility links and automatic year, and reset the description’s top margin so no logo gap remains. The header logo and all other images remain unchanged.
