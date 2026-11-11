@@ -421,3 +421,6 @@ Follow supplied reference’s header structure while preserving HearCare navy br
 
 
 User refinement: center the desktop section-link group with a fixed 28px gap instead of distributing links across the entire second header row. Preserve two-row structure, mobile navigation and existing dimensions.
+
+
+User refinement: set the centered desktop navigation-link gap to 35px, superseding the previous 28px gap.
