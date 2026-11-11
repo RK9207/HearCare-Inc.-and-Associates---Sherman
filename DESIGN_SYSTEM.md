@@ -427,3 +427,6 @@ User refinement: set the centered desktop navigation-link gap to 35px, supersedi
 
 
 User requested balanced desktop logo/action widths. Increase the desktop logo column to 430px, approximately matching the combined Call + Request Appointment group; allow the logo to reach 72px high while preserving its natural proportions. Apply only at 1200px and above. Preserve the two-row layout, 35px nav gaps, all mobile/tablet rules and contact behavior.
+
+
+User approved adding middle-ear implants and extended-wear devices after availability caveats were explained. Add a clearly distinguished “Other options to ask about” group below the four core services. Middle-ear implants require specialist assessment; invite questions about options/next steps without implying HearCare performs implant surgery. Extended-wear wording asks about suitability and current Sherman availability. No confirmation of local provision has been supplied. Preserve original four services, other sections and contact integrations.
