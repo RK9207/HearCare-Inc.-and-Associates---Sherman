@@ -1310,7 +1310,7 @@ a:hover{ color:var(--hc-navy); }
         </ul>
       </nav>
     </div>
-    <p class="hc-footer__bottom">© 2026 HearCare, Inc. and Associates. All rights reserved.</p>
+    <p class="hc-footer__bottom">© <span data-copyright-year>2026</span> HearCare, Inc. and Associates. All rights reserved.</p>
   </div>
 </footer>
 
@@ -1400,6 +1400,16 @@ a:hover{ color:var(--hc-navy); }
   } else {
     initShermanMap();
   }
+})();
+</script>
+
+<!-- Update the visible footer year; keep a readable fallback without JavaScript. -->
+<script>
+(function () {
+  var year = String(new Date().getFullYear());
+  document.querySelectorAll('[data-copyright-year]').forEach(function (element) {
+    element.textContent = year;
+  });
 })();
 </script>
 

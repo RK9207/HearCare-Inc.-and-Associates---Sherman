@@ -322,3 +322,8 @@ User: “I approve this section, lets move to next.” Final invitation in af13f
 ## Approved footer rebuild — Layout A and current year
 
 User approved Layout A and explicitly requested replacing the year token with the current year. Render copyright as “© 2026 HearCare, Inc. and Associates. All rights reserved.” without unresolved GHL tokens or additional year JavaScript. Use a compact darker-navy footer: practice identity, Sherman details and useful links in three desktop columns; stacked identity/office and wrapping utility links on mobile. Remove the white logo frame while preserving the original source and image proportions. Retain exact address, hours, Call/Text hooks and website/privacy destinations. Use comfortable footer type/targets, a restrained bottom divider, and no extra promotional CTA. The approved final invitation and all other sections/integrations are unchanged. Implemented for rendered review, NOT LOCKED.
+
+
+## Automatic copyright year
+
+User clarified that the footer year should change automatically. Wrap the 2026 fallback in a dedicated data-copyright-year span and update its text with the browser’s current calendar year on page load. This supersedes the previous static-year instruction. No GHL merge token is required, and no other wording, styling or integration changes.

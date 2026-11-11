@@ -27,3 +27,8 @@ Visible copyright is now “© 2026 HearCare, Inc. and Associates. All rights re
 - [Mobile transition](footer-transition-mobile.png)
 
 Awaiting rendered approval in GHL. No deployment or merge to main performed.
+
+
+## Automatic copyright year
+
+User clarified that the footer year should change automatically. Wrap the 2026 fallback in a dedicated data-copyright-year span and update its text with the browser’s current calendar year on page load. This supersedes the previous static-year instruction. No GHL merge token is required, and no other wording, styling or integration changes.
