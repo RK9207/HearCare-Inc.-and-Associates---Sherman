@@ -96,3 +96,7 @@ User requested white hero icons. Set hero .hc-icon color to white, including pho
 Keep the appointment button dark navy on hover/focus with white text so the newly white calendar icon remains visible. This supersedes its prior white hover fill only.
 
 User requested reverting only the hero Call CTA phone icon to black (#000); other functional hero icons remain white. No other styles or content changed.
+
+## Authentic storefront background requested by user
+
+Use supplied clinic-image.webp (visible attachment 680×411) as full desktop hero background with top alignment and a strong navy gradient behind copy. Replace the separate lifestyle scene; keep all headline, actions, proof and facts. Below 1024px show the uncropped storefront below copy on solid navy. Nine-width structural checks (320–1920px) passed: correct hosted URL, background bounds matching the desktop hero, expected mobile image ratio, no overflow, and working appointment dialog. Exact source comparison confirms other sections/scripts unchanged. Actual hosted-photo rendering remains blocked locally; image composition was assessed from the user’s attached image. Review crop/overlay in GHL before final approval.

@@ -245,3 +245,8 @@ User approved the refined split-hero recommendation with “okay make the change
 ## User-requested product image and frame update
 
 Replace the previous clinic-hosted SmartRIC URL with the user-supplied https://files.leadconnectorhq.com/file/6af44925fbdd54a827b67c4f/widexsmartric.jpg. Keep the device uncropped and avoid enlarging beyond the prior native dimensions. Replace the tall white image-and-caption card with a separate rounded image stage, balanced padding and a restrained shadow; move the caption onto the navy background with a white product name and lighter supporting line. Preserve all other options copy, layout, providers, links and sections. Awaiting rendered review.
+
+
+## User-supplied clinic hero image
+
+User supplied https://files.leadconnectorhq.com/file/6af46ff41ca1c60e4d785638/clinic-image.webp and attached the visible 680×411 storefront photo. Replace the illustrative kitchen scene with this authentic image. Desktop: full hero background aligned to the top to preserve signage, with a strong left-to-right navy overlay and constrained readable copy/actions. Mobile/tablet: keep copy on solid navy and show the full uncropped storefront below it so the sign and entrance are not lost to a narrow background crop. Preserve headline, mobile line-height, icons, proof, all CTAs/URLs and other sections. No image retouching. Host retrieval remains blocked locally; the attached photo establishes composition, while actual hosted rendering needs GHL review. Awaiting rendered review.

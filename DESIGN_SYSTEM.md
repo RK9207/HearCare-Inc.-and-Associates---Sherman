@@ -439,3 +439,8 @@ User refinement: remove the black border from the sticky mobile Call link only. 
 
 
 User-selected hero H1: “Personalized Hearing Care & Hearing Tests in Sherman, TX”. Preserve current white typography, font sizes, mobile 1.25 line-height and natural wrapping; no forced spans or line breaks. Other hero copy and imagery unchanged.
+
+
+## User-supplied clinic hero image
+
+User supplied https://files.leadconnectorhq.com/file/6af46ff41ca1c60e4d785638/clinic-image.webp and attached the visible 680×411 storefront photo. Replace the illustrative kitchen scene with this authentic image. Desktop: full hero background aligned to the top to preserve signage, with a strong left-to-right navy overlay and constrained readable copy/actions. Mobile/tablet: keep copy on solid navy and show the full uncropped storefront below it so the sign and entrance are not lost to a narrow background crop. Preserve headline, mobile line-height, icons, proof, all CTAs/URLs and other sections. No image retouching. Host retrieval remains blocked locally; the attached photo establishes composition, while actual hosted rendering needs GHL review. Awaiting rendered review.
