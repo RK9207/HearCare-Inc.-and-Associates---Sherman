@@ -307,3 +307,8 @@ Increase the desktop map minimum height to 520px, tablet minimum to 460px, and m
 ## Sherman location final approval
 
 User: “looks good, lets move to the next section, I approve this section.” Location implementation as of 7d363a12eb3b9c2177a639ade734d3195287b46c is APPROVED / LOCKED, including the bordered details/map panel, supplied OAP/MapLibre integration, enlarged responsive map, Open in Maps card link and dark-blue Get Directions button. Preserve without further user authorization. Next proposed section: existing final contact invitation, to connect the completed visit-planning information to Call, Text and Request Appointment. Request current desktop/mobile screenshots showing the complete invitation and actions, and wait before individual review or editing. No HTML/CSS changes accompany this approval record.
+
+
+## Approved final invitation rebuild — Layout A, headline 1
+
+User approved Layout A + Headline 1 after desktop/mobile screenshot review. Retain “Take the first step toward clearer conversations.” Supporting copy: “Start with a hearing test and a clear explanation of your results. Contact our Sherman team to ask a question or request an appointment.” Use a compact centered navy closing band, equal rounded Call/Request Appointment buttons, distinct Text action beneath, and a subtle separator above the existing footer. Desktop padding 56px, mobile 44px; main prose 18px; full-width stacked buttons on mobile. Preserve all contact destinations/hooks and the shared appointment dialog. No new image, unsupported availability/purchase promise or repeated review badge is needed. Locked location/FAQ/payment/options and all other sections remain unchanged. Implemented for rendered review, NOT LOCKED.

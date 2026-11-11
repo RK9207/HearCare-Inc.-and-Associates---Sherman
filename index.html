@@ -701,12 +701,22 @@ a:hover{ color:var(--hc-navy); }
  .hc-map-card p,.hc-map-card a{ font-size:14px; }
 }
 
-/* ---------- Final CTA ---------- */
-.hc-final{ background:var(--hc-navy); color:var(--hc-white); text-align:center; }
+/* ---------- Final CTA: compact centered invitation ---------- */
+.hc-final{ padding:56px 0; background:var(--hc-navy); color:var(--hc-white); text-align:center; border-bottom:1px solid #2b6b86; }
 .hc-final h2{ color:var(--hc-white); max-width:760px; margin:0 auto; }
-.hc-final p{ max-width:620px; margin:18px auto 0; color:#dbeaf4; }
-.hc-final .hc-cta{ justify-content:center; margin-top:32px; }
-.hc-final .hc-cta__text{ display:flex; justify-content:center; }
+.hc-final p{ max-width:660px; margin:18px auto 0; color:#dbeaf4; font-size:1.125rem; line-height:1.6; }
+.hc-final .hc-cta{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); max-width:540px; margin:26px auto 0; gap:14px 16px; }
+.hc-final .hc-btn{ width:100%; min-height:54px; padding:12px 18px; border-radius:999px; gap:8px; white-space:normal; text-align:center; }
+.hc-final .hc-btn > span{ display:block; line-height:1.25; }
+.hc-final .hc-cta__text{ grid-column:1 / -1; display:flex; justify-content:center; margin-top:4px; }
+.hc-final .hc-textlink{ min-height:44px; justify-content:center; }
+@media(max-width:639px){
+ .hc-final{ padding:44px 0; }
+ .hc-final p{ margin-top:16px; }
+ .hc-final .hc-cta{ grid-template-columns:minmax(0,1fr); max-width:440px; margin-top:24px; gap:12px; }
+ .hc-final .hc-cta__text{ margin-top:0; }
+ .hc-final .hc-textlink{ font-size:1.0625rem; }
+}
 
 /* ---------- Footer ---------- */
 .hc-footer{ background:var(--hc-navy-deep); color:#dbeaf4; padding:56px 0 calc(28px + env(safe-area-inset-bottom)); font-size:1rem; }
@@ -1242,7 +1252,7 @@ a:hover{ color:var(--hc-navy); }
 <section class="hc-section hc-final hc-dark" aria-labelledby="final-title">
   <div class="hc-wrap">
     <h2 id="final-title">Take the first step toward clearer conversations</h2>
-    <p>Call or text our Sherman office, or request an appointment online. We’ll help you understand your hearing and what comes next.</p>
+    <p>Start with a hearing test and a clear explanation of your results. Contact our Sherman team to ask a question or request an appointment.</p>
     <div class="hc-cta">
       <a class="hc-btn hc-btn--call" href="tel:+19032062442" data-contact-tel>
         <svg class="hc-icon" aria-hidden="true"><use href="#i-phone"/></svg>
@@ -1250,7 +1260,7 @@ a:hover{ color:var(--hc-navy); }
       </a>
       <a class="hc-btn hc-btn--appt" href="https://api.onspirepulse.com/widget/form/8wW1RhQrj7egDZ93IJlJ" data-open-appointment>
         <svg class="hc-icon" aria-hidden="true"><use href="#i-calendar"/></svg>
-        Request Appointment
+        <span>Request Appointment</span>
       </a>
       <div class="hc-cta__text">
         <a class="hc-textlink" href="sms:+19032062442" data-contact-sms>
