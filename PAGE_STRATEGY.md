@@ -364,3 +364,8 @@ User requested an “Explore this page” dropdown matching the reference. Add n
 ## User-requested product image and frame update
 
 Replace the previous clinic-hosted SmartRIC URL with the user-supplied https://files.leadconnectorhq.com/file/6af44925fbdd54a827b67c4f/widexsmartric.jpg. Keep the device uncropped and avoid enlarging beyond the prior native dimensions. Replace the tall white image-and-caption card with a separate rounded image stage, balanced padding and a restrained shadow; move the caption onto the navy background with a white product name and lighter supporting line. Preserve all other options copy, layout, providers, links and sections. Awaiting rendered review.
+
+
+## User-requested process visual redesign
+
+Refine only the visit/process section following the supplied screenshot: replace heavy header bars with inset phase headings and small Start here / If you choose to proceed labels; use white and pale-blue phase surfaces, connected filled step markers, aligned descriptions, softer borders and restrained depth. Retain all original four-step copy, clinical caveat and prominent tests disclosure. Give the contact strip a navy gradient with light prompt, white appointment outline and existing sky Call action; preserve natural wrapping and all contact/form links. Mobile stacks the same content with comfortable spacing and dark body text on pale surfaces. Awaiting rendered review.

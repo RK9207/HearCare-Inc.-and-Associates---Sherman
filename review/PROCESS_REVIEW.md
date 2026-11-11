@@ -33,3 +33,10 @@ User requested a more visible “Which tests might be included?” disclosure. A
 
 
 User requested removal of forced headline/prompt breaks. Remove process CTA prompt’s 350px width cap and allow the contact row to wrap as a group when text/buttons need space. Hero heading spans flow inline with normal wrapping; remove nonbreaking location phrasing in hero and location heading. Retain semantic address/hours line breaks, wording, font sizes, contacts and integrations. Awaiting rendered review.
+
+
+## User-requested process visual redesign
+
+Refine only the visit/process section following the supplied screenshot: replace heavy header bars with inset phase headings and small Start here / If you choose to proceed labels; use white and pale-blue phase surfaces, connected filled step markers, aligned descriptions, softer borders and restrained depth. Retain all original four-step copy, clinical caveat and prominent tests disclosure. Give the contact strip a navy gradient with light prompt, white appointment outline and existing sky Call action; preserve natural wrapping and all contact/form links. Mobile stacks the same content with comfortable spacing and dark body text on pale surfaces. Awaiting rendered review.
+
+Validation: nine-width browser checks (320–1920px) passed with no page overflow, all four steps present, dark text on pale-blue surfaces and light CTA text. Native test disclosure pointer/keyboard controls and appointment-dialog Escape/focus restoration passed. Exact comparison confirms original copy, contact URLs and scripts/integrations preserved; only process CSS plus two phase labels changed. No real calls, texts or form submissions.

@@ -400,3 +400,8 @@ User requested darker text on colored backgrounds. Use ink #2c2c2c for supportin
 
 
 User requested a slight increase to sticky bottom Call padding: raise vertical padding from 2px to 4px, retain 44px link height and safe-area inset, and match body bottom clearance to the resulting 52px bar. Explore menu spacing unchanged.
+
+
+## User-requested process visual redesign
+
+Refine only the visit/process section following the supplied screenshot: replace heavy header bars with inset phase headings and small Start here / If you choose to proceed labels; use white and pale-blue phase surfaces, connected filled step markers, aligned descriptions, softer borders and restrained depth. Retain all original four-step copy, clinical caveat and prominent tests disclosure. Give the contact strip a navy gradient with light prompt, white appointment outline and existing sky Call action; preserve natural wrapping and all contact/form links. Mobile stacks the same content with comfortable spacing and dark body text on pale surfaces. Awaiting rendered review.

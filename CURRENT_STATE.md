@@ -19,7 +19,7 @@ This summary records the latest user instructions. Historical strategy/source no
 | Hero | User authorized a refined split presentation after approval; headline wording/size/white color and image preserved; latest layout awaiting rendered sign-off |
 | Listening difficulties | Explicitly approved |
 | Owners and Google proof | User-authorized visible owner profiles awaiting review; Google reviews remain unchanged and approved, with three verbatim reviews and historical 4.8 / 90+ evidence |
-| Process | Implemented; no distinct final rendered approval recorded |
+| Process | User requested a more polished design; connected steps, inset phase headings and navy contact strip implemented; awaiting rendered approval |
 | Hearing-aid options | Explicitly approved before subsequent authorized audit wording updates |
 | Payment | Explicitly approved |
 | FAQ | Explicitly approved before subsequent authorized audit wording updates; eight topics and desktop sticky intro |
