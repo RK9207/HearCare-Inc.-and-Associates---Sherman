@@ -330,3 +330,6 @@ User clarified that the footer year should change automatically. Wrap the 2026 f
 
 
 User-requested logo-background match: change only the footer background from deep navy to brand navy (#004a69), matching the logo background visible in the supplied GHL screenshot. Preserve the existing final-invitation separator, footer layout, text, links and automatic year.
+
+
+User requested restoring the darker footer background. Restore deep navy (#003a53) while retaining the supplied transparent footer logo, automatic copyright year, current layout and all links. This supersedes the earlier logo-background color match.

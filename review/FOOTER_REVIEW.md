@@ -38,3 +38,6 @@ User-requested logo-background match: change only the footer background from dee
 
 
 User-supplied transparent footer logo: https://files.leadconnectorhq.com/file/6af40cdbddcd97ce5ac404ec/logo-hearcare-transparent.png . Replace only the footer image src; preserve its alt text, homepage link, responsive dimensions, navy background and all other page logos. No generated or edited logo is used.
+
+
+User requested restoring the darker footer background. Restore deep navy (#003a53) while retaining the supplied transparent footer logo, automatic copyright year, current layout and all links. This supersedes the earlier logo-background color match.
