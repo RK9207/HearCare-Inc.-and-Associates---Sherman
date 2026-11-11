@@ -1,3 +1,5 @@
+> Current implementation and approval summary: [CURRENT_STATE.md](CURRENT_STATE.md). Earlier proposals and chronological notes below remain historical; later explicit user decisions take precedence.
+
 # Content direction — HearCare, Sherman
 
 Approved strategy: November 10, 2026. Companion to PAGE_STRATEGY.md and DESIGN_SYSTEM.md. This is writing guidance, not finished page copy.
@@ -285,3 +287,8 @@ User clarified that the footer year should change automatically. Wrap the 2026 f
 ## User-requested section navigation update
 
 Replace generic Care/Our Practice labels and provide six meaningful header anchors in page order: Our Team → #practice; Your Visit → #care; Hearing Aids → #options; Payment → #payment; FAQs → #faq; Location → #location. Reuse existing section IDs and shared smooth-scroll/header offset, without modifying locked section content. Adjust only desktop header column allocation and nav gaps to fit the expanded link list. Preserve existing responsive collapse thresholds, logo source/home destination, contact values/hooks and appointment integration. No new page sections or unrelated links are added. Awaiting rendered review.
+
+
+## Authorized audit improvements
+
+User authorized feasible audit improvements. Tighten repeated process/options/FAQ text without changing the approved H1 or layouts, testimonial wording, provider facts, contact data or visual preferences. Correct BTE range, remove blanket RIC wireless and ITE battery claims, and describe tympanometry as middle-ear measurement. Clarify visible follow-up support. Sources: NIDCD hearing-aid guidance and ASHA assessment guidance cited in review/FULL_PAGE_AUDIT.md. Clinic should approve final clinical wording before publication.

@@ -1,3 +1,5 @@
+> Current implementation and approval summary: [CURRENT_STATE.md](CURRENT_STATE.md). Earlier proposals and chronological notes below remain historical; later explicit user decisions take precedence.
+
 # KEYWORD_RESEARCH.md — HearCare, Inc. and Associates (Sherman, TX)
 ## PPC KEYWORD & SEARCH INTENT RESEARCH
 **Landing page topic:** Hearing Aids and Hearing Test — Sherman, TX

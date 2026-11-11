@@ -1,3 +1,5 @@
+> Current implementation and approval summary: [CURRENT_STATE.md](CURRENT_STATE.md). Earlier proposals and chronological notes below remain historical; later explicit user decisions take precedence.
+
 # Design system — HearCare, Sherman
 
 Direction approved November 10, 2026: warm editorial healthcare; everyday connection first, authentic owners early, clear testing pathway. This specification implements the approved strategy; it is not a claim that these dimensions or components were extracted from the existing website. Read PAGE_STRATEGY.md and CONTENT_DIRECTION.md before implementation.
@@ -341,3 +343,6 @@ Replace generic Care/Our Practice labels and provide six meaningful header ancho
 
 
 User requested removing the footer logo. Remove only its linked image, retain the practice/service description, office details, utility links and automatic year, and reset the description’s top margin so no logo gap remains. The header logo and all other images remain unchanged.
+
+
+Authorized audit performance update: register existing contact/dialog handlers before third-party dependencies; defer the existing form embed loader; lazy-load unchanged OAP/MapLibre dependency URLs and stylesheet near the map with IntersectionObserver. Preserve marker/proxy/zoom/tracking, fallback directions and responsive map dimensions. Do not add speculative analytics events or an unrequested mobile menu.

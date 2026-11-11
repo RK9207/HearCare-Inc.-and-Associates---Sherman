@@ -1,3 +1,5 @@
+> Current implementation and approval summary: [CURRENT_STATE.md](CURRENT_STATE.md). Earlier proposals and chronological notes below remain historical; later explicit user decisions take precedence.
+
 # IMAGE_PROMPTS.md — HearCare, Inc. and Associates (Sherman, TX)
 
 **Step:** 4B, image prompt reference for Step 5
@@ -11,11 +13,12 @@
 
 The Step 4A draft began with three image slots. Step 5 has replaced IMG-HERO-01 with a generated lifestyle image; the provider image and product placeholder retain their existing state. This file covers only those three slots. No other section has a placeholder, and none should receive an image just to fill space. The design system keeps the difficulty, process, payment, FAQ, review, location and final sections image-free.
 
-| Placeholder | Section | Current state in `index.html` | Source preference |
-|---|---|---|---|
-| IMG-HERO-01 | Hero | **Implemented:** AI-generated kitchen-table scene; responsive local WebP assets; awaiting rendered approval | Generic lifestyle illustration, not practice evidence |
-| IMG-PROVIDER-01 | Owners: "Meet the people behind HearCare" | **Real owner portrait in use** (411×411, hot-linked from hearcareinc.com); placeholder appears only if it fails to load | Real provider/team image preferred |
-| IMG-PRODUCT-01 | Options: "Hearing aids fitted to your everyday life" | Designed placeholder (`.hc-ph--product`) | Either real or AI image could work |
+| Asset | Current implementation | Next improvement |
+|---|---|---|
+| Hero | Approved, user-hosted AI lifestyle illustration | Preserve; not practice evidence |
+| Owners | Authentic user-hosted joint portrait | Obtain higher-resolution original |
+| Product | Clinic-hosted Widex SmartRIC, 232×253, labelled example | Obtain authorized high-resolution real product/in-hand photo |
+| Footer logo | Removed at user request | None required |
 
 **If Step 5 changes a section's layout, crop or visual purpose, update that entry here rather than leaving it stale.**
 

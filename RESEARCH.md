@@ -735,3 +735,12 @@ Source-backed preparation guidance, paraphrased: note the situations in which he
 Current seven FAQ topics cover the principal existing questions. Testing steps, brands and payment methods already appear elsewhere on the page. Recommendation: propose preparation as an eighth FAQ; keep cost and duration pending clinic confirmation and avoid unrelated expansion. No page edit or section lock is authorized by this research request alone.
 
 Search also surfaced www-domain pages with older presentation and conflicting Friday-hours copy. These are not used to change verified location hours, staffing, offers or credentials in this audit. The current primary service pages and established source precedence remain authoritative for this project.
+
+## Clinical wording qualifications from authorized audit pass
+
+The user authorized feasible changes after the whole-page audit. Keep the historical client-site transcriptions above, but do not treat their broad style/device assertions as universal clinical facts.
+
+- **S20 — NIDCD hearing-aid guidance:** https://www.nidcd.nih.gov/health/hearing-aids . The audit's web search retrieved NIDCD guidance describing BTE use across mild-to-profound loss and ITE use for mild-to-severe loss. This supports correcting the overly narrow BTE description. Connectivity, controls and battery life should remain model-dependent; avoid implying every RIC has wireless features or every ITE has longer battery life.
+- **S21 — ASHA hearing assessment guidance:** https://www.asha.org/practice-portal/clinical-topics/hearing-loss and https://www.asha.org/Practice-Portal/Professional-Issues/Adult-Hearing-Screening/ . Distinguish middle-ear measurement by tympanometry from ear-canal inspection/otoscopy. The revised page describes tympanometry's response to pressure and possible middle-ear fluid without claiming it directly shows earwax.
+
+These references refine general educational descriptions; they do not establish new procedures offered by HearCare or a named provider's appointment role. Clinic review of final clinical copy remains part of launch QA. Fees, duration, specific insurance plans and trial terms remain unverified.

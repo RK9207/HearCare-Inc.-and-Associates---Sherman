@@ -1,3 +1,5 @@
+> Current implementation and approval summary: [CURRENT_STATE.md](CURRENT_STATE.md). Earlier proposals and chronological notes below remain historical; later explicit user decisions take precedence.
+
 # Page strategy — HearCare, Sherman
 
 Approved direction: November 10, 2026. Step 3 is the historical baseline. The user subsequently approved the Step 5 whole-page direction and the Hero rebuild described below. Hero implementation is ready for review, not visually approved or locked; publication is not authorized.
