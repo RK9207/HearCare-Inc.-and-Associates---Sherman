@@ -370,3 +370,6 @@ User requested an “Explore this page” dropdown matching the reference. Add n
 ## User-requested product image and frame update
 
 Replace the previous clinic-hosted SmartRIC URL with the user-supplied https://files.leadconnectorhq.com/file/6af44925fbdd54a827b67c4f/widexsmartric.jpg. Keep the device uncropped and avoid enlarging beyond the prior native dimensions. Replace the tall white image-and-caption card with a separate rounded image stage, balanced padding and a restrained shadow; move the caption onto the navy background with a white product name and lighter supporting line. Preserve all other options copy, layout, providers, links and sections. Awaiting rendered review.
+
+
+User requested less whitespace between the SmartRIC image and its frame. The frame now hugs the unchanged, uncropped image with 8px padding, automatic width, centered alignment and no minimum height at any breakpoint. Preserve the separate caption, image URL and all other content. Awaiting rendered review.
