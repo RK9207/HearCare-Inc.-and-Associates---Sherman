@@ -718,19 +718,31 @@ a:hover{ color:var(--hc-navy); }
  .hc-final .hc-textlink{ font-size:1.0625rem; }
 }
 
-/* ---------- Footer ---------- */
-.hc-footer{ background:var(--hc-navy-deep); color:#dbeaf4; padding:56px 0 calc(28px + env(safe-area-inset-bottom)); font-size:1rem; }
-.hc-footer__grid{ display:grid; grid-template-columns:1.2fr 1fr 1fr; gap:32px 48px; }
-.hc-footer__logo{ display:inline-flex; padding:12px 16px; background:var(--hc-white); border-radius:12px; }
-.hc-footer__logo img{ height:44px; width:auto; }
-.hc-footer h2{ font-size:1.0625rem; color:var(--hc-white); margin-bottom:12px; }
+/* ---------- Footer: compact practice details and utility links ---------- */
+.hc-footer{ background:var(--hc-navy-deep); color:#dbeaf4; padding:44px 0 calc(28px + env(safe-area-inset-bottom)); font-size:1rem; line-height:1.6; }
+.hc-footer__grid{ display:grid; grid-template-columns:minmax(0,1.25fr) minmax(0,1fr) minmax(0,.8fr); gap:28px 56px; align-items:start; }
+.hc-footer__logo{ display:inline-block; max-width:100%; }
+.hc-footer__logo img{ width:300px; max-width:100%; height:auto; }
+.hc-footer h2{ font-size:1.125rem; line-height:1.4; color:var(--hc-white); margin-bottom:12px; }
 .hc-footer address{ font-style:normal; }
 .hc-footer a{ color:var(--hc-white); }
 .hc-footer a:hover{ color:var(--hc-sky); }
-.hc-footer ul{ list-style:none; margin:0; padding:0; display:grid; gap:8px; }
-.hc-footer__name{ margin-top:16px; color:var(--hc-white); font-weight:600; }
-.hc-footer__bottom{ margin-top:40px; padding-top:20px; border-top:1px solid rgba(255,255,255,.18); font-size:.9375rem; color:#b9d3e3; }
-@media (max-width:767px){ .hc-footer__grid{ grid-template-columns:1fr; } }
+.hc-footer__office p{ margin-top:10px; }
+.hc-footer ul{ list-style:none; margin:0; padding:0; display:grid; gap:4px; }
+.hc-footer__links a{ display:inline-flex; align-items:center; min-height:36px; }
+.hc-footer__name{ max-width:340px; margin-top:14px; color:var(--hc-white); font-weight:500; }
+.hc-footer__bottom{ margin-top:28px; padding-top:20px; border-top:1px solid rgba(255,255,255,.18); font-size:.9375rem; line-height:1.6; color:#b9d3e3; }
+@media(max-width:1023px){ .hc-footer__grid{ gap:28px; } }
+@media(max-width:767px){
+ .hc-footer{ padding-top:32px; }
+ .hc-footer__grid{ grid-template-columns:minmax(0,1fr); gap:24px; }
+ .hc-footer__logo img{ width:280px; }
+ .hc-footer__name{ margin-top:12px; }
+ .hc-footer__links ul{ display:flex; flex-wrap:wrap; gap:4px 24px; }
+ .hc-footer__links a{ min-height:44px; }
+ .hc-footer__links h2{ margin-bottom:4px; }
+ .hc-footer__bottom{ margin-top:24px; padding-top:18px; }
+}
 
 /* ---------- Mobile sticky call ---------- */
 .hc-callbar{ display:none; }
@@ -1284,21 +1296,21 @@ a:hover{ color:var(--hc-navy); }
         </a>
         <p class="hc-footer__name">Hearing tests and hearing aids in Sherman, TX</p>
       </div>
-      <div>
+      <div class="hc-footer__office">
         <h2>Sherman office</h2>
         <address>1800 N. Travis St, Suite D<br>Sherman, TX 75092</address>
-        <p style="margin-top:10px">Mon–Thu 9:00am–5:00pm<br>Fri by appointment only</p>
-        <p style="margin-top:10px"><a href="tel:+19032062442" data-contact-tel><span>Call <span data-contact-display>903-206-2442</span></span></a> or <a href="sms:+19032062442" data-contact-sms>text us</a></p>
+        <p>Mon–Thu 9:00am–5:00pm<br>Fri by appointment only</p>
+        <p><a href="tel:+19032062442" data-contact-tel><span>Call <span data-contact-display>903-206-2442</span></span></a> or <a href="sms:+19032062442" data-contact-sms>text us</a></p>
       </div>
-      <div>
-        <h2>Links</h2>
+      <nav class="hc-footer__links" aria-label="Footer links">
+        <h2>Useful links</h2>
         <ul>
           <li><a href="https://hearcareinc.com/" target="_blank" rel="noopener">Visit Our Website</a></li>
           <li><a href="https://hearcareinc.com/privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
-    <p class="hc-footer__bottom">© {{right_now.year}} {{location.name}} | All rights reserved.</p>
+    <p class="hc-footer__bottom">© 2026 HearCare, Inc. and Associates. All rights reserved.</p>
   </div>
 </footer>
 

@@ -334,3 +334,8 @@ User approved Layout A + Headline 1 after desktop/mobile screenshot review. Reta
 ## Final invitation approval
 
 User: “I approve this section, lets move to next.” Final invitation in af13f94 is APPROVED / LOCKED, including the retained headline, revised supporting copy, compact navy band, rounded contact buttons and footer separator. Preserve without further user authorization. Next proposed section is the existing footer: complete the visible page with practice details, website access and policy links. Request its current complete desktop/mobile screenshots and wait before individual review or editing. The shared appointment dialog remains a separate later review checkpoint. No HTML/CSS changes accompany this approval record.
+
+
+## Approved footer rebuild — Layout A and current year
+
+User approved Layout A and explicitly requested replacing the year token with the current year. Render copyright as “© 2026 HearCare, Inc. and Associates. All rights reserved.” without unresolved GHL tokens or additional year JavaScript. Use a compact darker-navy footer: practice identity, Sherman details and useful links in three desktop columns; stacked identity/office and wrapping utility links on mobile. Remove the white logo frame while preserving the original source and image proportions. Retain exact address, hours, Call/Text hooks and website/privacy destinations. Use comfortable footer type/targets, a restrained bottom divider, and no extra promotional CTA. The approved final invitation and all other sections/integrations are unchanged. Implemented for rendered review, NOT LOCKED.
