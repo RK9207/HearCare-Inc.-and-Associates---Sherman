@@ -351,3 +351,6 @@ Authorized audit performance update: register existing contact/dialog handlers b
 ## User-authorized refined hero hierarchy
 
 User approved the refined split-hero recommendation with “okay make the changes.” Preserve H1 wording, original size/color/weight and mobile natural wrapping; retain every text statement and image URL. Quiet the eyebrow, reduce competing callout styling, group Google proof with the owner credential beneath aligned CTAs, and simplify address/hours without a tinted panel. Refine photo proportions/crop and corner treatment; preserve both faces. Explicit white-outline default and navy-on-white hover/focus fix the faded appointment button; add matching label wrapper. Desktop padding 52/56px and mobile 30/36px. No other section, header, integration, phone or review value changed. This user-authorized revision reopens only hero presentation; awaiting rendered approval.
+
+
+User requested additional breathing space after the latest desktop screenshot. Increase only hero spacing: section padding, service-label-to-headline gap, benefit/body gaps, CTA spacing, trust divider spacing, credential separation and location-line spacing, with moderated mobile increases. Preserve font sizes, all wording, images, headline wrapping rules, button colors and other sections. Awaiting rendered review.

@@ -86,3 +86,6 @@ User approved the refined split-hero recommendation with “okay make the change
 
 
 Refined hero verification: seven widths (320, 390, 500, 768, 1024, 1440, 1920px), no section overflow, equal CTA widths, dialog open/Escape/focus return. H1 text/color/font rules preserved exactly; no forced mobile Care break. Hover/focus explicitly uses navy text/icon on white and has no color interpolation to avoid transient low contrast. Desktop and mobile crop inspected using the cached actual hero asset; faces remain visible. All subsequent sections, header, scripts and contact destinations unchanged. Current layout requires GHL review before lock.
+
+
+User requested additional breathing space after the latest desktop screenshot. Increase only hero spacing: section padding, service-label-to-headline gap, benefit/body gaps, CTA spacing, trust divider spacing, credential separation and location-line spacing, with moderated mobile increases. Preserve font sizes, all wording, images, headline wrapping rules, button colors and other sections. Awaiting rendered review.
