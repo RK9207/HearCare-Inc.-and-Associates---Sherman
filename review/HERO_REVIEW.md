@@ -89,3 +89,6 @@ Refined hero verification: seven widths (320, 390, 500, 768, 1024, 1440, 1920px)
 
 
 User requested additional breathing space after the latest desktop screenshot. Increase only hero spacing: section padding, service-label-to-headline gap, benefit/body gaps, CTA spacing, trust divider spacing, credential separation and location-line spacing, with moderated mobile increases. Preserve font sizes, all wording, images, headline wrapping rules, button colors and other sections. Awaiting rendered review.
+
+
+User requested white hero icons. Set hero .hc-icon color to white, including phone, calendar, SMS, address and clock icons. Google brand paths and review stars retain their original colors. No icon or styling outside the hero changed.

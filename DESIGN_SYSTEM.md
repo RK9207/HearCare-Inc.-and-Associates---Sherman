@@ -359,3 +359,6 @@ User requested additional breathing space after the latest desktop screenshot. I
 ## User-authorized visible owner qualifications
 
 User requested removing View qualifications dropdowns and filling the empty profile area so both providers can be understood immediately. Replace the two owner disclosures with permanently visible full source-backed backgrounds and individual Owner / Licensed Fitter and Dispenser of Hearing Instruments role lines. Do not call them audiologists or doctors; their documented credentials establish licensed hearing-instrument specialists. Remove the redundant shared license line and its empty mobile grid slot. Use two bordered profiles beside the authentic portrait on desktop; stack on mobile with the previously requested centering. Preserve all original biography facts, owner names, image, values and the entire Google-review group. Other sections and integrations unchanged. Awaiting rendered review of this revision.
+
+
+User requested white hero icons. Set hero .hc-icon color to white, including phone, calendar, SMS, address and clock icons. Google brand paths and review stars retain their original colors. No icon or styling outside the hero changed.
