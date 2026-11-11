@@ -62,3 +62,6 @@ Validation: rendered frame inspected at 390px and 1440px; geometry checks passed
 
 
 User requested less whitespace between the SmartRIC image and its frame. The frame now hugs the unchanged, uncropped image with 8px padding, automatic width, centered alignment and no minimum height at any breakpoint. Preserve the separate caption, image URL and all other content. Awaiting rendered review.
+
+
+User refinement: reduce SmartRIC image-frame padding from 8px to 2px on all screen sizes. No other styling or content changes.
