@@ -463,3 +463,6 @@ User refinement: set the centered desktop navigation-link spacing to 40px, super
 
 
 User requested centered form content. Center appointment-dialog heading/introduction and footer. Use symmetric header columns so the close button does not offset heading centering; center iframe element within its body. Keep every iframe attribute, form destination, consent setting and dialog behavior unchanged. Cross-origin GHL iframe contents cannot be styled by parent page CSS; actual field/label alignment requires a form-builder change and has not been altered.
+
+
+User requested less whitespace above the hero. Reduce final hero top padding to 40px desktop, 32px tablet and 24px mobile (previously 64/48/36px). Preserve bottom padding, internal spacing, image offset and all typography/content.
