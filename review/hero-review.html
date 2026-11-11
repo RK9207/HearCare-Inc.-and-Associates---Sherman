@@ -282,6 +282,41 @@ a:hover{ color:var(--hc-navy); }
  .hc-hero--split .hc-badge{ margin-top:16px; }
 }
 
+/* Refined split hero: retain headline styling and existing image. */
+.hc-hero--split{ padding:52px 0 56px; }
+.hc-hero__grid{ column-gap:64px; }
+.hc-hero__eyebrow{ padding:0; border:0; border-radius:0; background:transparent; letter-spacing:.065em; }
+.hc-hero__benefit{ margin-top:22px; padding:0; border:0; font-size:1.125rem; line-height:1.5; font-weight:600; }
+.hc-hero__lead{ margin-top:12px; max-width:520px; }
+.hc-hero__actions{ margin-top:24px; }
+.hc-hero--split .hc-btn{ min-height:54px; }
+.hc-hero--split .hc-btn--appt{ background:transparent; color:#fff; border-color:#fff; transition:none; }
+.hc-hero--split .hc-btn--appt:hover,.hc-hero--split .hc-btn--appt:focus-visible{ background:#fff; color:var(--hc-navy); border-color:#fff; }
+.hc-hero__proof{ grid-area:proof; display:flex; flex-wrap:wrap; align-items:center; gap:14px 24px; margin-top:22px; padding-top:20px; border-top:1px solid rgba(183,220,245,.25); }
+.hc-hero--split .hc-hero__proof .hc-badge{ margin:0; flex:none; }
+.hc-hero__proof .hc-hero__trust{ display:block; flex:1 1 200px; max-width:270px; margin:0; font-size:.9375rem; line-height:1.5; color:#d6e7f1; }
+.hc-hero__proof .hc-hero__trust::before{ display:none; }
+.hc-hero--split .hc-facts{ margin-top:18px; padding:0; border:0; background:transparent; border-radius:0; gap:8px; }
+.hc-hero__media{ min-height:0; border-radius:96px 24px 24px 24px; box-shadow:0 22px 48px rgba(0,20,32,.2); }
+.hc-hero__media::after{ inset:12px -12px -12px 12px; border-radius:96px 24px 24px 24px; }
+.hc-hero__media img{ object-position:50% 58%; }
+@media(max-width:1199px) and (min-width:1024px){ .hc-hero__grid{ column-gap:40px; } }
+@media(max-width:1023px){
+ .hc-hero--split{ padding:40px 0 44px; }
+ .hc-hero__media{ aspect-ratio:4 / 3; border-radius:60px 20px 20px 20px; }
+ .hc-hero__media img{ object-position:50% 46%; }
+}
+@media(max-width:639px){
+ .hc-hero--split{ padding:30px 0 36px; }
+ .hc-hero__eyebrow{ font-size:.8125rem; line-height:1.6; letter-spacing:.035em; }
+ .hc-hero__benefit{ margin-top:18px; font-size:1.0625rem; }
+ .hc-hero__actions{ margin-top:22px; }
+ .hc-hero__proof{ margin-top:20px; padding-top:18px; gap:12px; }
+ .hc-hero__proof .hc-hero__trust{ max-width:none; flex-basis:100%; }
+ .hc-hero--split .hc-facts{ margin-top:16px; }
+ .hc-hero__media{ margin-top:24px; border-radius:48px 16px 16px 16px; }
+}
+
 /* Stars */
 .hc-stars{ position:relative; display:inline-flex; line-height:0; }
 .hc-stars svg{ width:18px; height:18px; flex:none; }
@@ -844,7 +879,6 @@ a:hover{ color:var(--hc-navy); }
       <h1 id="hero-title"><span><span class="hc-hero__headline-phrase">Personalized Hearing</span> Care,</span> <span class="hc-hero__headline-local">Right Here in Sherman,&nbsp;TX</span></h1>
       <p class="hc-hero__benefit">Take the next step toward easier everyday conversations.</p>
       <p class="hc-hero__lead">Start with a hearing test and a clear explanation of your results. If hearing aids are appropriate, explore options suited to your hearing and everyday life.</p>
-      <p class="hc-hero__trust">Owner-operated. Licensed hearing instrument specialists.</p>
     </div>
 
 
@@ -856,7 +890,7 @@ a:hover{ color:var(--hc-navy); }
         </a>
         <a class="hc-btn hc-btn--appt" href="https://api.onspirepulse.com/widget/form/8wW1RhQrj7egDZ93IJlJ" data-open-appointment>
           <svg class="hc-icon" aria-hidden="true"><use href="#i-calendar"/></svg>
-          Request Appointment
+          <span>Request Appointment</span>
         </a>
         <div class="hc-cta__text">
           <a class="hc-textlink" href="sms:+19032062442" data-contact-sms>
@@ -868,6 +902,7 @@ a:hover{ color:var(--hc-navy); }
     </div>
 
     <!-- Compact Google proof below actions; 4.8/5 and 90+ display based on U1 screenshot evidence. -->
+    <div class="hc-hero__proof">
     <a class="hc-badge" href="https://www.google.com/search?q=hearcare+inc+and+associates+sherman&sca_esv=245a2c734ea474ba&rlz=1C1CHBD_enIN1092IN1158&biw=1920&bih=953&sxsrf=AKL5yDhrpWQFSvw2k45Jya0PWIxzVxSoBQ%3A1794240620821&ei=bPDxao3TMcqP4-EPrvLF4AE&oq=hearcare+inc+and+associates+sherman&gs_lp=Egxnd3Mtd2l6LXNlcnAiI2hlYXJjYXJlIGluYyBhbmQgYXNzb2NpYXRlcyBzaGVybWFuKgUIAhjvBTIGEAAYFhgeMgUQABjvBTIFEAAY7wUyBRAAGO8FMgUQABjvBUjyOFD7Blj4KXABeACQAQCYAakBoAHHFaoBBDAuMTi4AQHIAQD4AQGYAgygAtkNwgIIEAAY7wUYsAPCAgQQIxgnwgILEAAYgAQYigUYhgOYAwCIBgGQBgKSBwQxLjExoAfsUbIHBDAuMTG4B9QNwgcFMC43LjXIByOACAE&sclient=gws-wiz-serp#lrd=0x864c8851e671d29f:0xc56621ec07540757,1,,,," target="_blank" rel="noopener" aria-label="Rated 4.8 out of 5 from 90+ Google reviews. Opens Google reviews in a new tab.">
       <svg class="hc-badge__google" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
         <path fill="#4285F4" d="M21.6 12.23c0-.71-.06-1.39-.18-2.05H12v3.88h5.38a4.6 4.6 0 0 1-1.99 3.02v2.51h3.23c1.89-1.74 2.98-4.3 2.98-7.36Z"/>
@@ -884,6 +919,8 @@ a:hover{ color:var(--hc-navy); }
         <strong>90+ Google reviews</strong>
       </span>
     </a>
+      <p class="hc-hero__trust">Owner-operated. Licensed hearing instrument specialists.</p>
+    </div>
 
     <ul class="hc-facts">
       <li><svg class="hc-icon" aria-hidden="true"><use href="#i-pin"/></svg><span>1800 N. Travis St, Suite D, Sherman, TX 75092</span></li>

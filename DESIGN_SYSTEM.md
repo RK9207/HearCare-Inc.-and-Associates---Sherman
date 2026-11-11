@@ -346,3 +346,8 @@ User requested removing the footer logo. Remove only its linked image, retain th
 
 
 Authorized audit performance update: register existing contact/dialog handlers before third-party dependencies; defer the existing form embed loader; lazy-load unchanged OAP/MapLibre dependency URLs and stylesheet near the map with IntersectionObserver. Preserve marker/proxy/zoom/tracking, fallback directions and responsive map dimensions. Do not add speculative analytics events or an unrequested mobile menu.
+
+
+## User-authorized refined hero hierarchy
+
+User approved the refined split-hero recommendation with “okay make the changes.” Preserve H1 wording, original size/color/weight and mobile natural wrapping; retain every text statement and image URL. Quiet the eyebrow, reduce competing callout styling, group Google proof with the owner credential beneath aligned CTAs, and simplify address/hours without a tinted panel. Refine photo proportions/crop and corner treatment; preserve both faces. Explicit white-outline default and navy-on-white hover/focus fix the faded appointment button; add matching label wrapper. Desktop padding 52/56px and mobile 30/36px. No other section, header, integration, phone or review value changed. This user-authorized revision reopens only hero presentation; awaiting rendered approval.

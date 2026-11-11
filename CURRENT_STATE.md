@@ -16,7 +16,7 @@ This summary records the latest user instructions. Historical strategy/source no
 | Section | State |
 |---|---|
 | Header | Six valid section links; latest navigation implementation needs final rendered sign-off |
-| Hero | Explicitly approved; preserve current headline, sizing, image and colors |
+| Hero | User authorized a refined split presentation after approval; headline wording/size/white color and image preserved; latest layout awaiting rendered sign-off |
 | Listening difficulties | Explicitly approved |
 | Owners and Google proof | Explicitly approved; three verbatim reviews, 4.8 / 90+ user-approved display, evidence is historical screenshots |
 | Process | Implemented; no distinct final rendered approval recorded |

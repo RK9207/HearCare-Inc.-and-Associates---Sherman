@@ -78,3 +78,11 @@ Latest badge update matches the supplied compact reference: multicolor Google ic
 ## Final user approval
 
 The user explicitly approved the current Hero and requested moving on. Hero implementation in commit 6a890ab is APPROVED / LOCKED, superseding earlier pending-review notes. Preserve it unless the user authorizes a specific later change. Next proposed section: existing everyday difficulty, pending its current desktop/mobile screenshots before assessment. No page code changed in this approval record.
+
+
+## User-authorized refined hero hierarchy
+
+User approved the refined split-hero recommendation with “okay make the changes.” Preserve H1 wording, original size/color/weight and mobile natural wrapping; retain every text statement and image URL. Quiet the eyebrow, reduce competing callout styling, group Google proof with the owner credential beneath aligned CTAs, and simplify address/hours without a tinted panel. Refine photo proportions/crop and corner treatment; preserve both faces. Explicit white-outline default and navy-on-white hover/focus fix the faded appointment button; add matching label wrapper. Desktop padding 52/56px and mobile 30/36px. No other section, header, integration, phone or review value changed. This user-authorized revision reopens only hero presentation; awaiting rendered approval.
+
+
+Refined hero verification: seven widths (320, 390, 500, 768, 1024, 1440, 1920px), no section overflow, equal CTA widths, dialog open/Escape/focus return. H1 text/color/font rules preserved exactly; no forced mobile Care break. Hover/focus explicitly uses navy text/icon on white and has no color interpolation to avoid transient low contrast. Desktop and mobile crop inspected using the cached actual hero asset; faces remain visible. All subsequent sections, header, scripts and contact destinations unchanged. Current layout requires GHL review before lock.

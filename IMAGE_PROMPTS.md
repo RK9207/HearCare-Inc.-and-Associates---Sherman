@@ -235,3 +235,8 @@ User-supplied transparent footer logo: https://files.leadconnectorhq.com/file/6a
 
 
 User requested removing the footer logo. Remove only its linked image, retain the practice/service description, office details, utility links and automatic year, and reset the description’s top margin so no logo gap remains. The header logo and all other images remain unchanged.
+
+
+## User-authorized refined hero hierarchy
+
+User approved the refined split-hero recommendation with “okay make the changes.” Preserve H1 wording, original size/color/weight and mobile natural wrapping; retain every text statement and image URL. Quiet the eyebrow, reduce competing callout styling, group Google proof with the owner credential beneath aligned CTAs, and simplify address/hours without a tinted panel. Refine photo proportions/crop and corner treatment; preserve both faces. Explicit white-outline default and navy-on-white hover/focus fix the faded appointment button; add matching label wrapper. Desktop padding 52/56px and mobile 30/36px. No other section, header, integration, phone or review value changed. This user-authorized revision reopens only hero presentation; awaiting rendered approval.

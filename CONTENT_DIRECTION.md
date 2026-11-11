@@ -292,3 +292,8 @@ Replace generic Care/Our Practice labels and provide six meaningful header ancho
 ## Authorized audit improvements
 
 User authorized feasible audit improvements. Tighten repeated process/options/FAQ text without changing the approved H1 or layouts, testimonial wording, provider facts, contact data or visual preferences. Correct BTE range, remove blanket RIC wireless and ITE battery claims, and describe tympanometry as middle-ear measurement. Clarify visible follow-up support. Sources: NIDCD hearing-aid guidance and ASHA assessment guidance cited in review/FULL_PAGE_AUDIT.md. Clinic should approve final clinical wording before publication.
+
+
+## User-authorized refined hero hierarchy
+
+User approved the refined split-hero recommendation with “okay make the changes.” Preserve H1 wording, original size/color/weight and mobile natural wrapping; retain every text statement and image URL. Quiet the eyebrow, reduce competing callout styling, group Google proof with the owner credential beneath aligned CTAs, and simplify address/hours without a tinted panel. Refine photo proportions/crop and corner treatment; preserve both faces. Explicit white-outline default and navy-on-white hover/focus fix the faded appointment button; add matching label wrapper. Desktop padding 52/56px and mobile 30/36px. No other section, header, integration, phone or review value changed. This user-authorized revision reopens only hero presentation; awaiting rendered approval.
