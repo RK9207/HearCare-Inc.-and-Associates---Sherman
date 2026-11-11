@@ -447,3 +447,8 @@ User supplied https://files.leadconnectorhq.com/file/6af46ff41ca1c60e4d785638/cl
 
 
 User clarified that clinic image must be an additional background, not a replacement for the original foreground hero photograph. Restore kitchen-conversation.webp on the right. Reduce foreground photo to 90% of its desktop column (max 490px), align to the right, shift down 40px and retain existing rounded shape. Keep clinic-image.webp as a separate CSS background with a strong navy overlay at all widths. Tablet/mobile retain the original foreground photo after copy, centered and modestly reduced, with 36/32px spacing. Preserve all text, buttons, icons, proof, contact links and other sections. This supersedes the previous background-only hero treatment. Awaiting rendered review.
+
+
+## User-approved separation of hero and clinic imagery
+
+After reviewing the real GHL screenshot, user approved removing the competing clinic background and moving the authentic storefront photo to the location section, and requested a larger foreground hero image. Restore the clean navy hero background; foreground lifestyle photo fills its desktop column (previously 90%/490px cap) with 40px top offset retained. Mobile/tablet photo uses full content width and existing spacing. Add a separate uncropped storefront figure below the existing location/map panel, with “Look for the HearCare sign” and the verified address. Keep map dimensions, original location details/directions, headline, CTA links and all other content/integrations unchanged. Clinic photo loads lazily. Awaiting rendered review.

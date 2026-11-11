@@ -56,3 +56,8 @@ User-requested directions-button styling: apply brand navy background/border (#0
 ## Sherman location final approval
 
 User: “looks good, lets move to the next section, I approve this section.” Location implementation as of 7d363a12eb3b9c2177a639ade734d3195287b46c is APPROVED / LOCKED, including the bordered details/map panel, supplied OAP/MapLibre integration, enlarged responsive map, Open in Maps card link and dark-blue Get Directions button. Preserve without further user authorization. Next proposed section: existing final contact invitation, to connect the completed visit-planning information to Call, Text and Request Appointment. Request current desktop/mobile screenshots showing the complete invitation and actions, and wait before individual review or editing. No HTML/CSS changes accompany this approval record.
+
+
+## User-approved separation of hero and clinic imagery
+
+After reviewing the real GHL screenshot, user approved removing the competing clinic background and moving the authentic storefront photo to the location section, and requested a larger foreground hero image. Restore the clean navy hero background; foreground lifestyle photo fills its desktop column (previously 90%/490px cap) with 40px top offset retained. Mobile/tablet photo uses full content width and existing spacing. Add a separate uncropped storefront figure below the existing location/map panel, with “Look for the HearCare sign” and the verified address. Keep map dimensions, original location details/directions, headline, CTA links and all other content/integrations unchanged. Clinic photo loads lazily. Awaiting rendered review.

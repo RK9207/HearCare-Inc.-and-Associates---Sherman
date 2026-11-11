@@ -349,19 +349,13 @@ a:hover{ color:var(--hc-navy); }
 .hc-hero--split .hc-btn--call .hc-icon{ color:#000; }
 .hc-hero--split .hc-btn--appt:hover,.hc-hero--split .hc-btn--appt:focus-visible{ background:var(--hc-navy-deep); color:#fff; border-color:#fff; }
 
-/* Clinic background with the original, smaller foreground hero photograph. */
-.hc-hero--clinic{ isolation:isolate; background:var(--hc-navy-deep); }
-.hc-hero--clinic::before{ content:""; position:absolute; z-index:-1; inset:0; pointer-events:none; background-image:linear-gradient(90deg,rgba(0,46,67,.97) 0%,rgba(0,46,67,.92) 50%,rgba(0,46,67,.78) 100%),url("https://files.leadconnectorhq.com/file/6af46ff41ca1c60e4d785638/clinic-image.webp"); background-size:cover; background-position:center top; background-repeat:no-repeat; }
-.hc-hero--clinic .hc-hero__grid{ position:relative; z-index:1; }
-.hc-hero--clinic .hc-hero__lead,
-.hc-hero--clinic .hc-hero__proof .hc-hero__trust,
-.hc-hero--clinic .hc-facts{ color:#fff; }
-.hc-hero--clinic .hc-hero__media{ width:90%; max-width:490px; align-self:start; justify-self:end; margin-top:40px; aspect-ratio:4 / 5; }
-@media(max-width:1023px){
- .hc-hero--clinic::before{ background-image:linear-gradient(rgba(0,46,67,.95),rgba(0,46,67,.95)),url("https://files.leadconnectorhq.com/file/6af46ff41ca1c60e4d785638/clinic-image.webp"); }
- .hc-hero--clinic .hc-hero__media{ width:90%; max-width:600px; justify-self:center; margin-top:36px; aspect-ratio:4 / 3; }
-}
-@media(max-width:639px){ .hc-hero--clinic .hc-hero__media{ width:92%; max-width:420px; margin-top:32px; } }
+/* Clean navy hero with a larger foreground photograph. */
+.hc-hero--refined .hc-hero__lead,
+.hc-hero--refined .hc-hero__proof .hc-hero__trust,
+.hc-hero--refined .hc-facts{ color:#fff; }
+.hc-hero--refined .hc-hero__media{ width:100%; align-self:start; justify-self:end; margin-top:40px; aspect-ratio:4 / 5; }
+@media(max-width:1023px){ .hc-hero--refined .hc-hero__media{ width:100%; justify-self:center; margin-top:36px; aspect-ratio:4 / 3; } }
+@media(max-width:639px){ .hc-hero--refined .hc-hero__media{ margin-top:32px; } }
 
 /* Stars */
 .hc-stars{ position:relative; display:inline-flex; line-height:0; }
@@ -774,6 +768,12 @@ a:hover{ color:var(--hc-navy); }
 #location{ padding:56px 0; }
 .hc-loc{ display:grid; grid-template-columns:minmax(0,4fr) minmax(0,7fr); align-items:stretch; border:1px solid #b8cfdd; border-radius:20px; background:var(--hc-white); overflow:hidden; }
 .hc-loc__details{ padding:32px; }
+.hc-loc__storefront{ display:grid; grid-template-columns:minmax(0,5fr) minmax(0,7fr); gap:32px; align-items:center; margin:24px 0 0; padding:16px; border:1px solid #b8cfdd; border-radius:20px; background:var(--hc-white); }
+.hc-loc__storefront img{ display:block; width:100%; height:auto; aspect-ratio:680 / 411; object-fit:contain; border-radius:12px; }
+.hc-loc__storefront figcaption{ padding:16px 24px 16px 0; color:var(--hc-ink); font-size:1.125rem; line-height:1.6; }
+.hc-loc__storefront strong{ display:block; margin-bottom:10px; font-family:var(--hc-head); font-size:1.375rem; line-height:1.4; color:var(--hc-navy); }
+@media(max-width:639px){ .hc-loc__storefront{ grid-template-columns:1fr; gap:16px; padding:14px; } .hc-loc__storefront figcaption{ padding:0 6px 6px; } .hc-loc__storefront strong{ font-size:1.25rem; } }
+
 .hc-loc__details h2{ max-width:430px; }
 .hc-loc__city{ white-space:normal; }
 .hc-loc__list{ list-style:none; margin:28px 0 0; padding:0; display:grid; gap:22px; }
@@ -990,7 +990,7 @@ a:hover{ color:var(--hc-navy); }
 <main id="main">
 
 <!-- ===================== 1. HERO ===================== -->
-<section class="hc-hero hc-hero--split hc-hero--clinic hc-dark" aria-labelledby="hero-title">
+<section class="hc-hero hc-hero--split hc-hero--refined hc-dark" aria-labelledby="hero-title">
   <div class="hc-wrap hc-hero__grid">
     <div class="hc-hero__text">
       <p class="hc-hero__eyebrow">Hearing tests &amp; hearing aids in Sherman, TX</p>
@@ -1046,7 +1046,7 @@ a:hover{ color:var(--hc-navy); }
     </ul>
 
     <figure class="hc-hero__media">
-      <!-- IMG-HERO-01: illustrative lifestyle photograph; authentic clinic image is the separate CSS background. -->
+      <!-- IMG-HERO-01: illustrative lifestyle photograph; authentic clinic image appears in the location section. -->
       <img src="https://files.leadconnectorhq.com/file/6af3305fddcd97ce5aa8a0c8/hearcare-kitchen-conversation.webp"
            width="1122" height="1402" fetchpriority="high" decoding="async" data-img-id="IMG-HERO-01"
            alt="An older woman and an adult woman talking together at a kitchen table.">
@@ -1446,6 +1446,10 @@ a:hover{ color:var(--hc-navy); }
       </a>
       </div>
     </div>
+    <figure class="hc-loc__storefront">
+      <img src="https://files.leadconnectorhq.com/file/6af46ff41ca1c60e4d785638/clinic-image.webp" width="680" height="411" loading="lazy" decoding="async" alt="HearCare, Inc. and Associates storefront and entrance beneath the practice sign.">
+      <figcaption><strong>Look for the HearCare sign</strong>Our Sherman office at 1800 N. Travis St, Suite D, Sherman, TX 75092.</figcaption>
+    </figure>
   </div>
 </section>
 
