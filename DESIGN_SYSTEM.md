@@ -376,3 +376,6 @@ User requested less whitespace between the SmartRIC image and its frame. The fra
 
 
 User refinement: reduce SmartRIC image-frame padding from 8px to 2px on all screen sizes. No other styling or content changes.
+
+
+User requested more mobile headline line spacing. Increase hero H1 line-height from 1.13 to 1.25 below 640px; preserve wording, font size and desktop typography.
