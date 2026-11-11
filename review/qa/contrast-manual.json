@@ -1,0 +1,9 @@
+{
+  "ratios": {
+    "link_on_tint": 5.05,
+    "hero_white_worst": 7.36,
+    "hero_eyebrow_worst": 5.1,
+    "navy_cta_white": 9.62
+  },
+  "method": "WCAG relative luminance; conservative gradient maximum blend; decorative icons excluded."
+}

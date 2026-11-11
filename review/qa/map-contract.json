@@ -1,0 +1,41 @@
+{
+  "state": {
+    "maps": [
+      {
+        "container": "location-sherman-map",
+        "center": [
+          -96.615131,
+          33.6542696
+        ],
+        "zoom": 13,
+        "cooperativeGestures": true
+      }
+    ],
+    "controls": [
+      "bottom-right"
+    ],
+    "markers": [
+      [
+        -96.615131,
+        33.6542696
+      ]
+    ],
+    "proxy": [
+      {
+        "proxyUrl": "https://oap-prod-maps-proxy-rakvtqapla-ue.a.run.app"
+      }
+    ],
+    "tracking": 1,
+    "initialized": "true",
+    "statusHidden": true
+  },
+  "requested": [
+    "https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.css",
+    "https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.js",
+    "https://cdn.onspireanalytics.com/latest/maps.min.js"
+  ],
+  "lazyLoad": true,
+  "singleInitialization": true,
+  "dialogFocusContained": true,
+  "scope": "Mocked MapLibre/OAP APIs. Actual tiles/tracking transport not tested."
+}

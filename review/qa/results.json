@@ -1,0 +1,427 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "height": 960,
+      "overflow": false,
+      "duplicateIds": [],
+      "missingAnchors": [],
+      "h1": 1,
+      "title": "Hearing Tests & Hearing Aids in Sherman, TX | HearCare, Inc. and Associates",
+      "description": "Hearing tests and hearing aids in Sherman, TX. Understand your hearing first, then explore options fitted to your needs, lifestyle and budget. Call or text 903-206-2442.",
+      "imagesWithoutAlt": 0,
+      "unsafeBlank": [],
+      "brokenAria": [],
+      "currentYear": "2026",
+      "scrollBehavior": "auto",
+      "dialog": {
+        "width": 320,
+        "height": 960,
+        "bodyHeight": 674,
+        "overflow": false
+      },
+      "mapFailureFallback": true,
+      "pageErrors": []
+    },
+    {
+      "width": 360,
+      "height": 960,
+      "overflow": false,
+      "duplicateIds": [],
+      "missingAnchors": [],
+      "h1": 1,
+      "title": "Hearing Tests & Hearing Aids in Sherman, TX | HearCare, Inc. and Associates",
+      "description": "Hearing tests and hearing aids in Sherman, TX. Understand your hearing first, then explore options fitted to your needs, lifestyle and budget. Call or text 903-206-2442.",
+      "imagesWithoutAlt": 0,
+      "unsafeBlank": [],
+      "brokenAria": [],
+      "currentYear": "2026",
+      "scrollBehavior": "auto",
+      "dialog": {
+        "width": 360,
+        "height": 960,
+        "bodyHeight": 726,
+        "overflow": false
+      },
+      "mapFailureFallback": true,
+      "pageErrors": []
+    },
+    {
+      "width": 390,
+      "height": 960,
+      "overflow": false,
+      "duplicateIds": [],
+      "missingAnchors": [],
+      "h1": 1,
+      "title": "Hearing Tests & Hearing Aids in Sherman, TX | HearCare, Inc. and Associates",
+      "description": "Hearing tests and hearing aids in Sherman, TX. Understand your hearing first, then explore options fitted to your needs, lifestyle and budget. Call or text 903-206-2442.",
+      "imagesWithoutAlt": 0,
+      "unsafeBlank": [],
+      "brokenAria": [],
+      "currentYear": "2026",
+      "scrollBehavior": "auto",
+      "dialog": {
+        "width": 390,
+        "height": 960,
+        "bodyHeight": 726,
+        "overflow": false
+      },
+      "mapFailureFallback": true,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              [
+                ".hc-hero__eyebrow"
+              ],
+              [
+                "#hero-title"
+              ],
+              [
+                ".hc-hero__benefit"
+              ],
+              [
+                ".hc-hero__lead"
+              ],
+              [
+                ".hc-hero__actions > .hc-cta > a[data-open-appointment=\"\"][role=\"button\"][aria-haspopup=\"dialog\"] > span"
+              ],
+              [
+                ".hc-hero__actions > .hc-cta > .hc-cta__text > .hc-textlink[href=\"sms:+19032062442\"][data-contact-sms=\"\"] > span"
+              ],
+              [
+                ".hc-hero__actions > .hc-cta > .hc-cta__text > .hc-textlink[href=\"sms:+19032062442\"][data-contact-sms=\"\"] > span > span[data-contact-display=\"\"]"
+              ],
+              [
+                ".hc-badge__score"
+              ],
+              [
+                ".hc-badge__meta > strong"
+              ],
+              [
+                ".hc-hero__trust"
+              ],
+              [
+                ".hc-facts > li:nth-child(1) > span"
+              ],
+              [
+                ".hc-facts > li:nth-child(2) > span"
+              ],
+              [
+                ".hc-textlink[href$=\"#care\"] > span[aria-hidden=\"true\"]"
+              ],
+              [
+                ".hc-ph__inner > span"
+              ],
+              [
+                ".hc-process__contact > p"
+              ],
+              [
+                ".hc-process__contact > .hc-cta > a[data-open-appointment=\"\"][role=\"button\"][aria-haspopup=\"dialog\"] > span"
+              ],
+              [
+                ".hc-process__contact > .hc-cta > .hc-textlink[href=\"sms:+19032062442\"][data-contact-sms=\"\"]"
+              ]
+            ]
+          }
+        ]
+      },
+      "pageErrors": []
+    },
+    {
+      "width": 500,
+      "height": 960,
+      "overflow": false,
+      "duplicateIds": [],
+      "missingAnchors": [],
+      "h1": 1,
+      "title": "Hearing Tests & Hearing Aids in Sherman, TX | HearCare, Inc. and Associates",
+      "description": "Hearing tests and hearing aids in Sherman, TX. Understand your hearing first, then explore options fitted to your needs, lifestyle and budget. Call or text 903-206-2442.",
+      "imagesWithoutAlt": 0,
+      "unsafeBlank": [],
+      "brokenAria": [],
+      "currentYear": "2026",
+      "scrollBehavior": "auto",
+      "dialog": {
+        "width": 500,
+        "height": 960,
+        "bodyHeight": 785,
+        "overflow": false
+      },
+      "mapFailureFallback": true,
+      "pageErrors": []
+    },
+    {
+      "width": 639,
+      "height": 960,
+      "overflow": false,
+      "duplicateIds": [],
+      "missingAnchors": [],
+      "h1": 1,
+      "title": "Hearing Tests & Hearing Aids in Sherman, TX | HearCare, Inc. and Associates",
+      "description": "Hearing tests and hearing aids in Sherman, TX. Understand your hearing first, then explore options fitted to your needs, lifestyle and budget. Call or text 903-206-2442.",
+      "imagesWithoutAlt": 0,
+      "unsafeBlank": [],
+      "brokenAria": [],
+      "currentYear": "2026",
+      "scrollBehavior": "auto",
+      "dialog": {
+        "width": 639,
+        "height": 960,
+        "bodyHeight": 782,
+        "overflow": false
+      },
+      "mapFailureFallback": true,
+      "pageErrors": []
+    },
+    {
+      "width": 768,
+      "height": 960,
+      "overflow": false,
+      "duplicateIds": [],
+      "missingAnchors": [],
+      "h1": 1,
+      "title": "Hearing Tests & Hearing Aids in Sherman, TX | HearCare, Inc. and Associates",
+      "description": "Hearing tests and hearing aids in Sherman, TX. Understand your hearing first, then explore options fitted to your needs, lifestyle and budget. Call or text 903-206-2442.",
+      "imagesWithoutAlt": 0,
+      "unsafeBlank": [],
+      "brokenAria": [],
+      "currentYear": "2026",
+      "scrollBehavior": "auto",
+      "dialog": {
+        "width": 640,
+        "height": 874.90625,
+        "bodyHeight": 679,
+        "overflow": false
+      },
+      "mapFailureFallback": true,
+      "pageErrors": []
+    },
+    {
+      "width": 1024,
+      "height": 960,
+      "overflow": false,
+      "duplicateIds": [],
+      "missingAnchors": [],
+      "h1": 1,
+      "title": "Hearing Tests & Hearing Aids in Sherman, TX | HearCare, Inc. and Associates",
+      "description": "Hearing tests and hearing aids in Sherman, TX. Understand your hearing first, then explore options fitted to your needs, lifestyle and budget. Call or text 903-206-2442.",
+      "imagesWithoutAlt": 0,
+      "unsafeBlank": [],
+      "brokenAria": [],
+      "currentYear": "2026",
+      "scrollBehavior": "auto",
+      "dialog": {
+        "width": 640,
+        "height": 879.203125,
+        "bodyHeight": 679,
+        "overflow": false
+      },
+      "mapFailureFallback": true,
+      "pageErrors": []
+    },
+    {
+      "width": 1199,
+      "height": 960,
+      "overflow": false,
+      "duplicateIds": [],
+      "missingAnchors": [],
+      "h1": 1,
+      "title": "Hearing Tests & Hearing Aids in Sherman, TX | HearCare, Inc. and Associates",
+      "description": "Hearing tests and hearing aids in Sherman, TX. Understand your hearing first, then explore options fitted to your needs, lifestyle and budget. Call or text 903-206-2442.",
+      "imagesWithoutAlt": 0,
+      "unsafeBlank": [],
+      "brokenAria": [],
+      "currentYear": "2026",
+      "scrollBehavior": "auto",
+      "dialog": {
+        "width": 640,
+        "height": 882.140625,
+        "bodyHeight": 679,
+        "overflow": false
+      },
+      "mapFailureFallback": true,
+      "pageErrors": []
+    },
+    {
+      "width": 1200,
+      "height": 960,
+      "overflow": false,
+      "duplicateIds": [],
+      "missingAnchors": [],
+      "h1": 1,
+      "title": "Hearing Tests & Hearing Aids in Sherman, TX | HearCare, Inc. and Associates",
+      "description": "Hearing tests and hearing aids in Sherman, TX. Understand your hearing first, then explore options fitted to your needs, lifestyle and budget. Call or text 903-206-2442.",
+      "imagesWithoutAlt": 0,
+      "unsafeBlank": [],
+      "brokenAria": [],
+      "currentYear": "2026",
+      "scrollBehavior": "auto",
+      "dialog": {
+        "width": 640,
+        "height": 882.15625,
+        "bodyHeight": 679,
+        "overflow": false
+      },
+      "mapFailureFallback": true,
+      "pageErrors": []
+    },
+    {
+      "width": 1280,
+      "height": 960,
+      "overflow": false,
+      "duplicateIds": [],
+      "missingAnchors": [],
+      "h1": 1,
+      "title": "Hearing Tests & Hearing Aids in Sherman, TX | HearCare, Inc. and Associates",
+      "description": "Hearing tests and hearing aids in Sherman, TX. Understand your hearing first, then explore options fitted to your needs, lifestyle and budget. Call or text 903-206-2442.",
+      "imagesWithoutAlt": 0,
+      "unsafeBlank": [],
+      "brokenAria": [],
+      "currentYear": "2026",
+      "scrollBehavior": "auto",
+      "dialog": {
+        "width": 640,
+        "height": 928,
+        "bodyHeight": 679,
+        "overflow": false
+      },
+      "mapFailureFallback": true,
+      "pageErrors": []
+    },
+    {
+      "width": 1440,
+      "height": 960,
+      "overflow": false,
+      "duplicateIds": [],
+      "missingAnchors": [],
+      "h1": 1,
+      "title": "Hearing Tests & Hearing Aids in Sherman, TX | HearCare, Inc. and Associates",
+      "description": "Hearing tests and hearing aids in Sherman, TX. Understand your hearing first, then explore options fitted to your needs, lifestyle and budget. Call or text 903-206-2442.",
+      "imagesWithoutAlt": 0,
+      "unsafeBlank": [],
+      "brokenAria": [],
+      "currentYear": "2026",
+      "scrollBehavior": "auto",
+      "dialog": {
+        "width": 640,
+        "height": 928,
+        "bodyHeight": 677,
+        "overflow": false
+      },
+      "mapFailureFallback": true,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              [
+                ".hc-hero__eyebrow"
+              ],
+              [
+                "#hero-title"
+              ],
+              [
+                ".hc-hero__benefit"
+              ],
+              [
+                ".hc-hero__lead"
+              ],
+              [
+                ".hc-hero__actions > .hc-cta > a[data-open-appointment=\"\"][role=\"button\"][aria-haspopup=\"dialog\"] > span"
+              ],
+              [
+                ".hc-hero__actions > .hc-cta > .hc-cta__text > .hc-textlink[href=\"sms:+19032062442\"][data-contact-sms=\"\"] > span"
+              ],
+              [
+                ".hc-hero__actions > .hc-cta > .hc-cta__text > .hc-textlink[href=\"sms:+19032062442\"][data-contact-sms=\"\"] > span > span[data-contact-display=\"\"]"
+              ],
+              [
+                ".hc-badge__score"
+              ],
+              [
+                ".hc-badge__meta > strong"
+              ],
+              [
+                ".hc-hero__trust"
+              ],
+              [
+                ".hc-facts > li:nth-child(1) > span"
+              ],
+              [
+                ".hc-facts > li:nth-child(2) > span"
+              ],
+              [
+                ".hc-textlink[href$=\"#care\"] > span[aria-hidden=\"true\"]"
+              ],
+              [
+                ".hc-ph__inner > span"
+              ],
+              [
+                ".hc-process__contact > p"
+              ],
+              [
+                ".hc-process__contact > .hc-cta > a[data-open-appointment=\"\"][role=\"button\"][aria-haspopup=\"dialog\"] > span"
+              ],
+              [
+                ".hc-process__contact > .hc-cta > .hc-textlink[href=\"sms:+19032062442\"][data-contact-sms=\"\"]"
+              ]
+            ]
+          }
+        ]
+      },
+      "pageErrors": []
+    },
+    {
+      "width": 1920,
+      "height": 960,
+      "overflow": false,
+      "duplicateIds": [],
+      "missingAnchors": [],
+      "h1": 1,
+      "title": "Hearing Tests & Hearing Aids in Sherman, TX | HearCare, Inc. and Associates",
+      "description": "Hearing tests and hearing aids in Sherman, TX. Understand your hearing first, then explore options fitted to your needs, lifestyle and budget. Call or text 903-206-2442.",
+      "imagesWithoutAlt": 0,
+      "unsafeBlank": [],
+      "brokenAria": [],
+      "currentYear": "2026",
+      "scrollBehavior": "auto",
+      "dialog": {
+        "width": 640,
+        "height": 928,
+        "bodyHeight": 677,
+        "overflow": false
+      },
+      "mapFailureFallback": true,
+      "pageErrors": []
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "overflow": false,
+      "duplicateIds": [],
+      "missingAnchors": [],
+      "h1": 1,
+      "title": "Hearing Tests & Hearing Aids in Sherman, TX | HearCare, Inc. and Associates",
+      "description": "Hearing tests and hearing aids in Sherman, TX. Understand your hearing first, then explore options fitted to your needs, lifestyle and budget. Call or text 903-206-2442.",
+      "imagesWithoutAlt": 0,
+      "unsafeBlank": [],
+      "brokenAria": [],
+      "currentYear": "2026",
+      "scrollBehavior": "auto",
+      "dialog": {
+        "width": 640,
+        "height": 358,
+        "bodyHeight": 161,
+        "overflow": false
+      },
+      "mapFailureFallback": true,
+      "pageErrors": []
+    }
+  ],
+  "noJavaScriptFallback": true,
+  "network": "Third-party services blocked; cached hero/fonts used."
+}

@@ -31,7 +31,7 @@ Tone: professional, warm, respectful, and locally grounded. Avoid luxury-spa sty
 |---|---|---|
 | Brand sky | #78bbe9 | Main Call button, mobile sticky Call action, selective accents |
 | Deep navy-teal | #004a69 | Major headings, footer/final CTA backgrounds, high-contrast surfaces |
-| Mid blue | #2578b2 | Links and selected supporting emphasis; underline text links |
+| Mid blue | #1f6fa6 | Links and selected supporting emphasis; underline text links |
 | White | #ffffff | Main canvas and text on verified dark surfaces |
 | Ink | #2c2c2c | Body text and text/icons on sky-blue buttons |
 | Light surface | #f2f8fc | Proposed low-intensity section tint; derived supporting neutral, not a supplied brand color |
@@ -466,3 +466,6 @@ User requested centered form content. Center appointment-dialog heading/introduc
 
 
 User requested less whitespace above the hero. Reduce final hero top padding to 40px desktop, 32px tablet and 24px mobile (previously 64/48/36px). Preserve bottom padding, internal spacing, image offset and all typography/content.
+
+
+Technical QA: darken functional link blue to #1f6fa6 so 18px links on #f2f8fc clear WCAG AA normal-text contrast. Keep layout and content unchanged. Appointment links styled as buttons now support Space as well as Enter; accessible link names include their visible wording and Google proof has a named region. Remove obsolete internal build-note comment from production HTML.

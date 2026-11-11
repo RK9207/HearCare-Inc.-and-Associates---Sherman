@@ -13,23 +13,25 @@ This summary records the latest user instructions. Historical strategy/source no
 
 ## Current sequence and approval record
 
+On November 11, 2026 the user confirmed “everything looks good” and authorized technical QA. This is whole-page visual approval of the current layout; later changes require new user authorization. Technical corrections are documented in review/TECHNICAL_QA.md. Live integration verification remains separate.
+
 | Section | State |
 |---|---|
-| Header | Two-row desktop header with seven section links below logo/actions, plus mobile/tablet “Explore this page” dropdown; latest implementation awaiting rendered sign-off |
-| Hero | User authorized a refined split presentation after approval; headline wording/size/white color and image preserved; latest layout awaiting rendered sign-off |
+| Header | Approved. Two-row desktop header, 40px nav gaps, enlarged logo and mobile Explore menu. |
+| Hero | Approved. Clean navy hero, enlarged lifestyle photo, current hearing-care/tests H1 and reduced top padding. |
 | Listening difficulties | Explicitly approved |
-| Services | User-requested overview added after listening difficulties, before owners; awaiting rendered approval |
-| Owners and Google proof | User-authorized visible owner profiles awaiting review; Google reviews remain unchanged and approved, with three verbatim reviews and historical 4.8 / 90+ evidence |
-| Process | User requested a more polished design; connected steps, inset phase headings and navy contact strip implemented; awaiting rendered approval |
-| Hearing-aid options | Explicitly approved before subsequent authorized audit wording updates |
+| Services | Approved. Four core service groups; specialized device options live in the style comparison. |
+| Owners and Google proof | Approved. Visible credentials and owner caption; verbatim reviews and historical 4.8 / 90+ proof preserved. |
+| Process | Approved. Connected steps, phase headings, prominent test disclosure and navy contact strip. |
+| Hearing-aid options | Approved. Labelled SmartRIC example, pill manufacturers and six-item style comparison. |
 | Payment | Explicitly approved |
-| FAQ | Explicitly approved before subsequent authorized audit wording updates; eight topics and desktop sticky intro |
-| Location | User-requested rebuild integrates storefront, details and supplied OAP map in one responsive panel; awaiting rendered approval |
+| FAQ | Approved. Eight topics and desktop sticky intro. |
+| Location | Approved. Integrated storefront/details/OAP map panel; photo caption removed. |
 | Final invitation | Explicitly approved |
-| Footer | Latest design: no logo, deep navy background, automatic year; final rendered sign-off pending |
-| Appointment dialog | Shell checked; real embedded fields, consent, success and lead delivery require GHL QA |
+| Footer | Approved. No logo, deep navy background and automatic year. |
+| Appointment dialog | Centered shell passed technical checks; real GHL fields, consent, success and delivery require live QA. |
 
-The user has now authorized feasible audit improvements. These changes permit targeted process/options/FAQ wording and map-loading updates, without reopening the approved visual designs or altering testimonials. Recheck the revised wording in GHL before treating the audit pass as finally accepted.
+The current copy/layout is approved. This technical QA pass changes keyboard activation, accessible naming/semantics and functional link contrast only; it removes obsolete internal comments. Visible copy, testimonials, layout, iframe attributes and destinations are preserved.
 
 ## Current imagery
 

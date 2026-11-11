@@ -1,0 +1,61 @@
+{
+  "violations": [],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "nodes": [
+        [
+          ".hc-hero__eyebrow"
+        ],
+        [
+          "#hero-title"
+        ],
+        [
+          ".hc-hero__benefit"
+        ],
+        [
+          ".hc-hero__lead"
+        ],
+        [
+          ".hc-hero__actions > .hc-cta > a[data-open-appointment=\"\"][role=\"button\"][aria-haspopup=\"dialog\"] > span"
+        ],
+        [
+          ".hc-hero__actions > .hc-cta > .hc-cta__text > .hc-textlink[href=\"sms:+19032062442\"][data-contact-sms=\"\"] > span"
+        ],
+        [
+          ".hc-hero__actions > .hc-cta > .hc-cta__text > .hc-textlink[href=\"sms:+19032062442\"][data-contact-sms=\"\"] > span > span[data-contact-display=\"\"]"
+        ],
+        [
+          ".hc-badge__score"
+        ],
+        [
+          ".hc-badge__meta > strong"
+        ],
+        [
+          ".hc-hero__trust"
+        ],
+        [
+          ".hc-facts > li:nth-child(1) > span"
+        ],
+        [
+          ".hc-facts > li:nth-child(2) > span"
+        ],
+        [
+          ".hc-textlink[href$=\"#care\"] > span[aria-hidden=\"true\"]"
+        ],
+        [
+          ".hc-ph__inner > span"
+        ],
+        [
+          ".hc-process__contact > p"
+        ],
+        [
+          ".hc-process__contact > .hc-cta > a[data-open-appointment=\"\"][role=\"button\"][aria-haspopup=\"dialog\"] > span"
+        ],
+        [
+          ".hc-process__contact > .hc-cta > .hc-textlink[href=\"sms:+19032062442\"][data-contact-sms=\"\"]"
+        ]
+      ]
+    }
+  ]
+}

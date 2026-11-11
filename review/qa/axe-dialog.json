@@ -1,0 +1,16 @@
+[
+  {
+    "width": 390,
+    "violations": [],
+    "incomplete": [
+      "color-contrast"
+    ]
+  },
+  {
+    "width": 1440,
+    "violations": [],
+    "incomplete": [
+      "color-contrast"
+    ]
+  }
+]

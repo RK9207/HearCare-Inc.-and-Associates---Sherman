@@ -1,0 +1,21 @@
+{
+  "checks": [
+    {
+      "width": 390,
+      "height": 960,
+      "normalMotionFaqPosition": "static"
+    },
+    {
+      "width": 1440,
+      "height": 960,
+      "normalMotionFaqPosition": "sticky"
+    },
+    {
+      "width": 1440,
+      "height": 390,
+      "normalMotionFaqPosition": "static"
+    }
+  ],
+  "insideClickPreservesModal": true,
+  "backdropClosesDesktopModal": true
+}
