@@ -24,7 +24,7 @@ This summary records the latest user instructions. Historical strategy/source no
 | Hearing-aid options | Explicitly approved before subsequent authorized audit wording updates |
 | Payment | Explicitly approved |
 | FAQ | Explicitly approved before subsequent authorized audit wording updates; eight topics and desktop sticky intro |
-| Location | Explicitly approved; supplied OAP map, larger dimensions and dark directions button |
+| Location | User-requested rebuild integrates storefront, details and supplied OAP map in one responsive panel; awaiting rendered approval |
 | Final invitation | Explicitly approved |
 | Footer | Latest design: no logo, deep navy background, automatic year; final rendered sign-off pending |
 | Appointment dialog | Shell checked; real embedded fields, consent, success and lead delivery require GHL QA |

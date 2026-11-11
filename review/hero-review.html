@@ -764,66 +764,70 @@ a:hover{ color:var(--hc-navy); }
  .hc-faq__chev{ width:32px; height:32px; }
 }
 
-/* ---------- Location: contained visit details and map ---------- */
-#location{ padding:56px 0; }
-.hc-loc{ display:grid; grid-template-columns:minmax(0,4fr) minmax(0,7fr); align-items:stretch; border:1px solid #b8cfdd; border-radius:20px; background:var(--hc-white); overflow:hidden; }
-.hc-loc__details{ padding:32px; }
-.hc-loc__storefront{ display:grid; grid-template-columns:minmax(0,5fr) minmax(0,7fr); gap:32px; align-items:center; margin:24px 0 0; padding:16px; border:1px solid #b8cfdd; border-radius:20px; background:var(--hc-white); }
-.hc-loc__storefront img{ display:block; width:100%; height:auto; aspect-ratio:680 / 411; object-fit:contain; border-radius:12px; }
-.hc-loc__storefront figcaption{ padding:16px 24px 16px 0; color:var(--hc-ink); font-size:1.125rem; line-height:1.6; }
-.hc-loc__storefront strong{ display:block; margin-bottom:10px; font-family:var(--hc-head); font-size:1.375rem; line-height:1.4; color:var(--hc-navy); }
-@media(max-width:639px){ .hc-loc__storefront{ grid-template-columns:1fr; gap:16px; padding:14px; } .hc-loc__storefront figcaption{ padding:0 6px 6px; } .hc-loc__storefront strong{ font-size:1.25rem; } }
-
-.hc-loc__details h2{ max-width:430px; }
+/* ---------- Location: one integrated office and route panel ---------- */
+#location{ padding:64px 0; }
+.hc-loc__intro{ margin-bottom:30px; }
+.hc-loc__eyebrow{ display:block; margin-bottom:12px; font-size:.875rem; font-weight:600; line-height:1.5; letter-spacing:.08em; text-transform:uppercase; color:var(--hc-navy); }
+.hc-loc__intro > p{ margin-top:14px; max-width:680px; color:var(--hc-ink); font-size:1.125rem; line-height:1.6; }
+.hc-loc{ display:grid; grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr); align-items:stretch; border:1px solid #b8cfdd; border-radius:24px; background:var(--hc-white); overflow:hidden; box-shadow:0 12px 36px rgba(0,56,80,.05); }
+.hc-loc__details{ min-width:0; }
+.hc-loc__storefront{ margin:0; }
+.hc-loc__storefront img{ display:block; width:100%; height:auto; aspect-ratio:680 / 411; object-fit:contain; background:var(--hc-surface); }
+.hc-loc__storefront figcaption{ padding:14px 28px; border-bottom:1px solid #d5e2ea; background:var(--hc-surface); color:var(--hc-navy); font-size:1rem; font-weight:600; line-height:1.5; }
+.hc-loc__info{ padding:28px; }
 .hc-loc__city{ white-space:normal; }
-.hc-loc__list{ list-style:none; margin:28px 0 0; padding:0; display:grid; gap:22px; }
-.hc-loc__list li{ display:grid; grid-template-columns:24px minmax(0,1fr); gap:14px; }
-.hc-loc__list li + li{ padding-top:22px; border-top:1px solid var(--hc-border); }
-.hc-loc__list .hc-icon{ width:22px; height:22px; color:var(--hc-blue); margin-top:3px; }
-.hc-loc__list h3{ font-family:var(--hc-body); font-size:1rem; font-weight:600; color:var(--hc-navy); margin-bottom:6px; }
-.hc-loc__list address,.hc-loc__list p{ font-size:1.125rem; line-height:1.6; color:var(--hc-muted); }
+.hc-loc__list{ list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; }
+.hc-loc__list li{ display:grid; grid-template-columns:22px minmax(0,1fr); align-content:start; gap:10px; }
+.hc-loc__list .hc-icon{ width:20px; height:20px; color:var(--hc-blue); margin-top:3px; }
+.hc-loc__list h3{ font-family:var(--hc-body); font-size:1rem; font-weight:600; color:var(--hc-navy); margin-bottom:8px; }
+.hc-loc__list address,.hc-loc__list p{ font-size:1.125rem; line-height:1.6; color:var(--hc-ink); }
 .hc-loc__list address{ font-style:normal; }
-.hc-loc__hours{ display:grid; gap:5px; }
-.hc-loc__hours span{ display:block; }
+.hc-loc__hours{ display:grid; gap:7px; }
+.hc-loc__hours > span{ display:block; }
 .hc-loc__hours .hc-loc__time{ display:inline-block; white-space:nowrap; }
-.hc-loc__actions{ display:flex; flex-wrap:wrap; gap:10px; margin-top:26px; padding-top:24px; border-top:1px solid var(--hc-border); }
-.hc-loc .hc-btn{ min-height:52px; gap:8px; border-radius:999px; text-align:center; white-space:normal; }
+.hc-loc__actions{ display:grid; grid-template-columns:minmax(0,1.3fr) minmax(0,1fr); gap:12px; margin-top:26px; padding-top:24px; border-top:1px solid var(--hc-border); }
+.hc-loc .hc-btn{ min-height:52px; gap:8px; padding-inline:14px; border-radius:999px; text-align:center; white-space:normal; }
 .hc-loc .hc-btn > span{ display:block; line-height:1.25; }
- .hc-map-wrap{ padding:16px; border-left:1px solid #b8cfdd; display:flex; flex-direction:column; min-width:0; }
-.hc-map{ position:relative; width:100%; flex:1; min-height:520px; border-radius:12px; overflow:hidden; border:1px solid var(--hc-border); background:var(--hc-surface); }
+.hc-map-wrap{ padding:20px; border-left:1px solid #b8cfdd; display:flex; flex-direction:column; min-width:0; background:var(--hc-surface); }
+.hc-map{ position:relative; width:100%; flex:1; min-height:520px; border-radius:16px; overflow:hidden; border:1px solid #c4d9e5; background:#e6f0f6; }
 .hc-map__canvas{ position:absolute; inset:0; width:100%; height:100%; }
-.hc-map-card{ position:absolute; z-index:2; top:12px; left:12px; max-width:calc(100% - 24px); padding:12px 14px; background:#fff; border:1px solid var(--hc-border); border-radius:8px; box-shadow:0 1px 4px rgba(0,0,0,.15); }
+.hc-map-card{ position:absolute; z-index:2; top:16px; left:16px; width:min(290px,calc(100% - 32px)); padding:14px 16px; background:#fff; border:1px solid var(--hc-border); border-radius:12px; box-shadow:0 4px 16px rgba(0,30,45,.12); }
 .hc-map-card p,.hc-map-card a{ font-size:15px; line-height:1.5; margin:0; }
 .hc-map-card p{ margin-bottom:6px; color:var(--hc-ink); }
-.hc-map-card a{ display:inline-flex; align-items:center; min-height:36px; color:#1a73e8; font-weight:600; text-decoration:none; }
-.hc-map-card a:hover,.hc-map-card a:focus{ text-decoration:underline; }
-.hc-map__status{ position:absolute; z-index:1; left:18px; right:18px; bottom:22px; padding:12px; border-radius:8px; background:var(--hc-surface); color:var(--hc-muted); text-align:center; font-size:1rem; line-height:1.5; }
+.hc-map-card a{ display:inline-flex; align-items:center; min-height:44px; color:#1a73e8; font-weight:600; text-decoration:underline; text-underline-offset:3px; }
+.hc-map-card a:hover,.hc-map-card a:focus{ color:var(--hc-navy); }
+.hc-map__status{ position:absolute; z-index:1; left:16px; right:16px; bottom:22px; padding:12px; border-radius:8px; background:var(--hc-surface); color:var(--hc-ink); text-align:center; font-size:1rem; line-height:1.5; }
 #location .maplibregl-popup-content{ padding:10px 14px; font-size:14px; line-height:1.4; }
 #location .maplibregl-popup-close-button{ padding:4px 8px; color:#000; font-size:18px; }
 #location .maplibregl-popup-close-button:hover{ color:#000; background:rgba(0,0,0,.05); }
 .hc-map-wrap .hc-btn{ margin-top:16px; width:100%; background:var(--hc-navy); color:var(--hc-white); border-color:var(--hc-navy); }
 .hc-map-wrap .hc-btn:hover{ background:var(--hc-navy-deep); color:var(--hc-white); border-color:var(--hc-navy-deep); }
+@media(max-width:1199px) and (min-width:1024px){ .hc-loc__info{ padding:24px; } .hc-loc__list{ gap:16px; } .hc-map-wrap{ padding:16px; } }
 @media(max-width:1023px){
- .hc-loc{ grid-template-columns:minmax(0,5fr) minmax(0,6fr); }
- .hc-loc__details{ padding:26px; }
- .hc-map-wrap{ padding:16px; }
- .hc-map{ min-height:460px; }
+ .hc-loc{ grid-template-columns:1fr; }
+ .hc-loc__details{ display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); align-items:start; }
+ .hc-loc__info{ padding:24px; }
+ .hc-loc__list{ grid-template-columns:1fr; gap:20px; }
+ .hc-loc__storefront figcaption{ padding:14px 20px; border-bottom:0; }
+ .hc-map-wrap{ border-left:0; border-top:1px solid #b8cfdd; }
+ .hc-map{ flex:none; height:460px; min-height:0; }
 }
 @media(max-width:767px){
  #location{ padding:40px 0; }
- .hc-loc{ grid-template-columns:minmax(0,1fr); border-radius:18px; }
- .hc-loc__details{ padding:24px 20px; }
- .hc-loc__list{ margin-top:24px; gap:20px; }
- .hc-loc__list li + li{ padding-top:20px; }
- .hc-loc__actions{ margin-top:22px; padding-top:22px; }
- .hc-loc__actions .hc-btn--call{ flex:1 1 200px; }
- .hc-loc__actions .hc-btn--appt{ flex:1 1 100px; }
- .hc-map-wrap{ padding:0 0 20px; border-left:0; border-top:1px solid #b8cfdd; }
- .hc-map{ flex:none; min-height:0; height:450px; border:0; border-bottom:1px solid var(--hc-border); border-radius:0; }
- .hc-map-wrap .hc-btn{ width:calc(100% - 40px); margin:18px 20px 0; }
- .hc-map-card{ top:8px; left:8px; right:8px; max-width:calc(100% - 16px); padding:10px 12px; }
+ .hc-loc__intro{ margin-bottom:24px; }
+ .hc-loc{ border-radius:20px; }
+ .hc-loc__details{ display:block; }
+ .hc-loc__storefront figcaption{ padding:14px 20px; border-bottom:1px solid #d5e2ea; }
+ .hc-loc__info{ padding:24px 20px; }
+ .hc-loc__list li + li{ padding-top:20px; border-top:1px solid var(--hc-border); }
+ .hc-loc__actions{ margin-top:24px; padding-top:22px; }
+ .hc-map-wrap{ padding:16px; }
+ .hc-map{ height:450px; border-radius:14px; }
+ .hc-map-card{ top:12px; left:12px; width:min(270px,calc(100% - 24px)); padding:12px 14px; }
  .hc-map-card p,.hc-map-card a{ font-size:14px; }
+ .hc-map-wrap .hc-btn{ min-height:52px; }
 }
+@media(max-width:639px){ .hc-loc__actions{ grid-template-columns:1fr; } }
 
 /* ---------- Final CTA: compact centered invitation ---------- */
 .hc-final{ padding:56px 0; background:var(--hc-navy); color:var(--hc-white); text-align:center; border-bottom:1px solid #2b6b86; }
@@ -1411,10 +1415,19 @@ a:hover{ color:var(--hc-navy); }
 <!-- ===================== 8. LOCATION / MAP ===================== -->
 <section class="hc-section hc-section--tint" id="location" aria-labelledby="loc-title">
   <div class="hc-wrap">
+    <div class="hc-loc__intro">
+      <span class="hc-loc__eyebrow">Visit HearCare</span>
+      <h2 id="loc-title">Find us in <span class="hc-loc__city">Sherman, TX</span></h2>
+      <p>See our entrance, check office hours and get directions to our Sherman office.</p>
+    </div>
     <div class="hc-loc">
       <div class="hc-loc__details">
-        <h2 id="loc-title">Find us in <span class="hc-loc__city">Sherman, TX</span></h2>
-        <ul class="hc-loc__list">
+        <figure class="hc-loc__storefront">
+      <img src="https://files.leadconnectorhq.com/file/6af46ff41ca1c60e4d785638/clinic-image.webp" width="680" height="411" loading="lazy" decoding="async" alt="HearCare, Inc. and Associates storefront and entrance beneath the practice sign.">
+      <figcaption>Look for the HearCare sign above the entrance</figcaption>
+    </figure>
+        <div class="hc-loc__info">
+          <ul class="hc-loc__list">
           <li>
             <svg class="hc-icon" aria-hidden="true"><use href="#i-pin"/></svg>
             <div><h3>Address</h3><address>HearCare, Inc. and Associates<br>1800 N. Travis St, Suite D<br>Sherman, TX 75092</address></div>
@@ -1424,9 +1437,10 @@ a:hover{ color:var(--hc-navy); }
             <div><h3>Office hours</h3><p class="hc-loc__hours"><span>Monday–Thursday: <span class="hc-loc__time">9:00am–5:00pm</span></span><span>Friday: by appointment only</span></p></div>
           </li>
         </ul>
-        <div class="hc-loc__actions">
+          <div class="hc-loc__actions">
           <a class="hc-btn hc-btn--call" href="tel:+19032062442" data-contact-tel><svg class="hc-icon" aria-hidden="true"><use href="#i-phone"/></svg><span>Call <span data-contact-display>903-206-2442</span></span></a>
           <a class="hc-btn hc-btn--appt" href="sms:+19032062442" data-contact-sms><svg class="hc-icon" aria-hidden="true"><use href="#i-message"/></svg><span>Text us</span></a>
+        </div>
         </div>
       </div>
       <div class="hc-map-wrap">
@@ -1446,10 +1460,6 @@ a:hover{ color:var(--hc-navy); }
       </a>
       </div>
     </div>
-    <figure class="hc-loc__storefront">
-      <img src="https://files.leadconnectorhq.com/file/6af46ff41ca1c60e4d785638/clinic-image.webp" width="680" height="411" loading="lazy" decoding="async" alt="HearCare, Inc. and Associates storefront and entrance beneath the practice sign.">
-      <figcaption><strong>Look for the HearCare sign</strong>Our Sherman office at 1800 N. Travis St, Suite D, Sherman, TX 75092.</figcaption>
-    </figure>
   </div>
 </section>
 

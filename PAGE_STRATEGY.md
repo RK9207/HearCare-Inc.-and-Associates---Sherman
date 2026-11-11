@@ -379,3 +379,8 @@ User identified the missing services section. Add a concise overview after liste
 ## User-requested two-row desktop header
 
 Follow supplied reference’s header structure while preserving HearCare navy branding: larger logo left and Call/Request Appointment actions right in top row; seven section links evenly distributed in a separate full-width lower row beneath a fine divider. Remove cramped desktop three-column layout and intermediate logo/button compression. Preserve existing mobile/tablet Explore disclosure, spacing, destinations, black Call borders and all contact behavior. Existing measured-header scroll offsets handle the taller desktop header; update no-JS fallback accordingly. Awaiting rendered review.
+
+
+## User-requested location rebuild for desktop and mobile
+
+Integrate the standalone clinic photograph with office details/map into one rounded panel. Move the unchanged Find us in Sherman, TX heading above the panel, add a brief visit-planning introduction, place full uncropped storefront plus sign caption/address/hours/Call/Text on the left and the large OAP map/dark Directions action on the right. Use dark body copy, balanced borders and full-width recognizable image. Desktop address/hours sit side by side; tablet combines image/details above the map; mobile stacks heading, full-width photo, office details, actions, 450px map and Directions. Compact map address card leaves more of the route visible; keep Open in Maps label. Preserve exact map DOM, ID, proxy/center/zoom/gestures/tracking initialization, destinations, hours, contact hooks and hero/other sections. Awaiting rendered review.
