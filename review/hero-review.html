@@ -77,7 +77,7 @@ footer merge fields are GHL custom values and render only inside GHL.
 
 *,*::before,*::after{ box-sizing:border-box; }
 [hidden]{ display:none !important; }
-html{ scroll-behavior:smooth; scroll-padding-top:calc(var(--hc-header-h) + 16px); overflow-x:clip; -webkit-text-size-adjust:100%; }
+html{ scroll-behavior:smooth; scroll-padding-top:var(--hc-scroll-offset,calc(var(--hc-header-h) + 16px)); overflow-x:clip; -webkit-text-size-adjust:100%; }
 @media (prefers-reduced-motion:reduce){ html{ scroll-behavior:auto; } *{ transition:none !important; animation:none !important; } }
 html.hc-modal-open{ overflow:hidden; }
 body{
@@ -168,6 +168,20 @@ a:hover{ color:var(--hc-navy); }
   .hc-header .hc-logo{ max-width:212px; }
   .hc-header .hc-btn--appt{ width:clamp(132px,38vw,170px); padding:8px 12px; line-height:1.1; white-space:normal; text-align:center; }
   .hc-header .hc-btn--appt .hc-icon{ display:none; }
+}
+
+/* Compact section navigation below the mobile/tablet header row. */
+.hc-explore{ display:none; }
+@media(max-width:1199px){
+ :root{ --hc-scroll-offset:calc(var(--hc-header-h) + 64px); }
+ .hc-explore{ display:block; position:relative; margin:0; }
+ .hc-explore summary{ display:flex; align-items:center; justify-content:space-between; gap:16px; min-height:48px; padding:10px 0; border-top:1px solid rgba(183,220,245,.3); cursor:pointer; list-style:none; color:#fff; font-size:1rem; font-weight:600; }
+ .hc-explore summary::-webkit-details-marker{ display:none; }
+ .hc-explore[open] summary .hc-icon{ transform:rotate(180deg); }
+ .hc-explore nav{ position:absolute; top:100%; left:calc(-1 * var(--hc-gutter)); right:calc(-1 * var(--hc-gutter)); padding:12px var(--hc-gutter) 16px; background:var(--hc-navy-deep); border-top:1px solid rgba(183,220,245,.25); box-shadow:0 16px 24px rgba(0,25,40,.18); max-height:60dvh; overflow-y:auto; }
+ .hc-explore ul{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:4px 16px; padding:0; margin:0; list-style:none; }
+ .hc-explore a{ display:flex; align-items:center; min-height:44px; padding:9px 8px; color:#fff; text-decoration:none; font-size:1rem; border-radius:6px; }
+ .hc-explore a:hover,.hc-explore a:focus-visible{ background:rgba(120,187,233,.16); color:#fff; }
 }
 
 /* ---------- Hero: approved Step 5 split composition ---------- */
@@ -691,7 +705,7 @@ a:hover{ color:var(--hc-navy); }
 .hc-faq__a li + li{ margin-top:8px; }
 /* Scroll-following intro stays below the header and within the FAQ. */
 @media(min-width:768px) and (min-height:600px) and (prefers-reduced-motion:no-preference){
- .hc-faq .hc-section__head{ position:sticky; top:calc(var(--hc-header-h) + 32px); align-self:start; }
+ .hc-faq .hc-section__head{ position:sticky; top:calc(var(--hc-scroll-offset,calc(var(--hc-header-h) + 16px)) + 16px); align-self:start; }
 }
 @media(max-width:1023px){ .hc-faq{ grid-template-columns:minmax(0,4fr) minmax(0,7fr); gap:28px; } }
 @media(max-width:767px){
@@ -888,6 +902,21 @@ a:hover{ color:var(--hc-navy); }
         <span>Request Appointment</span>
       </a>
     </div>
+  </div>
+  <div class="hc-wrap">
+    <details class="hc-explore">
+      <summary>Explore this page<svg class="hc-icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
+      <nav aria-label="Explore page sections">
+        <ul>
+          <li><a href="#practice">Our Team</a></li>
+          <li><a href="#care">Your Visit</a></li>
+          <li><a href="#options">Hearing Aids</a></li>
+          <li><a href="#payment">Payment</a></li>
+          <li><a href="#faq">FAQs</a></li>
+          <li><a href="#location">Location</a></li>
+        </ul>
+      </nav>
+    </details>
   </div>
 </header>
 
@@ -1428,6 +1457,40 @@ a:hover{ color:var(--hc-navy); }
 
 <script>
 (function () {
+  /* Native mobile section menu; keep anchors clear of the real header height. */
+  var header = document.querySelector('.hc-header');
+  var explore = document.querySelector('.hc-explore');
+  function updateHeaderOffset() {
+    if (header) document.documentElement.style.setProperty('--hc-scroll-offset', (Math.ceil(header.getBoundingClientRect().height) + 16) + 'px');
+  }
+  if (header && window.ResizeObserver) new ResizeObserver(updateHeaderOffset).observe(header);
+  window.addEventListener('resize', function () {
+    if (explore && window.innerWidth >= 1200) explore.open = false;
+    updateHeaderOffset();
+  });
+  updateHeaderOffset();
+  if (explore) {
+    explore.querySelectorAll('a[href^="#"]').forEach(function (link) {
+      link.addEventListener('click', function () {
+        explore.open = false;
+        updateHeaderOffset();
+        var target = document.querySelector(link.getAttribute('href'));
+        var heading = target && target.querySelector('h2');
+        if (heading) {
+          heading.setAttribute('tabindex', '-1');
+          heading.focus({ preventScroll: true });
+          heading.addEventListener('blur', function () { heading.removeAttribute('tabindex'); }, { once: true });
+        }
+      });
+    });
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape' && explore.open) { explore.open = false; explore.querySelector('summary').focus(); }
+    });
+    document.addEventListener('click', function (event) {
+      if (explore.open && !explore.contains(event.target)) explore.open = false;
+    });
+  }
+
   /* Single source of truth for contact data. Replace with CSM tracking
      numbers when supplied; verify call and SMS destinations separately. */
   var CONTACT = { display: '903-206-2442', tel: '+19032062442', sms: '+19032062442' };

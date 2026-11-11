@@ -15,7 +15,7 @@ This summary records the latest user instructions. Historical strategy/source no
 
 | Section | State |
 |---|---|
-| Header | Six valid section links; latest navigation implementation needs final rendered sign-off |
+| Header | Desktop section links plus mobile/tablet “Explore this page” dropdown; latest implementation awaiting rendered sign-off |
 | Hero | User authorized a refined split presentation after approval; headline wording/size/white color and image preserved; latest layout awaiting rendered sign-off |
 | Listening difficulties | Explicitly approved |
 | Owners and Google proof | User-authorized visible owner profiles awaiting review; Google reviews remain unchanged and approved, with three verbatim reviews and historical 4.8 / 90+ evidence |
@@ -43,7 +43,8 @@ The user has now authorized feasible audit improvements. These changes permit ta
 
 ## Current technical behavior
 
-- Native FAQ/qualification/style disclosures and existing dialog.
+- Native FAQ/style disclosures and existing dialog; owner qualifications remain visible.
+- Mobile/tablet Explore this page menu closes on selection, Escape, outside click or desktop resize; measured header offsets keep section headings clear.
 - Core contact/appointment behavior registers before third-party libraries.
 - Map assets load near the map viewport; supplied proxy, center, zoom, gestures, navigation, marker and OAP tracking remain.
 - OAP tracking invocation is not proof of GA4 call/SMS/form conversion tracking.

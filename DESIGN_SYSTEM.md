@@ -362,3 +362,6 @@ User requested removing View qualifications dropdowns and filling the empty prof
 
 
 User requested white hero icons. Set hero .hc-icon color to white, including phone, calendar, SMS, address and clock icons. Google brand paths and review stars retain their original colors. No icon or styling outside the hero changed.
+
+
+User requested an “Explore this page” dropdown matching the reference. Add native details navigation beneath the existing header row below 1200px, using the same six desktop destinations. Show a full-width summary/chevron and a compact two-column overlay menu. Close on selection, Escape, outside click or desktop resize; transfer keyboard focus to the destination heading. Measure the real sticky-header height for anchor offsets and FAQ sticky-intro clearance; preserve desktop nav, other section designs and contact integrations. Awaiting rendered review.

@@ -39,3 +39,8 @@ Replace generic Care/Our Practice labels and provide six meaningful header ancho
 
 
 Navigation update validation: nine widths (320, 390, 500, 768, 1024, 1200, 1280, 1440, 1920px) have no header overflow and preserve appointment open/Escape/focus return. At all four desktop navigation widths, all six links were clicked; every destination hash matches and its heading lands below the sticky header. No link/logo/action overlap at those widths. Existing compact header behavior below 1200px remains unchanged. Exact source comparison confirms only header markup/CSS changed. Original remote logo cannot load in the local preview, so screenshots display its alt text; original URL and dimensions are retained. Current captures: navigation-header-1200.png, navigation-header-1440.png and navigation-header-390.png.
+
+
+User requested an “Explore this page” dropdown matching the reference. Add native details navigation beneath the existing header row below 1200px, using the same six desktop destinations. Show a full-width summary/chevron and a compact two-column overlay menu. Close on selection, Escape, outside click or desktop resize; transfer keyboard focus to the destination heading. Measure the real sticky-header height for anchor offsets and FAQ sticky-intro clearance; preserve desktop nav, other section designs and contact integrations. Awaiting rendered review.
+
+Validation: browser checks passed at 320, 390, 500, 768, 1024, 1200, 1280, 1440 and 1920px. All six mobile destinations close the menu and remain clear of the header; Escape/focus restoration and appointment-dialog regression checks passed. Main-section HTML is unchanged. External images/form/map assets were blocked in the local test harness; live GHL integrations were not submitted or validated.
