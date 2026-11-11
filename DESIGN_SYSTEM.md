@@ -413,3 +413,8 @@ User identified the missing services section. Add a concise overview after liste
 
 
 User requested black borders on blue Call CTAs. Use a consistent 2px #000 border for all hc-btn--call controls, retain black border on hover, and apply the same border to the mobile sticky Call link. Preserve blue backgrounds, current sizes, safe-area spacing and contact destinations.
+
+
+## User-requested two-row desktop header
+
+Follow supplied reference’s header structure while preserving HearCare navy branding: larger logo left and Call/Request Appointment actions right in top row; seven section links evenly distributed in a separate full-width lower row beneath a fine divider. Remove cramped desktop three-column layout and intermediate logo/button compression. Preserve existing mobile/tablet Explore disclosure, spacing, destinations, black Call borders and all contact behavior. Existing measured-header scroll offsets handle the taller desktop header; update no-JS fallback accordingly. Awaiting rendered review.

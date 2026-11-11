@@ -47,3 +47,10 @@ Validation: browser checks passed at 320, 390, 500, 768, 1024, 1200, 1280, 1440 
 
 
 User requested reduced vertical padding on mobile Explore this page and sticky Call. Below 640px: summary uses 4px vertical padding with a 44px minimum tap target; dropdown panel uses 8px top/bottom padding. Sticky Call uses 2px top/bottom padding and a 44px tap target (48px total plus safe-area inset); body bottom clearance matches. Preserve tablet/desktop styles, safe-area support, contact links and measured header offsets.
+
+
+## User-requested two-row desktop header
+
+Follow supplied reference’s header structure while preserving HearCare navy branding: larger logo left and Call/Request Appointment actions right in top row; seven section links evenly distributed in a separate full-width lower row beneath a fine divider. Remove cramped desktop three-column layout and intermediate logo/button compression. Preserve existing mobile/tablet Explore disclosure, spacing, destinations, black Call borders and all contact behavior. Existing measured-header scroll offsets handle the taller desktop header; update no-JS fallback accordingly. Awaiting rendered review.
+
+Validation: tested ten widths from 320–1920px. Seven desktop links fit on a distinct lower row at 1200px and up; all destinations clear the measured sticky header. Mobile/tablet menu selection and appointment dialog passed. Exact comparison confirms all main content and integration scripts unchanged. Local logo retrieval remains blocked; original logo URL preserved.

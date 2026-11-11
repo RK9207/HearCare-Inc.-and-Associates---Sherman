@@ -15,7 +15,7 @@ This summary records the latest user instructions. Historical strategy/source no
 
 | Section | State |
 |---|---|
-| Header | Seven desktop section links plus mobile/tablet “Explore this page” dropdown; latest implementation awaiting rendered sign-off |
+| Header | Two-row desktop header with seven section links below logo/actions, plus mobile/tablet “Explore this page” dropdown; latest implementation awaiting rendered sign-off |
 | Hero | User authorized a refined split presentation after approval; headline wording/size/white color and image preserved; latest layout awaiting rendered sign-off |
 | Listening difficulties | Explicitly approved |
 | Services | User-requested overview added after listening difficulties, before owners; awaiting rendered approval |
