@@ -382,3 +382,6 @@ User requested more mobile headline line spacing. Increase hero H1 line-height f
 
 
 User requested a more visible “Which tests might be included?” disclosure. Add a pale-blue surface, stronger 2px blue border, larger title, explicit expansion hint and white chevron inside a navy circle. Preserve the native details behavior, original question and all existing test descriptions/qualifications. Style only this process disclosure; retain all other sections and integrations. Awaiting rendered review.
+
+
+User requested reduced vertical padding on mobile Explore this page and sticky Call. Below 640px: summary uses 4px vertical padding with a 44px minimum tap target; dropdown panel uses 8px top/bottom padding. Sticky Call uses 2px top/bottom padding and a 44px tap target (48px total plus safe-area inset); body bottom clearance matches. Preserve tablet/desktop styles, safe-area support, contact links and measured header offsets.

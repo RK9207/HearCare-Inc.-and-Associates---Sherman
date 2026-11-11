@@ -184,6 +184,11 @@ a:hover{ color:var(--hc-navy); }
  .hc-explore a:hover,.hc-explore a:focus-visible{ background:rgba(120,187,233,.16); color:#fff; }
 }
 
+@media(max-width:639px){
+ .hc-explore summary{ min-height:44px; padding:4px 0; }
+ .hc-explore nav{ padding-top:8px; padding-bottom:8px; }
+}
+
 /* ---------- Hero: approved Step 5 split composition ---------- */
 .hc-hero--split{ position:relative; padding:64px 0 72px; background:linear-gradient(115deg,var(--hc-navy) 0%,var(--hc-navy) 58%,var(--hc-navy-deep) 100%); color:var(--hc-white); }
 .hc-hero__grid{ display:grid; grid-template-columns:minmax(0,1.05fr) minmax(0,1fr); grid-template-areas:"copy media" "actions media" "facts media"; column-gap:64px; align-items:start; position:relative; }
@@ -829,13 +834,13 @@ a:hover{ color:var(--hc-navy); }
 /* ---------- Mobile sticky call ---------- */
 .hc-callbar{ display:none; }
 @media (max-width:639px){
-  body{ padding-bottom:calc(64px + env(safe-area-inset-bottom)); }
+  body{ padding-bottom:calc(48px + env(safe-area-inset-bottom)); }
   .hc-callbar{
     display:flex; position:fixed; left:0; right:0; bottom:0; z-index:90;
-    padding:8px 12px calc(8px + env(safe-area-inset-bottom)); background:var(--hc-sky);
+    padding:2px 12px calc(2px + env(safe-area-inset-bottom)); background:var(--hc-sky);
     box-shadow:0 -4px 16px rgba(0,74,105,.15);
   }
-  .hc-callbar a{ flex:1; display:flex; align-items:center; justify-content:center; gap:10px; min-height:48px; color:var(--hc-ink); font-weight:600; font-size:1.125rem; text-decoration:none; border-radius:8px; }
+  .hc-callbar a{ flex:1; display:flex; align-items:center; justify-content:center; gap:10px; min-height:44px; color:var(--hc-ink); font-weight:600; font-size:1.125rem; text-decoration:none; border-radius:8px; }
   html.hc-modal-open .hc-callbar{ display:none; }
 }
 
