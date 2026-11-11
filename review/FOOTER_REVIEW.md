@@ -35,3 +35,6 @@ User clarified that the footer year should change automatically. Wrap the 2026 f
 
 
 User-requested logo-background match: change only the footer background from deep navy to brand navy (#004a69), matching the logo background visible in the supplied GHL screenshot. Preserve the existing final-invitation separator, footer layout, text, links and automatic year.
+
+
+User-supplied transparent footer logo: https://files.leadconnectorhq.com/file/6af40cdbddcd97ce5ac404ec/logo-hearcare-transparent.png . Replace only the footer image src; preserve its alt text, homepage link, responsive dimensions, navy background and all other page logos. No generated or edited logo is used.

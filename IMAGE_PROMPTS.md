@@ -226,3 +226,6 @@ User approved Layout A + headline 1. This supersedes the old sticky image/above-
 ## Options revision after updated GHL screenshots
 
 User requested stronger design and content. Keep the approved headline and conditional hearing-aid premise. Replace the low-contrast image-led opening with a compact navy introduction, white headline, and a modest labelled product frame sized to the existing asset. White canvas and three editorial benefit columns focus on appearance, comfort and connection; mobile stacks them with simple dividers. Shorten repeated prose and integrate compatibility/suitability qualifications. Keep the original style guide and all eight brands, now shown as plain text in a supporting strip rather than button-like chips. Main prose stays 18px. No CTA, other section or integration changes. Existing product URL remains; its actual appearance is supported by the user’s new GHL screenshots, while remote retrieval is blocked locally. No generated product imagery. Awaiting rendered review, not locked.
+
+
+User-supplied transparent footer logo: https://files.leadconnectorhq.com/file/6af40cdbddcd97ce5ac404ec/logo-hearcare-transparent.png . Replace only the footer image src; preserve its alt text, homepage link, responsive dimensions, navy background and all other page logos. No generated or edited logo is used.
