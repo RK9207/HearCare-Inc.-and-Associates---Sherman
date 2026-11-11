@@ -9,3 +9,6 @@ Validation: ten viewport widths from 320px to 1920px passed overflow checks; all
 
 
 User approved adding middle-ear implants and extended-wear devices after availability caveats were explained. Add a clearly distinguished “Other options to ask about” group below the four core services. Middle-ear implants require specialist assessment; invite questions about options/next steps without implying HearCare performs implant surgery. Extended-wear wording asks about suitability and current Sherman availability. No confirmation of local provision has been supplied. Preserve original four services, other sections and contact integrations.
+
+
+User requested relocating middle-ear implants and extended-wear devices into the existing Compare hearing aid styles disclosure. Move both qualified descriptions into its definition list and remove the separate Other options to ask about group and unused CSS from Services. Expand summary description to include other hearing options. Preserve all six entries, specialist/availability caveats and the four core services.

@@ -65,3 +65,6 @@ User requested less whitespace between the SmartRIC image and its frame. The fra
 
 
 User refinement: reduce SmartRIC image-frame padding from 8px to 2px on all screen sizes. No other styling or content changes.
+
+
+User requested relocating middle-ear implants and extended-wear devices into the existing Compare hearing aid styles disclosure. Move both qualified descriptions into its definition list and remove the separate Other options to ask about group and unused CSS from Services. Expand summary description to include other hearing options. Preserve all six entries, specialist/availability caveats and the four core services.

@@ -425,12 +425,6 @@ a:hover{ color:var(--hc-navy); }
 .hc-services__icon{ display:flex; justify-content:center; align-items:center; width:42px; height:42px; margin-bottom:18px; border:1px solid #c0d9e8; border-radius:12px; background:var(--hc-white); color:var(--hc-navy); }
 .hc-services__list h3{ font-size:1.25rem; line-height:1.4; margin-bottom:12px; }
 .hc-services__list p{ color:var(--hc-ink); font-size:1.125rem; line-height:1.6; }
-.hc-services__other{ grid-column:1 / -1; padding-top:28px; border-top:1px solid #bdd4e2; }
-.hc-services__other > h3{ margin-bottom:20px; font-size:1.375rem; line-height:1.4; }
-.hc-services__other-list{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px 40px; margin:0; padding:0; list-style:none; }
-.hc-services__other h4{ margin:0 0 8px; color:var(--hc-navy); font-family:var(--hc-head); font-size:1.1875rem; font-weight:600; line-height:1.4; }
-.hc-services__other p{ margin:0; color:var(--hc-ink); font-size:1.125rem; line-height:1.6; }
-@media(max-width:639px){ .hc-services__other-list{ grid-template-columns:1fr; } }
 @media(max-width:1023px){ .hc-services__layout{ grid-template-columns:1fr; gap:28px; } .hc-services__intro{ max-width:720px; } }
 @media(max-width:639px){ .hc-services{ padding:40px 0; } .hc-services__list{ grid-template-columns:1fr; } .hc-services__list li{ padding:24px 22px; } .hc-services__list li:nth-child(odd){ border-right:0; } .hc-services__list li:not(:last-child){ border-bottom:1px solid #bdd4e2; } }
 
@@ -1110,19 +1104,6 @@ a:hover{ color:var(--hc-navy); }
         <p>Get follow-up adjustments and practical help with care, charging and compatible phone features as your needs change.</p>
       </li>
     </ul>
-    <div class="hc-services__other" aria-labelledby="services-other-title">
-      <h3 id="services-other-title">Other options to ask about</h3>
-      <ul class="hc-services__other-list">
-        <li>
-          <h4>Middle-ear implants</h4>
-          <p>Middle-ear implants require specialist assessment. Ask our team about the options and appropriate next steps.</p>
-        </li>
-        <li>
-          <h4>Extended-wear devices</h4>
-          <p>Ask whether an extended-wear hearing device may suit your needs and whether it is currently available through our Sherman office.</p>
-        </li>
-      </ul>
-    </div>
   </div>
 </section>
 
@@ -1311,13 +1292,15 @@ a:hover{ color:var(--hc-navy); }
         <p>Your hearing needs and lifestyle guide the recommendation.</p>
       </div>
       <details class="hc-more" id="hearing-aid-styles">
-        <summary><span class="hc-options__guide-text"><span class="hc-options__guide-title">Compare hearing aid styles</span><span class="hc-options__guide-description">Explore behind-the-ear and in-ear options. Expand the guide to see how they differ.</span></span><svg class="hc-icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
+        <summary><span class="hc-options__guide-text"><span class="hc-options__guide-title">Compare hearing aid styles</span><span class="hc-options__guide-description">Explore hearing aid styles and other hearing options. Expand the guide to compare.</span></span><svg class="hc-icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
         <div class="hc-more__body">
           <dl>
             <div><dt>Behind-the-ear (BTE)</dt><dd>Worn behind the ear, with sound delivered through an earpiece or tube. Models can suit mild to profound hearing loss.</dd></div>
             <div><dt>Receiver-in-canal (RIC)</dt><dd>A small device behind the ear connects by a thin wire to a speaker in the ear canal. Suitability and wireless features depend on the model.</dd></div>
             <div><dt>In-the-ear (ITE)</dt><dd>Custom half- or full-shell designs in the outer ear that can suit mild to severe hearing loss. Controls, battery life and connectivity vary by model.</dd></div>
             <div><dt>In-the-canal (ITC, CIC, IIC)</dt><dd>Small custom designs that sit partly or deeply in the canal. Visibility and suitability depend on your hearing and the model.</dd></div>
+            <div><dt>Middle-ear implants</dt><dd>Middle-ear implants require specialist assessment. Ask our team about the options and appropriate next steps.</dd></div>
+            <div><dt>Extended-wear devices</dt><dd>Ask whether an extended-wear hearing device may suit your needs and whether it is currently available through our Sherman office.</dd></div>
           </dl>
           <p>Which style suits you depends on the degree of your hearing loss and your preferences.</p>
         </div>
