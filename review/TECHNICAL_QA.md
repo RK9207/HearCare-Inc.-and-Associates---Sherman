@@ -57,3 +57,8 @@ The GHL preview and third-party assets could not be retrieved directly in this e
 - [Motion and backdrop checks](qa/motion-backdrop.json)
 
 Test harnesses are retained in the current workspace at /workspace/work/qa_hearcare.cjs, qa_hearcare_extra.cjs and qa_hearcare_dialog.cjs. They depend on the session’s cached assets and local Playwright/axe setup. No production analytics, forms, contacts or external application state were mutated by the tests.
+
+
+## QA-team follow-up: November 16, 2026
+
+[Bug 1: mobile icon/heading alignment](qa/BUG_01.md) reproduced and corrected. Added explicit center-alignment geometry checks, which were absent from the earlier general overflow/accessibility checks. Actual iPhone Safari recheck remains pending.

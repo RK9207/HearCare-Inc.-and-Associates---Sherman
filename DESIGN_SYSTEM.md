@@ -469,3 +469,6 @@ User requested less whitespace above the hero. Reduce final hero top padding to 
 
 
 Technical QA: darken functional link blue to #1f6fa6 so 18px links on #f2f8fc clear WCAG AA normal-text contrast. Keep layout and content unchanged. Appointment links styled as buttons now support Space as well as Enter; accessible link names include their visible wording and Google proof has a named region. Remove obsolete internal build-note comment from production HTML.
+
+
+QA bug 1 (November 16, 2026): explicitly center-align mobile listening-difficulty grid items so icon circles and one-/multi-line headings share a vertical center. This overrides the tablet top-alignment rule only below 768px. All content and other layouts preserved. See review/qa/BUG_01.md.

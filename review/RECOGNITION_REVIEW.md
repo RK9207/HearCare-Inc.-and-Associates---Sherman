@@ -33,3 +33,6 @@ Latest user correction: normalize the section’s closing family acknowledgement
 ## Final approval
 
 User explicitly approved the section after the closing-font correction. Implementation afbf526 is APPROVED / LOCKED, superseding earlier pending-review notes. No further section changes without explicit authorization. Next proposed existing group: owners and Google patient proof, awaiting desktop/mobile screenshots before assessment.
+
+
+QA follow-up: mobile icon/heading misalignment corrected by overriding inherited tablet align-items:start with align-items:center below 768px. Geometry checked at reported 393×659 and adjacent widths; iPhone Safari device recheck pending. Details and proof in qa/BUG_01.md.
