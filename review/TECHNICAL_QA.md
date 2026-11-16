@@ -62,3 +62,6 @@ Test harnesses are retained in the current workspace at /workspace/work/qa_hearc
 ## QA-team follow-up: November 16, 2026
 
 [Bug 1: mobile icon/heading alignment](qa/BUG_01.md) reproduced and corrected. Added explicit center-alignment geometry checks, which were absent from the earlier general overflow/accessibility checks. Actual iPhone Safari recheck remains pending.
+
+
+[Bug 2: Galaxy Tab S8 alignment](qa/BUG_02.md) is covered by bug 1’s CSS correction. Reproduced the original offset and verified 0px center differences at the reported 753×1037 viewport. No additional production-code changes; actual Android-device recheck pending.

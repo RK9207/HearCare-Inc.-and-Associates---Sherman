@@ -1,0 +1,332 @@
+[
+  {
+    "width": 740,
+    "overflow": false,
+    "items": [
+      {
+        "title": "Missing words",
+        "iconCenter": 1622.828125,
+        "titleCenter": 1622.828125,
+        "delta": 0,
+        "iconLeft": 51,
+        "titleLeft": 103,
+        "descriptionClear": true
+      },
+      {
+        "title": "Following conversations in noise",
+        "iconCenter": 1773.421875,
+        "titleCenter": 1773.421875,
+        "delta": 0,
+        "iconLeft": 51,
+        "titleLeft": 103,
+        "descriptionClear": true
+      },
+      {
+        "title": "Turning up the TV",
+        "iconCenter": 1924.015625,
+        "titleCenter": 1924.015625,
+        "delta": 0,
+        "iconLeft": 51,
+        "titleLeft": 103,
+        "descriptionClear": true
+      }
+    ]
+  },
+  {
+    "width": 752,
+    "overflow": false,
+    "items": [
+      {
+        "title": "Missing words",
+        "iconCenter": 1685.171875,
+        "titleCenter": 1685.171875,
+        "delta": 0,
+        "iconLeft": 51,
+        "titleLeft": 103,
+        "descriptionClear": true
+      },
+      {
+        "title": "Following conversations in noise",
+        "iconCenter": 1835.765625,
+        "titleCenter": 1835.765625,
+        "delta": 0,
+        "iconLeft": 51,
+        "titleLeft": 103,
+        "descriptionClear": true
+      },
+      {
+        "title": "Turning up the TV",
+        "iconCenter": 1986.359375,
+        "titleCenter": 1986.359375,
+        "delta": 0,
+        "iconLeft": 51,
+        "titleLeft": 103,
+        "descriptionClear": true
+      }
+    ]
+  },
+  {
+    "width": 753,
+    "overflow": false,
+    "items": [
+      {
+        "title": "Missing words",
+        "iconCenter": 1686.109375,
+        "titleCenter": 1686.109375,
+        "delta": 0,
+        "iconLeft": 51,
+        "titleLeft": 103,
+        "descriptionClear": true
+      },
+      {
+        "title": "Following conversations in noise",
+        "iconCenter": 1836.703125,
+        "titleCenter": 1836.703125,
+        "delta": 0,
+        "iconLeft": 51,
+        "titleLeft": 103,
+        "descriptionClear": true
+      },
+      {
+        "title": "Turning up the TV",
+        "iconCenter": 1987.296875,
+        "titleCenter": 1987.296875,
+        "delta": 0,
+        "iconLeft": 51,
+        "titleLeft": 103,
+        "descriptionClear": true
+      }
+    ]
+  },
+  {
+    "width": 754,
+    "overflow": false,
+    "items": [
+      {
+        "title": "Missing words",
+        "iconCenter": 1687.125,
+        "titleCenter": 1687.125,
+        "delta": 0,
+        "iconLeft": 51,
+        "titleLeft": 103,
+        "descriptionClear": true
+      },
+      {
+        "title": "Following conversations in noise",
+        "iconCenter": 1808.921875,
+        "titleCenter": 1808.921875,
+        "delta": 0,
+        "iconLeft": 51,
+        "titleLeft": 103,
+        "descriptionClear": true
+      },
+      {
+        "title": "Turning up the TV",
+        "iconCenter": 1959.515625,
+        "titleCenter": 1959.515625,
+        "delta": 0,
+        "iconLeft": 51,
+        "titleLeft": 103,
+        "descriptionClear": true
+      }
+    ]
+  },
+  {
+    "width": 760,
+    "overflow": false,
+    "items": [
+      {
+        "title": "Missing words",
+        "iconCenter": 1693.09375,
+        "titleCenter": 1693.09375,
+        "delta": 0,
+        "iconLeft": 51,
+        "titleLeft": 103,
+        "descriptionClear": true
+      },
+      {
+        "title": "Following conversations in noise",
+        "iconCenter": 1814.890625,
+        "titleCenter": 1814.890625,
+        "delta": 0,
+        "iconLeft": 51,
+        "titleLeft": 103,
+        "descriptionClear": true
+      },
+      {
+        "title": "Turning up the TV",
+        "iconCenter": 1965.484375,
+        "titleCenter": 1965.484375,
+        "delta": 0,
+        "iconLeft": 51,
+        "titleLeft": 103,
+        "descriptionClear": true
+      }
+    ]
+  },
+  {
+    "width": 767,
+    "overflow": false,
+    "items": [
+      {
+        "title": "Missing words",
+        "iconCenter": 1664.046875,
+        "titleCenter": 1664.046875,
+        "delta": 0,
+        "iconLeft": 51,
+        "titleLeft": 103,
+        "descriptionClear": true
+      },
+      {
+        "title": "Following conversations in noise",
+        "iconCenter": 1785.84375,
+        "titleCenter": 1785.84375,
+        "delta": 0,
+        "iconLeft": 51,
+        "titleLeft": 103,
+        "descriptionClear": true
+      },
+      {
+        "title": "Turning up the TV",
+        "iconCenter": 1936.4375,
+        "titleCenter": 1936.4375,
+        "delta": 0,
+        "iconLeft": 51,
+        "titleLeft": 103,
+        "descriptionClear": true
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "overflow": false,
+    "items": [
+      {
+        "title": "Missing words",
+        "iconCenter": 1691,
+        "titleCenter": 1750,
+        "delta": 59,
+        "iconLeft": 51,
+        "titleLeft": 51,
+        "descriptionClear": true
+      },
+      {
+        "title": "Following conversations in noise",
+        "iconCenter": 1691,
+        "titleCenter": 1762.890625,
+        "delta": 71.890625,
+        "iconLeft": 285,
+        "titleLeft": 285,
+        "descriptionClear": true
+      },
+      {
+        "title": "Turning up the TV",
+        "iconCenter": 1691,
+        "titleCenter": 1750,
+        "delta": 59,
+        "iconLeft": 519,
+        "titleLeft": 519,
+        "descriptionClear": true
+      }
+    ]
+  },
+  {
+    "width": 800,
+    "overflow": false,
+    "items": [
+      {
+        "title": "Missing words",
+        "iconCenter": 1716.859375,
+        "titleCenter": 1775.859375,
+        "delta": 59,
+        "iconLeft": 51,
+        "titleLeft": 51,
+        "descriptionClear": true
+      },
+      {
+        "title": "Following conversations in noise",
+        "iconCenter": 1716.859375,
+        "titleCenter": 1788.75,
+        "delta": 71.890625,
+        "iconLeft": 295.65625,
+        "titleLeft": 295.65625,
+        "descriptionClear": true
+      },
+      {
+        "title": "Turning up the TV",
+        "iconCenter": 1716.859375,
+        "titleCenter": 1775.859375,
+        "delta": 59,
+        "iconLeft": 540.328125,
+        "titleLeft": 540.328125,
+        "descriptionClear": true
+      }
+    ]
+  },
+  {
+    "width": 1037,
+    "overflow": false,
+    "items": [
+      {
+        "title": "Missing words",
+        "iconCenter": 1118.625,
+        "titleCenter": 1118.625,
+        "delta": 0,
+        "iconLeft": 69,
+        "titleLeft": 127,
+        "descriptionClear": true
+      },
+      {
+        "title": "Following conversations in noise",
+        "iconCenter": 1131.515625,
+        "titleCenter": 1131.515625,
+        "delta": 0,
+        "iconLeft": 384.65625,
+        "titleLeft": 442.65625,
+        "descriptionClear": true
+      },
+      {
+        "title": "Turning up the TV",
+        "iconCenter": 1118.625,
+        "titleCenter": 1118.625,
+        "delta": 0,
+        "iconLeft": 700.328125,
+        "titleLeft": 758.328125,
+        "descriptionClear": true
+      }
+    ]
+  },
+  {
+    "width": 1280,
+    "overflow": false,
+    "items": [
+      {
+        "title": "Missing words",
+        "iconCenter": 1112.140625,
+        "titleCenter": 1112.140625,
+        "delta": 0,
+        "iconLeft": 69,
+        "titleLeft": 127,
+        "descriptionClear": true
+      },
+      {
+        "title": "Following conversations in noise",
+        "iconCenter": 1112.140625,
+        "titleCenter": 1112.140625,
+        "delta": 0,
+        "iconLeft": 465.65625,
+        "titleLeft": 523.65625,
+        "descriptionClear": true
+      },
+      {
+        "title": "Turning up the TV",
+        "iconCenter": 1112.140625,
+        "titleCenter": 1112.140625,
+        "delta": 0,
+        "iconLeft": 862.328125,
+        "titleLeft": 920.328125,
+        "descriptionClear": true
+      }
+    ]
+  }
+]

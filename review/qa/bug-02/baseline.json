@@ -1,0 +1,35 @@
+[
+  {
+    "width": 753,
+    "overflow": false,
+    "items": [
+      {
+        "title": "Missing words",
+        "iconCenter": 1686.109375,
+        "titleCenter": 1679.40625,
+        "delta": 6.703125,
+        "iconLeft": 51,
+        "titleLeft": 103,
+        "descriptionClear": true
+      },
+      {
+        "title": "Following conversations in noise",
+        "iconCenter": 1836.703125,
+        "titleCenter": 1830,
+        "delta": 6.703125,
+        "iconLeft": 51,
+        "titleLeft": 103,
+        "descriptionClear": true
+      },
+      {
+        "title": "Turning up the TV",
+        "iconCenter": 1987.296875,
+        "titleCenter": 1980.59375,
+        "delta": 6.703125,
+        "iconLeft": 51,
+        "titleLeft": 103,
+        "descriptionClear": true
+      }
+    ]
+  }
+]
