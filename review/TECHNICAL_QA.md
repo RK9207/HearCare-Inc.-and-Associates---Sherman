@@ -71,3 +71,6 @@ Test harnesses are retained in the current workspace at /workspace/work/qa_hearc
 
 
 [Bug 4: complete office address on map card](qa/BUG_04.md) corrected. The map card and review-source note use 1800 N. Travis St, Suite D, Sherman, TX 75092. Verified four viewport widths; map settings and links remain unchanged.
+
+
+[Bug 5: degree attribution in combined caption](qa/BUG_05.md) corrected by omitting B.S. from the shared photo caption and retaining it on Jill’s individual profile. No other production content changed.

@@ -342,3 +342,6 @@ QA bug 3 (November 16, 2026): use “HearCare, Inc. and Associates” consistent
 
 
 QA bug 4 (November 16, 2026): standardize the visible office address as “1800 N. Travis St, Suite D, Sherman, TX 75092.” Add Suite D and the N. abbreviation period to the map card, removing the stray line-ending comma. Update the review-source address to match. Preserve source testimonials, map coordinates, links and integration code.
+
+
+QA bug 5 (November 16, 2026): omit B.S. from the combined owner-photo caption so it cannot be read as a shared credential. Caption is “Kenneth M. Sheppard, Jr. & Jill A. Sheppard”. Keep B.S. on Jill’s individual profile heading and retain all licensed-role and biography wording.
