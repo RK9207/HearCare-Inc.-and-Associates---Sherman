@@ -339,3 +339,6 @@ Remove sentence em dashes and en dashes from published page copy and accessible 
 
 
 QA bug 3 (November 16, 2026): use “HearCare, Inc. and Associates” consistently in all page-controlled full-name references. Normalize map card, map marker popup and Google review-source note; phrase the latter as attribution to the listing for the practice rather than quoting Google’s display name. Preserve source-backed testimonials, link destinations, supplied logo artwork and external listing data. Any Google Business Profile name change is an owner action, not a page-code edit.
+
+
+QA bug 4 (November 16, 2026): standardize the visible office address as “1800 N. Travis St, Suite D, Sherman, TX 75092.” Add Suite D and the N. abbreviation period to the map card, removing the stray line-ending comma. Update the review-source address to match. Preserve source testimonials, map coordinates, links and integration code.

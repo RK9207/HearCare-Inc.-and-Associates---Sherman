@@ -68,3 +68,6 @@ Test harnesses are retained in the current workspace at /workspace/work/qa_hearc
 
 
 [Bug 3: practice-name consistency](qa/BUG_03.md) corrected in the map address card, marker popup and review-source note. Canonical full name is HearCare, Inc. and Associates. Source testimonial wording and all URLs remain unchanged; external Google profile name review is an owner action.
+
+
+[Bug 4: complete office address on map card](qa/BUG_04.md) corrected. The map card and review-source note use 1800 N. Travis St, Suite D, Sherman, TX 75092. Verified four viewport widths; map settings and links remain unchanged.
