@@ -336,3 +336,6 @@ Integrate the standalone clinic photograph with office details/map into one roun
 ## User editorial preference: natural punctuation
 
 Remove sentence em dashes and en dashes from published page copy and accessible text. Rewrite with commas, full stops or connecting words. Spell out visible time/day and lifespan ranges with “to.” Preserve the exact schedule and lifespan meaning, standard hyphenated terms, phone numbers, URLs, testimonials and integration code. Services, audiogram explanation, hearing-aid introduction, product alt text and range labels updated accordingly.
+
+
+QA bug 3 (November 16, 2026): use “HearCare, Inc. and Associates” consistently in all page-controlled full-name references. Normalize map card, map marker popup and Google review-source note; phrase the latter as attribution to the listing for the practice rather than quoting Google’s display name. Preserve source-backed testimonials, link destinations, supplied logo artwork and external listing data. Any Google Business Profile name change is an owner action, not a page-code edit.
