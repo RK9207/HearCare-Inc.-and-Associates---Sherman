@@ -1,0 +1,52 @@
+{
+  "checks": [
+    {
+      "width": 393,
+      "overflow": false,
+      "cards": [
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        }
+      ],
+      "axe": []
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "cards": [
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        }
+      ],
+      "axe": []
+    }
+  ],
+  "externalProductImage": "Unchanged GHL source; remote retrieval blocked. Product-image pixels not verified in fixtures.",
+  "images": "Four AI-generated illustrative WebP photos. Exact local asset files used in browser tests."
+}

@@ -5,3 +5,10 @@ User requested realistic close-ups similar to the two supplied ear/device photos
 Cards now show full-width 4:3 photos above the copy at all sizes. Desktop retains four columns, tablet two, mobile one. Explicit dimensions, lazy loading, async decoding and descriptive alt text included. Existing Widex photo, descriptions, caveats, Other options, brands, contact destinations and all other sections are unchanged.
 
 QA: all four new images decoded at 1448px natural width in the browser fixture. Eleven widths from 320 to 1920px passed overflow/card checks. Scoped axe WCAG 2/2.1 A/AA checks passed at 393 and 1440px; appointment dialog and Escape close passed. Desktop/mobile photos and framing visually reviewed. Exact local assets and cached fonts were used; existing Widex product pixels remain unverified because the environment blocks the GHL host. No live lead/call/SMS tests or GHL deployment.
+
+
+## BTE and RIC image revision, November 18, 2026
+
+User requested a more realistic BTE fit and a visible RIC receiver. Regenerated only these two illustrative photos. BTE uses a rear three-quarter view, smaller partly occluded housing, clear sound tube and earmold. RIC shows a thin wire connected to a receiver and translucent dome at the canal entrance. Both remain 1448×1086 WebP. Originals preserved in /workspace/generated_images/hearing-aid-style-bte-remade.png and hearing-aid-style-ric-remade.png. New immutable image URLs use asset commit 1f43992f7cbddec5500f8e5ef1ccc2290086609e. ITE and canal images, layout, content and contact behavior are unchanged. These remain AI-generated illustrative examples, not verified manufacturer images.
+
+Revision QA: 393px and 1440px image decoding, overflow, scoped axe and appointment-dialog checks passed. Both card layouts visually inspected; receiver/dome is visible in the RIC image. The only HTML changes are the two image URLs and RIC alt text. Other assets remain unchanged.
