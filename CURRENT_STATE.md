@@ -105,3 +105,8 @@ Replaced the four comparison image URLs with the user-supplied GHL Media Library
 ## Call CTA shape, November 18, 2026
 
 User requested pill-shaped Call CTA buttons. Set the shared .hc-btn--call radius to 999px so the Hearing Aids contact CTA and other Call CTAs use consistent pill ends. Existing colors, borders, sizing and phone destinations are preserved. The separate full-width mobile sticky call bar is unchanged.
+
+
+## Reuse handoff
+
+User requested retaining these changes for another page. The final Services, Hearing Aids, imagery and Call CTA specifications and GHL source URLs are consolidated in [REUSABLE_SECTION_CHANGES.md](review/REUSABLE_SECTION_CHANGES.md). Use this checklist with the next page’s current source and verified practice facts.
