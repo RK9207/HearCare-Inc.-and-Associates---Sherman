@@ -610,66 +610,52 @@ a:hover{ color:var(--hc-navy); }
 .hc-section-cta > p{ font-family:var(--hc-head); font-weight:600; font-size:1.25rem; color:var(--hc-navy); }
 
 /* ---------- Options: focused product story and practical benefits ---------- */
-#options{ --hc-options-border:#b8cfdd; background:var(--hc-white); padding:56px 0; }
-.hc-options__intro{ display:grid; grid-template-columns:minmax(0,1fr) 280px; gap:52px; align-items:center; padding:40px 44px; border:1px solid #266b89; border-radius:24px; background:var(--hc-navy); }
-.hc-options__eyebrow{ display:block; margin-bottom:16px; font-size:.875rem; font-weight:600; line-height:1.5; letter-spacing:.07em; color:#b9def4; text-transform:uppercase; }
-.hc-options__intro h2{ max-width:650px; color:var(--hc-white); }
-.hc-options__intro p{ margin-top:20px; font-size:1.125rem; line-height:1.6; color:#e0edf5; max-width:610px; }
-.hc-options__media{ margin:0; padding:0; text-align:center; }
-.hc-options__photo{ display:flex; justify-content:center; align-items:center; width:fit-content; max-width:100%; margin:0 auto; padding:2px; border:1px solid rgba(255,255,255,.45); border-radius:16px; background:var(--hc-white); box-shadow:0 12px 28px rgba(0,30,46,.14); }
-.hc-options__photo img{ width:202px; height:220px; max-width:100%; object-fit:contain; border-radius:8px; color:var(--hc-navy); font-size:1rem; }
-.hc-options__media figcaption{ margin-top:16px; font-size:.9375rem; line-height:1.5; color:#e0edf5; }
-.hc-options__media figcaption strong{ display:block; margin-bottom:2px; font-size:1.125rem; font-weight:600; color:var(--hc-white); }
-.hc-options__benefits{ display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:0; margin-top:36px; border:1px solid var(--hc-options-border); border-radius:16px; overflow:hidden; }
-.hc-options .hc-feature{ padding:26px 28px; }
-.hc-options .hc-feature + .hc-feature{ border-left:1px solid var(--hc-options-border); }
-.hc-options__label{ display:block; margin-bottom:10px; color:var(--hc-blue); font-size:.875rem; line-height:1.5; font-weight:600; letter-spacing:.07em; text-transform:uppercase; }
-.hc-options .hc-feature h3{ margin:0 0 14px; min-height:2.7em; font-size:1.375rem; line-height:1.35; }
-.hc-options .hc-feature p{ font-size:1.125rem; line-height:1.6; color:var(--hc-muted); }
-.hc-options__support{ margin-top:34px; }
-.hc-options .hc-brands{ display:grid; grid-template-columns:240px minmax(0,1fr); gap:10px 28px; padding:24px 28px; border:1px solid var(--hc-options-border); border-radius:16px; background:var(--hc-surface); }
-.hc-options .hc-brands h3{ font-size:1.125rem; line-height:1.5; font-weight:600; color:var(--hc-navy); }
-.hc-options .hc-brands ul{ list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
-.hc-options .hc-brands li{ padding:5px 14px; border:1px solid var(--hc-options-border); border-radius:999px; background:var(--hc-white); font-weight:500; font-size:1.125rem; line-height:1.5; color:var(--hc-navy); }
-.hc-options .hc-brands p{ grid-column:2; font-size:1.125rem; line-height:1.6; color:var(--hc-muted); }
-.hc-options .hc-more{ margin-top:20px; border:2px solid #76aac7; border-radius:16px; background:var(--hc-surface); }
-.hc-options .hc-more summary{ padding:22px 24px; gap:20px; }
-.hc-options__guide-text{ display:flex; flex-direction:column; gap:6px; }
-.hc-options__guide-title{ font-family:var(--hc-head); font-size:1.25rem; font-weight:600; line-height:1.4; }
-.hc-options__guide-description{ font-size:1.125rem; font-weight:400; line-height:1.5; color:var(--hc-muted); }
-.hc-options .hc-more summary > .hc-icon{ flex:none; width:40px; height:40px; padding:10px; border:1px solid #76aac7; border-radius:50%; color:var(--hc-white); background:var(--hc-navy); }
-.hc-options .hc-more summary:hover{ background:#e4f1fa; border-radius:14px; }
-.hc-options .hc-more summary:focus-visible{ outline:3px solid var(--hc-navy); outline-offset:4px; border-radius:14px; }
-.hc-options .hc-more[open] summary{ border-bottom:1px solid var(--hc-options-border); }
-.hc-options .hc-more[open] .hc-more__body{ padding-top:20px; background:var(--hc-white); border-radius:0 0 14px 14px; }
-.hc-options .hc-more summary,.hc-options .hc-more__body,.hc-options .hc-more__body > p{ font-size:1.125rem; line-height:1.6; }
-.hc-options .hc-more__body dl{ grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px 36px; }
-@media(max-width:1023px){
- .hc-options__intro{ grid-template-columns:minmax(0,1fr) 240px; gap:28px; padding:30px; }
- .hc-options .hc-feature{ padding:24px 20px; }
- .hc-options .hc-feature h3{ min-height:4.05em; font-size:1.25rem; }
- .hc-options .hc-brands{ grid-template-columns:200px minmax(0,1fr); gap:10px 20px; padding:22px; }
-}
-@media(max-width:767px){
- #options{ padding:32px 0 40px; }
- .hc-options__intro{ grid-template-columns:1fr; gap:24px; padding:28px 22px; border-radius:20px; }
- .hc-options__eyebrow{ margin-bottom:12px; font-size:.8125rem; }
- .hc-options__intro p{ margin-top:16px; }
- .hc-options__media{ width:100%; max-width:280px; justify-self:center; }
- .hc-options__photo img{ width:174px; height:190px; }
- .hc-options__benefits{ grid-template-columns:1fr; margin-top:28px; gap:0; }
- .hc-options .hc-feature{ padding:22px 20px; border:0; }
- .hc-options .hc-feature + .hc-feature{ border-top:1px solid var(--hc-options-border); border-left:0; }
- .hc-options__label{ margin-bottom:8px; }
- .hc-options .hc-feature h3{ margin-bottom:10px; min-height:0; }
- .hc-options__support{ margin-top:28px; }
- .hc-options .hc-brands{ grid-template-columns:1fr; gap:12px; padding:22px 20px; }
- .hc-options .hc-brands ul{ gap:8px; }
- .hc-options .hc-brands p{ grid-column:auto; }
- .hc-options .hc-more__body dl{ grid-template-columns:1fr; gap:18px; }
- .hc-options .hc-more summary{ padding:20px 18px; gap:14px; }
- .hc-options__guide-title{ font-size:1.125rem; }
-}
+#options{ background:var(--hc-white); padding:56px 0; }
+.hc-options__intro{ display:grid; grid-template-columns:minmax(0,1fr) 310px; gap:56px; align-items:center; padding:44px; border-radius:24px; background:var(--hc-navy); }
+.hc-options__eyebrow{ display:block; margin-bottom:16px; font-size:.875rem; font-weight:600; letter-spacing:.07em; color:#b9def4; text-transform:uppercase; }
+.hc-options__intro h2{ max-width:650px; color:white; }
+.hc-options__intro p{ margin:20px 0 0; font-size:1.125rem; line-height:1.6; color:white; max-width:620px; }
+.hc-options__benefits{ display:grid; gap:14px; margin:28px 0 0; padding:0; list-style:none; }
+.hc-options__benefits li{ display:grid; grid-template-columns:28px 1fr; gap:10px; align-items:start; font-size:1.125rem; line-height:1.55; color:white; }
+.hc-options__benefits .hc-icon{ width:22px; height:22px; margin-top:3px; color:white; }
+.hc-options__benefits strong{ font-weight:600; }
+.hc-options__media{ margin:0; text-align:center; }
+.hc-options__photo{ display:block; padding:2px; border:1px solid #b8cfdd; border-radius:18px; background:white; overflow:hidden; }
+.hc-options__photo img{ display:block; width:100%; height:auto; border-radius:14px; color:var(--hc-navy); }
+.hc-options__media figcaption{ margin-top:16px; color:white; font-size:1rem; line-height:1.5; }
+.hc-options__media figcaption strong{ display:block; font-size:1.125rem; }
+.hc-style-guide{ margin-top:44px; }
+.hc-style-guide__head{ display:flex; justify-content:space-between; align-items:end; gap:24px; margin-bottom:24px; }
+.hc-style-guide__head h3{ font-size:1.75rem; line-height:1.35; }
+.hc-style-guide__head p{ margin-top:10px; font-size:1.125rem; color:var(--hc-ink); line-height:1.6; max-width:740px; }
+.hc-style-guide__note{ font-size:.875rem; line-height:1.5; color:var(--hc-ink); }
+.hc-style-grid{ display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:18px; }
+.hc-style-card{ border:1px solid #b8cfdd; border-radius:18px; overflow:hidden; background:white; }
+.hc-style-card__visual{ margin:0; padding:20px 24px 12px; background:#f2f8fc; }
+.hc-style-card__visual svg{ display:block; width:100%; height:auto; max-height:200px; }
+.hc-style-card__body{ padding:22px; }
+.hc-style-card__tag{ display:block; margin-bottom:8px; font-size:.8125rem; font-weight:600; color:var(--hc-navy); letter-spacing:.045em; text-transform:uppercase; }
+.hc-style-card h4{ margin:0 0 12px; font-family:var(--hc-head); font-size:1.25rem; line-height:1.4; color:var(--hc-navy); }
+.hc-style-card p{ font-size:1.0625rem; line-height:1.6; color:var(--hc-ink); margin:0; }
+.hc-style-guide__fit{ margin:20px 0 0; font-size:1.125rem; color:var(--hc-ink); line-height:1.6; }
+.hc-options__other{ margin-top:32px; padding:26px 28px; border-radius:18px; background:var(--hc-surface); border:1px solid #b8cfdd; }
+.hc-options__other > h3{ font-size:1.375rem; margin-bottom:20px; }
+.hc-options__other-grid{ display:grid; grid-template-columns:1fr 1fr; gap:32px; }
+.hc-options__other h4{ font-family:var(--hc-head); font-size:1.125rem; color:var(--hc-navy); margin:0 0 8px; }
+.hc-options__other p{ color:var(--hc-ink); font-size:1.0625rem; line-height:1.6; margin:0; }
+.hc-options .hc-brands{ margin-top:28px; padding:26px 0; border-bottom:1px solid #b8cfdd; }
+.hc-options .hc-brands h3{ font-size:1.125rem; line-height:1.5; }
+.hc-options .hc-brands ul{ list-style:none; margin:14px 0 0; padding:0; display:flex; gap:10px; flex-wrap:wrap; }
+.hc-options .hc-brands li{ border:1px solid #b8cfdd; border-radius:999px; padding:5px 16px; color:var(--hc-navy); font-size:1.0625rem; }
+.hc-options .hc-brands p{ margin:12px 0 0; font-size:1rem; line-height:1.5; color:var(--hc-ink); }
+.hc-options__contact{ display:flex; align-items:center; justify-content:space-between; gap:24px; margin-top:28px; }
+.hc-options__contact h3{ font-size:1.375rem; line-height:1.4; }
+.hc-options__contact .hc-cta{ margin:0; flex:none; }
+@media(max-width:1100px){ .hc-style-grid{ grid-template-columns:repeat(2,minmax(0,1fr)); } .hc-style-card{ display:grid; grid-template-columns:140px minmax(0,1fr); } .hc-style-card__visual{ display:flex; align-items:center; padding:16px; } .hc-options__intro{ gap:32px; grid-template-columns:minmax(0,1fr) 260px; padding:32px; } }
+@media(max-width:767px){ #options{ padding:36px 0 40px; } .hc-options__intro{ grid-template-columns:1fr; padding:28px 22px; gap:28px; } .hc-options__media{ width:100%; max-width:250px; justify-self:center; } .hc-options__eyebrow{ font-size:.8125rem; } .hc-options__benefits{ gap:18px; margin-top:24px; } .hc-style-guide{ margin-top:32px; } .hc-style-guide__head{ display:block; } .hc-style-guide__head h3{ font-size:1.5rem; } .hc-style-guide__note{ display:block; margin-top:10px; } .hc-style-grid{ grid-template-columns:1fr; gap:16px; } .hc-style-card{ grid-template-columns:115px minmax(0,1fr); } .hc-style-card__visual{ padding:12px; } .hc-style-card__body{ padding:20px 16px; } .hc-style-card h4{ font-size:1.125rem; } .hc-options__other{ padding:24px 20px; } .hc-options__other-grid{ grid-template-columns:1fr; gap:22px; } .hc-options__contact{ flex-direction:column; align-items:stretch; } .hc-options__contact .hc-cta{ flex-wrap:wrap; } }
+@media(max-width:359px){ .hc-style-card{ grid-template-columns:1fr; } .hc-style-card__visual svg{ max-height:150px; } }
+
+.hc-options__intro .hc-options__compatibility{ font-size:1rem; margin-top:16px; }
 
 /* ---------- Payment: insurance assistance first ---------- */
 #payment{ padding:60px 0; }
@@ -1281,51 +1267,36 @@ a:hover{ color:var(--hc-navy); }
       <div>
         <span class="hc-options__eyebrow">When hearing aids are appropriate</span>
         <h2 id="options-title">Hearing aids chosen around your life</h2>
-        <p>Compare styles, fit and features suited to your hearing results, daily life and budget. Get help understanding the differences.</p>
+        <p>Compare styles, fit and features suited to your hearing results, daily life and budget.</p>
+        <ul class="hc-options__benefits">
+          <li><svg class="hc-icon" aria-hidden="true"><path d="m4 12 5 5L20 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span><strong>A style that feels like you.</strong> Explore behind-the-ear and custom in-ear options.</span></li>
+          <li><svg class="hc-icon" aria-hidden="true"><path d="m4 12 5 5L20 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span><strong>A fit and sound set for you.</strong> Personalized settings and ear impressions when needed.</span></li>
+          <li><svg class="hc-icon" aria-hidden="true"><path d="m4 12 5 5L20 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span><strong>Useful phone features.</strong> Get help with pairing, streaming and listening presets on compatible devices.</span></li>
+        </ul>
+        <p class="hc-options__compatibility">Features vary by hearing aid model and phone.</p>
       </div>
       <figure class="hc-options__media">
         <div class="hc-options__photo"><img src="https://files.leadconnectorhq.com/file/6af44925fbdd54a827b67c4f/widexsmartric.jpg" width="232" height="253" loading="lazy" decoding="async" alt="Widex SmartRIC hearing aid, shown as one example of the available styles"></div>
         <figcaption><strong>Widex SmartRIC</strong>One example of the styles available</figcaption>
       </figure>
     </div>
-    <div class="hc-options__benefits">
-      <div class="hc-feature">
-        <span class="hc-options__label">Appearance</span>
-        <h3>Explore a style you feel comfortable wearing</h3>
-        <p>Explore behind-the-ear and custom in-ear designs. Some smaller styles are virtually invisible; your hearing results guide whether they’re suitable.</p>
-      </div>
-      <div class="hc-feature">
-        <span class="hc-options__label">Comfort</span>
-        <h3>Get a fit and sound set for you</h3>
-        <p>Personalized settings and ear impressions, when needed, help tailor your devices to you. A comfortable fit can make everyday wear easier.</p>
-      </div>
-      <div class="hc-feature">
-        <span class="hc-options__label">Connection</span>
-        <h3>Put useful phone features to work</h3>
-        <p>Get help pairing compatible hearing aids with your phone and using streaming and listening presets. Features vary by model and phone.</p>
+    <div class="hc-style-guide" id="hearing-aid-styles" aria-labelledby="styles-title">
+      <div class="hc-style-guide__head"><div><h3 id="styles-title">Compare hearing aid styles</h3><p>See where each style sits. Your hearing results and preferences help guide the choice.</p></div><span class="hc-style-guide__note">Placement illustrations. Not to scale.</span></div>
+      <div class="hc-style-grid"><article class="hc-style-card"><figure class="hc-style-card__visual"><svg viewBox="0 0 180 210" role="img" aria-label="Simplified illustration of Behind-the-ear (BTE) placement"><circle cx="88" cy="103" r="85" fill="#e2eff7"/><path d="M84 184 C65 181 59 159 54 143 C46 123 30 102 33 76 C35 43 58 22 87 25 C119 28 130 53 124 79 C120 101 106 111 105 129 C104 146 104 174 89 183 Z" fill="#fae9dd" stroke="#ba8871" stroke-width="3"/><path d="M67 149 C67 130 54 117 53 96 C51 72 63 48 84 47 C105 46 114 64 109 82 C105 96 92 96 84 108 C77 118 88 127 88 134 C88 143 80 151 74 153 M65 83 C65 70 76 63 86 68 C98 74 94 88 84 92" fill="none" stroke="#ba8871" stroke-width="3" stroke-linecap="round"/><path d="M116 35 C143 34 148 60 139 80 L130 103" fill="none" stroke="#004a69" stroke-width="17" stroke-linecap="round"/><path d="M119 36 C98 20 69 21 61 48 C57 65 72 78 79 102" fill="none" stroke="#63859a" stroke-width="5"/><path d="M78 101 L86 113 L76 121 L68 108 Z" fill="#004a69"/></svg></figure><div class="hc-style-card__body"><span class="hc-style-card__tag">Behind the ear</span><h4>Behind-the-ear (BTE)</h4><p>An earpiece or tube carries sound from a device behind your ear. Models can suit mild to profound hearing loss.</p></div></article>
+<article class="hc-style-card"><figure class="hc-style-card__visual"><svg viewBox="0 0 180 210" role="img" aria-label="Simplified illustration of Receiver-in-canal (RIC) placement"><circle cx="88" cy="103" r="85" fill="#e2eff7"/><path d="M84 184 C65 181 59 159 54 143 C46 123 30 102 33 76 C35 43 58 22 87 25 C119 28 130 53 124 79 C120 101 106 111 105 129 C104 146 104 174 89 183 Z" fill="#fae9dd" stroke="#ba8871" stroke-width="3"/><path d="M67 149 C67 130 54 117 53 96 C51 72 63 48 84 47 C105 46 114 64 109 82 C105 96 92 96 84 108 C77 118 88 127 88 134 C88 143 80 151 74 153 M65 83 C65 70 76 63 86 68 C98 74 94 88 84 92" fill="none" stroke="#ba8871" stroke-width="3" stroke-linecap="round"/><path d="M127 45 Q141 56 133 78 L128 91" fill="none" stroke="#004a69" stroke-width="12" stroke-linecap="round"/><path d="M124 45 C102 26 76 30 66 53 C58 77 73 91 83 106" fill="none" stroke="#63859a" stroke-width="2.5"/><rect x="77" y="102" width="14" height="20" rx="6" fill="#004a69" transform="rotate(-25 84 112)"/></svg></figure><div class="hc-style-card__body"><span class="hc-style-card__tag">Small device + speaker</span><h4>Receiver-in-canal (RIC)</h4><p>A thin wire connects a small device behind your ear to a speaker in the canal. Features depend on the model.</p></div></article>
+<article class="hc-style-card"><figure class="hc-style-card__visual"><svg viewBox="0 0 180 210" role="img" aria-label="Simplified illustration of In-the-ear (ITE) placement"><circle cx="88" cy="103" r="85" fill="#e2eff7"/><path d="M84 184 C65 181 59 159 54 143 C46 123 30 102 33 76 C35 43 58 22 87 25 C119 28 130 53 124 79 C120 101 106 111 105 129 C104 146 104 174 89 183 Z" fill="#fae9dd" stroke="#ba8871" stroke-width="3"/><path d="M67 149 C67 130 54 117 53 96 C51 72 63 48 84 47 C105 46 114 64 109 82 C105 96 92 96 84 108 C77 118 88 127 88 134 C88 143 80 151 74 153 M65 83 C65 70 76 63 86 68 C98 74 94 88 84 92" fill="none" stroke="#ba8871" stroke-width="3" stroke-linecap="round"/><path d="M65 74 Q89 67 99 86 Q104 103 91 127 Q77 140 68 120 Q59 103 65 74 Z" fill="#004a69" stroke="white" stroke-width="2"/><circle cx="81" cy="94" r="5" fill="#78bbe9"/><path d="M76 116 L85 118" stroke="#78bbe9" stroke-width="3" stroke-linecap="round"/></svg></figure><div class="hc-style-card__body"><span class="hc-style-card__tag">Custom outer-ear fit</span><h4>In-the-ear (ITE)</h4><p>A custom half- or full-shell design sits in the outer ear. Models can suit mild to severe hearing loss.</p></div></article>
+<article class="hc-style-card"><figure class="hc-style-card__visual"><svg viewBox="0 0 180 210" role="img" aria-label="Simplified illustration of In-the-canal (ITC, CIC, IIC) placement"><circle cx="88" cy="103" r="85" fill="#e2eff7"/><path d="M84 184 C65 181 59 159 54 143 C46 123 30 102 33 76 C35 43 58 22 87 25 C119 28 130 53 124 79 C120 101 106 111 105 129 C104 146 104 174 89 183 Z" fill="#fae9dd" stroke="#ba8871" stroke-width="3"/><path d="M67 149 C67 130 54 117 53 96 C51 72 63 48 84 47 C105 46 114 64 109 82 C105 96 92 96 84 108 C77 118 88 127 88 134 C88 143 80 151 74 153 M65 83 C65 70 76 63 86 68 C98 74 94 88 84 92" fill="none" stroke="#ba8871" stroke-width="3" stroke-linecap="round"/><ellipse cx="81" cy="111" rx="11" ry="14" transform="rotate(-20 81 111)" fill="#004a69" stroke="white" stroke-width="2"/><circle cx="81" cy="109" r="3" fill="#78bbe9"/><path d="M85 119 Q99 127 92 134" fill="none" stroke="#63859a" stroke-width="2"/></svg></figure><div class="hc-style-card__body"><span class="hc-style-card__tag">Smaller custom designs</span><h4>In-the-canal (ITC, CIC, IIC)</h4><p>Sits partly or deeply in the canal. Some smaller styles are virtually invisible when suitable for your hearing.</p></div></article></div>
+      <p class="hc-style-guide__fit">Suitability, visibility, controls, battery life and connectivity depend on your hearing, ear shape and the model.</p>
+    </div>
+    <div class="hc-options__other">
+      <h3>Other options to ask about</h3>
+      <div class="hc-options__other-grid">
+        <div><h4>Extended-wear devices</h4><p>Ask whether an extended-wear hearing device may suit your needs and whether it is currently available through our Sherman office.</p></div>
+        <div><h4>Middle-ear implants</h4><p>Middle-ear implants require specialist assessment. Ask our team about the options and appropriate next steps.</p></div>
       </div>
     </div>
-    <div class="hc-options__support">
-      <div class="hc-brands">
-        <h3>Choice across eight manufacturers</h3>
-        <ul><li>Widex</li><li>Starkey</li><li>Unitron</li><li>Signia</li><li>Oticon</li><li>ReSound</li><li>Rexton</li><li>Phonak</li></ul>
-        <p>Your hearing needs and lifestyle guide the recommendation.</p>
-      </div>
-      <details class="hc-more" id="hearing-aid-styles">
-        <summary><span class="hc-options__guide-text"><span class="hc-options__guide-title">Compare hearing aid styles</span><span class="hc-options__guide-description">Explore hearing aid styles and other hearing options. Expand the guide to compare.</span></span><svg class="hc-icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
-        <div class="hc-more__body">
-          <dl>
-            <div><dt>Behind-the-ear (BTE)</dt><dd>Worn behind the ear, with sound delivered through an earpiece or tube. Models can suit mild to profound hearing loss.</dd></div>
-            <div><dt>Receiver-in-canal (RIC)</dt><dd>A small device behind the ear connects by a thin wire to a speaker in the ear canal. Suitability and wireless features depend on the model.</dd></div>
-            <div><dt>In-the-ear (ITE)</dt><dd>Custom half- or full-shell designs in the outer ear that can suit mild to severe hearing loss. Controls, battery life and connectivity vary by model.</dd></div>
-            <div><dt>In-the-canal (ITC, CIC, IIC)</dt><dd>Small custom designs that sit partly or deeply in the canal. Visibility and suitability depend on your hearing and the model.</dd></div>
-            <div><dt>Middle-ear implants</dt><dd>Middle-ear implants require specialist assessment. Ask our team about the options and appropriate next steps.</dd></div>
-            <div><dt>Extended-wear devices</dt><dd>Ask whether an extended-wear hearing device may suit your needs and whether it is currently available through our Sherman office.</dd></div>
-          </dl>
-          <p>Which style suits you depends on the degree of your hearing loss and your preferences.</p>
-        </div>
-      </details>
-    </div>
+    <div class="hc-brands"><h3>Choice across eight manufacturers</h3><ul><li>Widex</li><li>Starkey</li><li>Unitron</li><li>Signia</li><li>Oticon</li><li>ReSound</li><li>Rexton</li><li>Phonak</li></ul><p>Your hearing needs and lifestyle guide the recommendation.</p></div>
+    <div class="hc-options__contact"><h3>Find an option that suits your hearing</h3><div class="hc-cta"><a class="hc-btn hc-btn--call" href="tel:+19032062442" data-contact-tel><svg class="hc-icon" aria-hidden="true"><use href="#i-phone"/></svg><span>Call <span data-contact-display>903-206-2442</span></span></a><a class="hc-textlink" href="https://api.onspirepulse.com/widget/form/8wW1RhQrj7egDZ93IJlJ" data-open-appointment>Request Appointment</a></div></div>
   </div>
 </section>
 

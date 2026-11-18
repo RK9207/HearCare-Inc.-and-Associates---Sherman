@@ -389,3 +389,8 @@ Integrate the standalone clinic photograph with office details/map into one roun
 ## Services selector, November 18, 2026
 
 User explicitly requested four selectable services with relevant imagery on the left and the heading/support above. This authorizes the Services-only redesign derived from the November 18 uploaded source, without merging it with Hearing Aids or changing page order. Four service names remain visible; one image and description is active. Mobile presents the selector before the image so a change is immediately visible below. Existing appointment, call, text and visit destinations remain intact. Implementation is ready for user review, not newly locked or published to GHL.
+
+
+## Hearing Aids visual rebuild, November 18, 2026
+
+User authorized the proposed image-led Hearing Aids restructuring and visual style comparison. Implement only the Hearing Aids section, leaving Services, page order and all other approved sections intact. Replace the expandable text guide with visible comparisons; use accurate, simplified placement diagrams rather than invented product photos. Close with the existing phone and shared appointment-form destinations. Implementation is ready for review; do not infer a new section lock or GHL deployment.

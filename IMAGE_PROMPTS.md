@@ -270,3 +270,8 @@ Files, all 1448 × 1086 WebP: assets/service-hearing-tests.webp, assets/service-
 ## Services image hosting update, November 18, 2026
 
 Replaced all four Services image sources with the user-supplied GHL Media Library URLs. Image content, dimensions, alt text, layout and selector behavior are unchanged. GitHub asset files remain archived; the current HTML loads these four images from files.leadconnectorhq.com.
+
+
+## Hearing Aids visual rebuild, November 18, 2026
+
+Added four original inline SVG schematics to compare BTE, RIC, ITE and canal-style device placement. They share one simplified ear outline and consistent visual scale; navy highlights device placement. The cards state “Placement illustrations. Not to scale.” These are explanatory diagrams, not generated product photos, manufacturer assets or clinical anatomical diagrams. Each SVG has an accessible placement label. No external image files, Base64 data or new image-host dependency is needed. Preserve the existing GHL-hosted Widex SmartRIC photo and caption; it remains the only manufacturer product photo in this section.

@@ -350,3 +350,8 @@ QA bug 5 (November 16, 2026): omit B.S. from the combined owner-photo caption so
 ## Services selector, November 18, 2026
 
 Retain the latest uploaded heading, intro and four descriptions verbatim. Present hearing tests, hearing aid selection & fitting, hearing aid repairs, and ongoing care & adjustments as selectable services. Show one description at a time to reduce visible text without deleting useful information. Preserve the existing visit link. Label generated service photos “Illustrative service image”; they do not depict verified HearCare staff, patients or premises. Hearing Aids content is unchanged.
+
+
+## Hearing Aids visual rebuild, November 18, 2026
+
+Retain the approved hearing-aid heading and conditional premise. Shorten the repeated benefit prose while preserving personalized fitting, impressions when needed, compatible phone features and model/phone qualifications. The BTE, RIC, ITE and ITC/CIC/IIC comparison is now visible rather than hidden in a disclosure. Keep hearing-loss suitability ranges and shared visibility/controls/battery/connectivity caveats. Separate extended-wear availability questions and middle-ear specialist assessment in Other options. No local availability or surgical service is claimed.

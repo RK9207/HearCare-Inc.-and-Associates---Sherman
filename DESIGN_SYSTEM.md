@@ -477,3 +477,8 @@ QA bug 1 (November 16, 2026): explicitly center-align mobile listening-difficult
 ## Services selector, November 18, 2026
 
 User requested four selectable services and a relevant image on the left, with the headline and supporting copy above. Implemented for rendered review. Desktop uses a left image/caption panel and four right-hand tabs. At 767px and below, a compact two-column selector precedes the image. Active controls use navy/white, with visible keyboard focus. Each service shows its own image and original description. Keyboard arrows, Home/End and roving tab focus are supported; selection survives responsive changes. Without JavaScript all four service panels remain available. Other sections retain the latest uploaded source.
+
+
+## Hearing Aids visual rebuild, November 18, 2026
+
+Hearing Aids now uses a navy product feature with a larger existing Widex photo (2px frame padding), three compact benefit lines, four visible style cards with consistent ear/device placement diagrams, a separate two-column Other options row, the eight-manufacturer strip and a closing contact group. Desktop uses four comparison columns; tablet uses two; mobile uses stacked image/text rows, with full-width visuals below 360px. Inline SVG diagrams are original schematic illustrations, labelled not to scale; they are not manufacturer product photos. Dark body text and visible suitability caveats remain.

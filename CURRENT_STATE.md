@@ -74,3 +74,12 @@ Validation: eleven widths from 320px to 1920px; all four image/tab states, keybo
 ## Services image hosting update, November 18, 2026
 
 Replaced all four Services image sources with the user-supplied GHL Media Library URLs. Image content, dimensions, alt text, layout and selector behavior are unchanged. GitHub asset files remain archived; the current HTML loads these four images from files.leadconnectorhq.com.
+
+
+## Hearing Aids visual rebuild, November 18, 2026
+
+Hearing Aids now uses a navy product feature with a larger existing Widex photo (2px frame padding), three compact benefit lines, four visible style cards with consistent ear/device placement diagrams, a separate two-column Other options row, the eight-manufacturer strip and a closing contact group. Desktop uses four comparison columns; tablet uses two; mobile uses stacked image/text rows, with full-width visuals below 360px. Inline SVG diagrams are original schematic illustrations, labelled not to scale; they are not manufacturer product photos. Dark body text and visible suitability caveats remain.
+
+User authorized the proposed image-led Hearing Aids restructuring and visual style comparison. Implement only the Hearing Aids section, leaving Services, page order and all other approved sections intact. Replace the expandable text guide with visible comparisons; use accurate, simplified placement diagrams rather than invented product photos. Close with the existing phone and shared appointment-form destinations. Implementation is ready for review; do not infer a new section lock or GHL deployment.
+
+Responsive, scoped accessibility and appointment-dialog checks passed. See review/HEARING_AIDS_VISUAL_REVIEW.md for evidence and the existing Widex-image retrieval limitation.
