@@ -258,3 +258,10 @@ User clarified that clinic image must be an additional background, not a replace
 ## User-approved separation of hero and clinic imagery
 
 After reviewing the real GHL screenshot, user approved removing the competing clinic background and moving the authentic storefront photo to the location section, and requested a larger foreground hero image. Restore the clean navy hero background; foreground lifestyle photo fills its desktop column (previously 90%/490px cap) with 40px top offset retained. Mobile/tablet photo uses full content width and existing spacing. Add a separate uncropped storefront figure below the existing location/map panel, with “Look for the HearCare sign” and the verified address. Keep map dimensions, original location details/directions, headline, CTA links and all other content/integrations unchanged. Clinic photo loads lazily. Awaiting rendered review.
+
+
+## Service illustrations, November 18, 2026
+
+Four new AI-generated illustrative photos support the user-requested Services selector. Art direction: natural documentary-style hearing care scenes, warm neutral clinic interiors, realistic older adults and fictional professionals, no logos, text, identifiable real providers or outcome claims. Scenes: a headphone hearing test at an audiometer; a small hearing aid being fitted near an ear; a hearing aid inspected/cleaned at a workbench; practical device-care and phone support at a table. These are illustrations, not verified HearCare photography. Each panel visibly states “Illustrative service image.” Authentic owner and clinic imagery elsewhere is unchanged.
+
+Files, all 1448 × 1086 WebP: assets/service-hearing-tests.webp, assets/service-hearing-aid-fitting.webp, assets/service-hearing-aid-repair.webp, assets/service-hearing-aid-support.webp. Generated originals were converted to WebP without image editing. Published asset commit: 795556ed0ff00a43b8d8af1e270525b51c9d1a79. The HTML uses immutable raw.githubusercontent.com URLs at that commit for GHL copy/paste portability. Explicit image dimensions, lazy loading and async decoding are included.

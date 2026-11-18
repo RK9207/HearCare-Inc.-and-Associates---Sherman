@@ -345,3 +345,8 @@ QA bug 4 (November 16, 2026): standardize the visible office address as “1800 
 
 
 QA bug 5 (November 16, 2026): omit B.S. from the combined owner-photo caption so it cannot be read as a shared credential. Caption is “Kenneth M. Sheppard, Jr. & Jill A. Sheppard”. Keep B.S. on Jill’s individual profile heading and retain all licensed-role and biography wording.
+
+
+## Services selector, November 18, 2026
+
+Retain the latest uploaded heading, intro and four descriptions verbatim. Present hearing tests, hearing aid selection & fitting, hearing aid repairs, and ongoing care & adjustments as selectable services. Show one description at a time to reduce visible text without deleting useful information. Preserve the existing visit link. Label generated service photos “Illustrative service image”; they do not depict verified HearCare staff, patients or premises. Hearing Aids content is unchanged.

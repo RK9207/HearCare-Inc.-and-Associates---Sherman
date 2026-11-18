@@ -2,7 +2,7 @@
 
 ## Latest source override
 
-On November 18, 2026, the user supplied the latest complete page and asked that it be saved for future edits. `index.html` and `review/hero-review.html` now contain the exact landing-page document extracted from that upload’s GHL custom-code container. See [LATEST_SOURCE.md](review/LATEST_SOURCE.md) for checksums and archive provenance. This supplied version takes precedence over prior source and historical notes below. Do not automatically reapply older changes. Prior QA results require revalidation against this version; no design or content edits were made during this save.
+On November 18, 2026, the user supplied the latest complete page and asked that it be saved for future edits. `index.html` and `review/hero-review.html` derive from the exact landing-page document extracted from that upload’s GHL custom-code container, with the subsequent user-requested Services selector described below. See [LATEST_SOURCE.md](review/LATEST_SOURCE.md) for checksums and archive provenance. This supplied version takes precedence over prior source and historical notes below. Do not automatically reapply older changes. Prior QA results require revalidation against this version; no design or content edits were made during this save.
 
 This summary records the latest user instructions. Historical strategy/source notes remain in their original files; explicit later user decisions supersede earlier proposals. Source evidence and permissions are not interchangeable.
 
@@ -62,3 +62,10 @@ The current copy/layout is approved. This technical QA pass changes keyboard act
 ## Owner/GHL items
 
 Confirm test fee/typical appointment duration and trial terms; provide better authentic product/owner images; supply real ads/keywords and campaign tracking numbers; refresh Google proof; verify real form fields, consent, validation, delivery and confirmation; verify qualified-call/form events without duplicate conversion reporting. No real lead submitted during local tests.
+
+
+## Services selector, November 18, 2026
+
+User requested four selectable services and a relevant image on the left, with the headline and supporting copy above. Implemented for rendered review. Desktop uses a left image/caption panel and four right-hand tabs. At 767px and below, a compact two-column selector precedes the image. Active controls use navy/white, with visible keyboard focus. Each service shows its own image and original description. Keyboard arrows, Home/End and roving tab focus are supported; selection survives responsive changes. Without JavaScript all four service panels remain available. Other sections retain the latest uploaded source.
+
+Validation: eleven widths from 320px to 1920px; all four image/tab states, keyboard interaction, resize retention and no-JavaScript fallback passed. Services-scoped axe WCAG A/AA checks passed at 393px and 1440px. Both renders were visually inspected. Local exact image assets and cached fonts were used for browser tests; this is not live-device QA or form-submission testing. Artifacts: review/qa/services-selector-checks.json and review/services-selector-393.png / services-selector-1440.png.

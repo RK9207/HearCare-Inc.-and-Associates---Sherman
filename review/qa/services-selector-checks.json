@@ -1,0 +1,380 @@
+{
+  "checks": [
+    {
+      "geometry": {
+        "width": 320,
+        "overflow": false,
+        "photoLeft": false,
+        "imageBelowChoices": true,
+        "headlineAbove": true,
+        "orientation": "horizontal"
+      },
+      "states": [
+        {
+          "title": "01\nHearing tests",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-tests.webp",
+          "loaded": true
+        },
+        {
+          "title": "02\nHearing aid selection & fitting",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-fitting.webp",
+          "loaded": true
+        },
+        {
+          "title": "03\nHearing aid repairs",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-repair.webp",
+          "loaded": true
+        },
+        {
+          "title": "04\nOngoing care & adjustments",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-support.webp",
+          "loaded": true
+        }
+      ],
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "geometry": {
+        "width": 360,
+        "overflow": false,
+        "photoLeft": false,
+        "imageBelowChoices": true,
+        "headlineAbove": true,
+        "orientation": "horizontal"
+      },
+      "states": [
+        {
+          "title": "01\nHearing tests",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-tests.webp",
+          "loaded": true
+        },
+        {
+          "title": "02\nHearing aid selection & fitting",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-fitting.webp",
+          "loaded": true
+        },
+        {
+          "title": "03\nHearing aid repairs",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-repair.webp",
+          "loaded": true
+        },
+        {
+          "title": "04\nOngoing care & adjustments",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-support.webp",
+          "loaded": true
+        }
+      ],
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "geometry": {
+        "width": 393,
+        "overflow": false,
+        "photoLeft": false,
+        "imageBelowChoices": true,
+        "headlineAbove": true,
+        "orientation": "horizontal"
+      },
+      "states": [
+        {
+          "title": "01\nHearing tests",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-tests.webp",
+          "loaded": true
+        },
+        {
+          "title": "02\nHearing aid selection & fitting",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-fitting.webp",
+          "loaded": true
+        },
+        {
+          "title": "03\nHearing aid repairs",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-repair.webp",
+          "loaded": true
+        },
+        {
+          "title": "04\nOngoing care & adjustments",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-support.webp",
+          "loaded": true
+        }
+      ],
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "geometry": {
+        "width": 500,
+        "overflow": false,
+        "photoLeft": false,
+        "imageBelowChoices": true,
+        "headlineAbove": true,
+        "orientation": "horizontal"
+      },
+      "states": [
+        {
+          "title": "01\nHearing tests",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-tests.webp",
+          "loaded": true
+        },
+        {
+          "title": "02\nHearing aid selection & fitting",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-fitting.webp",
+          "loaded": true
+        },
+        {
+          "title": "03\nHearing aid repairs",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-repair.webp",
+          "loaded": true
+        },
+        {
+          "title": "04\nOngoing care & adjustments",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-support.webp",
+          "loaded": true
+        }
+      ],
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "geometry": {
+        "width": 639,
+        "overflow": false,
+        "photoLeft": false,
+        "imageBelowChoices": true,
+        "headlineAbove": true,
+        "orientation": "horizontal"
+      },
+      "states": [
+        {
+          "title": "01\nHearing tests",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-tests.webp",
+          "loaded": true
+        },
+        {
+          "title": "02\nHearing aid selection & fitting",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-fitting.webp",
+          "loaded": true
+        },
+        {
+          "title": "03\nHearing aid repairs",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-repair.webp",
+          "loaded": true
+        },
+        {
+          "title": "04\nOngoing care & adjustments",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-support.webp",
+          "loaded": true
+        }
+      ],
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "geometry": {
+        "width": 767,
+        "overflow": false,
+        "photoLeft": false,
+        "imageBelowChoices": true,
+        "headlineAbove": true,
+        "orientation": "horizontal"
+      },
+      "states": [
+        {
+          "title": "01\nHearing tests",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-tests.webp",
+          "loaded": true
+        },
+        {
+          "title": "02\nHearing aid selection & fitting",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-fitting.webp",
+          "loaded": true
+        },
+        {
+          "title": "03\nHearing aid repairs",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-repair.webp",
+          "loaded": true
+        },
+        {
+          "title": "04\nOngoing care & adjustments",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-support.webp",
+          "loaded": true
+        }
+      ],
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "geometry": {
+        "width": 768,
+        "overflow": false,
+        "photoLeft": true,
+        "imageBelowChoices": false,
+        "headlineAbove": true,
+        "orientation": "vertical"
+      },
+      "states": [
+        {
+          "title": "01\nHearing tests",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-tests.webp",
+          "loaded": true
+        },
+        {
+          "title": "02\nHearing aid selection & fitting",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-fitting.webp",
+          "loaded": true
+        },
+        {
+          "title": "03\nHearing aid repairs",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-repair.webp",
+          "loaded": true
+        },
+        {
+          "title": "04\nOngoing care & adjustments",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-support.webp",
+          "loaded": true
+        }
+      ],
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "geometry": {
+        "width": 1024,
+        "overflow": false,
+        "photoLeft": true,
+        "imageBelowChoices": false,
+        "headlineAbove": true,
+        "orientation": "vertical"
+      },
+      "states": [
+        {
+          "title": "01\nHearing tests",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-tests.webp",
+          "loaded": true
+        },
+        {
+          "title": "02\nHearing aid selection & fitting",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-fitting.webp",
+          "loaded": true
+        },
+        {
+          "title": "03\nHearing aid repairs",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-repair.webp",
+          "loaded": true
+        },
+        {
+          "title": "04\nOngoing care & adjustments",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-support.webp",
+          "loaded": true
+        }
+      ],
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "geometry": {
+        "width": 1200,
+        "overflow": false,
+        "photoLeft": true,
+        "imageBelowChoices": false,
+        "headlineAbove": true,
+        "orientation": "vertical"
+      },
+      "states": [
+        {
+          "title": "01\nHearing tests",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-tests.webp",
+          "loaded": true
+        },
+        {
+          "title": "02\nHearing aid selection & fitting",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-fitting.webp",
+          "loaded": true
+        },
+        {
+          "title": "03\nHearing aid repairs",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-repair.webp",
+          "loaded": true
+        },
+        {
+          "title": "04\nOngoing care & adjustments",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-support.webp",
+          "loaded": true
+        }
+      ],
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "geometry": {
+        "width": 1440,
+        "overflow": false,
+        "photoLeft": true,
+        "imageBelowChoices": false,
+        "headlineAbove": true,
+        "orientation": "vertical"
+      },
+      "states": [
+        {
+          "title": "01\nHearing tests",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-tests.webp",
+          "loaded": true
+        },
+        {
+          "title": "02\nHearing aid selection & fitting",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-fitting.webp",
+          "loaded": true
+        },
+        {
+          "title": "03\nHearing aid repairs",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-repair.webp",
+          "loaded": true
+        },
+        {
+          "title": "04\nOngoing care & adjustments",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-support.webp",
+          "loaded": true
+        }
+      ],
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "geometry": {
+        "width": 1920,
+        "overflow": false,
+        "photoLeft": true,
+        "imageBelowChoices": false,
+        "headlineAbove": true,
+        "orientation": "vertical"
+      },
+      "states": [
+        {
+          "title": "01\nHearing tests",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-tests.webp",
+          "loaded": true
+        },
+        {
+          "title": "02\nHearing aid selection & fitting",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-fitting.webp",
+          "loaded": true
+        },
+        {
+          "title": "03\nHearing aid repairs",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-repair.webp",
+          "loaded": true
+        },
+        {
+          "title": "04\nOngoing care & adjustments",
+          "src": "https://raw.githubusercontent.com/RK9207/HearCare-Inc.-and-Associates---Sherman/795556ed0ff00a43b8d8af1e270525b51c9d1a79/assets/service-hearing-aid-support.webp",
+          "loaded": true
+        }
+      ],
+      "keyboard": true,
+      "errors": []
+    }
+  ],
+  "noJavaScriptContentFallback": true,
+  "images": "Four generated illustrative WebP service images; local exact asset files served in browser tests."
+}

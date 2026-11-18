@@ -472,3 +472,8 @@ Technical QA: darken functional link blue to #1f6fa6 so 18px links on #f2f8fc cl
 
 
 QA bug 1 (November 16, 2026): explicitly center-align mobile listening-difficulty grid items so icon circles and one-/multi-line headings share a vertical center. This overrides the tablet top-alignment rule only below 768px. All content and other layouts preserved. See review/qa/BUG_01.md.
+
+
+## Services selector, November 18, 2026
+
+User requested four selectable services and a relevant image on the left, with the headline and supporting copy above. Implemented for rendered review. Desktop uses a left image/caption panel and four right-hand tabs. At 767px and below, a compact two-column selector precedes the image. Active controls use navy/white, with visible keyboard focus. Each service shows its own image and original description. Keyboard arrows, Home/End and roving tab focus are supported; selection survives responsive changes. Without JavaScript all four service panels remain available. Other sections retain the latest uploaded source.

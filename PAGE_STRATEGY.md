@@ -384,3 +384,8 @@ Follow supplied reference’s header structure while preserving HearCare navy br
 ## User-requested location rebuild for desktop and mobile
 
 Integrate the standalone clinic photograph with office details/map into one rounded panel. Move the unchanged Find us in Sherman, TX heading above the panel, add a brief visit-planning introduction, place full uncropped storefront plus sign caption/address/hours/Call/Text on the left and the large OAP map/dark Directions action on the right. Use dark body copy, balanced borders and full-width recognizable image. Desktop address/hours sit side by side; tablet combines image/details above the map; mobile stacks heading, full-width photo, office details, actions, 450px map and Directions. Compact map address card leaves more of the route visible; keep Open in Maps label. Preserve exact map DOM, ID, proxy/center/zoom/gestures/tracking initialization, destinations, hours, contact hooks and hero/other sections. Awaiting rendered review.
+
+
+## Services selector, November 18, 2026
+
+User explicitly requested four selectable services with relevant imagery on the left and the heading/support above. This authorizes the Services-only redesign derived from the November 18 uploaded source, without merging it with Hearing Aids or changing page order. Four service names remain visible; one image and description is active. Mobile presents the selector before the image so a change is immediately visible below. Existing appointment, call, text and visit destinations remain intact. Implementation is ready for user review, not newly locked or published to GHL.
