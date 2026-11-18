@@ -95,3 +95,8 @@ Cards now show full-width 4:3 photos above the copy at all sizes. Desktop retain
 ## BTE and RIC image revision, November 18, 2026
 
 User requested a more realistic BTE fit and a visible RIC receiver. Regenerated only these two illustrative photos. BTE uses a rear three-quarter view, smaller partly occluded housing, clear sound tube and earmold. RIC shows a thin wire connected to a receiver and translucent dome at the canal entrance. Both remain 1448×1086 WebP. Originals preserved in /workspace/generated_images/hearing-aid-style-bte-remade.png and hearing-aid-style-ric-remade.png. New immutable image URLs use asset commit 1f43992f7cbddec5500f8e5ef1ccc2290086609e. ITE and canal images, layout, content and contact behavior are unchanged. These remain AI-generated illustrative examples, not verified manufacturer images.
+
+
+## Hearing aid image hosting update, November 18, 2026
+
+Replaced the four comparison image URLs with the user-supplied GHL Media Library links for BTE, RIC, ITE and the canal-style CIC example. Only image sources changed; existing alt text, layout, copy and all integrations are preserved. Canonical HTML and complete copy/paste artifact are byte-identical. Normalized comparison confirms no unrelated HTML changes.
