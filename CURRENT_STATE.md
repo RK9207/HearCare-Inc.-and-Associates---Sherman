@@ -100,3 +100,8 @@ User requested a more realistic BTE fit and a visible RIC receiver. Regenerated 
 ## Hearing aid image hosting update, November 18, 2026
 
 Replaced the four comparison image URLs with the user-supplied GHL Media Library links for BTE, RIC, ITE and the canal-style CIC example. Only image sources changed; existing alt text, layout, copy and all integrations are preserved. Canonical HTML and complete copy/paste artifact are byte-identical. Normalized comparison confirms no unrelated HTML changes.
+
+
+## Call CTA shape, November 18, 2026
+
+User requested pill-shaped Call CTA buttons. Set the shared .hc-btn--call radius to 999px so the Hearing Aids contact CTA and other Call CTAs use consistent pill ends. Existing colors, borders, sizing and phone destinations are preserved. The separate full-width mobile sticky call bar is unchanged.
