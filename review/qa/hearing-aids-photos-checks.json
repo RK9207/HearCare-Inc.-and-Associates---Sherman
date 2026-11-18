@@ -1,0 +1,250 @@
+{
+  "checks": [
+    {
+      "width": 320,
+      "overflow": false,
+      "cards": [
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "overflow": false,
+      "cards": [
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "width": 393,
+      "overflow": false,
+      "cards": [
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        }
+      ],
+      "axe": []
+    },
+    {
+      "width": 540,
+      "overflow": false,
+      "cards": [
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "width": 767,
+      "overflow": false,
+      "cards": [
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "cards": [
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "cards": [
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "width": 1100,
+      "overflow": false,
+      "cards": [
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "width": 1200,
+      "overflow": false,
+      "cards": [
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "cards": [
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        }
+      ],
+      "axe": []
+    },
+    {
+      "width": 1920,
+      "overflow": false,
+      "cards": [
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        },
+        {
+          "visible": true,
+          "overflow": false
+        }
+      ]
+    }
+  ],
+  "externalProductImage": "Unchanged GHL source; remote retrieval blocked. Product-image pixels not verified in fixtures.",
+  "images": "Four AI-generated illustrative WebP photos. Exact local asset files used in browser tests."
+}

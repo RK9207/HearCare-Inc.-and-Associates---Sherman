@@ -355,3 +355,10 @@ Retain the latest uploaded heading, intro and four descriptions verbatim. Presen
 ## Hearing Aids visual rebuild, November 18, 2026
 
 Retain the approved hearing-aid heading and conditional premise. Shorten the repeated benefit prose while preserving personalized fitting, impressions when needed, compatible phone features and model/phone qualifications. The BTE, RIC, ITE and ITC/CIC/IIC comparison is now visible rather than hidden in a disclosure. Keep hearing-loss suitability ranges and shared visibility/controls/battery/connectivity caveats. Separate extended-wear availability questions and middle-ear specialist assessment in Other options. No local availability or surgical service is claimed.
+
+
+## Realistic hearing-aid style images, November 18, 2026
+
+User requested realistic close-ups similar to the two supplied ear/device photos, replacing the four graphical diagrams. Replaced all four inline SVGs with AI-generated illustrative photographs: BTE with a thick clear sound tube/custom earmold; RIC with slim behind-ear housing/thin receiver wire; ITE custom shell; a CIC example for the ITC/CIC/IIC family. Original PNGs remain in /workspace/generated_images; WebP copies retain 1448×1086 dimensions and use no retouching. New files: assets/hearing-aid-style-bte.webp, hearing-aid-style-ric.webp, hearing-aid-style-ite.webp, hearing-aid-style-canal.webp. Asset commit b9b32397ea0f4169c620c229f2a0278bacd3dedf provides immutable GitHub raw URLs. These are illustrative scenes, not manufacturer photographs, specific model representations or actual HearCare patients. Visible note: “Illustrative examples. Actual appearance varies.” The canal card identifies its image as a CIC example. Supplied reference photos informed generation; no third-party stock photos were copied into the page.
+
+Cards now show full-width 4:3 photos above the copy at all sizes. Desktop retains four columns, tablet two, mobile one. Explicit dimensions, lazy loading, async decoding and descriptive alt text included. Existing Widex photo, descriptions, caveats, Other options, brands, contact destinations and all other sections are unchanged.
