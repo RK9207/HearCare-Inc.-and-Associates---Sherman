@@ -1,4 +1,8 @@
-# Current implementation and handoff — November 11, 2026
+# Current implementation and handoff — November 18, 2026
+
+## Latest source override
+
+On November 18, 2026, the user supplied the latest complete page and asked that it be saved for future edits. `index.html` and `review/hero-review.html` now contain the exact landing-page document extracted from that upload’s GHL custom-code container. See [LATEST_SOURCE.md](review/LATEST_SOURCE.md) for checksums and archive provenance. This supplied version takes precedence over prior source and historical notes below. Do not automatically reapply older changes. Prior QA results require revalidation against this version; no design or content edits were made during this save.
 
 This summary records the latest user instructions. Historical strategy/source notes remain in their original files; explicit later user decisions supersede earlier proposals. Source evidence and permissions are not interchangeable.
 
