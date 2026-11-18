@@ -19,3 +19,10 @@ User requested relocating middle-ear implants and extended-wear devices into the
 User requested four selectable services and a relevant image on the left, with the headline and supporting copy above. Implemented for rendered review. Desktop uses a left image/caption panel and four right-hand tabs. At 767px and below, a compact two-column selector precedes the image. Active controls use navy/white, with visible keyboard focus. Each service shows its own image and original description. Keyboard arrows, Home/End and roving tab focus are supported; selection survives responsive changes. Without JavaScript all four service panels remain available. Other sections retain the latest uploaded source.
 
 QA: all four selected states passed at 320, 360, 393, 500, 639, 767, 768, 1024, 1200, 1440 and 1920px. Keyboard, ARIA selection, panel visibility, image loading, resize retention and no-JavaScript fallback passed. Services-scoped axe WCAG 2/2.1 A/AA checks returned zero violations at 393px and 1440px. Screenshots at those widths were visually inspected. Exact local asset files and cached fonts were used; unrelated external requests were blocked in the fixture. Original page outside Services CSS, markup and new independent script is preserved byte-for-byte against the uploaded baseline. No GHL deployment, real lead, call or SMS test occurred. Awaiting user review; no new section lock.
+
+
+## Services image hosting update, November 18, 2026
+
+Replaced all four Services image sources with the user-supplied GHL Media Library URLs. Image content, dimensions, alt text, layout and selector behavior are unchanged. GitHub asset files remain archived; the current HTML loads these four images from files.leadconnectorhq.com.
+
+Validation: all four URLs match the supplied service mapping, both HTML artifacts are byte-identical, and normalization confirms no other HTML changes. Remote image availability could not be checked because the environment proxy rejected connections to files.leadconnectorhq.com with CONNECT 403. Existing responsive/interaction QA remains applicable to unchanged markup, CSS and scripts.

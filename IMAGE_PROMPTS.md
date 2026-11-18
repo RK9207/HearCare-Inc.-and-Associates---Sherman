@@ -265,3 +265,8 @@ After reviewing the real GHL screenshot, user approved removing the competing cl
 Four new AI-generated illustrative photos support the user-requested Services selector. Art direction: natural documentary-style hearing care scenes, warm neutral clinic interiors, realistic older adults and fictional professionals, no logos, text, identifiable real providers or outcome claims. Scenes: a headphone hearing test at an audiometer; a small hearing aid being fitted near an ear; a hearing aid inspected/cleaned at a workbench; practical device-care and phone support at a table. These are illustrations, not verified HearCare photography. Each panel visibly states “Illustrative service image.” Authentic owner and clinic imagery elsewhere is unchanged.
 
 Files, all 1448 × 1086 WebP: assets/service-hearing-tests.webp, assets/service-hearing-aid-fitting.webp, assets/service-hearing-aid-repair.webp, assets/service-hearing-aid-support.webp. Generated originals were converted to WebP without image editing. Published asset commit: 795556ed0ff00a43b8d8af1e270525b51c9d1a79. The HTML uses immutable raw.githubusercontent.com URLs at that commit for GHL copy/paste portability. Explicit image dimensions, lazy loading and async decoding are included.
+
+
+## Services image hosting update, November 18, 2026
+
+Replaced all four Services image sources with the user-supplied GHL Media Library URLs. Image content, dimensions, alt text, layout and selector behavior are unchanged. GitHub asset files remain archived; the current HTML loads these four images from files.leadconnectorhq.com.
