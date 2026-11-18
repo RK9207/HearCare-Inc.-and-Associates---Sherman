@@ -15,3 +15,5 @@ Original upload SHA-256: 43923f2b5766e82f29ca1d854fdc35b55b19c6350e70917266abdec
 For a full reusable design and asset specification, see ../review/REUSABLE_SECTION_CHANGES.md. This source change does not deploy to GHL.
 
 Validation passed across eleven widths, all selector states, no-JavaScript fallback, photo decoding, Gainesville contact destinations, appointment dialog, scoped accessibility checks and desktop/mobile visual review. See review/QA.md for evidence and external-host limitations.
+
+Follow-up QA/QC fixed enlarged-text reflow, wrapping CTA controls, keyboard focus visibility and valid Services tabpanel markup. See review/QA.md and review/qa/extended-qc-checks.json.
