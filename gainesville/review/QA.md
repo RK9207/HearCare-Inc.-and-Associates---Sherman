@@ -1,0 +1,9 @@
+# Gainesville visual section QA, November 18, 2026
+
+Checked the adapted page at 320, 360, 393, 540, 767, 768, 1024, 1100, 1200, 1440 and 1920px. Services: four selections show exactly one panel, correct ARIA selected state, distinct decoded images, arrow/Home/End keyboard controls, selection retention across breakpoints, headline above, photo left on desktop and choices above photo on mobile. Without JavaScript all four service panels remain available.
+
+Hearing Aids: four loaded 1448px WebP images, four visible comparison cards, no hidden style dropdown, eight manufacturer names. All shared Call CTAs have a 999px radius and Gainesville tel:+19032061692 destination. The Hearing Aids appointment action opens the existing Gainesville dialog and Escape closes it. Scoped axe WCAG 2/2.1 A/AA checks return no violations at 393/1440px. No horizontal overflow at tested widths or page-script errors. Desktop/mobile renders of both sections visually inspected.
+
+Preservation: normalizing only the two authorized CSS/section blocks and shared Call radius confirms all other uploaded source is preserved exactly apart from normalized line endings. All Gainesville form, phone, map, location, review and existing content outside scope remain intact. No Sherman phone/form was introduced. The original upload is archived. index.html and review/gainesville-review.html match.
+
+Limitations: browser fixtures serve exact local files for the eight illustrative images plus cached fonts, blocking unrelated network calls. The GHL host was blocked in prior checks; live GHL image availability and existing Widex product pixels are not verified. Widex reserved frame/alt text appears in the captures. No real call/SMS/lead submission, map network check, real-device test or GHL deployment occurred. This is scoped QA of the requested changes, not a new whole-page audit.

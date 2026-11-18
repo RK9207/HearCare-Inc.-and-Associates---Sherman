@@ -1,0 +1,86 @@
+{
+  "checks": [
+    {
+      "width": 320,
+      "overflow": false,
+      "photoLeft": false,
+      "imageBelowChoices": true,
+      "headlineAbove": true
+    },
+    {
+      "width": 360,
+      "overflow": false,
+      "photoLeft": false,
+      "imageBelowChoices": true,
+      "headlineAbove": true
+    },
+    {
+      "width": 393,
+      "overflow": false,
+      "photoLeft": false,
+      "imageBelowChoices": true,
+      "headlineAbove": true,
+      "axe": []
+    },
+    {
+      "width": 540,
+      "overflow": false,
+      "photoLeft": false,
+      "imageBelowChoices": true,
+      "headlineAbove": true
+    },
+    {
+      "width": 767,
+      "overflow": false,
+      "photoLeft": false,
+      "imageBelowChoices": true,
+      "headlineAbove": true
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "photoLeft": true,
+      "imageBelowChoices": false,
+      "headlineAbove": true
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "photoLeft": true,
+      "imageBelowChoices": false,
+      "headlineAbove": true
+    },
+    {
+      "width": 1100,
+      "overflow": false,
+      "photoLeft": true,
+      "imageBelowChoices": false,
+      "headlineAbove": true
+    },
+    {
+      "width": 1200,
+      "overflow": false,
+      "photoLeft": true,
+      "imageBelowChoices": false,
+      "headlineAbove": true
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "photoLeft": true,
+      "imageBelowChoices": false,
+      "headlineAbove": true,
+      "axe": []
+    },
+    {
+      "width": 1920,
+      "overflow": false,
+      "photoLeft": true,
+      "imageBelowChoices": false,
+      "headlineAbove": true
+    }
+  ],
+  "noJavaScriptFallback": true,
+  "contact": "Gainesville +19032061692, form FVRo140VXNTnGQ3deRJi",
+  "fixture": "Exact local new image files and cached fonts. GHL host availability not tested; other external requests blocked."
+}
