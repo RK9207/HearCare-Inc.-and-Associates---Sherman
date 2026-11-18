@@ -74,3 +74,8 @@ Original generated WebP assets remain in assets/ and Git history. Final HTML loa
 - Previous fixture checks passed widths from 320 to 1920px and scoped WCAG A/AA axe checks. These results do not substitute for checking the adapted page.
 - The environment proxy blocked GHL image-host requests; final user-hosted image loading still needs a browser/GHL review. Local exact assets were used in prior render tests.
 - Keep index.html and the complete copy/paste artifact synchronized. Provide the complete pinned GitHub RAW HTML link after edits. Do not claim the GHL page is published unless actually deployed.
+
+
+## Sherman section QA/QC, November 18, 2026
+
+Applied the same verified section fixes as Gainesville: flexible Services choices/numbering for enlarged text, locally wrapped Hearing Aids contact controls, visible scrolling keyboard focus with sticky-area margins, and valid div-based tabpanel markup. Standard layout and extended text/spacing/accessibility checks passed. Sherman phone/form and all unrelated source are preserved. See review/SHERMAN_SECTIONS_QC.md for test evidence and live GHL image limitations. Future reuse should include these corrections.

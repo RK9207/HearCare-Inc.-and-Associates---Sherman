@@ -110,3 +110,8 @@ User requested pill-shaped Call CTA buttons. Set the shared .hc-btn--call radius
 ## Reuse handoff
 
 User requested retaining these changes for another page. The final Services, Hearing Aids, imagery and Call CTA specifications and GHL source URLs are consolidated in [REUSABLE_SECTION_CHANGES.md](review/REUSABLE_SECTION_CHANGES.md). Use this checklist with the next page’s current source and verified practice facts.
+
+
+## Sherman section QA/QC, November 18, 2026
+
+Applied the same verified section fixes as Gainesville: flexible Services choices/numbering for enlarged text, locally wrapped Hearing Aids contact controls, visible scrolling keyboard focus with sticky-area margins, and valid div-based tabpanel markup. Standard layout and extended text/spacing/accessibility checks passed. Sherman phone/form and all unrelated source are preserved. See review/SHERMAN_SECTIONS_QC.md for test evidence and live GHL image limitations. Future reuse should include these corrections.

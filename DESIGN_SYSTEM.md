@@ -494,3 +494,8 @@ Cards now show full-width 4:3 photos above the copy at all sizes. Desktop retain
 ## Call CTA shape, November 18, 2026
 
 User requested pill-shaped Call CTA buttons. Set the shared .hc-btn--call radius to 999px so the Hearing Aids contact CTA and other Call CTAs use consistent pill ends. Existing colors, borders, sizing and phone destinations are preserved. The separate full-width mobile sticky call bar is unchanged.
+
+
+## Sherman section QA/QC, November 18, 2026
+
+Applied the same verified section fixes as Gainesville: flexible Services choices/numbering for enlarged text, locally wrapped Hearing Aids contact controls, visible scrolling keyboard focus with sticky-area margins, and valid div-based tabpanel markup. Standard layout and extended text/spacing/accessibility checks passed. Sherman phone/form and all unrelated source are preserved. See review/SHERMAN_SECTIONS_QC.md for test evidence and live GHL image limitations. Future reuse should include these corrections.

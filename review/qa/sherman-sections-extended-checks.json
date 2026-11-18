@@ -1,0 +1,74 @@
+[
+  {
+    "width": 280,
+    "mode": "text200",
+    "overflow": false
+  },
+  {
+    "width": 280,
+    "mode": "spacing",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "mode": "text200",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "mode": "spacing",
+    "overflow": false
+  },
+  {
+    "width": 393,
+    "mode": "text200",
+    "overflow": false
+  },
+  {
+    "width": 393,
+    "mode": "spacing",
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "mode": "text200",
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "mode": "spacing",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "mode": "text200",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "mode": "spacing",
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "mode": "text200",
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "mode": "spacing",
+    "overflow": false
+  },
+  {
+    "keyboardFocusVisible": {
+      "id": "hc-service-tab-4",
+      "top": 604.765625,
+      "bottom": 705.046875,
+      "headerBottom": 77,
+      "height": 960
+    }
+  },
+  {
+    "allAxeRules": []
+  }
+]
