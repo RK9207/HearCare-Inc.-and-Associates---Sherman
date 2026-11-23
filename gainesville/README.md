@@ -17,3 +17,8 @@ For a full reusable design and asset specification, see ../review/REUSABLE_SECTI
 Validation passed across eleven widths, all selector states, no-JavaScript fallback, photo decoding, Gainesville contact destinations, appointment dialog, scoped accessibility checks and desktop/mobile visual review. See review/QA.md for evidence and external-host limitations.
 
 Follow-up QA/QC fixed enlarged-text reflow, wrapping CTA controls, keyboard focus visibility and valid Services tabpanel markup. See review/QA.md and review/qa/extended-qc-checks.json.
+
+
+## Mobile Menu label, November 23, 2026
+
+User requested “Menu” with a hamburger icon instead of “Explore this page” with an arrow, for both mobile versions. The saved sources already used a hamburger-only header toggle; added the visible Menu text and adjusted its pill control to fit the label plus icon. The closed control shows the hamburger; the expanded control retains its close icon. Existing aria-expanded/controls, Escape focus return, section-link dismissal, contact links and desktop navigation are preserved. Both pages passed interaction/header-fit checks at 320, 393, 768, 1024 and 1440px. HTML artifact pairs match. No deployment to GHL.

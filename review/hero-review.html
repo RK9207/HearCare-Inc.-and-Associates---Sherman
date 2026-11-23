@@ -136,7 +136,7 @@ a:hover{ color:var(--hc-navy); }
 .hc-menu-toggle,.hc-mobile-menu{ display:none; }
 @media(max-width:1199px){
  :root{ --hc-scroll-offset:calc(var(--hc-header-h) + 16px); }
- .hc-menu-toggle{ display:inline-flex; align-items:center; justify-content:center; flex:none; width:48px; height:48px; padding:0; border:2px solid var(--hc-white); border-radius:999px; background:transparent; color:var(--hc-white); cursor:pointer; transition:background-color .15s; }
+ .hc-menu-toggle{ display:inline-flex; align-items:center; justify-content:center; flex:none; gap:8px; min-width:48px; min-height:48px; padding:10px 14px; border:2px solid var(--hc-white); border-radius:999px; background:transparent; color:var(--hc-white); font-family:var(--hc-body); font-size:1rem; font-weight:600; line-height:1.25; cursor:pointer; transition:background-color .15s; }
  .hc-menu-toggle:hover,.hc-menu-toggle[aria-expanded="true"]{ background:rgba(255,255,255,.12); }
  .hc-menu-toggle .hc-icon{ width:22px; height:22px; }
  .hc-menu-toggle[aria-expanded="true"] .hc-menu-toggle__open,
@@ -952,7 +952,7 @@ a:hover{ color:var(--hc-navy); }
       </a>
       <!-- Hamburger: shown below 1200px; replaces the header appointment button on mobile. -->
       <button type="button" class="hc-menu-toggle" aria-expanded="false" aria-controls="hc-mobile-menu" aria-label="Menu">
-        <svg class="hc-icon hc-menu-toggle__open" aria-hidden="true"><use href="#i-menu"/></svg>
+        <span>Menu</span><svg class="hc-icon hc-menu-toggle__open" aria-hidden="true"><use href="#i-menu"/></svg>
         <svg class="hc-icon hc-menu-toggle__close" aria-hidden="true"><use href="#i-x"/></svg>
       </button>
     </div>

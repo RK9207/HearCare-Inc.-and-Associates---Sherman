@@ -499,3 +499,8 @@ User requested pill-shaped Call CTA buttons. Set the shared .hc-btn--call radius
 ## Sherman section QA/QC, November 18, 2026
 
 Applied the same verified section fixes as Gainesville: flexible Services choices/numbering for enlarged text, locally wrapped Hearing Aids contact controls, visible scrolling keyboard focus with sticky-area margins, and valid div-based tabpanel markup. Standard layout and extended text/spacing/accessibility checks passed. Sherman phone/form and all unrelated source are preserved. See review/SHERMAN_SECTIONS_QC.md for test evidence and live GHL image limitations. Future reuse should include these corrections.
+
+
+## Mobile Menu label, November 23, 2026
+
+User requested “Menu” with a hamburger icon instead of “Explore this page” with an arrow, for both mobile versions. The saved sources already used a hamburger-only header toggle; added the visible Menu text and adjusted its pill control to fit the label plus icon. The closed control shows the hamburger; the expanded control retains its close icon. Existing aria-expanded/controls, Escape focus return, section-link dismissal, contact links and desktop navigation are preserved. Both pages passed interaction/header-fit checks at 320, 393, 768, 1024 and 1440px. HTML artifact pairs match. No deployment to GHL.
