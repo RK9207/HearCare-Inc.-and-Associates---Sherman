@@ -84,3 +84,10 @@ Applied the same verified section fixes as Gainesville: flexible Services choice
 ## Mobile Menu label, November 23, 2026
 
 User requested “Menu” with a hamburger icon instead of “Explore this page” with an arrow, for both mobile versions. The saved sources already used a hamburger-only header toggle; added the visible Menu text and adjusted its pill control to fit the label plus icon. The closed control shows the hamburger; the expanded control retains its close icon. Existing aria-expanded/controls, Escape focus return, section-link dismissal, contact links and desktop navigation are preserved. Both pages passed interaction/header-fit checks at 320, 393, 768, 1024 and 1440px. HTML artifact pairs match. No deployment to GHL.
+
+
+## Listening-difficulties spacing and hierarchy, November 24, 2026
+
+User requested breathing room and clearer visual hierarchy in the section directly below the Hero. Applied scoped CSS to both Sherman and Gainesville: larger section padding, more separation below the introduction, more generous example-panel padding/dividers, distinct icon/title/body spacing, dark readable body text and a separate supporting-note area with a top rule. Desktop headings/description starts align; mobile retains aligned icon/title rows and full-width descriptions with 28px vertical padding. Family-support heading stands on its own line; the caution remains readable but visually secondary. All wording, icons, links, contact data and section order remain unchanged. Only the recognition CSS block changed in the HTML.
+
+Seven widths (320,393,767,768,1024,1440,1920px) per page passed normal/200% text reflow checks, three preserved examples, #care link destination and scoped full axe scans at393/1440px. Sherman desktop/mobile renders visually inspected; identical recognition CSS applied to Gainesville and its renders captured. Cached fonts used, unrelated requests blocked. No GHL deployment. Evidence: review/qa/listening-spacing-checks.json and review/listening-spacing-*.png.
