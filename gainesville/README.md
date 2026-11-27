@@ -22,3 +22,8 @@ Follow-up QA/QC fixed enlarged-text reflow, wrapping CTA controls, keyboard focu
 ## Mobile Menu label, November 23, 2026
 
 User requested “Menu” with a hamburger icon instead of “Explore this page” with an arrow, for both mobile versions. The saved sources already used a hamburger-only header toggle; added the visible Menu text and adjusted its pill control to fit the label plus icon. The closed control shows the hamburger; the expanded control retains its close icon. Existing aria-expanded/controls, Escape focus return, section-link dismissal, contact links and desktop navigation are preserved. Both pages passed interaction/header-fit checks at 320, 393, 768, 1024 and 1440px. HTML artifact pairs match. No deployment to GHL.
+
+
+## Requested text removals, November 27, 2026
+
+Removed the “Here for someone you love?” family-support sentence from the listening-difficulties section and all four visible “Illustrative service image” captions from Services on both pages. Removed their unused CSS. Service photos, descriptive alt text, panel titles/descriptions, style-comparison image note, navigation, contact data and behavior are retained. This explicit user request supersedes earlier instructions to display those service-image captions. Both complete HTML pairs match.
